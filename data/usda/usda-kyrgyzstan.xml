@@ -1,14 +1,14 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2024-12-27T14:28:13+00:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:09+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-16IG11132762187</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-03-07T09:33:43-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:55-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-617</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">SUSTAINABLE RANGELAND MANAGEMENT IN CENTRAL ASIA</narrative>
+      <narrative xml:lang="en">Freight Cost of Food Aid under Food For Education Program</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">To extend Forest Service efforts to improve forest policies and practices internationally, address climate change, conserve and protect critical global forest environments and resources, and improve the lives of forest-dependent peoples by awarding grants to and entering into cooperative agreements with nonprofit organizations, multilateral organizations, and other individuals, organizations, institutions, and governments engaged in forest conservation and management.</narrative>
+      <narrative xml:lang="en">Food Aid (Food For Education) Freight Cost for peas, yellow, split bag-50 kg [40 gross metric tons] - through Mercy Corps</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -20,13 +20,17 @@
       <narrative>Department of Agriculture</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>CAMP Alatoo Public Foundation</narrative>
+      <narrative>Mercy Corps</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2016-05-12" type="1"/>
-    <activity-date iso-date="2016-05-12" type="2"/>
-    <activity-date iso-date="2021-05-31" type="3"/>
-    <activity-date iso-date="2021-05-31" type="4"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -45,36 +49,230 @@
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="5"/>
-    <transaction ref="9579B13800CE">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-06-10"/>
-      <value value-date="2021-06-10">-69</value>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="C4424C320BEC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">50943</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org>
-        <narrative>CAMP Alatoo Public Foundation</narrative>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
       </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
       </sector>
       <recipient-country code="KG"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C4424C320BEC">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">50943</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>20,000</narrative>
-    </usg:tec1>
+    <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:10+00:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FFE116201702400A</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">McGovern-Dole Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Mercy Corps</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2021-09-30" type="3"/>
+    <activity-date iso-date="2021-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="3CD5D1CD404A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-09-26"/>
+      <value value-date="2018-09-26">15738451</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-572</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Freight Cost of Food Aid under Food For Education Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Food Aid (Food For Education) Freight Cost for flour, all purpose bag-50 kg [180 gross metric tons] - through Mercy Corps</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Mercy Corps</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="5564AEF1CAD6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">229239</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5564AEF1CAD6">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">229239</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:57-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-20IG11132762288</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -238,997 +436,7 @@
       <narrative>60,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:14+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-268</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Commodity Cost of Food Aid under Food For Education Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Food Aid (Food For Education) Commodity Cost for flour, all purpose bag-50 kg [180 gross metric tons] - through Mercy Corps</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercy Corps</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="768FBEFD59BD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">198796</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="768FBEFD59BD">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">198796</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:14+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-313</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Commodity Cost of Food Aid under Food For Education Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Food Aid (Food For Education) Commodity Cost for peas, yellow, split bag-50 kg [40 gross metric tons] - through Mercy Corps</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercy Corps</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="5982FD8E9BEA">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">48202</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5982FD8E9BEA">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">48202</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:14+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-361</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Commodity Cost of Food Aid under Food For Education Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Food Aid (Food For Education) Commodity Cost for rice, 2/7 Lg, w-mld bag-50 kg [90 gross metric tons] - through Mercy Corps</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercy Corps</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="16523C1654C0">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">109559</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="16523C1654C0">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">109559</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:15+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-572</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Freight Cost of Food Aid under Food For Education Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Food Aid (Food For Education) Freight Cost for flour, all purpose bag-50 kg [180 gross metric tons] - through Mercy Corps</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercy Corps</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="5564AEF1CAD6">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">229239</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5564AEF1CAD6">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">229239</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:15+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-617</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Freight Cost of Food Aid under Food For Education Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Food Aid (Food For Education) Freight Cost for peas, yellow, split bag-50 kg [40 gross metric tons] - through Mercy Corps</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercy Corps</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="C4424C320BEC">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">50943</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C4424C320BEC">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">50943</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:15+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-664</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Freight Cost of Food Aid under Food For Education Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Food Aid (Food For Education) Freight Cost for rice, 2/7 Lg, w-mld bag-50 kg [90 gross metric tons] - through Mercy Corps</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercy Corps</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="D4121CF505B5">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">114710</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D4121CF505B5">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">114710</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:17+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FFE-116-2010/034</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">McGovern-Dole Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercy Corps</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="B6E92E9BE8D5">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">429009</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:17+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FFE-116-2012/027-00-A</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">McGovern-Dole</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercy Corps</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2013-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-10-01" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="3459C7CC39BB">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-02-15"/>
-      <value value-date="2014-02-15">1600704</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B7A23B4EFC31">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-02-18"/>
-      <value value-date="2014-02-18">11241097</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7E20E4A1F186">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-03-08"/>
-      <value value-date="2014-03-08">125271</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8BFE0EACC209">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-03-11"/>
-      <value value-date="2014-03-11">202487</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="61AAA73CC6A5">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-03-12"/>
-      <value value-date="2014-03-12">68200</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="502DB9534E74">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-03-14"/>
-      <value value-date="2014-03-14">24341</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A5633F665704">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-05-24"/>
-      <value value-date="2014-05-24">277472</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2DA263DEE150">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-06-04"/>
-      <value value-date="2014-06-04">366</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="99A3090D16FD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-07-02"/>
-      <value value-date="2014-07-02">18437</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="18D87A6E5138">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-07-18"/>
-      <value value-date="2014-07-18">1979478</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="669EE280ACF3">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-07-29"/>
-      <value value-date="2014-07-29">130404</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="755594E437B8">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-07-30"/>
-      <value value-date="2014-07-30">55888</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:17+00:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:57-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-116-2012/027</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1719,13 +927,13 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:18+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FFE1162012027</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:57-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FFE-116-2012/027-00-A</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">McGovern-Dole Program</narrative>
+      <narrative xml:lang="en">McGovern-Dole</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
@@ -1743,10 +951,14 @@
       <narrative>Mercy Corps</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-09-21" type="1"/>
-    <activity-date iso-date="2012-09-21" type="2"/>
-    <activity-date iso-date="2019-05-30" type="3"/>
-    <activity-date iso-date="2019-05-30" type="4"/>
+    <activity-date iso-date="2013-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2013-10-01" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -1767,10 +979,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="2FED001F854A">
+    <transaction ref="3459C7CC39BB">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-05-12"/>
-      <value value-date="2017-05-12">12375</value>
+      <transaction-date iso-date="2014-02-15"/>
+      <value value-date="2014-02-15">1600704</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1789,10 +1001,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="ED5477FED3D6">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-05-13"/>
-      <value value-date="2017-05-13">26921</value>
+    <transaction ref="B7A23B4EFC31">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2014-02-18"/>
+      <value value-date="2014-02-18">11241097</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1811,10 +1023,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="40FA51B3FA91">
+    <transaction ref="7E20E4A1F186">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-05-17"/>
-      <value value-date="2017-05-17">27046</value>
+      <transaction-date iso-date="2014-03-08"/>
+      <value value-date="2014-03-08">125271</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1833,10 +1045,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F895FE428D15">
+    <transaction ref="8BFE0EACC209">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-05-19"/>
-      <value value-date="2017-05-19">71490</value>
+      <transaction-date iso-date="2014-03-11"/>
+      <value value-date="2014-03-11">202487</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1855,10 +1067,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D907DE272C2A">
+    <transaction ref="61AAA73CC6A5">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-05-23"/>
-      <value value-date="2017-05-23">18670</value>
+      <transaction-date iso-date="2014-03-12"/>
+      <value value-date="2014-03-12">68200</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1877,10 +1089,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="438B69734071">
+    <transaction ref="502DB9534E74">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-05-26"/>
-      <value value-date="2017-05-26">29106</value>
+      <transaction-date iso-date="2014-03-14"/>
+      <value value-date="2014-03-14">24341</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1899,10 +1111,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="99C5F2DCB14A">
+    <transaction ref="A5633F665704">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-06-17"/>
-      <value value-date="2017-06-17">427</value>
+      <transaction-date iso-date="2014-05-24"/>
+      <value value-date="2014-05-24">277472</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1921,10 +1133,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="B6CB38FE579B">
+    <transaction ref="2DA263DEE150">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-06-20"/>
-      <value value-date="2017-06-20">647466</value>
+      <transaction-date iso-date="2014-06-04"/>
+      <value value-date="2014-06-04">366</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1943,10 +1155,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="FA69CA426E40">
+    <transaction ref="99A3090D16FD">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-06-30"/>
-      <value value-date="2017-06-30">132607</value>
+      <transaction-date iso-date="2014-07-02"/>
+      <value value-date="2014-07-02">18437</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1965,10 +1177,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="106C645C5325">
+    <transaction ref="18D87A6E5138">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-07-25"/>
-      <value value-date="2017-07-25">29410</value>
+      <transaction-date iso-date="2014-07-18"/>
+      <value value-date="2014-07-18">1979478</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1987,10 +1199,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="CAF69F6A457D">
+    <transaction ref="669EE280ACF3">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-08-04"/>
-      <value value-date="2017-08-04">863183</value>
+      <transaction-date iso-date="2014-07-29"/>
+      <value value-date="2014-07-29">130404</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -2009,274 +1221,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="080F9A984C58">
+    <transaction ref="755594E437B8">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-08-08"/>
-      <value value-date="2017-08-08">48256</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="00243F16232B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-08-19"/>
-      <value value-date="2017-08-19">20484</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E0B426406896">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-09-09"/>
-      <value value-date="2017-09-09">38249</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="EE4B90E9A962">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-09-12"/>
-      <value value-date="2017-09-12">43978</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="3D46F1855E1B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">2026344</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4D3E901129A7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-11-04"/>
-      <value value-date="2017-11-04">6180</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4AB4122D5C44">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-11-17"/>
-      <value value-date="2017-11-17">15450</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="440AD956B794">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-12-16"/>
-      <value value-date="2017-12-16">5771</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="FA3BA6F83AC3">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-12-19"/>
-      <value value-date="2017-12-19">2435</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7896E3A35A43">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-03-23"/>
-      <value value-date="2018-03-23">1319343</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4244DEF6DA96">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-09-01"/>
-      <value value-date="2018-09-01">165</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8502116F902B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-09-30"/>
-      <value value-date="2018-09-30">1349344</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="22" ref="US-EIN-91-1148123">
-        <narrative>Mercy Corps</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="FA0DA2C17732">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-09-02"/>
-      <value value-date="2019-09-02">934410</value>
+      <transaction-date iso-date="2014-07-30"/>
+      <value value-date="2014-07-30">55888</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -2296,11 +1244,202 @@
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:57-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-16IG11132762187</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">SUSTAINABLE RANGELAND MANAGEMENT IN CENTRAL ASIA</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">To extend Forest Service efforts to improve forest policies and practices internationally, address climate change, conserve and protect critical global forest environments and resources, and improve the lives of forest-dependent peoples by awarding grants to and entering into cooperative agreements with nonprofit organizations, multilateral organizations, and other individuals, organizations, institutions, and governments engaged in forest conservation and management.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>CAMP Alatoo Public Foundation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-05-12" type="1"/>
+    <activity-date iso-date="2016-05-12" type="2"/>
+    <activity-date iso-date="2021-05-31" type="3"/>
+    <activity-date iso-date="2021-05-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="5"/>
+    <transaction ref="9579B13800CE">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-06-10"/>
+      <value value-date="2021-06-10">-69</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>CAMP Alatoo Public Foundation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
     <usg:tec1>
-      <narrative>16,300,000</narrative>
+      <narrative>20,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:18+00:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:58-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX23SR-10961R003</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Scientific Cooperation Research Program - Water Resource Management</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Scientific Cooperation Research Program supports joint research, extension, and education projects lasting up to two years among domestic and international agricultural professionals. These projects address issues including agricultural trade and market access, animal and plant health, biotechnology, food safety and security, and sustainable natural resource management.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>University of Kentucky</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2025-09-30" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="5726D7E78377">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">49989</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>University of Kentucky</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B6C5D757E2FE">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">2146</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>University of Kentucky</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="72353908CDB6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">22376</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>University of Kentucky</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:59-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE1162017024</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3189,16 +2328,16 @@
       <narrative>15,738,451</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:18+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FFE116201702400</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:59-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-313</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Food for Progress</narrative>
+      <narrative xml:lang="en">Commodity Cost of Food Aid under Food For Education Program</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
+      <narrative xml:lang="en">Food Aid (Food For Education) Commodity Cost for peas, yellow, split bag-50 kg [40 gross metric tons] - through Mercy Corps</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3213,10 +2352,14 @@
       <narrative>Mercy Corps</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-09-26" type="1"/>
-    <activity-date iso-date="2017-09-26" type="2"/>
-    <activity-date iso-date="2021-09-30" type="3"/>
-    <activity-date iso-date="2021-09-30" type="4"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -3237,10 +2380,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="121DAE31B725">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-09-26"/>
-      <value value-date="2017-09-26">15453090</value>
+    <transaction ref="5982FD8E9BEA">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">48202</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -3248,8 +2391,30 @@
         <narrative>Mercy Corps</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5982FD8E9BEA">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">48202</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
       </sector>
       <sector code="11250" vocabulary="1">
         <narrative>School feeding</narrative>
@@ -3262,7 +2427,687 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:18+00:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:32:59-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FFE1162012027</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">McGovern-Dole Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Mercy Corps</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-09-21" type="1"/>
+    <activity-date iso-date="2012-09-21" type="2"/>
+    <activity-date iso-date="2019-05-30" type="3"/>
+    <activity-date iso-date="2019-05-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="2FED001F854A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-05-12"/>
+      <value value-date="2017-05-12">12375</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="ED5477FED3D6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-05-13"/>
+      <value value-date="2017-05-13">26921</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="40FA51B3FA91">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-05-17"/>
+      <value value-date="2017-05-17">27046</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F895FE428D15">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-05-19"/>
+      <value value-date="2017-05-19">71490</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D907DE272C2A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-05-23"/>
+      <value value-date="2017-05-23">18670</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="438B69734071">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-05-26"/>
+      <value value-date="2017-05-26">29106</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="99C5F2DCB14A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-06-17"/>
+      <value value-date="2017-06-17">427</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B6CB38FE579B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-06-20"/>
+      <value value-date="2017-06-20">647466</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FA69CA426E40">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-06-30"/>
+      <value value-date="2017-06-30">132607</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="106C645C5325">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-07-25"/>
+      <value value-date="2017-07-25">29410</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="CAF69F6A457D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-08-04"/>
+      <value value-date="2017-08-04">863183</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="080F9A984C58">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-08-08"/>
+      <value value-date="2017-08-08">48256</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="00243F16232B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-08-19"/>
+      <value value-date="2017-08-19">20484</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="E0B426406896">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-09-09"/>
+      <value value-date="2017-09-09">38249</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="EE4B90E9A962">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-09-12"/>
+      <value value-date="2017-09-12">43978</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3D46F1855E1B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">2026344</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4D3E901129A7">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-11-04"/>
+      <value value-date="2017-11-04">6180</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4AB4122D5C44">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-11-17"/>
+      <value value-date="2017-11-17">15450</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="440AD956B794">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-12-16"/>
+      <value value-date="2017-12-16">5771</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FA3BA6F83AC3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-12-19"/>
+      <value value-date="2017-12-19">2435</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7896E3A35A43">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-03-23"/>
+      <value value-date="2018-03-23">1319343</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4244DEF6DA96">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-09-01"/>
+      <value value-date="2018-09-01">165</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8502116F902B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-09-30"/>
+      <value value-date="2018-09-30">1349344</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FA0DA2C17732">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-09-02"/>
+      <value value-date="2019-09-02">934410</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>16,300,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:33:01-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-664</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Freight Cost of Food Aid under Food For Education Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Food Aid (Food For Education) Freight Cost for rice, 2/7 Lg, w-mld bag-50 kg [90 gross metric tons] - through Mercy Corps</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Mercy Corps</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="D4121CF505B5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">114710</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D4121CF505B5">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">114710</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:33:02-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE1162021010</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3949,21 +3794,439 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="AF78B180E6AF">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-01-18"/>
+      <value value-date="2024-01-18">1833127</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B6A1DDD56CCC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-01-29"/>
+      <value value-date="2024-01-29">140301</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9DE18CDCC413">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-02-02"/>
+      <value value-date="2024-02-02">84606</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C69432B3D153">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-04-12"/>
+      <value value-date="2024-04-12">30238</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1DEB726D7244">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-04-17"/>
+      <value value-date="2024-04-17">28153</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D898089152DE">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-05-09"/>
+      <value value-date="2024-05-09">15609</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F68CD7CE717E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-05-10"/>
+      <value value-date="2024-05-10">164593</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C9D881E39754">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-05-15"/>
+      <value value-date="2024-05-15">89408</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="28B2A66DE6E7">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-05-16"/>
+      <value value-date="2024-05-16">74456</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="030A48BE8138">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-11"/>
+      <value value-date="2024-06-11">52072</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="32500B7CEA2B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-27"/>
+      <value value-date="2024-06-27">2693414</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0301F2299542">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-07-01"/>
+      <value value-date="2024-07-01">160200</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F2094F3409A2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-07-02"/>
+      <value value-date="2024-07-02">1405</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="10A5D9A234EF">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-07-16"/>
+      <value value-date="2024-07-16">65658</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F6F3DF5F313A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-07-30"/>
+      <value value-date="2024-07-30">81064</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DB53FEFC3AC6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-08-13"/>
+      <value value-date="2024-08-13">5980</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4FAC1F5A9262">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-08-29"/>
+      <value value-date="2024-08-29">27532</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5FC680E1FC81">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-04"/>
+      <value value-date="2024-09-04">142802</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="68D46E19F2B2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-25"/>
+      <value value-date="2024-09-25">53702</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>25,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:18+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FFE116201702400A</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:33:04-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-361</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">McGovern-Dole Program</narrative>
+      <narrative xml:lang="en">Commodity Cost of Food Aid under Food For Education Program</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
+      <narrative xml:lang="en">Food Aid (Food For Education) Commodity Cost for rice, 2/7 Lg, w-mld bag-50 kg [90 gross metric tons] - through Mercy Corps</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3978,10 +4241,107 @@
       <narrative>Mercy Corps</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1">
+    <activity-date iso-date="2011-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="16523C1654C0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">109559</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="16523C1654C0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">109559</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:33:04-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FFE116201702400</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Food for Progress</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Mercy Corps</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-09-26" type="1"/>
+    <activity-date iso-date="2017-09-26" type="2"/>
     <activity-date iso-date="2021-09-30" type="3"/>
     <activity-date iso-date="2021-09-30" type="4"/>
     <contact-info type="1">
@@ -4004,10 +4364,109 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="3CD5D1CD404A">
+    <transaction ref="121DAE31B725">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2018-09-26"/>
-      <value value-date="2018-09-26">15738451</value>
+      <transaction-date iso-date="2017-09-26"/>
+      <value value-date="2017-09-26">15453090</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:33:05-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-268</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Commodity Cost of Food Aid under Food For Education Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Food Aid (Food For Education) Commodity Cost for flour, all purpose bag-50 kg [180 gross metric tons] - through Mercy Corps</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Mercy Corps</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="768FBEFD59BD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">198796</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="KG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="768FBEFD59BD">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">198796</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -4029,16 +4488,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-27T14:27:20+00:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX23SR-10961R003</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:33:05-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FFE-116-2010/034</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Scientific Cooperation Research Program - Water Resource Management</narrative>
+      <narrative xml:lang="en">McGovern-Dole Program</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Scientific Cooperation Research Program supports joint research, extension, and education projects lasting up to two years among domestic and international agricultural professionals. These projects address issues including agricultural trade and market access, animal and plant health, biotechnology, food safety and security, and sustainable natural resource management.</narrative>
+      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -4050,14 +4509,17 @@
       <narrative>Department of Agriculture</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>University of Kentucky</narrative>
+      <narrative>Mercy Corps</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
+    <activity-date iso-date="2012-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2025-09-30" type="3"/>
+    <activity-date iso-date="2012-10-01" type="2"/>
+    <activity-date iso-date="2013-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2013-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -4078,25 +4540,25 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="5726D7E78377">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">49989</value>
+    <transaction ref="B6E92E9BE8D5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">429009</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org>
-        <narrative>University of Kentucky</narrative>
+      <receiver-org type="22" ref="US-EIN-91-1148123">
+        <narrative>Mercy Corps</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
       </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
       </sector>
       <recipient-country code="KG"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>

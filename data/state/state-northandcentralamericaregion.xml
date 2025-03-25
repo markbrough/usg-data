@@ -1,14 +1,14 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2024-12-31T15:22:10-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:56:38-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-285747</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-03-07T15:24:49-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:31:23-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-287279</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
+      <narrative xml:lang="en">DOS Communications, Utilities, and Rental Payments</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Communications, Utilities, and Rental Payments.</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -20,7 +20,7 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>CDW Government, Inc.</narrative>
+      <narrative>StratComm, Inc.</narrative>
     </participating-org>
     <activity-status code="3"/>
     <activity-date iso-date="2021-10-01" type="1">
@@ -36,10 +36,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -51,15 +51,15 @@
     <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="67DF58255BBC">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">47078</value>
+    <transaction ref="846308A759CD">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-03-31"/>
+      <value value-date="2022-03-31">35097</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
       <receiver-org>
-        <narrative>CDW Government, Inc.</narrative>
+        <narrative>StratComm, Inc.</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -73,15 +73,37 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="67DF58255BBC">
-      <transaction-type code="2"/>
+    <transaction ref="DCEEE8832011">
+      <transaction-type code="3"/>
       <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">47078</value>
+      <value value-date="2022-06-30">31587</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
       <receiver-org>
-        <narrative>CDW Government, Inc.</narrative>
+        <narrative>StratComm, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1C1291F3B238">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">3510</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>StratComm, Inc.</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -98,19 +120,19 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:56:58-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-288114</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:34-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-10117GB002-272965</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
+      <narrative xml:lang="en">Bureau of Western Hemisphere Affairs - Information Redacted</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
+      <narrative xml:lang="en">U.S. Department of State: Bureau of Western Hemisphere Affairs. I concur with the Grants Officer's request to amend this award and certify. -AS approve</narrative>
     </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
     </participating-org>
     <participating-org ref="US-GOV-11" role="2" type="10">
       <narrative>Department of State</narrative>
@@ -119,64 +141,62 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Guidehouse LLP</narrative>
+      <narrative>Enterprise - United States Redacted</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
+    <activity-date iso-date="2019-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2023-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-09-30" type="4"/>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-08-05" type="3"/>
+    <activity-date iso-date="2020-08-05" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
       </mailing-address>
     </contact-info>
-    <activity-scope code="2"/>
+    <activity-scope code="5"/>
     <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
+    <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
+    <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="4EAE02796448">
+    <transaction ref="D6262BE7A504">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2022-12-31"/>
-      <value value-date="2022-12-31">178599</value>
+      <transaction-date iso-date="2020-08-05"/>
+      <value value-date="2020-08-05">29267</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org>
-        <narrative>Guidehouse LLP</narrative>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
       </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
       </sector>
       <recipient-region code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:57:07-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-10116GB001-270884</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:39-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-10116GB001-272437</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -212,10 +232,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -227,7 +247,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="EE19FCBB549E">
+    <transaction ref="17735C222ED0">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-02-10"/>
       <value value-date="2020-02-10">73020</value>
@@ -252,7 +272,205 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:57:40-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:39-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-93810</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Partnership for Public Service</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="2E9349DC3A03">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">4500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Partnership for Public Service</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="33458FE8DF06">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">4500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Partnership for Public Service</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:48-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-93732</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Equipment, Lands, and Structures</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Equipment, Lands, and Structures.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Mercom, Inc.</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2021-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="14A7E5657C1F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-06-30"/>
+      <value value-date="2021-06-30">1742</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Mercom, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7C1F08AE60AE">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">1742</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Mercom, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:49-05:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SAQMIP23CA0033</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -287,10 +505,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -327,7 +545,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:57:43-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:52-05:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SINLEC23LA0167</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -362,10 +580,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -424,16 +642,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:58:37-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-285722</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:33:43-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-287268</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">DOS Equipment, Lands, and Structures</narrative>
+      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Equipment, Lands, and Structures.</narrative>
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -445,26 +663,26 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Iron Bow Technologies,LLC</narrative>
+      <narrative>Tuva, LLC</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
+    <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2021-09-30" type="3">
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2021-09-30" type="4"/>
+    <activity-date iso-date="2023-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -476,15 +694,15 @@
     <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="F8913E316017">
+    <transaction ref="EA6D5D36593C">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">171387</value>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">48400</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
       <receiver-org>
-        <narrative>Iron Bow Technologies,LLC</narrative>
+        <narrative>Tuva, LLC</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -494,19 +712,19 @@
         <narrative>Operating Expenses</narrative>
       </sector>
       <recipient-region code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="68295A79A7F4">
+    <transaction ref="5EC1FFF77406">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2023-06-30"/>
-      <value value-date="2023-06-30">171387</value>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">37547</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
       <receiver-org>
-        <narrative>Iron Bow Technologies,LLC</narrative>
+        <narrative>Tuva, LLC</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -516,14 +734,251 @@
         <narrative>Operating Expenses</narrative>
       </sector>
       <recipient-region code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="129CA1A1F4C8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">10853</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Tuva, LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:58:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:07-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-287264</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Deloitte</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="BB966E37324C">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">128500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A8A8D15133C5">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">28870</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7ABDB9412FDA">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">62500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="72x1021">Agency for International Development, Development Assistance
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0A08B990F4FA">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">62500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:13-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAQMMA17F1780-94873</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Technical Support for Arms Control TSACIS</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Tsymmetry, Inc.</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-06-07" type="1"/>
+    <activity-date iso-date="2017-06-07" type="2"/>
+    <activity-date iso-date="2028-06-06" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="DB32692A1CEF">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-07-19"/>
+      <value value-date="2023-07-19">1076983</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Tsymmetry, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:32-05:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SPMWRA21GR3005</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -558,10 +1013,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -620,8 +1075,107 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:59:00-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-285702</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:32-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-287288</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Equipment, Lands, and Structures</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Equipment, Lands, and Structures.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Iron Bow Technologies,LLC</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2021-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="F258904FC728">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">171387</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Iron Bow Technologies,LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A2C135F2F3DF">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-06-30"/>
+      <value value-date="2023-06-30">171387</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Iron Bow Technologies,LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:36-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-287271</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -641,7 +1195,7 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Tuva, LLC</narrative>
+      <narrative>Bright Star Solutions, LLC</narrative>
     </participating-org>
     <activity-status code="3"/>
     <activity-date iso-date="2022-10-01" type="1">
@@ -657,10 +1211,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -672,15 +1226,15 @@
     <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="17A93129F7C1">
+    <transaction ref="31B545D7997E">
       <transaction-type code="2"/>
       <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">48400</value>
+      <value value-date="2023-09-30">50000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
       <receiver-org>
-        <narrative>Tuva, LLC</narrative>
+        <narrative>Bright Star Solutions, LLC</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -694,37 +1248,37 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EFE0BABA6001">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-31"/>
-      <value value-date="2023-12-31">37547</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Tuva, LLC</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F2629594AC23">
+    <transaction ref="53950B955A24">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">10853</value>
+      <value value-date="2024-03-31">30698</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
       <receiver-org>
-        <narrative>Tuva, LLC</narrative>
+        <narrative>Bright Star Solutions, LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="09A9551BF528">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">19302</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Bright Star Solutions, LLC</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -741,7 +1295,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:59:15-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:35:26-05:00" xml:lang="en">
     <iati-identifier>US-GOV-11-1001165055</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -776,10 +1330,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -882,7 +1436,84 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:59:26-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:35:29-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-93711</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Communications, Utilities, and Rental Payments</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Communications, Utilities, and Rental Payments.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - U.S. Agency for International Development</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="91C5814879DC">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">13345</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-1">
+        <narrative>U.S. Government - U.S. Agency for International Development</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:35:47-05:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SINLEC21CA3480</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -917,10 +1548,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -1001,106 +1632,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:59:36-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-93491</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Equipment, Lands, and Structures</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Equipment, Lands, and Structures.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercom, Inc.</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2021-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="CF859D27F7B6">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-06-30"/>
-      <value value-date="2021-06-30">1742</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Mercom, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="39857A6F579A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">1742</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Mercom, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:59:36-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:36:06-05:00" xml:lang="en">
     <iati-identifier>US-GOV-11-207112AWR19</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -1135,10 +1667,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -1219,16 +1751,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:59:43-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAQMMA17F1780-94483</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:36:49-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-289680</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Technical Support for Arms Control TSACIS</narrative>
+      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Information Redacted</narrative>
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -1240,380 +1772,46 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Tsymmetry, Inc.</narrative>
+      <narrative>Guidehouse LLP</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-06-07" type="1"/>
-    <activity-date iso-date="2017-06-07" type="2"/>
-    <activity-date iso-date="2028-06-06" type="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
       </mailing-address>
     </contact-info>
-    <activity-scope code="5"/>
+    <activity-scope code="2"/>
     <collaboration-type code="1"/>
     <default-flow-type code="50"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="93A4C0DC23F9">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-07-19"/>
-      <value value-date="2023-07-19">1076983</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Tsymmetry, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T12:59:49-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-285698</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Deloitte</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2023-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="E21FD1E613B0">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">128500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="414ABF5E2390">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">28870</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="360501C1207F">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">62500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="72x1021">Agency for International Development, Development Assistance
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5BE2212081A9">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">62500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T13:00:01-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-10117GB002-271412</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Bureau of Western Hemisphere Affairs - Information Redacted</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">U.S. Department of State: Bureau of Western Hemisphere Affairs. I concur with the Grants Officer's request to amend this award and certify. -AS approve</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-08-05" type="3"/>
-    <activity-date iso-date="2020-08-05" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F83562B89177">
+    <transaction ref="F6AE3B107BD6">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2020-08-05"/>
-      <value value-date="2020-08-05">29267</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T13:00:17-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-285705</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Bright Star Solutions, LLC</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2023-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="297CA42E2CBE">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">50000</value>
+      <transaction-date iso-date="2022-12-31"/>
+      <value value-date="2022-12-31">178599</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
       <receiver-org>
-        <narrative>Bright Star Solutions, LLC</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2DF71EB163F2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">30698</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Bright Star Solutions, LLC</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A23C11034380">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">19302</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Bright Star Solutions, LLC</narrative>
+        <narrative>Guidehouse LLP</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -1630,7 +1828,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T13:00:19-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:37:21-05:00" xml:lang="en">
     <iati-identifier>US-GOV-11-207112AWR22</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -1665,10 +1863,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -1705,128 +1903,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T13:00:23-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-285713</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Communications, Utilities, and Rental Payments</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Communications, Utilities, and Rental Payments.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>StratComm, Inc.</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="8F6AAB6C1980">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-03-31"/>
-      <value value-date="2022-03-31">35097</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>StratComm, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="82C495F4E518">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">31587</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>StratComm, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8F66F453699B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">3510</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>StratComm, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-region code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2024-12-31T13:00:31-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:37:39-05:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SINLEC21CA3473</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -1861,10 +1938,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Jenee Sharon; Wes Aviles; Ryan Boles</narrative>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>SharonJL@state.gov; AvilesWH@state.gov; rboles@usaid.gov</email>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -2093,6 +2170,105 @@
       </sector>
       <recipient-region code="389"/>
       <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:37:42-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-287313</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>CDW Government, Inc.</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="4A130E04E9DF">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">47078</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>CDW Government, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4A130E04E9DF">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">47078</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>CDW Government, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-region code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
