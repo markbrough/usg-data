@@ -3,9 +3,9 @@ name: Fetch USG IATI Data
 on:
   push:
     branches:
-      - main
+      - script
   schedule:
-    - cron:  '0 5 * * *'
+    - cron: '0 5 * * *'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
