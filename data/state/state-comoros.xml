@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-03-07T15:20:46-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:31:37-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-04-18T16:23:00-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:39:45-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMA10023GR0023</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -118,16 +118,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:31:54-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-70403</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:39:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SMA10020GR0013-75421</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Partnership for Regional East Africa Counterterrorism (PREACT): Social Reintegration and Prevention of Delinquency Among Youth</narrative>
+      <narrative xml:lang="en">Beekeeping</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Develop skills, interests, and a sense of civic responsibility among youth and teens to help reduce vulnerabilities associated with high youth unemployment and increasing foreign influence that could lead to a rise in violent extremism.</narrative>
+      <narrative xml:lang="en">Modernize Comoros traditional beekeeping</narrative>
     </description>
     <participating-org ref="1" role="1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -139,17 +139,15 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
+      <narrative>Enterprise - Non United States Other</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1">
+    <activity-date iso-date="2020-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-09-30" type="4"/>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2022-03-18" type="3"/>
+    <activity-date iso-date="2022-03-18" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -169,23 +167,89 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="ACCDD3063C80">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">57000</value>
+    <default-tied-status code="5"/>
+    <transaction ref="5D53C8D00E4C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-05-27"/>
+      <value value-date="2021-05-27">8400</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="KM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="25A0B42817CE">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-03-14"/>
+      <value value-date="2022-03-14">2100</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="KM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DB434E82F826">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-03-15"/>
+      <value value-date="2022-03-15">2100</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="KM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7FD6BEE3D973">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-03-18"/>
+      <value value-date="2022-03-18">-2100</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
       </sector>
       <recipient-country code="KM"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
@@ -195,7 +259,157 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:28-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:39:54-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SMA10024GR0049</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Solar Energy for the CIPA Library in Chitsangani</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">TO PURCHASE MATERIALS AND EQUIPMENT FOR THE LIBRARY</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - Non United States Other</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-27" type="3"/>
+    <activity-date iso-date="2024-09-27" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="35C23E0B7397">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-27"/>
+      <value value-date="2024-09-27">8000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="48" vocabulary="99">
+        <narrative>Education and Social Services - General</narrative>
+      </sector>
+      <sector code="11110" vocabulary="1">
+        <narrative>Education policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="KM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:40:11-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SMA10024GR0048</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">MALEZI Education</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">TO PURCHASE EDUCATION MATERIALS AND EQUIPMENT FOR THE COMMUNITY EDUCATION CENTER IN KOIMBANI-OICHILI</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - Non United States Other</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-27" type="3"/>
+    <activity-date iso-date="2024-09-27" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="9595417D03EC">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-27"/>
+      <value value-date="2024-09-27">5000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="48" vocabulary="99">
+        <narrative>Education and Social Services - General</narrative>
+      </sector>
+      <sector code="11110" vocabulary="1">
+        <narrative>Education policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="KM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:40:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMA10023GR0022</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -358,7 +572,82 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:33:20-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:40:28-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SMA10024GR0044</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Fruit and veggie saver</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">TO PURCHASE EQUIPMENT FOR FOOD PRESERVATION</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - Non United States Other</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-27" type="3"/>
+    <activity-date iso-date="2024-09-27" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="9EBD800F1065">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-27"/>
+      <value value-date="2024-09-27">7500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31110" vocabulary="1">
+        <narrative>Agricultural policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="KM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:41:00-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMA10022GR0020</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -477,7 +766,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:33:33-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:41:10-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMA10023GR0024</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -596,7 +885,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:33:37-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:41:13-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMA10022GR0021</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -715,7 +1004,84 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:06-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:41:27-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-74847</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Partnership for Regional East Africa Counterterrorism (PREACT): Social Reintegration and Prevention of Delinquency Among Youth</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Develop skills, interests, and a sense of civic responsibility among youth and teens to help reduce vulnerabilities associated with high youth unemployment and increasing foreign influence that could lead to a rise in violent extremism.</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="F45C2BDF193D">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">57000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="KM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:41:36-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-19AQMM23F2385</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -724,7 +1090,7 @@
       <narrative xml:lang="en">Comoros UAS</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">[Covers services supplied by other U.S. Government agencies not otherwise classified.]</narrative>
+      <narrative xml:lang="en">Comoros UAS</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -790,7 +1156,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:49-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:42:07-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMA10022GR0022</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -909,7 +1275,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:35:18-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:42:29-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMA10022GR0023</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -1028,16 +1394,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:36:09-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SMA10020GR0013-70904</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:43:09-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SMA10024GR0047</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Beekeeping</narrative>
+      <narrative xml:lang="en">Solar energy for the maternity ward of Ntsaoueni</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Modernize Comoros traditional beekeeping</narrative>
+      <narrative xml:lang="en">TO PURCHASE MATERIAL, SUPPLIES AND EQUIPMENT FOR SOLAR ENERGY</narrative>
     </description>
     <participating-org ref="1" role="1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1052,12 +1418,12 @@
       <narrative>Enterprise - Non United States Other</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
+    <activity-date iso-date="2023-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2022-03-18" type="3"/>
-    <activity-date iso-date="2022-03-18" type="4"/>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-27" type="3"/>
+    <activity-date iso-date="2024-09-27" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -1078,10 +1444,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="D3E56FA8A424">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-05-27"/>
-      <value value-date="2021-05-27">8400</value>
+    <transaction ref="B5ED2B4C79FD">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-27"/>
+      <value value-date="2024-09-27">8000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1089,21 +1455,74 @@
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
+      <sector code="28" vocabulary="99">
+        <narrative>Infrastructure</narrative>
       </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
+      <sector code="23231" vocabulary="1">
+        <narrative>Solar energy for isolated grids and standalone systems</narrative>
       </sector>
       <recipient-country code="KM"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="97605343061F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-03-14"/>
-      <value value-date="2022-03-14">2100</value>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:44:10-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SMA10024GR0046</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Integration of vulnerable wome and young Comorians</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">TO TRAIN VULNERABLE WOMEN AND YOUNG COMORIANS ON ENVIRONMENT AND ENTREPRENEURSHIP AND PURCHASE OF AGRICULTURAL EQUIPMENT AND VARIOUS SEEDS</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - Non United States Other</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-27" type="3"/>
+    <activity-date iso-date="2024-09-27" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="533B531C5C65">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-27"/>
+      <value value-date="2024-09-27">6500</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1111,55 +1530,11 @@
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
+      <sector code="31" vocabulary="99">
+        <narrative>Economic Opportunity</narrative>
       </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="KM"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BFA6DEAC3475">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-03-15"/>
-      <value value-date="2022-03-15">2100</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="70" ref="XM-DAC-63000">
-        <narrative>Enterprise - Non United States Other</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="KM"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B68571890C66">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-03-18"/>
-      <value value-date="2022-03-18">-2100</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="70" ref="XM-DAC-63000">
-        <narrative>Enterprise - Non United States Other</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
+      <sector code="16020" vocabulary="1">
+        <narrative>Employment Creation</narrative>
       </sector>
       <recipient-country code="KM"/>
       <usg:treasury-account code="72x1037">Economic Support Fund

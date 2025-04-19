@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-03-07T15:23:06-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:31:42-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAU91020VC0018-285951</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-04-18T16:29:34-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:39:35-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAU91020VC0021-292541</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -49,7 +49,179 @@
     <default-finance-type code="110"/>
     <default-aid-type code="B03"/>
     <default-tied-status code="5"/>
-    <transaction ref="2675A9FD3F31">
+    <transaction ref="CB639ED9BF28">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-11-19"/>
+      <value value-date="2020-11-19">250000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="40" ref="XM-DAC-47131">
+        <narrative>Organization for Security and Cooperation in Europe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="AT"/>
+      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:39:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SSJTIP18CA0007-85065</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Strengthening Implementation of the UN Protocol</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Strengthening Implementation of the United Nations Protocol to Prevent, Suppress, and Punish Trafficking in Persons</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>United Nations Office on Drugs and Crime</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2022-01-31" type="3"/>
+    <activity-date iso-date="2022-01-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="FE343CFF9AE5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-01-31"/>
+      <value value-date="2018-01-31">1500000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="40" ref="XM-DAC-41128">
+        <narrative>United Nations Office on Drugs and Crime</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="5" vocabulary="99">
+        <narrative>Transnational Crime</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="AT"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FE343CFF9AE5">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-01-31"/>
+      <value value-date="2018-01-31">1500000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="40" ref="XM-DAC-41128">
+        <narrative>United Nations Office on Drugs and Crime</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="5" vocabulary="99">
+        <narrative>Transnational Crime</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="AT"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:39:59-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAU91020VC0018-292538</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Organization for Security and Cooperation in Europe</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2020-11-19" type="3"/>
+    <activity-date iso-date="2020-11-19" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="B03"/>
+    <default-tied-status code="5"/>
+    <transaction ref="C1E2D574DFC2">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-11-19"/>
       <value value-date="2020-11-19">842000</value>
@@ -74,7 +246,82 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:06-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:40:03-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAU91020VC0016-292536</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Organization for Security and Cooperation in Europe</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2020-11-05" type="3"/>
+    <activity-date iso-date="2020-11-05" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="B03"/>
+    <default-tied-status code="5"/>
+    <transaction ref="DC15FB447FDB">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-11-05"/>
+      <value value-date="2020-11-05">345000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="40" ref="XM-DAC-47131">
+        <narrative>Organization for Security and Cooperation in Europe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="AT"/>
+      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:40:07-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-19AQMM23F1311</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -151,500 +398,8 @@
       <narrative>39,730,103</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:16-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAU91020VC0016-285949</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Organization for Security and Cooperation in Europe</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2020-11-05" type="3"/>
-    <activity-date iso-date="2020-11-05" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="B03"/>
-    <default-tied-status code="5"/>
-    <transaction ref="10AE84AB0BD5">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-11-05"/>
-      <value value-date="2020-11-05">345000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="40" ref="XM-DAC-47131">
-        <narrative>Organization for Security and Cooperation in Europe</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="AT"/>
-      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:23-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SSJTIP16CA1025-80354</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">GLOT59 Global Programme Against Trafficking in Persons: Strengthening the Implementation of a Comprehensive Response to Trafficking</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">GLOT59: The UNODC Human Trafficking and Migrant Smuggling Unit will continue to strengthen the criminal justice capacity of governments through delivery of anti-TIP training and technical assistance.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>United Nations Office on Drugs and Crime</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="A523F9C8D7A9">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-01-30"/>
-      <value value-date="2018-01-30">185000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="40" ref="XM-DAC-41128">
-        <narrative>United Nations Office on Drugs and Crime</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="5" vocabulary="99">
-        <narrative>Transnational Crime</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="AT"/>
-      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A523F9C8D7A9">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-30"/>
-      <value value-date="2018-01-30">185000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="40" ref="XM-DAC-41128">
-        <narrative>United Nations Office on Drugs and Crime</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="5" vocabulary="99">
-        <narrative>Transnational Crime</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="AT"/>
-      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:33:22-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAU91020VC0019-285952</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Organization for Security and Cooperation in Europe</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2020-11-19" type="3"/>
-    <activity-date iso-date="2020-11-19" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="B03"/>
-    <default-tied-status code="5"/>
-    <transaction ref="C277749AC386">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-11-19"/>
-      <value value-date="2020-11-19">1200000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="40" ref="XM-DAC-47131">
-        <narrative>Organization for Security and Cooperation in Europe</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="AT"/>
-      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:33:49-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAU91020VC0021-285954</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Organization for Security and Cooperation in Europe</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2020-11-19" type="3"/>
-    <activity-date iso-date="2020-11-19" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="B03"/>
-    <default-tied-status code="5"/>
-    <transaction ref="B0001522E732">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-11-19"/>
-      <value value-date="2020-11-19">250000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="40" ref="XM-DAC-47131">
-        <narrative>Organization for Security and Cooperation in Europe</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="AT"/>
-      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:01-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAU91020VC0017-285950</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Organization for Security and Cooperation in Europe</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2020-11-05" type="3"/>
-    <activity-date iso-date="2020-11-05" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="B03"/>
-    <default-tied-status code="5"/>
-    <transaction ref="5AF85025A972">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-11-05"/>
-      <value value-date="2020-11-05">2000000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="40" ref="XM-DAC-47131">
-        <narrative>Organization for Security and Cooperation in Europe</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="AT"/>
-      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SSJTIP18CA0007-80469</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Strengthening Implementation of the UN Protocol</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Strengthening Implementation of the United Nations Protocol to Prevent, Suppress, and Punish Trafficking in Persons</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>United Nations Office on Drugs and Crime</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2022-01-31" type="3"/>
-    <activity-date iso-date="2022-01-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="33823EC11348">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-01-31"/>
-      <value value-date="2018-01-31">1500000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="40" ref="XM-DAC-41128">
-        <narrative>United Nations Office on Drugs and Crime</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="5" vocabulary="99">
-        <narrative>Transnational Crime</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="AT"/>
-      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="33823EC11348">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-31"/>
-      <value value-date="2018-01-31">1500000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="40" ref="XM-DAC-41128">
-        <narrative>United Nations Office on Drugs and Crime</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="5" vocabulary="99">
-        <narrative>Transnational Crime</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="AT"/>
-      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:50-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAU91020VC0023-285955</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:40:23-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAU91020VC0023-292542</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -693,7 +448,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="B03"/>
     <default-tied-status code="5"/>
-    <transaction ref="EDB9F2843E68">
+    <transaction ref="1D0592243774">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-11-24"/>
       <value value-date="2020-11-24">199645</value>
@@ -718,8 +473,103 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:35:48-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAU91020VC0020-285953</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:40:28-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SSJTIP16CA1025-84950</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">GLOT59 Global Programme Against Trafficking in Persons: Strengthening the Implementation of a Comprehensive Response to Trafficking</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">GLOT59: The UNODC Human Trafficking and Migrant Smuggling Unit will continue to strengthen the criminal justice capacity of governments through delivery of anti-TIP training and technical assistance.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>United Nations Office on Drugs and Crime</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="3AC5F12D35A5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-01-30"/>
+      <value value-date="2018-01-30">185000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="40" ref="XM-DAC-41128">
+        <narrative>United Nations Office on Drugs and Crime</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="5" vocabulary="99">
+        <narrative>Transnational Crime</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="AT"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3AC5F12D35A5">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-01-30"/>
+      <value value-date="2018-01-30">185000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="40" ref="XM-DAC-41128">
+        <narrative>United Nations Office on Drugs and Crime</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="5" vocabulary="99">
+        <narrative>Transnational Crime</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="AT"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:41:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAU91020VC0020-292540</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -768,7 +618,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="B03"/>
     <default-tied-status code="5"/>
-    <transaction ref="9CB3590E907A">
+    <transaction ref="F0B3554B58E4">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-11-19"/>
       <value value-date="2020-11-19">300000</value>
@@ -793,8 +643,158 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:37:42-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SSJTIP16CA1025-80356</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:42:09-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAU91020VC0019-292539</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Organization for Security and Cooperation in Europe</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2020-11-19" type="3"/>
+    <activity-date iso-date="2020-11-19" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="B03"/>
+    <default-tied-status code="5"/>
+    <transaction ref="564F0A51344E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-11-19"/>
+      <value value-date="2020-11-19">1200000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="40" ref="XM-DAC-47131">
+        <narrative>Organization for Security and Cooperation in Europe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="AT"/>
+      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:42:23-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAU91020VC0017-292537</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Organization for Security and Cooperation in Europe</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2020-11-05" type="3"/>
+    <activity-date iso-date="2020-11-05" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="B03"/>
+    <default-tied-status code="5"/>
+    <transaction ref="B112408C8E88">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-11-05"/>
+      <value value-date="2020-11-05">2000000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="40" ref="XM-DAC-47131">
+        <narrative>Organization for Security and Cooperation in Europe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="AT"/>
+      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:44:10-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SSJTIP16CA1025-84952</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -841,7 +841,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="0CF5FB4087D3">
+    <transaction ref="40C88C4CB3CE">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-08-30"/>
       <value value-date="2018-08-30">300000</value>
@@ -863,7 +863,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0CF5FB4087D3">
+    <transaction ref="40C88C4CB3CE">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-08-30"/>
       <value value-date="2018-08-30">300000</value>
@@ -885,7 +885,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1EEDFBB3D73C">
+    <transaction ref="C456932FC454">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-08-30"/>
       <value value-date="2018-08-30">250000</value>
@@ -907,7 +907,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1EEDFBB3D73C">
+    <transaction ref="C456932FC454">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-08-30"/>
       <value value-date="2018-08-30">250000</value>

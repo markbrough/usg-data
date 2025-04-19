@@ -1,14 +1,14 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-03-07T15:24:37-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:31-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-1039380083-97471</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-04-18T16:28:20-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:40:32-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SPRMCO15VC1023-114512</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">INL/A-Helicopter Uraguay</narrative>
+      <narrative xml:lang="en">Integration of Syrian Refugees Resettled From Lebanon to Uruguay</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">INL/A-Helicopter Uruguay</narrative>
+      <narrative xml:lang="en">United States Population Migration and Refugee Assistance, Appropriation 1143. Protection and assistance needs of refugees, migrants and conflict victims worldwide. [United Nations Office of the United Nations High Commissioner for Refugees]</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -20,90 +20,94 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
+      <narrative>United Nations Office of the United Nations High Commissioner for Refugees</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2014-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-10-01" type="2"/>
+    <activity-date iso-date="2015-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2015-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="B03"/>
+    <default-tied-status code="5"/>
+    <transaction ref="7A542A367173">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2015-05-01"/>
+      <value value-date="2015-05-01">856000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="40" ref="XM-DAC-41121">
+        <narrative>United Nations Office of the United Nations High Commissioner for Refugees</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="37" vocabulary="99">
+        <narrative>Protection, Assistance and Solutions</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="UY"/>
+      <usg:treasury-account code="19x1143">Department of State, Migration and Refugee Assistance
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:40:52-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-102083</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Osprea Logistics</narrative>
     </participating-org>
     <activity-status code="3"/>
     <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
     <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2023-07-21" type="3"/>
-    <activity-date iso-date="2023-07-21" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="2A94B9A578F2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-07-21"/>
-      <value value-date="2023-07-21">1800000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15230" vocabulary="1">
-        <narrative>Participation in international peacekeeping operations</narrative>
-      </sector>
-      <recipient-country code="UY"/>
-      <usg:treasury-account code="11x1032">Peace Keeping Operations
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:32:41-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-1039280114-97485</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Peace Operations INL/A-Bell 212</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">INL/A-Bell 212 Uruguay [Covers miscellaneous contractual services not otherwise classified.]</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    <activity-date iso-date="2023-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-09-12" type="3"/>
-    <activity-date iso-date="2022-09-12" type="4"/>
+    <activity-date iso-date="2023-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -124,22 +128,88 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="C2FDC0AA89D1">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-09-12"/>
-      <value value-date="2022-09-12">1651000</value>
+    <transaction ref="569519F811FF">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">3058662</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
+      <receiver-org>
+        <narrative>Osprea Logistics</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
       </sector>
-      <sector code="15230" vocabulary="1">
-        <narrative>Participation in international peacekeeping operations</narrative>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="UY"/>
+      <usg:treasury-account code="11x1032">Peace Keeping Operations
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="ED8C07FC9FF5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">4455308</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Osprea Logistics</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="UY"/>
+      <usg:treasury-account code="11x1032">Peace Keeping Operations
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C3512776EF32">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">1248522</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Osprea Logistics</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="UY"/>
+      <usg:treasury-account code="11x1032">Peace Keeping Operations
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C6DD0CD33AFD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">2449805</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Osprea Logistics</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
       </sector>
       <recipient-country code="UY"/>
       <usg:treasury-account code="11x1032">Peace Keeping Operations
@@ -149,82 +219,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:33:27-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-1039280109-97487</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Peace Operations INL/A-Helicopter Repair Uruguay</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">INL/A-Helicopter Repair Uruguay [Covers miscellaneous contractual services not otherwise classified.]</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-08-29" type="3"/>
-    <activity-date iso-date="2022-08-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="40F672F07F2A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-08-29"/>
-      <value value-date="2022-08-29">2701500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15230" vocabulary="1">
-        <narrative>Participation in international peacekeeping operations</narrative>
-      </sector>
-      <recipient-country code="UY"/>
-      <usg:treasury-account code="11x1032">Peace Keeping Operations
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:33:57-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:41:28-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SUY60021GR3025</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -321,7 +316,82 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:34:28-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:41:31-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-1039280114-102178</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Peace Operations INL/A-Bell 212</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">INL/A-Bell 212 Uruguay [Covers miscellaneous contractual services not otherwise classified.]</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - United States Other</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-09-12" type="3"/>
+    <activity-date iso-date="2022-09-12" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="0B08E20C5D69">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-09-09"/>
+      <value value-date="2022-09-09">1651000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Other</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15230" vocabulary="1">
+        <narrative>Participation in international peacekeeping operations</narrative>
+      </sector>
+      <recipient-country code="UY"/>
+      <usg:treasury-account code="11x1032">Peace Keeping Operations
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:41:52-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-S-UY600-12-GR-028</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -416,7 +486,82 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:35:04-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:42:08-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-1039280114-102177</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Peace Operations INL/A-Bell 212</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">INL/A-Bell 212 Uruguay [Covers miscellaneous contractual services not otherwise classified.]</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-09-12" type="3"/>
+    <activity-date iso-date="2022-09-12" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="DAB6B723D8EC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-09-12"/>
+      <value value-date="2022-09-12">1651000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15230" vocabulary="1">
+        <narrative>Participation in international peacekeeping operations</narrative>
+      </sector>
+      <recipient-country code="UY"/>
+      <usg:treasury-account code="11x1032">Peace Keeping Operations
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:42:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-19AQMM23C0156</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -491,7 +636,82 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:35:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:42:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-1039380083-102163</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">INL/A-Helicopter Uraguay</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">INL/A-Helicopter Uruguay</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-07-21" type="3"/>
+    <activity-date iso-date="2023-07-21" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="EFAD302493F3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-07-21"/>
+      <value value-date="2023-07-21">1800000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15230" vocabulary="1">
+        <narrative>Participation in international peacekeeping operations</narrative>
+      </sector>
+      <recipient-country code="UY"/>
+      <usg:treasury-account code="11x1032">Peace Keeping Operations
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:42:49-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-S-SJTIP-14-GR-1020</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -586,83 +806,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:35:55-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-1039280109-97488</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Peace Operations INL/A-Helicopter Repair Uruguay</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">INL/A-Helicopter Repair Uruguay [Covers miscellaneous contractual services not otherwise classified.]</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Other</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-08-29" type="3"/>
-    <activity-date iso-date="2022-08-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F1D64A90B112">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-08-22"/>
-      <value value-date="2022-08-22">2701500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Other</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15230" vocabulary="1">
-        <narrative>Participation in international peacekeeping operations</narrative>
-      </sector>
-      <recipient-country code="UY"/>
-      <usg:treasury-account code="11x1032">Peace Keeping Operations
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:36:05-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-1039380083-97472</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:43:26-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-1039380083-102164</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -711,7 +856,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="B8907205CD8A">
+    <transaction ref="227F2A765F8D">
       <transaction-type code="2"/>
       <transaction-date iso-date="2023-07-21"/>
       <value value-date="2023-07-21">1800000</value>
@@ -736,16 +881,91 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:36:15-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-1039280114-97486</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:44:09-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SUY60024CA0009</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Peace Operations INL/A-Bell 212</narrative>
+      <narrative xml:lang="en">Development of the Space Industry in Uruguay</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">INL/A-Bell 212 Uruguay [Covers miscellaneous contractual services not otherwise classified.]</narrative>
+      <narrative xml:lang="en">This CA aims to support Uruguay in establishing a civil space agency, building capacity in space-related fields, strengthening space education programs, and increasing economic diversification through the promotion of the space industry.</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Alianza Cultural Uruguay-Estados Unidos</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-06" type="3"/>
+    <activity-date iso-date="2024-09-06" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="62FFBBC248D5">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-06"/>
+      <value value-date="2024-09-06">300000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Alianza Cultural Uruguay-Estados Unidos</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="49" vocabulary="99">
+        <narrative>Economic Development - General</narrative>
+      </sector>
+      <sector code="32110" vocabulary="1">
+        <narrative>Industrial policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="UY"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:44:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-1039280109-102180</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Peace Operations INL/A-Helicopter Repair Uruguay</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">INL/A-Helicopter Repair Uruguay [Covers miscellaneous contractual services not otherwise classified.]</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -764,8 +984,8 @@
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
     <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-09-12" type="3"/>
-    <activity-date iso-date="2022-09-12" type="4"/>
+    <activity-date iso-date="2022-08-29" type="3"/>
+    <activity-date iso-date="2022-08-29" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -786,10 +1006,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="5651F8E27B81">
+    <transaction ref="D2E4358C9216">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2022-09-09"/>
-      <value value-date="2022-09-09">1651000</value>
+      <transaction-date iso-date="2022-08-22"/>
+      <value value-date="2022-08-22">2701500</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -811,16 +1031,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:36:20-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-97391</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T13:44:20-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-1039280109-102179</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
+      <narrative xml:lang="en">Peace Operations INL/A-Helicopter Repair Uruguay</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
+      <narrative xml:lang="en">INL/A-Helicopter Repair Uruguay [Covers miscellaneous contractual services not otherwise classified.]</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -832,17 +1052,15 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Osprea Logistics</narrative>
+      <narrative>U.S. Government - Department of State</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
+    <activity-date iso-date="2021-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2023-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-09-30" type="4"/>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-08-29" type="3"/>
+    <activity-date iso-date="2022-08-29" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -863,168 +1081,25 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="9052BA89E6A3">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">3058662</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Osprea Logistics</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="UY"/>
-      <usg:treasury-account code="11x1032">Peace Keeping Operations
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="DC563F7F4829">
+    <transaction ref="9886BC0391C7">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-31"/>
-      <value value-date="2023-12-31">4455308</value>
+      <transaction-date iso-date="2022-08-29"/>
+      <value value-date="2022-08-29">2701500</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org>
-        <narrative>Osprea Logistics</narrative>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
       </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
+      <sector code="15230" vocabulary="1">
+        <narrative>Participation in international peacekeeping operations</narrative>
       </sector>
       <recipient-country code="UY"/>
       <usg:treasury-account code="11x1032">Peace Keeping Operations
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="45D33482B7AD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">1248522</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Osprea Logistics</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="UY"/>
-      <usg:treasury-account code="11x1032">Peace Keeping Operations
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8D7600F69726">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">2449805</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Osprea Logistics</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="UY"/>
-      <usg:treasury-account code="11x1032">Peace Keeping Operations
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T12:37:30-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SPRMCO15VC1023-109820</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Integration of Syrian Refugees Resettled From Lebanon to Uruguay</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">United States Population Migration and Refugee Assistance, Appropriation 1143. Protection and assistance needs of refugees, migrants and conflict victims worldwide. [United Nations Office of the United Nations High Commissioner for Refugees]</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>United Nations Office of the United Nations High Commissioner for Refugees</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-10-01" type="2"/>
-    <activity-date iso-date="2015-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2015-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="B03"/>
-    <default-tied-status code="5"/>
-    <transaction ref="30E77262AB06">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2015-05-01"/>
-      <value value-date="2015-05-01">856000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="40" ref="XM-DAC-41121">
-        <narrative>United Nations Office of the United Nations High Commissioner for Refugees</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="37" vocabulary="99">
-        <narrative>Protection, Assistance and Solutions</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="UY"/>
-      <usg:treasury-account code="19x1143">Department of State, Migration and Refugee Assistance
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>

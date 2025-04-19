@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-03-07T09:40:31-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:40-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281763</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-04-18T10:30:30-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:23-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288153</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -49,7 +49,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="3C660BC4AAFB">
+    <transaction ref="548928D72C8A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-06-30"/>
       <value value-date="2019-06-30">10489519</value>
@@ -71,7 +71,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3C660BC4AAFB">
+    <transaction ref="548928D72C8A">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-06-30"/>
       <value value-date="2019-06-30">10489519</value>
@@ -93,7 +93,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="9B3AD4D22683">
+    <transaction ref="CECF72108997">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-09-30"/>
       <value value-date="2019-09-30">10489383</value>
@@ -115,7 +115,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="9B3AD4D22683">
+    <transaction ref="CECF72108997">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-09-30"/>
       <value value-date="2019-09-30">10489383</value>
@@ -140,8 +140,107 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:42-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281647</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:24-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-29134</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">USCG SECRETARY CLASS HIGH ENDURANCE CUTTER [Quantity Delivered: 1].</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="A0476E7C60B2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-09-30"/>
+      <value value-date="2020-09-30">11423184</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A0476E7C60B2">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-09-30"/>
+      <value value-date="2020-09-30">11423184</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:24-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288036</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -164,10 +263,10 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-12-31" type="3"/>
-    <activity-date iso-date="2018-12-31" type="4"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2016-10-11" type="3"/>
+    <activity-date iso-date="2016-10-11" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -188,10 +287,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="368EE745D72F">
+    <transaction ref="98451AFE7E49">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-12-31"/>
-      <value value-date="2017-12-31">95093</value>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">146434</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -210,10 +309,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="368EE745D72F">
+    <transaction ref="98451AFE7E49">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2017-12-31"/>
-      <value value-date="2017-12-31">95093</value>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">146434</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -235,7 +334,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:42-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-341</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -332,7 +431,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:42-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-438</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -429,7 +528,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:43-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-443</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -526,7 +625,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:43-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-40</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -623,7 +722,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-442</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -720,7 +819,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-41</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -817,104 +916,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281715</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Vietnamese Ministry of Defense with defense planning reform initiatives. Long-term defense capacity building objectives are being achieved.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-06-30" type="3"/>
-    <activity-date iso-date="2019-06-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="D8F5735D55ED">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-06-30"/>
-      <value value-date="2019-06-30">2036</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D8F5735D55ED">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-06-30"/>
-      <value value-date="2019-06-30">2036</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-439</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -1011,7 +1013,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-340</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -1108,8 +1110,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:46-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281646</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:28-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288037</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1132,10 +1134,10 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2016-10-11" type="3"/>
-    <activity-date iso-date="2016-10-11" type="4"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-12-31" type="3"/>
+    <activity-date iso-date="2018-12-31" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1156,10 +1158,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="C4A33ADDAEFC">
+    <transaction ref="D6E905AF2692">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">146434</value>
+      <transaction-date iso-date="2017-12-31"/>
+      <value value-date="2017-12-31">95093</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1178,10 +1180,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="C4A33ADDAEFC">
+    <transaction ref="D6E905AF2692">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">146434</value>
+      <transaction-date iso-date="2017-12-31"/>
+      <value value-date="2017-12-31">95093</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1203,8 +1205,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:47-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281762</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:28-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288152</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1251,7 +1253,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="D6CEDCA8B1C4">
+    <transaction ref="47299BAEBF87">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-06-30"/>
       <value value-date="2018-06-30">10309980</value>
@@ -1273,7 +1275,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D6CEDCA8B1C4">
+    <transaction ref="47299BAEBF87">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-06-30"/>
       <value value-date="2018-06-30">10309980</value>
@@ -1298,8 +1300,204 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:48-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281826</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:29-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288105</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Vietnamese Ministry of Defense with defense planning reform initiatives. Long-term defense capacity building objectives are being achieved.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-06-30" type="3"/>
+    <activity-date iso-date="2019-06-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="A6F6350FE86E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-06-30"/>
+      <value value-date="2019-06-30">2036</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A6F6350FE86E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-06-30"/>
+      <value value-date="2019-06-30">2036</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:29-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-25291</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">OUTFIT AND EQUIPMENT FOR WHEC-722 [Quantity Delivered: N/A].</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="ADF2F3A1F097">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">258083</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="ADF2F3A1F097">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">258083</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:30-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288216</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1348,7 +1546,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="DBED10B3A6EA">
+    <transaction ref="048D89E6BF2F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-06-30"/>
       <value value-date="2019-06-30">358463</value>
@@ -1370,7 +1568,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DBED10B3A6EA">
+    <transaction ref="048D89E6BF2F">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-06-30"/>
       <value value-date="2019-06-30">358463</value>
@@ -1392,7 +1590,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6C23DD3B2844">
+    <transaction ref="3444A48F41C6">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-09-30"/>
       <value value-date="2019-09-30">358463</value>
@@ -1414,7 +1612,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6C23DD3B2844">
+    <transaction ref="3444A48F41C6">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-09-30"/>
       <value value-date="2019-09-30">358463</value>
@@ -1439,7 +1637,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:49-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:31-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-347</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -1536,8 +1734,244 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:50-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281790</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:32-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288227</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Indo-Pacific Maritime Security Initiative (MSI) - Vietnam Participation in Multilateral Engagements</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The FY2016 National Defense Authorization Act (NDAA) Section 1263 specifies seven Indo-Pacific Maritime Security Initiative (MSI) nations for assistance and training: Indonesia, Malaysia, Philippines, Thailand, Vietnam, Sri Lanka, and Bangladesh. In addition, there is a provision that allows incremental expenses for personnel from Taiwan, Singapore and Brunei to participate in training. Country teams work through the Geographic Combatant Command (GCC) to nominate proposals to Office of the Secretary of Defense and the Joint Staff for approval. DSCA provides program management and execution through the implementing agencies.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="12A942814E5C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-06-30"/>
+      <value value-date="2019-06-30">107670</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="12A942814E5C">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-06-30"/>
+      <value value-date="2019-06-30">107670</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F6DAD59360F6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">107670</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F6DAD59360F6">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">107670</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:33-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288179</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Indo-Pacific Maritime Security Initiative (MSI) - Maritime ISR Support</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The FY2016 National Defense Authorization Act (NDAA) Section 1263 specifies seven Indo-Pacific Maritime Security Initiative (MSI) nations for assistance and training: Indonesia, Malaysia, Philippines, Thailand, Vietnam, Sri Lanka, and Bangladesh. In addition, there is a provision that allows incremental expenses for personnel from Taiwan, Singapore and Brunei to participate in training. Country teams work through the Geographic Combatant Command (GCC) to nominate proposals to Office of the Secretary of Defense and the Joint Staff for approval. DSCA provides program management and execution through the implementing agencies.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="E7A0DB79BE41">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-06-30"/>
+      <value value-date="2018-06-30">213903</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="E7A0DB79BE41">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-06-30"/>
+      <value value-date="2018-06-30">213903</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:34-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288180</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1586,7 +2020,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="B52D37817901">
+    <transaction ref="BFEFB3B6DE78">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-06-30"/>
       <value value-date="2019-06-30">217162</value>
@@ -1608,7 +2042,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="B52D37817901">
+    <transaction ref="BFEFB3B6DE78">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-06-30"/>
       <value value-date="2019-06-30">217162</value>
@@ -1630,7 +2064,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DE52F1361D28">
+    <transaction ref="3EDBF40020EC">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-09-30"/>
       <value value-date="2019-09-30">222264</value>
@@ -1652,7 +2086,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DE52F1361D28">
+    <transaction ref="3EDBF40020EC">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-09-30"/>
       <value value-date="2019-09-30">222264</value>
@@ -1677,246 +2111,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:51-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281837</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Indo-Pacific Maritime Security Initiative (MSI) - Vietnam Participation in Multilateral Engagements</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The FY2016 National Defense Authorization Act (NDAA) Section 1263 specifies seven Indo-Pacific Maritime Security Initiative (MSI) nations for assistance and training: Indonesia, Malaysia, Philippines, Thailand, Vietnam, Sri Lanka, and Bangladesh. In addition, there is a provision that allows incremental expenses for personnel from Taiwan, Singapore and Brunei to participate in training. Country teams work through the Geographic Combatant Command (GCC) to nominate proposals to Office of the Secretary of Defense and the Joint Staff for approval. DSCA provides program management and execution through the implementing agencies.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="B6F742D7A065">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-06-30"/>
-      <value value-date="2019-06-30">107670</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B6F742D7A065">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-06-30"/>
-      <value value-date="2019-06-30">107670</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="AE9CE817415C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-09-30"/>
-      <value value-date="2019-09-30">107670</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="AE9CE817415C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-09-30"/>
-      <value value-date="2019-09-30">107670</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:52-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281749</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Ministry of Defense Advisors Program (MODA)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Vietnamese Ministry of Defense with defense planning reform initiatives. Long-term defense capacity building objectives are being achieved.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-09-30" type="3"/>
-    <activity-date iso-date="2020-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="6C6F339F8192">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-12-31"/>
-      <value value-date="2019-12-31">2036</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6C6F339F8192">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-12-31"/>
-      <value value-date="2019-12-31">2036</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:54-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281764</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:36-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288154</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1965,7 +2161,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="1D24690E3004">
+    <transaction ref="C45A8F61A51E">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-06-30"/>
       <value value-date="2019-06-30">702628</value>
@@ -1987,7 +2183,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1D24690E3004">
+    <transaction ref="C45A8F61A51E">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-06-30"/>
       <value value-date="2019-06-30">702628</value>
@@ -2009,7 +2205,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E3EB23C80818">
+    <transaction ref="4C13111D861A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-09-30"/>
       <value value-date="2019-09-30">4073876</value>
@@ -2031,7 +2227,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E3EB23C80818">
+    <transaction ref="4C13111D861A">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-09-30"/>
       <value value-date="2019-09-30">4073876</value>
@@ -2056,8 +2252,105 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:55-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281836</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:37-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288139</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Ministry of Defense Advisors Program (MODA)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Vietnamese Ministry of Defense with defense planning reform initiatives. Long-term defense capacity building objectives are being achieved.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-09-30" type="3"/>
+    <activity-date iso-date="2020-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="DE7C61C83166">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-12-31"/>
+      <value value-date="2019-12-31">2036</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DE7C61C83166">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-12-31"/>
+      <value value-date="2019-12-31">2036</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:38-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288226</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -2104,7 +2397,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="F16E13758CBF">
+    <transaction ref="F343DA8C8FBF">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-06-30"/>
       <value value-date="2018-06-30">107670</value>
@@ -2126,7 +2419,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F16E13758CBF">
+    <transaction ref="F343DA8C8FBF">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-06-30"/>
       <value value-date="2018-06-30">107670</value>
@@ -2151,7 +2444,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:57-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:40-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-346</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -2248,7 +2541,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:00-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:41-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288225</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Indo-Pacific Maritime Security Initiative (MSI) - Vietnam EDA WHEC Sustainment Package</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The FY2016 National Defense Authorization Act (NDAA) Section 1263 specifies seven Indo-Pacific Maritime Security Initiative (MSI) nations for assistance and training: Indonesia, Malaysia, Philippines, Thailand, Vietnam, Sri Lanka, and Bangladesh. In addition, there is a provision that allows incremental expenses for personnel from Taiwan, Singapore and Brunei to participate in training. Country teams work through the Geographic Combatant Command (GCC) to nominate proposals to Office of the Secretary of Defense and the Joint Staff for approval. DSCA provides program management and execution through the implementing agencies.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="565EDD5B8A63">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-09-30"/>
+      <value value-date="2018-09-30">5056800</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="565EDD5B8A63">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-09-30"/>
+      <value value-date="2018-09-30">5056800</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:42-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-345</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -2345,16 +2733,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:02-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281835</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:45-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-29409</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Indo-Pacific Maritime Security Initiative (MSI) - Vietnam EDA WHEC Sustainment Package</narrative>
+      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The FY2016 National Defense Authorization Act (NDAA) Section 1263 specifies seven Indo-Pacific Maritime Security Initiative (MSI) nations for assistance and training: Indonesia, Malaysia, Philippines, Thailand, Vietnam, Sri Lanka, and Bangladesh. In addition, there is a provision that allows incremental expenses for personnel from Taiwan, Singapore and Brunei to participate in training. Country teams work through the Geographic Combatant Command (GCC) to nominate proposals to Office of the Secretary of Defense and the Joint Staff for approval. DSCA provides program management and execution through the implementing agencies.</narrative>
+      <narrative xml:lang="en">WHEC-722 [Quantity Delivered: 1].</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -2369,10 +2757,14 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
+    <activity-date iso-date="2016-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2017-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -2393,10 +2785,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="5E7E06C650B0">
+    <transaction ref="24022B06DCC2">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2018-09-30"/>
-      <value value-date="2018-09-30">5056800</value>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">7728648</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -2404,21 +2796,21 @@
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
       </sector>
       <sector code="15210" vocabulary="1">
         <narrative>Security system management and reform</narrative>
       </sector>
       <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="5E7E06C650B0">
+    <transaction ref="24022B06DCC2">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2018-09-30"/>
-      <value value-date="2018-09-30">5056800</value>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">7728648</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -2426,116 +2818,21 @@
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
       </sector>
       <sector code="15210" vocabulary="1">
         <narrative>Security system management and reform</narrative>
       </sector>
       <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:05-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281789</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Indo-Pacific Maritime Security Initiative (MSI) - Maritime ISR Support</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The FY2016 National Defense Authorization Act (NDAA) Section 1263 specifies seven Indo-Pacific Maritime Security Initiative (MSI) nations for assistance and training: Indonesia, Malaysia, Philippines, Thailand, Vietnam, Sri Lanka, and Bangladesh. In addition, there is a provision that allows incremental expenses for personnel from Taiwan, Singapore and Brunei to participate in training. Country teams work through the Geographic Combatant Command (GCC) to nominate proposals to Office of the Secretary of Defense and the Joint Staff for approval. DSCA provides program management and execution through the implementing agencies.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="CCDA5415DEFD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-06-30"/>
-      <value value-date="2018-06-30">213903</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CCDA5415DEFD">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2018-06-30"/>
-      <value value-date="2018-06-30">213903</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:06-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:49-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-344</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -2632,8 +2929,105 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:10-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281825</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:51-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288731</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: DIILS - DIILS - VNM - Maritime Operational Law and Maritime Seucity Southeast Asia Maritime Law Enforcement Initiative Commanders Forum (SEAMLEI) - DIILS - 332b - DIILS - FY20Q2</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Institutional Capacity Building (ICB). Ministry of Defense and Defense Forces; Vietnamese Maritime Forces and Related Maritime Entities (including Vietnam Navy, Vietnam Coast Guard)</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-01-16" type="3"/>
+    <activity-date iso-date="2020-01-16" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="ADD06963D260">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-01-01"/>
+      <value value-date="2020-01-01">823</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="ADD06963D260">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-01-01"/>
+      <value value-date="2020-01-01">823</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:53-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288215</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -2680,7 +3074,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="EFE169E0AD15">
+    <transaction ref="FC4A3374635E">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-06-30"/>
       <value value-date="2018-06-30">356513</value>
@@ -2702,7 +3096,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EFE169E0AD15">
+    <transaction ref="FC4A3374635E">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-06-30"/>
       <value value-date="2018-06-30">356513</value>
@@ -2727,104 +3121,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:11-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-282442</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: Defense International Institute of Legal Studies</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Maritime Security and Operational Law Scoping Visit. Understand Vietnams maritime legal authorities, processes and procedures and begin identifying potential areas for legal ICB engagement to increase the VCG's operational effectiveness and compliance with domestic and international law.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-13" type="3"/>
-    <activity-date iso-date="2019-09-13" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="9B1E5540FD0C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">13396</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="9B1E5540FD0C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">13396</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:11-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:55-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-441</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -2921,7 +3218,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:11-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:55-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-338</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -3018,7 +3315,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:12-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:56-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-39</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -3115,7 +3412,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:13-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:57-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-343</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -3212,199 +3509,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:13-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281645</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA assisted the Vietnamese Ministry of Defense with developing deployable peacekeeping forces. Long-term capacity building objectives were achieved.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-10-01" type="1"/>
-    <activity-date iso-date="2015-10-01" type="2"/>
-    <activity-date iso-date="2016-10-11" type="3"/>
-    <activity-date iso-date="2016-10-11" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="3074A75F8754">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-09-30"/>
-      <value value-date="2016-09-30">27000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="3074A75F8754">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-09-30"/>
-      <value value-date="2016-09-30">27000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:14-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-282341</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: DIILS - DIILS - VNM - Maritime Operational Law and Maritime Seucity Southeast Asia Maritime Law Enforcement Initiative Commanders Forum (SEAMLEI) - DIILS - 332b - DIILS - FY20Q2</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Institutional Capacity Building (ICB). Ministry of Defense and Defense Forces; Vietnamese Maritime Forces and Related Maritime Entities (including Vietnam Navy, Vietnam Coast Guard)</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-01-16" type="3"/>
-    <activity-date iso-date="2020-01-16" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="CFF2EF659E63">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-01-01"/>
-      <value value-date="2020-01-01">823</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CFF2EF659E63">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-01-01"/>
-      <value value-date="2020-01-01">823</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:14-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:58-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-12617</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -3499,7 +3604,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:14-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:58-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288035</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA assisted the Vietnamese Ministry of Defense with developing deployable peacekeeping forces. Long-term capacity building objectives were achieved.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-10-01" type="1"/>
+    <activity-date iso-date="2015-10-01" type="2"/>
+    <activity-date iso-date="2016-10-11" type="3"/>
+    <activity-date iso-date="2016-10-11" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="D5D9C5A6C6FD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-09-30"/>
+      <value value-date="2016-09-30">27000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D5D9C5A6C6FD">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-09-30"/>
+      <value value-date="2016-09-30">27000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:58-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-342</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -3596,7 +3796,104 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:15-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:59-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288832</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: Defense International Institute of Legal Studies</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Maritime Security and Operational Law Scoping Visit. Understand Vietnams maritime legal authorities, processes and procedures and begin identifying potential areas for legal ICB engagement to increase the VCG's operational effectiveness and compliance with domestic and international law.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-13" type="3"/>
+    <activity-date iso-date="2019-09-13" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="9298799EB802">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">13396</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9298799EB802">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">13396</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:29:00-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-339</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -3693,7 +3990,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:15-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:29:00-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-440</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -3790,8 +4087,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:17-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-281824</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:29:02-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-288214</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -3838,7 +4135,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="6788E8271106">
+    <transaction ref="9E4F00B2A2CB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-09-30"/>
       <value value-date="2016-09-30">390884</value>
@@ -3860,7 +4157,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6788E8271106">
+    <transaction ref="9E4F00B2A2CB">
       <transaction-type code="2"/>
       <transaction-date iso-date="2016-09-30"/>
       <value value-date="2016-09-30">390884</value>
@@ -3879,6 +4176,105 @@
       </sector>
       <recipient-country code="VN"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:29:03-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-22278</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">COAST GUARD 378' HIGH ENDURANCE CUTTER [Quantity Delivered: 1].</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="193CB778E9A1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">8581000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="193CB778E9A1">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">8581000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>

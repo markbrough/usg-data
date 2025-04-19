@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-03-07T09:34:52-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-04-18T10:20:16-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA16NMF4630344</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -74,7 +74,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-10630933</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -171,7 +171,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA09OAR4310227</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -248,7 +248,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74677</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Research &amp; Development Intellectual Property 2012 Count</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-09-12" type="1"/>
+    <activity-date iso-date="2012-09-12" type="2"/>
+    <activity-date iso-date="2012-09-19" type="3"/>
+    <activity-date iso-date="2012-09-19" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="4E07EB30C171">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">1000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4E07EB30C171">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">1000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA21OAR4310142-8961</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -323,102 +418,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70233</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Research &amp; Development Intellectual Property 2012 Count</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-09-12" type="1"/>
-    <activity-date iso-date="2012-09-12" type="2"/>
-    <activity-date iso-date="2012-09-19" type="3"/>
-    <activity-date iso-date="2012-09-19" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="6CFC6E847E63">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6CFC6E847E63">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA16NES4400002-8928</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -535,7 +535,197 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74636</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Copyright in the Digital Age Symposium Count</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-09-10" type="1"/>
+    <activity-date iso-date="2012-09-10" type="2"/>
+    <activity-date iso-date="2012-09-13" type="3"/>
+    <activity-date iso-date="2012-09-13" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="C73A32F36C94">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">51235</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C73A32F36C94">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">51235</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74661</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Patent Examination</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-03-13" type="1"/>
+    <activity-date iso-date="2012-03-13" type="2"/>
+    <activity-date iso-date="2012-03-16" type="3"/>
+    <activity-date iso-date="2012-03-16" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="4015B90FC3C1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4015B90FC3C1">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKAA1100005</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -630,7 +820,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA18OAR4310111-8951</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -707,7 +897,7 @@
       <narrative>78,530</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA14NMF4330273-8918</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -780,7 +970,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-IAA 14143077-0000-000</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -875,7 +1065,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKPR02300001</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -952,7 +1142,7 @@
       <narrative>40,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST042100001</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1027,7 +1217,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74682</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The International Music Prodcuts Assocation (NAMM) IP Training</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-03-29" type="1"/>
+    <activity-date iso-date="2012-03-29" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="C2AE1E99627A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">1075</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C2AE1E99627A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">1075</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-EE-133E-16-SE-1009-8828</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1122,7 +1407,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74683</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The International Music Products Association (NAMM) Annual Show</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-01-18" type="1"/>
+    <activity-date iso-date="2012-01-18" type="2"/>
+    <activity-date iso-date="2012-01-25" type="3"/>
+    <activity-date iso-date="2012-01-25" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="77B3312F8B8B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">8825</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="77B3312F8B8B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">8825</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA22NMF0080359</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1198,8 +1578,8 @@
       <narrative>25,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70212</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74695</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
     </reporting-org>
@@ -1207,7 +1587,7 @@
       <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Madrid Protocol Implementation and Administration Program</narrative>
+      <narrative xml:lang="en">USPTO GIPA / U.S. DOS Foreign Service Institute (FSI) - PE 138 Intellectual Property Rights</narrative>
     </description>
     <participating-org ref="12" role="1" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1222,10 +1602,10 @@
       <narrative>U.S. Government - Department of Commerce</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-03-27" type="1"/>
-    <activity-date iso-date="2012-03-27" type="2"/>
-    <activity-date iso-date="2012-03-30" type="3"/>
-    <activity-date iso-date="2012-03-30" type="4"/>
+    <activity-date iso-date="2012-07-19" type="1"/>
+    <activity-date iso-date="2012-07-19" type="2"/>
+    <activity-date iso-date="2012-07-20" type="3"/>
+    <activity-date iso-date="2012-07-20" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Commerce</narrative>
@@ -1246,10 +1626,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="4CA415B7A3A9">
+    <transaction ref="1B62DA9D43BA">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">60000</value>
+      <value value-date="2012-01-01">1000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1268,10 +1648,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4CA415B7A3A9">
+    <transaction ref="1B62DA9D43BA">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">60000</value>
+      <value value-date="2012-01-01">1000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -1293,7 +1673,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA14NMF4330273-8919</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1368,8 +1748,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70195</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74656</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
     </reporting-org>
@@ -1377,7 +1757,7 @@
       <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">General IPR Enforcement</narrative>
+      <narrative xml:lang="en">Madrid Protocol Implementation and Administration Program</narrative>
     </description>
     <participating-org ref="12" role="1" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1392,10 +1772,10 @@
       <narrative>U.S. Government - Department of Commerce</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-03-20" type="1"/>
-    <activity-date iso-date="2012-03-20" type="2"/>
-    <activity-date iso-date="2012-03-23" type="3"/>
-    <activity-date iso-date="2012-03-23" type="4"/>
+    <activity-date iso-date="2012-03-27" type="1"/>
+    <activity-date iso-date="2012-03-27" type="2"/>
+    <activity-date iso-date="2012-03-30" type="3"/>
+    <activity-date iso-date="2012-03-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Commerce</narrative>
@@ -1416,7 +1796,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="4061B2AF3A2B">
+    <transaction ref="D63555BE85D0">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">60000</value>
@@ -1438,7 +1818,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4061B2AF3A2B">
+    <transaction ref="D63555BE85D0">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">60000</value>
@@ -1463,7 +1843,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-IAA 2009-140-025 A3</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1558,7 +1938,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA18OAR4310111-8950</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1765,7 +2145,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NRMT00002100019-9011</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1841,7 +2221,102 @@
       <narrative>13,800</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74660</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Patent Cooperation Treaty (PCT) and ISA/IPEA Program</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-11-28" type="1"/>
+    <activity-date iso-date="2011-11-28" type="2"/>
+    <activity-date iso-date="2011-12-01" type="3"/>
+    <activity-date iso-date="2011-12-01" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="0B4B24D08F1E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">53600</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0B4B24D08F1E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">53600</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA12NMF4690058-8907</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1914,7 +2389,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST051800001-8994</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -1989,7 +2464,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA16NES4400002-8929</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -2064,8 +2539,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70232</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74676</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
     </reporting-org>
@@ -2112,7 +2587,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="1363C40AE4B8">
+    <transaction ref="272D2CD054AF">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">400</value>
@@ -2134,7 +2609,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1363C40AE4B8">
+    <transaction ref="272D2CD054AF">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">400</value>
@@ -2159,7 +2634,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74699</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">USPTO/SBA Intellectual Property Awareness Campaign (IPAC)</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-07-09" type="1"/>
+    <activity-date iso-date="2012-07-09" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="2C30251E41D9">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">2655</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="2C30251E41D9">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">2655</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NRMT00001900017-9000</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -2256,7 +2826,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA21OAR4310254</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -2331,7 +2901,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA18NMF0080344-8949</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -2406,7 +2976,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKAA01100006</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -2479,8 +3049,103 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70203</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74702</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">WIPO-USPTO Judicial Colloquium on Intellectual Property Rights</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-05-08" type="1"/>
+    <activity-date iso-date="2012-05-08" type="2"/>
+    <activity-date iso-date="2012-05-10" type="3"/>
+    <activity-date iso-date="2012-05-10" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="5480B021216F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">6930</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5480B021216F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">6930</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74647</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
     </reporting-org>
@@ -2527,7 +3192,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="9A3CD7BAF73A">
+    <transaction ref="1916A9F92F07">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">5000</value>
@@ -2549,7 +3214,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="9A3CD7BAF73A">
+    <transaction ref="1916A9F92F07">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">5000</value>
@@ -2574,102 +3239,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70192</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Copyright in the Digital Age Symposium Count</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-09-10" type="1"/>
-    <activity-date iso-date="2012-09-10" type="2"/>
-    <activity-date iso-date="2012-09-13" type="3"/>
-    <activity-date iso-date="2012-09-13" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="AB1D7C849F67">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">51235</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="AB1D7C849F67">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">51235</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA11NES4400011-8898</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -2764,7 +3334,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST041700005</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -2839,7 +3409,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKAA01200003-8977</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -2912,197 +3482,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70215</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Overview of the Patent Application Examination Process, Patent Reexamination and Post-Grant Proceedings</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-05-16" type="1"/>
-    <activity-date iso-date="2012-05-16" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3"/>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="17F0EBAAA9D7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">2950</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="17F0EBAAA9D7">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">2950</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70239</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The International Music Products Association (NAMM) Annual Show</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-01-18" type="1"/>
-    <activity-date iso-date="2012-01-18" type="2"/>
-    <activity-date iso-date="2012-01-25" type="3"/>
-    <activity-date iso-date="2012-01-25" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="81987177A30C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">8825</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="81987177A30C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">8825</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-AB133F12SE2389</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -3179,7 +3559,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST0600001</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -3254,7 +3634,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFK18ST0400004</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -3329,7 +3709,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA18NMF0080297</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -3426,102 +3806,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70258</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">WIPO-USPTO Judicial Colloquium on Intellectual Property Rights</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-05-08" type="1"/>
-    <activity-date iso-date="2012-05-08" type="2"/>
-    <activity-date iso-date="2012-05-10" type="3"/>
-    <activity-date iso-date="2012-05-10" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F37512FABD3A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">6930</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F37512FABD3A">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">6930</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST001700001</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -3596,102 +3881,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70262</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">[Dallas, TX] 6th Annual "Creating a Presence" Technical Assistance National Training Conference for Minority Serving Institutions (MSIs) - S. Anthony (Invitational Speaker)</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-09-24" type="1"/>
-    <activity-date iso-date="2012-09-24" type="2"/>
-    <activity-date iso-date="2012-09-26" type="3"/>
-    <activity-date iso-date="2012-09-26" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="E7568A41574D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E7568A41574D">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA21NES4400001-9016</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -3790,7 +3980,7 @@
       <narrative>950,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA12NMF4690179-8909</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -3863,102 +4053,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70235</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">SABIT Program - Intellectual Property Rights: Technology Commercialization</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-04-12" type="1"/>
-    <activity-date iso-date="2012-04-12" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3"/>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="640A2766EFC8">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">150</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="640A2766EFC8">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">150</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST051800001-8993</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -4033,7 +4128,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA16NMF4630339</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -4108,7 +4203,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST072100000</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -4183,7 +4278,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA19OAR4310172-8957</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -4390,8 +4485,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70222</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74666</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
     </reporting-org>
@@ -4438,7 +4533,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="D7CDF65373C0">
+    <transaction ref="A1B2D1D9AF7D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">2040</value>
@@ -4460,7 +4555,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D7CDF65373C0">
+    <transaction ref="A1B2D1D9AF7D">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">2040</value>
@@ -4485,7 +4580,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA15NMF4630365</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -4558,7 +4653,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA15OAR4310153</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -4631,102 +4726,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70238</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The International Music Prodcuts Assocation (NAMM) IP Training</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-03-29" type="1"/>
-    <activity-date iso-date="2012-03-29" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3"/>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="0B2DF57BB5AA">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1075</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0B2DF57BB5AA">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1075</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA16OAR4310071</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -4821,7 +4821,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKAA01200003-8976</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -4894,102 +4894,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70214</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">NSF SBIR Phase I Workshop (186 total attendees associated with 126 SMEs receiving Phase I Small Business Innovation Research (SBIR) grants)</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-09-26" type="1"/>
-    <activity-date iso-date="2012-09-26" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3"/>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="70686E46C0C7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">200</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="70686E46C0C7">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">200</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA11NES4400011-8899</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -5084,292 +4989,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70243</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">U.S. Commercial Service/ National Entreprenuer Center/ District Export Council/ USPTO - Intellectual Property Awareness Campaign (IPAC)</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-08-28" type="1"/>
-    <activity-date iso-date="2012-08-28" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3"/>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="D10D9276F383">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">5000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D10D9276F383">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">5000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70185</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">2012 Patent Statistics for Decision Makers</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-11-16" type="1"/>
-    <activity-date iso-date="2011-11-16" type="2"/>
-    <activity-date iso-date="2011-11-17" type="3"/>
-    <activity-date iso-date="2011-11-17" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="782EBDE048A8">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">56176</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="782EBDE048A8">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">56176</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70255</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">USPTO/SBA Intellectual Property Awareness Campaign (IPAC)</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-07-09" type="1"/>
-    <activity-date iso-date="2012-07-09" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3"/>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="6EAFE488C6E7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">2655</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6EAFE488C6E7">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">2655</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA18NMF0080344-8948</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -5488,7 +5108,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-2008-140-012</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -5561,7 +5181,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA15NMF4520387</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -5634,102 +5254,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70217</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Patent Examination</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-03-13" type="1"/>
-    <activity-date iso-date="2012-03-13" type="2"/>
-    <activity-date iso-date="2012-03-16" type="3"/>
-    <activity-date iso-date="2012-03-16" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="FE22FB474E90">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="FE22FB474E90">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NRMT00002100019-9002</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -5804,7 +5329,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-DG133E14BA0019-8787</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -5899,8 +5424,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70256</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74700</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
     </reporting-org>
@@ -5947,7 +5472,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="77C38904463E">
+    <transaction ref="F5CEC14390B7">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">798</value>
@@ -5969,7 +5494,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="77C38904463E">
+    <transaction ref="F5CEC14390B7">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">798</value>
@@ -5994,7 +5519,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-IAA 2009-140-078</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6111,7 +5636,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-MOA 11140001-0000-000</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6206,7 +5731,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-1305M319PNRMJ0346</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6303,7 +5828,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA11NMF4520030</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6376,7 +5901,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA12NMF4540206</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6449,7 +5974,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-DG-133E-13-CQ-0009/T0027-8784</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6544,7 +6069,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA12OAR4520139</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6617,7 +6142,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA11NES4400011-8897</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6756,7 +6281,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST001700002</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6829,7 +6354,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA19OAR4310172-9017</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -6950,7 +6475,7 @@
       <narrative>213,146</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-1333MD20PNEEA0060</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -7025,7 +6550,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-IAA 11143045-0000-000</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -7186,102 +6711,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70220</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Plant Variety Protection Under the UPOV Convention-Train the Trainers</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-04-23" type="1"/>
-    <activity-date iso-date="2012-04-23" type="2"/>
-    <activity-date iso-date="2012-04-27" type="3"/>
-    <activity-date iso-date="2012-04-27" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="CF8CA021F05C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">63300</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CF8CA021F05C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">63300</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA13NMF4410185</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -7354,7 +6784,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-14140047-0000-000</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -7449,8 +6879,103 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70257</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74664</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Plant Variety Protection Under the UPOV Convention-Train the Trainers</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-04-23" type="1"/>
+    <activity-date iso-date="2012-04-23" type="2"/>
+    <activity-date iso-date="2012-04-27" type="3"/>
+    <activity-date iso-date="2012-04-27" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="3A082A6B0F6F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">63300</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3A082A6B0F6F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">63300</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74701</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
     </reporting-org>
@@ -7497,7 +7022,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="304E31F7B273">
+    <transaction ref="9A42C48D295E">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">1000</value>
@@ -7519,7 +7044,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="304E31F7B273">
+    <transaction ref="9A42C48D295E">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">1000</value>
@@ -7544,7 +7069,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-DG133E14BA0019-8786</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -7621,102 +7146,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70216</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Patent Cooperation Treaty (PCT) and ISA/IPEA Program</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-11-28" type="1"/>
-    <activity-date iso-date="2011-11-28" type="2"/>
-    <activity-date iso-date="2011-12-01" type="3"/>
-    <activity-date iso-date="2011-12-01" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="D5111BFB3B26">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">53600</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D5111BFB3B26">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">53600</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NRMAD0002100618</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -7793,7 +7223,7 @@
       <narrative>6,900</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA21NES4400001-8960</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -7868,7 +7298,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74629</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">2012 Patent Statistics for Decision Makers</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-11-16" type="1"/>
+    <activity-date iso-date="2011-11-16" type="2"/>
+    <activity-date iso-date="2011-11-17" type="3"/>
+    <activity-date iso-date="2011-11-17" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="FAD699E6D5E6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">56176</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FAD699E6D5E6">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">56176</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-DG133E12CN0077</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -7967,7 +7492,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFK18ST0400007</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8042,7 +7567,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74687</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">U.S. Commercial Service/ National Entreprenuer Center/ District Export Council/ USPTO - Intellectual Property Awareness Campaign (IPAC)</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-08-28" type="1"/>
+    <activity-date iso-date="2012-08-28" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="7D1584CA643F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">5000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7D1584CA643F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">5000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA12NMF4690179-8910</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8115,7 +7735,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-IAA 12143039-0000-002</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8210,7 +7830,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-1305M322DNRMT0001</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8330,7 +7950,7 @@
       <narrative>8,221,194</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-IAA 13143062-0000-001</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8447,7 +8067,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74659</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Overview of the Patent Application Examination Process, Patent Reexamination and Post-Grant Proceedings</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-05-16" type="1"/>
+    <activity-date iso-date="2012-05-16" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="26C3E1172A3D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">2950</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="26C3E1172A3D">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">2950</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST071700003-8997</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8522,7 +8237,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA13NMF4520292</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8595,7 +8310,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST042100003</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8670,7 +8385,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA20NMF4540150</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8789,7 +8504,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NTMT00002200005</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -8865,7 +8580,7 @@
       <narrative>13,800</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-MOU 13144003</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9004,7 +8719,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA19NMF4540284</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9123,7 +8838,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-60NANB15D333</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9220,7 +8935,197 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74679</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">SABIT Program - Intellectual Property Rights: Technology Commercialization</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-04-12" type="1"/>
+    <activity-date iso-date="2012-04-12" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="893E43A42B35">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">150</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="893E43A42B35">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">150</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74706</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">[Dallas, TX] 6th Annual "Creating a Presence" Technical Assistance National Training Conference for Minority Serving Institutions (MSIs) - S. Anthony (Invitational Speaker)</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-09-24" type="1"/>
+    <activity-date iso-date="2012-09-24" type="2"/>
+    <activity-date iso-date="2012-09-26" type="3"/>
+    <activity-date iso-date="2012-09-26" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="4FEECECFAD1B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">1500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4FEECECFAD1B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">1500</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA16NMF0080375</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9315,7 +9220,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:45-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA15OAR4310068</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9388,7 +9293,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA18NMF0080342</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9485,7 +9390,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA18OAR4310111-8952</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9560,7 +9465,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKAA01100003</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9633,7 +9538,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-2009-140-075</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9706,7 +9611,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA16NMF0080374</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9781,102 +9686,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-16-70251</iati-identifier>
-    <reporting-org ref="US-GOV-16" type="10">
-      <narrative>Department of Commerce</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">USPTO GIPA / U.S. DOS Foreign Service Institute (FSI) - PE 138 Intellectual Property Rights</narrative>
-    </description>
-    <participating-org ref="12" role="1" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="2" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-16" role="3" type="10">
-      <narrative>Department of Commerce</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Commerce</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-07-19" type="1"/>
-    <activity-date iso-date="2012-07-19" type="2"/>
-    <activity-date iso-date="2012-07-20" type="3"/>
-    <activity-date iso-date="2012-07-20" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Commerce</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Min Bookbinder; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-482-2000</telephone>
-      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="8D313C3B8E08">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8D313C3B8E08">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-16">
-        <narrative>U.S. Government - Department of Commerce</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-region code="998"/>
-      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-MOU 14143028-0000-000</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -9949,7 +9759,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA15NMF4630204</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -10024,7 +9834,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74639</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">General IPR Enforcement</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-03-20" type="1"/>
+    <activity-date iso-date="2012-03-20" type="2"/>
+    <activity-date iso-date="2012-03-23" type="3"/>
+    <activity-date iso-date="2012-03-23" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="F31942459392">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">60000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F31942459392">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">60000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-DG-133E-13-CQ-0009/T0027-8783</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -10119,7 +10024,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NFFKST071700003-8996</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -10192,7 +10097,102 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-16-74658</iati-identifier>
+    <reporting-org ref="US-GOV-16" type="10">
+      <narrative>Department of Commerce</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USPTO FY2012 Technical Assistance Activities</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">NSF SBIR Phase I Workshop (186 total attendees associated with 126 SMEs receiving Phase I Small Business Innovation Research (SBIR) grants)</narrative>
+    </description>
+    <participating-org ref="12" role="1" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="2" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-16" role="3" type="10">
+      <narrative>Department of Commerce</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Commerce</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-09-26" type="1"/>
+    <activity-date iso-date="2012-09-26" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Commerce</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Min Bookbinder; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-482-2000</telephone>
+      <email>MBookbinder@doc.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1401 Constitution Ave. NW, Washington DC 20230</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="451E62011B33">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">200</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="451E62011B33">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">200</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-16">
+        <narrative>U.S. Government - Department of Commerce</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-region code="998"/>
+      <usg:treasury-account code="13x1006">Patent and Trademark Office, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NA14NMF4330273-8917</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -10265,7 +10265,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-NRMT00002300009</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -10341,7 +10341,7 @@
       <narrative>13,800</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-SONG YOU HONG</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>
@@ -10414,7 +10414,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:34:46-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:20:05-04:00" xml:lang="en">
     <iati-identifier>US-GOV-16-EE-133E-16-SE-1009-8827</iati-identifier>
     <reporting-org ref="US-GOV-16" type="10">
       <narrative>Department of Commerce</narrative>

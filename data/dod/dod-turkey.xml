@@ -1,14 +1,14 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-03-07T09:40:15-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:41-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-25286</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-04-18T10:30:24-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:38-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-29580</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Disaster Relief - Turkey Disaster Relief</narrative>
+      <narrative xml:lang="en">Humanitarian Assistance</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Disaster Relief - Turkey Disaster Relief through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
+      <narrative xml:lang="en">Humanitarian Assistance for the Turkey Disaster through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -23,14 +23,14 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
+    <activity-date iso-date="2013-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
+    <activity-date iso-date="2013-10-01" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
+    <activity-date iso-date="2014-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -51,10 +51,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="6AFF94C5AEDA">
+    <transaction ref="26BA24AAFD36">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">907000</value>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">89000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -73,10 +73,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6AFF94C5AEDA">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1324000</value>
+    <transaction ref="FFD7A3412C5C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-01-01"/>
+      <value value-date="2015-01-01">209000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -95,10 +95,54 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E5861B91F679">
+    <transaction ref="FFD7A3412C5C">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">-3000</value>
+      <transaction-date iso-date="2015-01-01"/>
+      <value value-date="2015-01-01">-117000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="TR"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="74AAE2A4132E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">-112000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="TR"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="74AAE2A4132E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">-263000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -120,150 +164,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:44-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-25321</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Disaster Relief - Turkey Earthquake</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Disaster Relief - Turkey Earthquake through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2023-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="09AB37D8CF8D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-01-01"/>
-      <value value-date="2023-01-01">11255000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="TR"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="09AB37D8CF8D">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-01-01"/>
-      <value value-date="2023-01-01">13158000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="TR"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C9156C4BF418">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-01-01"/>
-      <value value-date="2024-01-01">223000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="TR"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C9156C4BF418">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-01-01"/>
-      <value value-date="2024-01-01">223000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="TR"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:00-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:42-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-20327</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -360,7 +261,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:00-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:43-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-NESA-500</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -457,41 +358,41 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:04-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-22985</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:49-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-22161</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of the Army</narrative>
+      <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
       <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority. M119A2 Propelling Charges, (155mm Howitzer), Quantity Delivered: 50000.</narrative>
+      <narrative xml:lang="en">CHARGE, PROPELLING, 155 MILLIMETER, WHITE BAG, M119 SERIES, WITHOUT [Quantity Delivered: 50000].</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
     </participating-org>
     <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of the Army</narrative>
+      <narrative>Department of Defense</narrative>
     </participating-org>
     <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of the Army</narrative>
+      <narrative>Department of Defense</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of the Army</narrative>
+      <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1">
+    <activity-date iso-date="2018-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3">
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2017-09-30" type="4"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
-        <narrative>Department of the Army</narrative>
+        <narrative>Department of Defense</narrative>
       </organisation>
       <person-name>
         <narrative>Renee Haynes; Ryan Boles</narrative>
@@ -509,15 +410,15 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="75FDBBC3D0E1">
+    <transaction ref="40EA4426F5D7">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">3405000</value>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">3045000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org>
-        <narrative>U.S. Government - Department of the Army</narrative>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="3" vocabulary="99">
@@ -531,15 +432,15 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="75FDBBC3D0E1">
+    <transaction ref="40EA4426F5D7">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">3405000</value>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">3045000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org>
-        <narrative>U.S. Government - Department of the Army</narrative>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="3" vocabulary="99">
@@ -556,16 +457,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:39:07-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-25299</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:55-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-29602</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Humanitarian Assistance</narrative>
+      <narrative xml:lang="en">Disaster Relief - Turkey Earthquake</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Humanitarian Assistance for the Turkey Disaster through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
+      <narrative xml:lang="en">Disaster Relief - Turkey Earthquake through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -580,14 +481,14 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2013-10-01" type="1">
+    <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2013-10-01" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3">
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2014-09-30" type="4"/>
+    <activity-date iso-date="2023-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -608,10 +509,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="0CBE892D3B5C">
+    <transaction ref="12310C78A7A5">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">89000</value>
+      <transaction-date iso-date="2023-01-01"/>
+      <value value-date="2023-01-01">11255000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -630,32 +531,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="12A3DB159C6D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-01-01"/>
-      <value value-date="2015-01-01">209000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="TR"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="12A3DB159C6D">
+    <transaction ref="12310C78A7A5">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2015-01-01"/>
-      <value value-date="2015-01-01">-117000</value>
+      <transaction-date iso-date="2023-01-01"/>
+      <value value-date="2023-01-01">13158000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -674,10 +553,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D515CEDB9EE2">
+    <transaction ref="C4BCEBEE1CA3">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">-112000</value>
+      <transaction-date iso-date="2024-01-01"/>
+      <value value-date="2024-01-01">739000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -696,10 +575,131 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D515CEDB9EE2">
+    <transaction ref="C4BCEBEE1CA3">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">-263000</value>
+      <transaction-date iso-date="2024-01-01"/>
+      <value value-date="2024-01-01">-811000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="TR"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:29:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-29567</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Disaster Relief - Turkey Disaster Relief</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Disaster Relief - Turkey Disaster Relief through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="71646D643FB3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">907000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="TR"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="71646D643FB3">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">1324000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="TR"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="283D2E6A442A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">-3000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>

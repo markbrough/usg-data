@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-03-07T09:40:24-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-03-07T09:38:54-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-25297</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-04-18T10:30:13-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-04-18T10:28:32-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-29578</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -51,7 +51,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="D0302CA292F6">
+    <transaction ref="9D2566D1DA30">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">1661000</value>
@@ -73,7 +73,7 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D0302CA292F6">
+    <transaction ref="9D2566D1DA30">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">1669000</value>
@@ -95,10 +95,32 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3D7B57ADD664">
+    <transaction ref="91A3B4BE4424">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-01-01"/>
       <value value-date="2020-01-01">1000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="VE"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="52CD0CB17480">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-01-01"/>
+      <value value-date="2024-01-01">-7000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
