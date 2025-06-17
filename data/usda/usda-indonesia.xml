@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-05-06T10:15:48-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:09-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-06-16T12:39:11-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:17-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-17IG11131327071</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -74,7 +74,7 @@
       <narrative>338,675</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:10-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:17-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX20BF-10777R002</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -169,18 +169,20 @@
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>49,995</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-245475</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:19-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-21DG11132762302-245108</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Poultry Health Training</narrative>
+      <narrative xml:lang="en">One health programming</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Activity 1: Poultry Health Training for poultry veterinarians in cooperation with the Indonesian Poultry Veterinarian Association (IPVA). APHIS Jakarta conducted training in West Java and wants to expand the training to other major poultry production areas in East Java, Central Java, and Lampung in southern Sumatra. The target areas along with West Java are the major commercial poultry producers in Indonesia. The target audiences for the trainings are poultry veterinarians from industry, government and small producers. The trainings are registered as continuing education credits under the Indonesian Veterinary Medical Association (IVMA). The requested funding will cover the preparation phase and implementation of the Poultry Health Training. Activity 2: 10/18-12/21/2011 In the initial phase the Jakarta Ag-Scientist visited one district in West Java Province to develop a relationship with a local poultry company and to implement a biosecurity risk assessment with some of the company's contract grower farms. Objectives of the training included, developing best practices on biosecur</narrative>
+      <narrative xml:lang="en">To extend Forest Service efforts to improve forest policies and practices internationally, address climate change, conserve and protect critical global forest environments and resources, and improve the lives of forest-dependent peoples by awarding grants to and entering into cooperative agreements with nonprofit organizations, multilateral organizations, and other individuals, organizations, institutions, and governments engaged in forest conservation and management.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -192,13 +194,15 @@
       <narrative>Department of Agriculture</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
+      <narrative>Field Projects International</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-10-10" type="1"/>
-    <activity-date iso-date="2012-10-10" type="2"/>
-    <activity-date iso-date="2012-12-16" type="3"/>
-    <activity-date iso-date="2012-12-16" type="4"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2023-12-31" type="3"/>
+    <activity-date iso-date="2023-12-31" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -217,56 +221,34 @@
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
+    <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="6C2721A54B8D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">64000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31195" vocabulary="1">
-        <narrative>Livestock/veterinary services</narrative>
-      </sector>
-      <recipient-country code="ID"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6C2721A54B8D">
+    <transaction ref="26367BD89395">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">64000</value>
+      <transaction-date iso-date="2021-07-26"/>
+      <value value-date="2021-07-26">120000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
+      <receiver-org>
+        <narrative>Field Projects International</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
       </sector>
-      <sector code="31195" vocabulary="1">
-        <narrative>Livestock/veterinary services</narrative>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
       </sector>
       <recipient-country code="ID"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:11-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R036</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -339,16 +321,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:12-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-2426-245556</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:19-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-2678-244514</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Basic Veterinary Epidemiology Course</narrative>
+      <narrative xml:lang="en">Indonesia - Cold Treatment Training</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">From May 2-13, 2016, the participants, all trained veterinarians, were trained in epidemiological skills necessary to identify and manage disease outbreaks. In addition, they learned skills in geospatial analysis necessary for establishing parameters to effectively control the outbreak and identify the risks associated with the outbreak. Indian veterinarians receive little or no training in epidemiology therefore it is vital that they have the opportunity to train in the environment.</narrative>
+      <narrative xml:lang="en">APHIS ITRCB in coordination with APHIS/Bangkok and USDA/FAS/Jakarta offered at the request of the Indonesia NPPO, to implement a Cold Treatment training for Indonesia quarantine inspectors in Surabaya, Indonesia.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -363,10 +345,10 @@
       <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2016-05-02" type="1"/>
-    <activity-date iso-date="2016-05-02" type="2"/>
-    <activity-date iso-date="2016-05-13" type="3"/>
-    <activity-date iso-date="2016-05-13" type="4"/>
+    <activity-date iso-date="2016-09-06" type="1"/>
+    <activity-date iso-date="2016-09-06" type="2"/>
+    <activity-date iso-date="2016-09-09" type="3"/>
+    <activity-date iso-date="2016-09-09" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -387,10 +369,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="23123E6BF3FC">
+    <transaction ref="CAC919841732">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">16568</value>
+      <value value-date="2016-01-01">21000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -409,10 +391,10 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="23123E6BF3FC">
+    <transaction ref="CAC919841732">
       <transaction-type code="2"/>
       <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">16568</value>
+      <value value-date="2016-01-01">21000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -434,107 +416,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:13-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-21IJ11272136005</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">NATURAL ENEMIES OF FALCATARIA</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">To extend Forest Service efforts to improve forest policies and practices internationally, address climate change, conserve and protect critical global forest environments and resources, and improve the lives of forest-dependent peoples by awarding grants to and entering into cooperative agreements with nonprofit organizations, multilateral organizations, and other individuals, organizations, institutions, and governments engaged in forest conservation and management.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Institut Pertanian Bogor University</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2023-06-30" type="3"/>
-    <activity-date iso-date="2023-06-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="5"/>
-    <transaction ref="A54CBE4D6B12">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-04-23"/>
-      <value value-date="2021-04-23">11596</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Institut Pertanian Bogor University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31220" vocabulary="1">
-        <narrative>Forestry development</narrative>
-      </sector>
-      <recipient-country code="ID"/>
-      <usg:treasury-account code="12x1104">Forest and Rangeland Research, Forest Service
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="252BFDEB52CB">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">37465</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Institut Pertanian Bogor University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31220" vocabulary="1">
-        <narrative>Forestry development</narrative>
-      </sector>
-      <recipient-country code="ID"/>
-      <usg:treasury-account code="12x1104">Forest and Rangeland Research, Forest Service
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>11,596</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:13-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-20IG11132762094-246085</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:20-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-20IG11132762094-245020</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -542,7 +425,7 @@
       <narrative xml:lang="en">International Forestry Programs</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">PROJECT CAPACITY BUILDING FOR AGRICULTURAL PURPOSES AND BETTERMENT OF THE ENVIRONMENT</narrative>
+      <narrative xml:lang="en">THIS INTERNATIONAL FORESTRY PROGRAM WILL PROVIDE PROJECT CAPACITY BUILDING FOR AGRICULTURAL PURPOSES</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -583,10 +466,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="5"/>
-    <transaction ref="F18F302EEA68">
+    <transaction ref="127D3C9447EE">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2020-09-28"/>
-      <value value-date="2020-09-28">119000</value>
+      <transaction-date iso-date="2020-05-11"/>
+      <value value-date="2020-05-11">90000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -607,10 +490,105 @@
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>74,000</narrative>
+      <narrative>60,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:13-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:20-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-244628</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Poultry Health Training</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Activity 1: Poultry Health Training for poultry veterinarians in cooperation with the Indonesian Poultry Veterinarian Association (IPVA). APHIS Jakarta conducted training in West Java and wants to expand the training to other major poultry production areas in East Java, Central Java, and Lampung in southern Sumatra. The target areas along with West Java are the major commercial poultry producers in Indonesia. The target audiences for the trainings are poultry veterinarians from industry, government and small producers. The trainings are registered as continuing education credits under the Indonesian Veterinary Medical Association (IVMA). The requested funding will cover the preparation phase and implementation of the Poultry Health Training. Activity 2: 10/18-12/21/2011 In the initial phase the Jakarta Ag-Scientist visited one district in West Java Province to develop a relationship with a local poultry company and to implement a biosecurity risk assessment with some of the company's contract grower farms. Objectives of the training included, developing best practices on biosecur</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-10-10" type="1"/>
+    <activity-date iso-date="2012-10-10" type="2"/>
+    <activity-date iso-date="2012-12-16" type="3"/>
+    <activity-date iso-date="2012-12-16" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="F165B6841DF7">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">64000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31195" vocabulary="1">
+        <narrative>Livestock/veterinary services</narrative>
+      </sector>
+      <recipient-country code="ID"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F165B6841DF7">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">64000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31195" vocabulary="1">
+        <narrative>Livestock/veterinary services</narrative>
+      </sector>
+      <recipient-country code="ID"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC-497-2004/056</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -687,8 +665,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:13-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-20IG11132762094-246086</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:22-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-20IG11132762094-244998</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -696,7 +674,7 @@
       <narrative xml:lang="en">International Forestry Programs</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">THIS INTERNATIONAL FORESTRY PROGRAM WILL PROVIDE PROJECT CAPACITY BUILDING FOR AGRICULTURAL PURPOSES</narrative>
+      <narrative xml:lang="en">PROJECT CAPACITY BUILDING FOR AGRICULTURAL PURPOSES AND BETTERMENT OF THE ENVIRONMENT</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -737,10 +715,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="5"/>
-    <transaction ref="3BC9BC2013CF">
+    <transaction ref="66A408926812">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2020-05-11"/>
-      <value value-date="2020-05-11">90000</value>
+      <transaction-date iso-date="2020-09-28"/>
+      <value value-date="2020-09-28">119000</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
@@ -761,10 +739,10 @@
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>60,000</narrative>
+      <narrative>74,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:14-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC-497-2019/043</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -839,7 +817,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:15-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:23-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC4972019043</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1223,7 +1201,84 @@
       <narrative>20,610,436</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:15-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:24-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-17IG11131327071-0003</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">HUMAN RESOURCES POLICY DEVELOPMENT AND PAYROLL MANAGEMENT</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">HUMAN RESOURCES POLICY DEVELOPMENT AND PAYROLL MANAGEMENT</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Yayasan Puter Indonesia</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-10-30" type="3"/>
+    <activity-date iso-date="2018-10-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="5"/>
+    <transaction ref="32FC23877E88">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-02-26"/>
+      <value value-date="2018-02-26">115000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Yayasan Puter Indonesia</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="ID"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>115,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-15-032</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1320,7 +1375,7 @@
       <narrative>34,979</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:15-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-13IC11132762231</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1395,102 +1450,7 @@
       <narrative>-50</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:16-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-2678-245634</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Indonesia - Cold Treatment Training</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">APHIS ITRCB in coordination with APHIS/Bangkok and USDA/FAS/Jakarta offered at the request of the Indonesia NPPO, to implement a Cold Treatment training for Indonesia quarantine inspectors in Surabaya, Indonesia.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-09-06" type="1"/>
-    <activity-date iso-date="2016-09-06" type="2"/>
-    <activity-date iso-date="2016-09-09" type="3"/>
-    <activity-date iso-date="2016-09-09" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="12B67FED54CF">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">21000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="ID"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="12B67FED54CF">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">21000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="ID"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:16-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-16-021</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1563,16 +1523,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:17-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-17IG111313270710003</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:26-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-2426-244354</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">HUMAN RESOURCES POLICY DEVELOPMENT AND PAYROLL MANAGEMENT</narrative>
+      <narrative xml:lang="en">Basic Veterinary Epidemiology Course</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">HUMAN RESOURCES POLICY DEVELOPMENT AND PAYROLL MANAGEMENT</narrative>
+      <narrative xml:lang="en">From May 2-13, 2016, the participants, all trained veterinarians, were trained in epidemiological skills necessary to identify and manage disease outbreaks. In addition, they learned skills in geospatial analysis necessary for establishing parameters to effectively control the outbreak and identify the risks associated with the outbreak. Indian veterinarians receive little or no training in epidemiology therefore it is vital that they have the opportunity to train in the environment.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1584,15 +1544,13 @@
       <narrative>Department of Agriculture</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Yayasan Puter Indonesia</narrative>
+      <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-10-30" type="3"/>
-    <activity-date iso-date="2018-10-30" type="4"/>
+    <activity-date iso-date="2016-05-02" type="1"/>
+    <activity-date iso-date="2016-05-02" type="2"/>
+    <activity-date iso-date="2016-05-13" type="3"/>
+    <activity-date iso-date="2016-05-13" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -1611,110 +1569,53 @@
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="5"/>
-    <transaction ref="32FC23877E88">
+    <default-aid-type code="D01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="AB21A090942F">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2018-02-26"/>
-      <value value-date="2018-02-26">115000</value>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">16568</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org>
-        <narrative>Yayasan Puter Indonesia</narrative>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="ID"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>115,000</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:17-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-21DG11132762302-246136</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">One health programming</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">To extend Forest Service efforts to improve forest policies and practices internationally, address climate change, conserve and protect critical global forest environments and resources, and improve the lives of forest-dependent peoples by awarding grants to and entering into cooperative agreements with nonprofit organizations, multilateral organizations, and other individuals, organizations, institutions, and governments engaged in forest conservation and management.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Field Projects International</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2023-12-31" type="3"/>
-    <activity-date iso-date="2023-12-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F6F2DC1C087F">
+    <transaction ref="AB21A090942F">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2021-07-26"/>
-      <value value-date="2021-07-26">120000</value>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">16568</value>
       <description>
         <narrative>GLIDE: (COVID-19)</narrative>
       </description>
-      <receiver-org>
-        <narrative>Field Projects International</narrative>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="ID"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>120,000</narrative>
-    </usg:tec1>
+    <usg:tec1/>
   </iati-activity>
 </iati-activities>

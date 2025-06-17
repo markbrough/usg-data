@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://explorer.usaid.gov" generated-datetime="2025-05-12T20:32:07.938Z" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+<iati-activities xmlns:usg="https://explorer.usaid.gov" generated-datetime="2025-06-16T18:53:24.188Z" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-504-25-MOD-067-GUY-ICASS-FY25</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -60,10 +60,31 @@
       <sector code="8001" vocabulary="99">
         <narrative>Direct Administrative Costs</narrative>
       </sector>
-      <recipient-country code="1031"/>
+      <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2023" end="2024"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FD3693037EB9">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">22417.00</value>
+      <receiver-org receiver-activity-id="US-GOV-11" type="10">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <sector code="8001" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <recipient-country code="1000"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2023" end="2024"/>
       </usg:treasury-account>
     </transaction>
@@ -76,7 +97,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-53224-PR12614394</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -140,8 +161,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="19.0"/>
-        <usg:main-account code="1031.0">Global Health Programs</usg:main-account>
+        <usg:regular-account code="19"/>
+        <usg:main-account code="1031">Global Health Programs</usg:main-account>
         <usg:fiscal-funding-year begin="2015" end="2019"/>
       </usg:treasury-account>
     </transaction>
@@ -154,7 +175,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-538-23-MOD-224-WATER-TECH</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -218,8 +239,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2021" end="2022"/>
       </usg:treasury-account>
     </transaction>
@@ -239,8 +260,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2021" end="2022"/>
       </usg:treasury-account>
     </transaction>
@@ -253,7 +274,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-538-24-BBD-IDI-SEMMINARS-DEC</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -317,8 +338,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
@@ -338,8 +359,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
@@ -352,7 +373,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-538-24-ENTM-BKF-ESCOBARI-FEB</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -416,8 +437,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2021" end="2022"/>
       </usg:treasury-account>
     </transaction>
@@ -430,7 +451,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720202451418</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -494,8 +515,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2020" end="2021"/>
       </usg:treasury-account>
     </transaction>
@@ -515,8 +536,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2019" end="2020"/>
       </usg:treasury-account>
     </transaction>
@@ -529,7 +550,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720202451917</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -593,8 +614,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2024"/>
       </usg:treasury-account>
     </transaction>
@@ -607,7 +628,105 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+    <iati-identifier>US-GOV-1-720202576441</iati-identifier>
+    <reporting-org ref="US-GOV-1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">USAID Advisory and Assistance Services</narrative>
+    </title>
+    <description>
+      <narrative xml:lang="en">Administrative costs and operating expenses of USAID contributing to Advisory and Assistance Services.</narrative>
+    </description>
+    <participating-org ref="US-GOV-1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-1" role="2" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-1" role="3" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="70">
+      <narrative>Arnold &amp; Porter LLP</narrative>
+    </participating-org>
+    <activity-status code="2"/>
+    <activity-date iso-date="2024-10-01" type="1"/>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2025-09-30" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>U.S. Agency for International Development</narrative>
+      </organisation>
+      <person-name>
+        <narrative/>
+      </person-name>
+      <telephone>+1 (202) 712 4810</telephone>
+      <email>aidtransparency@usaid.gov</email>
+      <website>https://www.usaid.gov/barbados</website>
+      <mailing-address>
+        <narrative>1300 Pennsylvania Ave NW, Washington DC 20004</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="9356C64A6BB9">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-11-30"/>
+      <value value-date="2024-11-30">245000.00</value>
+      <receiver-org type="70">
+        <narrative>Arnold &amp; Porter LLP</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <sector code="8001" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <recipient-country code="1000"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+        <usg:fiscal-funding-year begin="2023" end="2024"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1BEC0C734D76">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-01-31"/>
+      <value value-date="2025-01-31">-115000.00</value>
+      <receiver-org type="70">
+        <narrative>Arnold &amp; Porter LLP</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <sector code="8001" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <recipient-country code="1000"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+        <usg:fiscal-funding-year begin="2023" end="2024"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:mechanism-signing-date iso-date="2024-10-01"/>
+    <usg:tec1>
+      <narrative/>
+    </usg:tec1>
+    <usg:state-location>
+      <narrative>Caribbean Region</narrative>
+    </usg:state-location>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-72053824C00001</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -670,8 +789,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
@@ -691,8 +810,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
@@ -712,8 +831,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2018" end="2022"/>
       </usg:treasury-account>
     </transaction>
@@ -733,8 +852,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2024"/>
       </usg:treasury-account>
     </transaction>
@@ -754,8 +873,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2024"/>
       </usg:treasury-account>
     </transaction>
@@ -775,8 +894,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2024"/>
       </usg:treasury-account>
     </transaction>
@@ -796,15 +915,15 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2024"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="B438B376CF5A">
+    <transaction ref="B4B5543A7E8C">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">309036.00</value>
+      <transaction-date iso-date="2024-11-30"/>
+      <value value-date="2024-11-30">164185.00</value>
       <receiver-org receiver-activity-id="US-EIN-042347643" type="70">
         <narrative>Abt Associates, Inc.</narrative>
       </receiver-org>
@@ -817,15 +936,15 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="021AD62D376F">
+    <transaction ref="AAE4F3010D09">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">6000.00</value>
+      <transaction-date iso-date="2024-11-30"/>
+      <value value-date="2024-11-30">6000.00</value>
       <receiver-org receiver-activity-id="US-EIN-042347643" type="70">
         <narrative>Abt Associates, Inc.</narrative>
       </receiver-org>
@@ -838,15 +957,57 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0F178AB8A1E7">
+    <transaction ref="B438B376CF5A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">528.00</value>
+      <value value-date="2024-12-31">144850.00</value>
+      <receiver-org receiver-activity-id="US-EIN-042347643" type="70">
+        <narrative>Abt Associates, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <sector code="5001" vocabulary="99">
+        <narrative>Macroeconomic Foundation for Growth</narrative>
+      </sector>
+      <recipient-country code="1000"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2022" end="2023"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7FF579E54CD5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">589560.00</value>
+      <receiver-org receiver-activity-id="US-EIN-042347643" type="70">
+        <narrative>Abt Associates, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <sector code="5001" vocabulary="99">
+        <narrative>Macroeconomic Foundation for Growth</narrative>
+      </sector>
+      <recipient-country code="1000"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2022" end="2023"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4C4A138A313A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-11-30"/>
+      <value value-date="2024-11-30">528.00</value>
       <receiver-org receiver-activity-id="US-EIN-042347643" type="70">
         <narrative>Abt Associates, Inc.</narrative>
       </receiver-org>
@@ -859,15 +1020,15 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2018" end="2022"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="5C5EF70B79F5">
+    <transaction ref="D1B8808B195E">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">133848.00</value>
+      <transaction-date iso-date="2024-10-31"/>
+      <value value-date="2024-10-31">133848.00</value>
       <receiver-org receiver-activity-id="US-EIN-042347643" type="70">
         <narrative>Abt Associates, Inc.</narrative>
       </receiver-org>
@@ -880,8 +1041,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2024"/>
       </usg:treasury-account>
     </transaction>
@@ -894,7 +1055,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-72053824GR00002</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -958,8 +1119,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2021" end="2022"/>
       </usg:treasury-account>
     </transaction>
@@ -979,8 +1140,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2021" end="2022"/>
       </usg:treasury-account>
     </transaction>
@@ -1000,8 +1161,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
@@ -1021,8 +1182,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1021.0">Development Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
@@ -1042,8 +1203,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
@@ -1063,8 +1224,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
@@ -1077,7 +1238,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-72053824GR00005</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1100,7 +1261,7 @@
     <participating-org ref="XM-DAC-22000" role="4" type="21">
       <narrative>NGO - United States Unknown</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2024-10-01" type="1"/>
     <activity-date iso-date="2024-10-01" type="2"/>
     <activity-date iso-date="2025-09-30" type="3"/>
@@ -1140,15 +1301,15 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2018" end="2019"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="40B240BB5D04">
+    <transaction ref="F5D67CB83055">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">3465.00</value>
+      <transaction-date iso-date="2024-10-31"/>
+      <value value-date="2024-10-31">3465.00</value>
       <receiver-org receiver-activity-id="XM-DAC-22000" type="21">
         <narrative>NGO - United States Unknown</narrative>
       </receiver-org>
@@ -1161,8 +1322,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2018" end="2019"/>
       </usg:treasury-account>
     </transaction>
@@ -1180,10 +1341,31 @@
       <sector code="4003" vocabulary="99">
         <narrative>Policies, Regulations, and Systems</narrative>
       </sector>
-      <recipient-country code="1031"/>
+      <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
+        <usg:fiscal-funding-year begin="2018" end="2019"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="808817AEDB9D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">3465.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-22000" type="21">
+        <narrative>NGO - United States Unknown</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="16010" vocabulary="1">
+        <narrative>Social Protection</narrative>
+      </sector>
+      <sector code="4003" vocabulary="99">
+        <narrative>Policies, Regulations, and Systems</narrative>
+      </sector>
+      <recipient-country code="1000"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2018" end="2019"/>
       </usg:treasury-account>
     </transaction>
@@ -1196,7 +1378,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-72053824GR00006</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1260,8 +1442,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2022" end="2024"/>
       </usg:treasury-account>
     </transaction>
@@ -1274,7 +1456,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-72053824P00001</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1338,8 +1520,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2015" end="2016"/>
       </usg:treasury-account>
     </transaction>
@@ -1359,8 +1541,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2015" end="2016"/>
       </usg:treasury-account>
     </transaction>
@@ -1373,7 +1555,7 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-72053825IO00001</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1434,10 +1616,10 @@
       <sector code="2003" vocabulary="99">
         <narrative>Political Competition and Consensus-Building</narrative>
       </sector>
-      <recipient-country code="1031"/>
+      <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1037.0">Economic Support Fund</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1037">Economic Support Fund</usg:main-account>
         <usg:fiscal-funding-year begin="2023" end="2024"/>
       </usg:treasury-account>
     </transaction>
@@ -1450,16 +1632,16 @@
       <narrative>Caribbean Region</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-12T20:32:07.938Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA24GR00012</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Disaster Readiness</narrative>
+      <narrative xml:lang="en">Disaster Risk Reduction</narrative>
     </title>
     <description>
-      <narrative xml:lang="en">The provision of effective protection, assistance, and durable solutions for refugees, internally displaced persons (IDPs), and other victims of conflict and disasters.</narrative>
+      <narrative xml:lang="en">Youth-led disaster risk reduction program in the Caribbean.</narrative>
     </description>
     <participating-org ref="US-GOV-1" role="1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1473,10 +1655,10 @@
     <participating-org ref="" role="4" type="23">
       <narrative>nan</narrative>
     </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2024-10-01" type="1"/>
-    <activity-date iso-date="2024-10-01" type="2"/>
-    <activity-date iso-date="2025-09-30" type="3"/>
+    <activity-status code="2"/>
+    <activity-date iso-date="2024-02-01" type="1"/>
+    <activity-date iso-date="2024-02-01" type="2"/>
+    <activity-date iso-date="2027-01-31" type="3"/>
     <contact-info type="1">
       <organisation>
         <narrative>U.S. Agency for International Development</narrative>
@@ -1513,8 +1695,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
@@ -1535,8 +1717,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
@@ -1557,8 +1739,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
@@ -1579,8 +1761,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
@@ -1601,8 +1783,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
@@ -1623,8 +1805,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
@@ -1645,8 +1827,8 @@
       </sector>
       <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
@@ -1665,99 +1847,16 @@
       <sector code="7002" vocabulary="99">
         <narrative>Disaster Readiness</narrative>
       </sector>
-      <recipient-country code="1031"/>
+      <recipient-country code="1000"/>
       <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
-    </transaction>
-    <transaction ref="2708B7280E5F" humanitarian="1">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-01-31"/>
-      <value value-date="2025-01-31">206680.00</value>
-      <receiver-org type="23">
-        <narrative>nan</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="74020" vocabulary="1">
-        <narrative>Multi-hazard response preparedness</narrative>
-      </sector>
-      <sector code="7002" vocabulary="99">
-        <narrative>Disaster Readiness</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2708B7280E5F" humanitarian="1">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-01-31"/>
-      <value value-date="2025-01-31">206680.00</value>
-      <receiver-org type="23">
-        <narrative>nan</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="74020" vocabulary="1">
-        <narrative>Multi-hazard response preparedness</narrative>
-      </sector>
-      <sector code="7002" vocabulary="99">
-        <narrative>Disaster Readiness</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2708B7280E5F" humanitarian="1">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-01-31"/>
-      <value value-date="2025-01-31">206680.00</value>
-      <receiver-org type="23">
-        <narrative>nan</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="74020" vocabulary="1">
-        <narrative>Multi-hazard response preparedness</narrative>
-      </sector>
-      <sector code="7002" vocabulary="99">
-        <narrative>Disaster Readiness</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2708B7280E5F" humanitarian="1">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-01-31"/>
-      <value value-date="2025-01-31">206680.00</value>
-      <receiver-org type="23">
-        <narrative>nan</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="74020" vocabulary="1">
-        <narrative>Multi-hazard response preparedness</narrative>
-      </sector>
-      <sector code="7002" vocabulary="99">
-        <narrative>Disaster Readiness</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account>
-        <usg:regular-account code="72.0"/>
-        <usg:main-account code="1035.0">International Disaster and Famine Assistance</usg:main-account>
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
+      <usg:humanitarian-scope type="1" vocabulary="99"/>
     </transaction>
     <conditions attached="0"/>
-    <usg:mechanism-signing-date iso-date="2024-10-01"/>
+    <usg:mechanism-signing-date iso-date="2024-02-01"/>
     <usg:tec1>
       <narrative>3000000.00</narrative>
     </usg:tec1>

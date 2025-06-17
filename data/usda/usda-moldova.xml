@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-05-06T10:15:52-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:10-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-06-16T12:38:49-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:17-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-20IG11132762285</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -76,7 +76,7 @@
       <narrative>36,917</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:11-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-23IC11132762107</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -236,10 +236,32 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="F050A7137834">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">1442</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>Moldova State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="36" vocabulary="99">
+        <narrative>Clean Productive Environment</narrative>
+      </sector>
+      <sector code="31220" vocabulary="1">
+        <narrative>Forestry development</narrative>
+      </sector>
+      <recipient-country code="MD"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:11-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-23CA11132762206</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -311,10 +333,107 @@
         <usg:fiscal-funding-year begin="" end=""/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="EE8C3C58E5CC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">14000</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>EcoContact</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31220" vocabulary="1">
+        <narrative>Forestry development</narrative>
+      </sector>
+      <recipient-country code="MD"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:12-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:19-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-24IC11132762156</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">International Forestry Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Forestry And Natural Resource Management In Higher Education</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>EcoContact</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2025-04-30" type="3"/>
+    <activity-date iso-date="2025-04-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="5"/>
+    <transaction ref="261CEA943063">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-04-01"/>
+      <value value-date="2024-04-01">39996</value>
+      <description>
+        <narrative>GLIDE: (COVID-19)</narrative>
+      </description>
+      <receiver-org>
+        <narrative>EcoContact</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31281" vocabulary="1">
+        <narrative>Forestry education/training</narrative>
+      </sector>
+      <recipient-country code="MD"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="" end=""/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-23IG11132762139</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -433,7 +552,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:16-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-23IG11132762106</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -552,7 +671,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-05-06T10:15:16-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T12:38:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-22IC11132762027</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
