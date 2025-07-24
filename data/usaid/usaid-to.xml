@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://explorer.usaid.gov" generated-datetime="2025-06-16T18:53:24.188Z" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+<iati-activities xmlns:usg="https://explorer.usaid.gov" generated-datetime="2025-07-23T15:56:40.463Z" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-72049218IO00001</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -126,7 +126,7 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-72049220GR00003</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -403,7 +403,7 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA22GR00081</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -546,7 +546,7 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA23GR00142</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -569,7 +569,7 @@
     <participating-org ref="" role="4" type="23">
       <narrative>Act for Peace</narrative>
     </participating-org>
-    <activity-status code="2"/>
+    <activity-status code="3"/>
     <activity-date iso-date="2023-05-01" type="1"/>
     <activity-date iso-date="2023-05-01" type="2"/>
     <activity-date iso-date="2025-05-31" type="3"/>
@@ -757,16 +757,16 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA24IO00101</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Disaster Readiness</narrative>
+      <narrative xml:lang="en">Disaster Risk Reduction</narrative>
     </title>
     <description>
-      <narrative xml:lang="en">The provision of effective protection, assistance, and durable solutions for refugees, internally displaced persons (IDPs), and other victims of conflict and disasters.</narrative>
+      <narrative xml:lang="en">Funding to provide disaster risk reduction policy and practice and logistics interventions for vulnerable communities.</narrative>
     </description>
     <participating-org ref="US-GOV-1" role="1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -781,10 +781,10 @@
       <narrative>International Federation of Red Cross and Red Crescent Societies</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1"/>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3"/>
-    <activity-date iso-date="2024-09-30" type="4"/>
+    <activity-date iso-date="2024-04-15" type="1"/>
+    <activity-date iso-date="2024-04-15" type="2"/>
+    <activity-date iso-date="2025-05-27" type="3"/>
+    <activity-date iso-date="2025-05-27" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>U.S. Agency for International Development</narrative>
@@ -827,8 +827,30 @@
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
     </transaction>
+    <transaction ref="09536545FC94" humanitarian="1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-06-30"/>
+      <value value-date="2025-06-30">18735.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-21018" type="40">
+        <narrative>International Federation of Red Cross and Red Crescent Societies</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="74020" vocabulary="1">
+        <narrative>Multi-hazard response preparedness</narrative>
+      </sector>
+      <sector code="7002" vocabulary="99">
+        <narrative>Disaster Readiness</narrative>
+      </sector>
+      <recipient-country code="TO"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+      <usg:humanitarian-scope type="1" vocabulary="99"/>
+    </transaction>
     <conditions attached="0"/>
-    <usg:mechanism-signing-date iso-date="2024-10-01"/>
+    <usg:mechanism-signing-date iso-date="2024-04-15"/>
     <usg:tec1>
       <narrative>500000.00</narrative>
     </usg:tec1>
@@ -836,7 +858,7 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA20GR00009</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1114,7 +1136,7 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-AID-OFDA-F-13-00002</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1284,7 +1306,7 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-AID-OFDA-F-14-00005</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1476,7 +1498,7 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-AID-OFDA-F-15-00002</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1668,7 +1690,7 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-AID-OFDA-F-16-00003</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1821,7 +1843,7 @@
       <narrative>Tonga</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T18:53:24.188Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-23T15:56:40.463Z" xml:lang="en">
     <iati-identifier>US-GOV-1-AID-OFDA-G-17-00105</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
