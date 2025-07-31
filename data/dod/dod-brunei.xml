@@ -1,5 +1,96 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-06-16T13:07:08-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:27-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T15:11:20-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:30-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293636</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">International Counterproliferation Program (ICP): Counterproliferation Awareness (CPA) Virtual Course</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">This Counterproliferation Awareness course was delivered virtually to six senior-level law enforcement officials from the Royal Brunei Police Force. The course provided a basic understanding of weapons of mass destruction (WMD) proliferation issues specific to the region and inspire interagency and international cooperation.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2021-12-02" type="3"/>
+    <activity-date iso-date="2021-12-02" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="514E4F98F94B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-12-31"/>
+      <value value-date="2020-12-31">29484</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="514E4F98F94B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-12-31"/>
+      <value value-date="2020-12-31">29484</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BN"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:03-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-APCSS-283</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -53,9 +144,6 @@
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">1028</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -68,16 +156,13 @@
       </sector>
       <recipient-country code="BN"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="9CD83597A0F9">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">1028</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -90,14 +175,14 @@
       </sector>
       <recipient-country code="BN"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:35-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-288464</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:03-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294483</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -144,13 +229,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="FBBBCDE852CB">
+    <transaction ref="57129E672492">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-09-30"/>
       <value value-date="2016-09-30">207814</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -163,16 +245,13 @@
       </sector>
       <recipient-country code="BN"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="FBBBCDE852CB">
+    <transaction ref="57129E672492">
       <transaction-type code="2"/>
       <transaction-date iso-date="2016-09-30"/>
       <value value-date="2016-09-30">207814</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -185,7 +264,7 @@
       </sector>
       <recipient-country code="BN"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>

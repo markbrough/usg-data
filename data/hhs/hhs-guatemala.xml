@@ -1,14 +1,14 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-06-16T13:18:32-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:06-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-U01GH001003-45471</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T15:26:45-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:37-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-G0122-43698</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">GH13-001.U01GH STRENGTH DIS PRNTION RES CPCITY FOR PBLIC HLTH ACTN IN GUATE</narrative>
+      <narrative xml:lang="en">CDC: Rapid Outbreak Response (Pandemic Influenza)</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
+      <narrative xml:lang="en">CDC: Rapid Outbreak Response (Pandemic Influenza)</narrative>
     </description>
     <participating-org ref="6" role="1" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -20,13 +20,17 @@
       <narrative>Department of Health and Human Services</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Universidad del Valle de Guatemala</narrative>
+      <narrative>U.S. Government - Department of Health and Human Services</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2015-04-01" type="1"/>
-    <activity-date iso-date="2015-04-01" type="2"/>
-    <activity-date iso-date="2016-03-31" type="3"/>
-    <activity-date iso-date="2016-03-31" type="4"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Health and Human Services</narrative>
@@ -46,16 +50,106 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="D40755CBC1A6">
+    <default-tied-status code="4"/>
+    <transaction ref="DF2D68B1021A">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2022-03-31"/>
-      <value value-date="2022-03-31">833</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Universidad del Valle de Guatemala</narrative>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">368368</value>
+      <receiver-org type="10" ref="US-GOV-14">
+        <narrative>U.S. Government - Department of Health and Human Services</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DF2D68B1021A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">1388439</value>
+      <receiver-org type="10" ref="US-GOV-14">
+        <narrative>U.S. Government - Department of Health and Human Services</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:39-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-G0122-43694</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">CDC: Global Health Programs (Unspecified, Federal Reimbursable Activity)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">CDC: Global Health Programs (Unspecified, Federal Reimbursable Activity)</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Health and Human Services</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="000AC7861365">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">106000</value>
+      <receiver-org type="10" ref="US-GOV-14">
+        <narrative>U.S. Government - Department of Health and Human Services</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="47" vocabulary="99">
@@ -66,24 +160,22 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>624</narrative>
-    </usg:tec1>
+    <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:07-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-U01GH002235-44553</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:41-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-G0122-43689</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Strengthening Public Health through Surveillance, Epidemiologic Research, Disease Detection and Prevention: Enhancing Capacity for Strategic and Applied Research Activities in Support of Control and Elimination of Neglected Tropical Diseases</narrative>
+      <narrative xml:lang="en">CDC: Antimicrobial Resistance Programs</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, effectively manage and conduct public health research in the intent of public health protection; achieve US Government program and international organization goals to improve health; including surveillance, intervention and prevention in global health programs that focus on leading causes of global health security, mortality, morbidity and disability including infectious diseases including bacterial, viral and parasitic diseases , non-communicable diseases, injury and violence, environmental health, generate and apply new knowledge to achieve public health goals and strengthen public health systems and capacity.</narrative>
+      <narrative xml:lang="en">CDC: Antimicrobial Resistance Programs</narrative>
     </description>
     <participating-org ref="6" role="1" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -95,15 +187,17 @@
       <narrative>Department of Health and Human Services</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Baylor College of Medicine</narrative>
+      <narrative>U.S. Government - Department of Health and Human Services</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1">
+    <activity-date iso-date="2011-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2023-09-14" type="3"/>
-    <activity-date iso-date="2023-09-14" type="4"/>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Health and Human Services</narrative>
@@ -122,65 +216,59 @@
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
+    <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="F4A6F2CBB250">
+    <transaction ref="70C8CB4DA59D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">10414</value>
+      <receiver-org type="10" ref="US-GOV-14">
+        <narrative>U.S. Government - Department of Health and Human Services</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="15" vocabulary="99">
+        <narrative>Other Public Health Threats</narrative>
+      </sector>
+      <sector code="12191" vocabulary="1">
+        <narrative>Medical services</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0949">Centers for Disease Control and Prevention, Emerging and Zoonotic Infectious Diseases
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="70C8CB4DA59D">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">500000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="80" ref="MW-CNM-BCM-CF">
-        <narrative>Baylor College of Medicine</narrative>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">50000</value>
+      <receiver-org type="10" ref="US-GOV-14">
+        <narrative>U.S. Government - Department of Health and Human Services</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="47" vocabulary="99">
-        <narrative>Health - General</narrative>
+      <sector code="15" vocabulary="99">
+        <narrative>Other Public Health Threats</narrative>
       </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B4555693BDBD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">14222</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="80" ref="MW-CNM-BCM-CF">
-        <narrative>Baylor College of Medicine</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="47" vocabulary="99">
-        <narrative>Health - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
+      <sector code="12191" vocabulary="1">
+        <narrative>Medical services</narrative>
       </sector>
       <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="75x0949">Centers for Disease Control and Prevention, Emerging and Zoonotic Infectious Diseases
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-U01GH002235-44554</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:41-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-U01IP000791-44589</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Strengthening Public Health through Surveillance, Epidemiologic Research, Disease Detection and Prevention: Surveillance and Research for the Innovation and Sustainability of Public Health Actions in Central America</narrative>
+      <narrative xml:lang="en">CDC Investigations and Technical Assistance: Study of Influenza Incidence, Diagnosis, Treatment Efficacy, Vaccine Effectivenes in Central America Region</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, effectively manage and conduct public health research in the intent of public health protection; achieve US Government program and international organization goals to improve health; including surveillance, intervention and prevention in global health programs that focus on leading causes of global health security, mortality, morbidity and disability including infectious diseases including bacterial, viral and parasitic diseases , non-communicable diseases, injury and violence, environmental health, generate and apply new knowledge to achieve public health goals and strengthen public health systems and capacity.</narrative>
+      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention (CDC) Investigations and Technical Assistance assists national and local health authorities and other health related organizations in controlling communicable diseases, chronic diseases and disorders, and other preventable health conditions. Investigations and evaluation of all methods of controlling or preventing disease and disability are carried out by providing epidemic aid, surveillance, technical assistance, consultation, and program support; and by providing leadership and coordination of joint national, state, and local efforts.</narrative>
     </description>
     <participating-org ref="6" role="1" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -192,15 +280,13 @@
       <narrative>Department of Health and Human Services</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Baylor College of Medicine</narrative>
+      <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2023-09-14" type="3"/>
-    <activity-date iso-date="2023-09-14" type="4"/>
+    <activity-date iso-date="2013-09-01" type="1"/>
+    <activity-date iso-date="2013-09-01" type="2"/>
+    <activity-date iso-date="2019-08-31" type="3"/>
+    <activity-date iso-date="2019-08-31" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Health and Human Services</narrative>
@@ -219,34 +305,107 @@
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="063623A15134">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">3527</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="80" ref="MW-CNM-BCM-CF">
-        <narrative>Baylor College of Medicine</narrative>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="5"/>
+    <transaction ref="57CA03CF95BA">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">230700</value>
+      <receiver-org>
+        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="47" vocabulary="99">
-        <narrative>Health - General</narrative>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
       </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
       </sector>
       <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7ED682750298">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">167271</value>
+      <receiver-org>
+        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="57A5AEFE8FA8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">218622</value>
+      <receiver-org>
+        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="57A5AEFE8FA8">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">234000</value>
+      <receiver-org>
+        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="88289FB4F2AA">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">15378</value>
+      <receiver-org>
+        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:08-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:41-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-U01GH002238</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -300,9 +459,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-01-01"/>
       <value value-date="2018-01-01">491000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="80" ref="US-EIN-042312909">
         <narrative>Brigham and Women's Hospital</narrative>
       </receiver-org>
@@ -315,13 +471,85 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:09-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:42-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-U01GH002235-44581</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Strengthening Public Health through Surveillance, Epidemiologic Research, Disease Detection and Prevention: Surveillance and Research for the Innovation and Sustainability of Public Health Actions in Central America</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, effectively manage and conduct public health research in the intent of public health protection; achieve US Government program and international organization goals to improve health; including surveillance, intervention and prevention in global health programs that focus on leading causes of global health security, mortality, morbidity and disability including infectious diseases including bacterial, viral and parasitic diseases , non-communicable diseases, injury and violence, environmental health, generate and apply new knowledge to achieve public health goals and strengthen public health systems and capacity.</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Baylor College of Medicine</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2023-09-14" type="3"/>
+    <activity-date iso-date="2023-09-14" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="12E4DBBBFA92">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">3527</value>
+      <receiver-org type="80" ref="MW-CNM-BCM-CF">
+        <narrative>Baylor College of Medicine</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="47" vocabulary="99">
+        <narrative>Health - General</narrative>
+      </sector>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:42-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-NU2GGH002007</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -378,9 +606,6 @@
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-03-31"/>
       <value value-date="2022-03-31">5757</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>University Research Co., LLC</narrative>
       </receiver-org>
@@ -393,7 +618,7 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
@@ -401,16 +626,16 @@
       <narrative>5,757</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-G0122-43667</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:43-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-G0122-43692</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">CDC: Global Health Programs (Unspecified, Federal Reimbursable Activity)</narrative>
+      <narrative xml:lang="en">CDC: Global Disease Detection and Emergency Response Program (GDDER)</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">CDC: Global Health Programs (Unspecified, Federal Reimbursable Activity)</narrative>
+      <narrative xml:lang="en">CDC: Global Disease Detection and Emergency Response Program (GDDER)</narrative>
     </description>
     <participating-org ref="6" role="1" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -453,15 +678,192 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="4835FAF3C629">
-      <transaction-type code="2"/>
+    <transaction ref="7440F9D657D7">
+      <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">106000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <value value-date="2012-01-01">467058</value>
       <receiver-org type="10" ref="US-GOV-14">
         <narrative>U.S. Government - Department of Health and Human Services</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7440F9D657D7">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">1681252</value>
+      <receiver-org type="10" ref="US-GOV-14">
+        <narrative>U.S. Government - Department of Health and Human Services</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:43-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-U01GH002235-44580</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Strengthening Public Health through Surveillance, Epidemiologic Research, Disease Detection and Prevention: Enhancing Capacity for Strategic and Applied Research Activities in Support of Control and Elimination of Neglected Tropical Diseases</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, effectively manage and conduct public health research in the intent of public health protection; achieve US Government program and international organization goals to improve health; including surveillance, intervention and prevention in global health programs that focus on leading causes of global health security, mortality, morbidity and disability including infectious diseases including bacterial, viral and parasitic diseases , non-communicable diseases, injury and violence, environmental health, generate and apply new knowledge to achieve public health goals and strengthen public health systems and capacity.</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Baylor College of Medicine</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2023-09-14" type="3"/>
+    <activity-date iso-date="2023-09-14" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="7CBC3D29CC92">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">500000</value>
+      <receiver-org type="80" ref="MW-CNM-BCM-CF">
+        <narrative>Baylor College of Medicine</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="47" vocabulary="99">
+        <narrative>Health - General</narrative>
+      </sector>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FC960F816F75">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">14222</value>
+      <receiver-org type="80" ref="MW-CNM-BCM-CF">
+        <narrative>Baylor College of Medicine</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="47" vocabulary="99">
+        <narrative>Health - General</narrative>
+      </sector>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:43-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-U01GH001003-45498</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">GH13-001.U01GH STRENGTH DIS PRNTION RES CPCITY FOR PBLIC HLTH ACTN IN GUATE</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Universidad del Valle de Guatemala</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-04-01" type="1"/>
+    <activity-date iso-date="2015-04-01" type="2"/>
+    <activity-date iso-date="2016-03-31" type="3"/>
+    <activity-date iso-date="2016-03-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="ABF7C371D283">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-03-31"/>
+      <value value-date="2022-03-31">833</value>
+      <receiver-org>
+        <narrative>Universidad del Valle de Guatemala</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="47" vocabulary="99">
@@ -472,25 +874,27 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>624</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-G0122-43671</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:44-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH001602-45689</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">CDC: Rapid Outbreak Response (Pandemic Influenza)</narrative>
+      <narrative xml:lang="en">GH15-1509W. Hemisphere - Guatemala 19GHP ATL</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">CDC: Rapid Outbreak Response (Pandemic Influenza)</narrative>
+      <narrative xml:lang="en">Grants</narrative>
     </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="US-GOV-14" role="2" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -499,17 +903,13 @@
       <narrative>Department of Health and Human Services</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Health and Human Services</narrative>
+      <narrative>Central American Integration System</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
+    <activity-date iso-date="2015-04-01" type="1"/>
+    <activity-date iso-date="2015-04-01" type="2"/>
+    <activity-date iso-date="2021-09-29" type="3"/>
+    <activity-date iso-date="2021-09-29" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Health and Human Services</narrative>
@@ -525,59 +925,58 @@
       </mailing-address>
     </contact-info>
     <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="EB5093B43C37">
+    <default-tied-status code="5"/>
+    <transaction ref="7C9557A0B156">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">368368</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-14">
-        <narrative>U.S. Government - Department of Health and Human Services</narrative>
+      <transaction-date iso-date="2021-07-31"/>
+      <value value-date="2021-07-31">140250</value>
+      <receiver-org>
+        <narrative>Central American Integration System</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
       </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
       </sector>
       <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EB5093B43C37">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1388439</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-14">
-        <narrative>U.S. Government - Department of Health and Human Services</narrative>
+    <transaction ref="F150F369DAF3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">171551</value>
+      <receiver-org>
+        <narrative>Central American Integration System</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
       </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
       </sector>
       <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>171,551</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:14-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:46-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-U01GH002241</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -631,9 +1030,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-01-01"/>
       <value value-date="2018-01-01">350000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>Washington State University</narrative>
       </receiver-org>
@@ -646,16 +1042,13 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="596B5D8BE342">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">269</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>Washington State University</narrative>
       </receiver-org>
@@ -668,13 +1061,13 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:15-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-NU2GPS003104</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -729,9 +1122,6 @@
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-05-31"/>
       <value value-date="2022-05-31">5059</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>University Research Co., LLC</narrative>
       </receiver-org>
@@ -744,16 +1134,13 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="AE0A1BCD30B1">
       <transaction-type code="2"/>
       <transaction-date iso-date="2022-05-31"/>
       <value value-date="2022-05-31">5059</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>University Research Co., LLC</narrative>
       </receiver-org>
@@ -766,7 +1153,7 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
@@ -774,107 +1161,8 @@
       <narrative>5,059</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:18-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-G0122-43665</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">CDC: Global Disease Detection and Emergency Response Program (GDDER)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">CDC: Global Disease Detection and Emergency Response Program (GDDER)</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Health and Human Services</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="3520FF4A93FB">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">467058</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-14">
-        <narrative>U.S. Government - Department of Health and Human Services</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="3520FF4A93FB">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">1681252</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-14">
-        <narrative>U.S. Government - Department of Health and Human Services</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:19-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-U01IP000791-44562</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-U01IP000791-44590</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
@@ -921,373 +1209,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="5"/>
-    <transaction ref="8051D3CB932F">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">230700</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0BF75AD1F753">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">167271</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CFB3C9F86280">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">218622</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CFB3C9F86280">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">234000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6283A53753FC">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">15378</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0951">Centers for Disease Control and Prevention, Immunization and Respiratory Diseases
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:19-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-G0122-43662</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">CDC: Antimicrobial Resistance Programs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">CDC: Antimicrobial Resistance Programs</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Health and Human Services</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="17EC3BCA97B9">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">10414</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-14">
-        <narrative>U.S. Government - Department of Health and Human Services</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="15" vocabulary="99">
-        <narrative>Other Public Health Threats</narrative>
-      </sector>
-      <sector code="12191" vocabulary="1">
-        <narrative>Medical services</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0949">Centers for Disease Control and Prevention, Emerging and Zoonotic Infectious Diseases
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="17EC3BCA97B9">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">50000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-14">
-        <narrative>U.S. Government - Department of Health and Human Services</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="15" vocabulary="99">
-        <narrative>Other Public Health Threats</narrative>
-      </sector>
-      <sector code="12191" vocabulary="1">
-        <narrative>Medical services</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="75x0949">Centers for Disease Control and Prevention, Emerging and Zoonotic Infectious Diseases
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:21-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH001602-45662</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">GH15-1509W. Hemisphere - Guatemala 19GHP ATL</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Central American Integration System</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-04-01" type="1"/>
-    <activity-date iso-date="2015-04-01" type="2"/>
-    <activity-date iso-date="2021-09-29" type="3"/>
-    <activity-date iso-date="2021-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="BD6C4A43B709">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-07-31"/>
-      <value value-date="2021-07-31">140250</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Central American Integration System</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="3F5DA56B4C63">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">171551</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org>
-        <narrative>Central American Integration System</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>171,551</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:21-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-U01IP000791-44563</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">CDC Investigations and Technical Assistance: Study of Influenza Incidence, Diagnosis, Treatment Efficacy, Vaccine Effectivenes in Central America Region</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention (CDC) Investigations and Technical Assistance assists national and local health authorities and other health related organizations in controlling communicable diseases, chronic diseases and disorders, and other preventable health conditions. Investigations and evaluation of all methods of controlling or preventing disease and disability are carried out by providing epidemic aid, surveillance, technical assistance, consultation, and program support; and by providing leadership and coordination of joint national, state, and local efforts.</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2013-09-01" type="1"/>
-    <activity-date iso-date="2013-09-01" type="2"/>
-    <activity-date iso-date="2019-08-31" type="3"/>
-    <activity-date iso-date="2019-08-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="5"/>
-    <transaction ref="A829F2D04464">
+    <transaction ref="2E442A8B2BBA">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-01-01"/>
       <value value-date="2018-01-01">7939</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>Instituto Conmemorativo Gorgas de Estudios de la Salud</narrative>
       </receiver-org>
@@ -1300,13 +1225,13 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:17:22-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:26:03-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-NU2GGH001100</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -1363,9 +1288,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2021-09-17"/>
       <value value-date="2021-09-17">-23806</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>University Research Co., LLC</narrative>
       </receiver-org>
@@ -1378,7 +1300,7 @@
       </sector>
       <recipient-country code="GT"/>
       <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>

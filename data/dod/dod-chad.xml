@@ -1,6 +1,81 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-06-16T13:06:58-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:05:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-288305</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T15:10:32-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:21-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-1101515-252747</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD HIV/AIDS Prevention Program - F Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="629272D52538">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">-41770</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:24-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294310</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -8,7 +83,7 @@
       <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental. Zouar Medical Readiness Training Exercise (MEDRETE). The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
+      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental. Medical Readiness Training Exercise (MEDRETE) 16-3. The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -51,13 +126,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="5870F24B30AF">
+    <transaction ref="958AE31DB486">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">15000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <value value-date="2016-01-01">14116</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -70,16 +142,13 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="5870F24B30AF">
+    <transaction ref="958AE31DB486">
       <transaction-type code="2"/>
       <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">15000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <value value-date="2016-01-01">14116</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -92,22 +161,22 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:05:58-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-289372</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:25-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294254</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: DIRI - ISG - TCD - Chad - Defense Management Integration #1 and Logistics #2 - ISG - 332b - DIRI - FY20Q2</narrative>
+      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Institutional Capacity Building (ICB). Special Antiterrorism Group</narrative>
+      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical. Nguelea Medical Readiness Tng Ex. The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -122,12 +191,14 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
+    <activity-date iso-date="2013-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-02-07" type="3"/>
-    <activity-date iso-date="2020-02-07" type="4"/>
+    <activity-date iso-date="2013-10-01" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -144,67 +215,212 @@
     </contact-info>
     <activity-scope code="5"/>
     <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
+    <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="98A0359CE75D">
+    <transaction ref="8D8DB96B739E">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2020-01-01"/>
-      <value value-date="2020-01-01">212000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">9564</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
       </sector>
       <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="98A0359CE75D">
+    <transaction ref="8D8DB96B739E">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2020-01-01"/>
-      <value value-date="2020-01-01">212000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">9564</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
       </sector>
       <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-289477</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:27-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-1101515-252750</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: Institute for Security Governance - Chad - Logistics #1</narrative>
+      <narrative xml:lang="en">DoD HIV/AIDS Prevention Program - F Operational Plan Programs</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Institutional Capacity Building (ICB). Ministry of Defense</narrative>
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="55A3C0CFB484">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">21259</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AF94F17C7F2F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">30602</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7611505478DC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">16213</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4957EB72BD1F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">16739</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4957EB72BD1F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">47000</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:27-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294258</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical. Sol Medical Readiness Tng Ex. The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -219,12 +435,14 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
+    <activity-date iso-date="2013-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2019-12-21" type="3"/>
-    <activity-date iso-date="2019-12-21" type="4"/>
+    <activity-date iso-date="2013-10-01" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -241,64 +459,171 @@
     </contact-info>
     <activity-scope code="5"/>
     <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
+    <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="93F41589CDF0">
+    <transaction ref="5BFC6F569FFD">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2020-01-01"/>
-      <value value-date="2020-01-01">79000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">4918</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
       </sector>
       <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="93F41589CDF0">
+    <transaction ref="5BFC6F569FFD">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2020-01-01"/>
-      <value value-date="2020-01-01">79000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">4918</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
       </sector>
       <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-287809</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:31-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-1112572-252821</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Chad Air Base Development</narrative>
+      <narrative xml:lang="en">DoD HIV/AIDS Prevention Program - F Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Jhpiego Corporation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="9E12F6BBF0C1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">106764</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="998A0E13BD84">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">146469</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6B6101C0BAB5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">124942</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:33-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293778</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Global Train and Equip Program - Border Protection</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
@@ -316,10 +641,12 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -340,13 +667,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="322F4DAF3D6D">
+    <transaction ref="6742B7FA196C">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">1532386</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">17439816</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -359,16 +683,13 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="322F4DAF3D6D">
+    <transaction ref="6742B7FA196C">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">1532386</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">17439816</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -381,307 +702,14 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-289401</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: Defense Institution Reform Initiative</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Chad - Defense Management Initiative and Logistics #5. Conduct a 2-day logistics planning symposium establishing two joint groups assigned different operational scenarios. Bring together multi-service sustainment and operational leaders to follow a five-step planning process and establish the logistics concept of support planning baselining effort. Conduct a three-day seminar to assess Intelligence, Surveillance, and Reconnaissance (ISR) missions and focusing on military intelligence professionalization.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-08-02" type="3"/>
-    <activity-date iso-date="2019-08-02" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="85AE0B8869F8">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">133889</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="85AE0B8869F8">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">133889</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:11-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-288247</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental. Bardai Medical Readiness Training Exercise (MEDRETE). The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2015-10-01" type="2"/>
-    <activity-date iso-date="2016-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2016-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="0D075427465C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">12365</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0D075427465C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">12365</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:14-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-ACSS-49-289011</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: Africa Center for Strategic Studies Activity</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">2019-08 CT STRATEGIC APPROACHES. Chad Ministry of Defense</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-08-09" type="3"/>
-    <activity-date iso-date="2019-08-09" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="B83E85DACE9A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">6872</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B83E85DACE9A">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">6872</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:15-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-287703</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:42-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293722</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -732,13 +760,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="EBD6E1193A23">
+    <transaction ref="9902DF338346">
       <transaction-type code="3"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">7268887</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -751,16 +776,13 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EBD6E1193A23">
+    <transaction ref="9902DF338346">
       <transaction-type code="2"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">7268887</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -773,13 +795,378 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:17-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:43-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293763</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Global Train and Equip Program - Air Base Development</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="0315E75C2294">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">4569401</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0315E75C2294">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">4569401</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:44-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-85151</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD HIV/AIDS Prevention Program - F Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Jhpiego Corporation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="E360D017EEC3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">142653</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="26F184F6CFAE">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">273561</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:46-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-295496</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: Institute for Security Governance - Chad - Logistics #1</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Institutional Capacity Building (ICB). Ministry of Defense</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2019-12-21" type="3"/>
+    <activity-date iso-date="2019-12-21" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="9BC9C4EAA0B1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-01-01"/>
+      <value value-date="2020-01-01">79000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9BC9C4EAA0B1">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-01-01"/>
+      <value value-date="2020-01-01">79000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:47-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293828</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Global Train and Equip Program - Chad Air Base Development</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="09524B1D7E19">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">1532386</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="09524B1D7E19">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">1532386</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:49-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-J7-B-DAA</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -835,9 +1222,6 @@
       <transaction-type code="3"/>
       <transaction-date iso-date="2015-01-01"/>
       <value value-date="2015-01-01">8803768</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -850,16 +1234,13 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="A676AB346194">
       <transaction-type code="2"/>
       <transaction-date iso-date="2015-01-01"/>
       <value value-date="2015-01-01">8803768</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -872,208 +1253,14 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:18-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-287810</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Chad Border Protection</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="70AB04CCF9D0">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">6828376</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="70AB04CCF9D0">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">6828376</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:18-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-288291</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental. Medical Readiness Training Exercise (MEDRETE) 16-3. The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2015-10-01" type="2"/>
-    <activity-date iso-date="2016-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2016-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F5D7B1D2AD6C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">14116</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F5D7B1D2AD6C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">14116</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:20-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-289402</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:52-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-295421</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1122,13 +1309,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="1504AA98FF8C">
+    <transaction ref="45CB50BC87EB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">170933</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1141,16 +1325,13 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1504AA98FF8C">
+    <transaction ref="45CB50BC87EB">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">170933</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1163,14 +1344,421 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:22-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-287775</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:56-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294266</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental. Bardai Medical Readiness Training Exercise (MEDRETE). The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2015-10-01" type="2"/>
+    <activity-date iso-date="2016-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2016-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="F2C3248B7BA0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">12365</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F2C3248B7BA0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">12365</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:08:57-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-295420</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: Defense Institution Reform Initiative</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Chad - Defense Management Initiative and Logistics #5. Conduct a 2-day logistics planning symposium establishing two joint groups assigned different operational scenarios. Bring together multi-service sustainment and operational leaders to follow a five-step planning process and establish the logistics concept of support planning baselining effort. Conduct a three-day seminar to assess Intelligence, Surveillance, and Reconnaissance (ISR) missions and focusing on military intelligence professionalization.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-08-02" type="3"/>
+    <activity-date iso-date="2019-08-02" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="63558E14382E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">133889</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="63558E14382E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">133889</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:00-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-ACSS-49-295030</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: Africa Center for Strategic Studies Activity</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">2019-08 CT STRATEGIC APPROACHES. Chad Ministry of Defense</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-08-09" type="3"/>
+    <activity-date iso-date="2019-08-09" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="37A3CCDD824E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">6872</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="37A3CCDD824E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">6872</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:00-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-1102515</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD HIV/AIDS Prevention Program - F Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="32374A0F78D7">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">55000</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="32374A0F78D7">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">55000</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4B99635E178F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">53127</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4B99635E178F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">53127</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:01-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293794</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1219,13 +1807,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="F9D8548C21D4">
+    <transaction ref="44068F0D7C9F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">285975</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1238,16 +1823,13 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F9D8548C21D4">
+    <transaction ref="44068F0D7C9F">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">285975</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1260,19 +1842,19 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:24-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-287759</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:03-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293829</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Border Protection</narrative>
+      <narrative xml:lang="en">Global Train and Equip Program - Chad Border Protection</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
@@ -1290,12 +1872,10 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1316,13 +1896,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="A11BD48A2F1B">
+    <transaction ref="D5A7F4291E5F">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">17439816</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">6828376</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1335,16 +1912,13 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="A11BD48A2F1B">
+    <transaction ref="D5A7F4291E5F">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">17439816</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">6828376</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1357,22 +1931,22 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:29-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-288239</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:06-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294324</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical</narrative>
+      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical. Sol Medical Readiness Tng Ex. The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
+      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical/Dental. Zouar Medical Readiness Training Exercise (MEDRETE). The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -1387,14 +1961,14 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2013-10-01" type="1">
+    <activity-date iso-date="2015-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2013-10-01" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3">
+    <activity-date iso-date="2015-10-01" type="2"/>
+    <activity-date iso-date="2016-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2014-09-30" type="4"/>
+    <activity-date iso-date="2016-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1415,13 +1989,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="61F3099F2410">
+    <transaction ref="BC7A92EA2AF6">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">4918</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">15000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1433,17 +2004,14 @@
         <narrative>Health policy and administrative management</narrative>
       </sector>
       <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="61F3099F2410">
+    <transaction ref="BC7A92EA2AF6">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">4918</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">15000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1455,23 +2023,23 @@
         <narrative>Health policy and administrative management</narrative>
       </sector>
       <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:33-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-288235</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:07-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-1101515-252749</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical</narrative>
+      <narrative xml:lang="en">DoD HIV/AIDS Prevention Program - F Operational Plan Programs</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Humanitarian and Civic Assistance - Medical. Nguelea Medical Readiness Tng Ex. The program is run through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDCA).</narrative>
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -1483,17 +2051,15 @@
       <narrative>Department of Defense</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
+      <narrative>U.S. Government - Department of State</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2013-10-01" type="1">
+    <activity-date iso-date="2023-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2013-10-01" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-09-30" type="4"/>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1509,157 +2075,131 @@
       </mailing-address>
     </contact-info>
     <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="661BFCCBD49B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">9564</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="661BFCCBD49B">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">9564</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:33-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-287744</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Air Base Development</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
     <collaboration-type code="1"/>
     <default-flow-type code="50"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="46AACB26E651">
+    <default-tied-status code="5"/>
+    <transaction ref="8EF000ED0898">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">4569401</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">4801</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
       </sector>
       <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="46AACB26E651">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">4569401</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
+    <transaction ref="ADB4F3B26B94">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">-495</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
       </sector>
       <recipient-country code="TD"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="" end=""/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:06:42-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-288238</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:08-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-1112572-252822</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD HIV/AIDS Prevention Program - F Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Jhpiego Corporation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2025-09-30" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="57C6819C1052">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">503000</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:09-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294257</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1710,13 +2250,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="2DAF8679D81C">
+    <transaction ref="9BF5D9EFE21D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2014-01-01"/>
       <value value-date="2014-01-01">9702</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1729,16 +2266,13 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2DAF8679D81C">
+    <transaction ref="9BF5D9EFE21D">
       <transaction-type code="2"/>
       <transaction-date iso-date="2014-01-01"/>
       <value value-date="2014-01-01">9702</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1751,7 +2285,211 @@
       </sector>
       <recipient-country code="TD"/>
       <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:10-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-295391</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">U.S. Department of Defense, Institutional Capacity Building Programs: DIRI - ISG - TCD - Chad - Defense Management Integration #1 and Logistics #2 - ISG - 332b - DIRI - FY20Q2</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Institutional Capacity Building (ICB). Special Antiterrorism Group</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-02-07" type="3"/>
+    <activity-date iso-date="2020-02-07" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="8BDD002BEE69">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-01-01"/>
+      <value value-date="2020-01-01">212000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8BDD002BEE69">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-01-01"/>
+      <value value-date="2020-01-01">212000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:09:19-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-1101515-252748</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD HIV/AIDS Prevention Program - F Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="EB7C2096A4BD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">-1179</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BFE79D1E529C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">210</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="56433F1226D7">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">90</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="TD"/>
+      <usg:treasury-account code="97x0130">Department of Defense, Defense Health Program
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>

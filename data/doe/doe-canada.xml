@@ -1,6 +1,76 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-06-16T13:12:45-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:12:22-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-20-DE-AC02-06CH11357 (ANL)-29484</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T15:15:52-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:15:29-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-20-DE-AC02-06CH11357 (ANL)-29498</iati-identifier>
+    <reporting-org ref="US-GOV-20" type="10">
+      <narrative>Department of Energy</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Department of Energy, International Nonproliferation Export Control Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Export Control Best Practices Exchange: Enforcement</narrative>
+    </description>
+    <participating-org ref="13" role="1" type="10">
+      <narrative>Department of Energy</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-20" role="2" type="10">
+      <narrative>Department of Energy</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-20" role="3" type="10">
+      <narrative>Department of Energy</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Energy</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2014-10-01" type="1"/>
+    <activity-date iso-date="2014-10-01" type="2"/>
+    <activity-date iso-date="2021-09-30" type="3"/>
+    <activity-date iso-date="2021-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Energy</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Janice Rivera and Melodie Washington; Ryan Bol</narrative>
+      </person-name>
+      <telephone>202-586-5000</telephone>
+      <email>janice.rivera@nnsa.doe.gov; Melodie.Washington@hq.doe.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1000 Independence Ave. SW, Washington, DC 20585</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="005BD5F0DD33">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-10-01"/>
+      <value value-date="2020-10-01">11000</value>
+      <receiver-org type="10" ref="US-GOV-20">
+        <narrative>U.S. Government - Department of Energy</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-country code="CA"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:15:29-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-20-DE-AC05-76RL01830 (PNNL);-29502</iati-identifier>
     <reporting-org ref="US-GOV-20" type="10">
       <narrative>Department of Energy</narrative>
     </reporting-org>
@@ -20,13 +90,15 @@
       <narrative>Department of Energy</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>UChicago Argonne, LLC</narrative>
+      <narrative>Battelle Memorial Institute</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2014-10-01" type="1"/>
-    <activity-date iso-date="2014-10-01" type="2"/>
-    <activity-date iso-date="2021-09-30" type="3"/>
-    <activity-date iso-date="2021-09-30" type="4"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-09-30" type="3"/>
+    <activity-date iso-date="2020-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Energy</narrative>
@@ -47,15 +119,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="60355BE06D8F">
+    <transaction ref="7B1699B57770">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2020-03-31"/>
-      <value value-date="2020-03-31">5931</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2020-06-30"/>
+      <value value-date="2020-06-30">8011</value>
       <receiver-org>
-        <narrative>UChicago Argonne, LLC</narrative>
+        <narrative>Battelle Memorial Institute</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="26" vocabulary="99">
@@ -66,225 +135,13 @@
       </sector>
       <recipient-country code="CA"/>
       <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:12:22-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-20-DE-AC05-76RL01830 (PNNL)-29483</iati-identifier>
-    <reporting-org ref="US-GOV-20" type="10">
-      <narrative>Department of Energy</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Department of Energy, International Nonproliferation Export Control Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Export Control Best Practices Exchange: Enforcement</narrative>
-    </description>
-    <participating-org ref="13" role="1" type="10">
-      <narrative>Department of Energy</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-20" role="2" type="10">
-      <narrative>Department of Energy</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-20" role="3" type="10">
-      <narrative>Department of Energy</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Energy</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-10-01" type="1"/>
-    <activity-date iso-date="2014-10-01" type="2"/>
-    <activity-date iso-date="2022-09-30" type="3"/>
-    <activity-date iso-date="2022-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Energy</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Janice Rivera and Melodie Washington; Ryan Bol</narrative>
-      </person-name>
-      <telephone>202-586-5000</telephone>
-      <email>janice.rivera@nnsa.doe.gov; Melodie.Washington@hq.doe.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1000 Independence Ave. SW, Washington, DC 20585</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="65B115991782">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-10-01"/>
-      <value value-date="2020-10-01">5221</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-20">
-        <narrative>U.S. Government - Department of Energy</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-country code="CA"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="65B115991782">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-10-01"/>
-      <value value-date="2020-10-01">43000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-20">
-        <narrative>U.S. Government - Department of Energy</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-country code="CA"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="49ED449E5584">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-01"/>
-      <value value-date="2021-01-01">23639</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-20">
-        <narrative>U.S. Government - Department of Energy</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-country code="CA"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7E003A441973">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-04-01"/>
-      <value value-date="2021-04-01">4003</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-20">
-        <narrative>U.S. Government - Department of Energy</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-country code="CA"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:12:24-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-20-DE-AC02-06CH11357 (ANL)-29481</iati-identifier>
-    <reporting-org ref="US-GOV-20" type="10">
-      <narrative>Department of Energy</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Department of Energy, International Nonproliferation Export Control Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Export Control Best Practices Exchange: Enforcement</narrative>
-    </description>
-    <participating-org ref="13" role="1" type="10">
-      <narrative>Department of Energy</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-20" role="2" type="10">
-      <narrative>Department of Energy</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-20" role="3" type="10">
-      <narrative>Department of Energy</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Energy</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-10-01" type="1"/>
-    <activity-date iso-date="2014-10-01" type="2"/>
-    <activity-date iso-date="2021-09-30" type="3"/>
-    <activity-date iso-date="2021-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Energy</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Janice Rivera and Melodie Washington; Ryan Bol</narrative>
-      </person-name>
-      <telephone>202-586-5000</telephone>
-      <email>janice.rivera@nnsa.doe.gov; Melodie.Washington@hq.doe.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1000 Independence Ave. SW, Washington, DC 20585</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="7201FAADE2AB">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-10-01"/>
-      <value value-date="2020-10-01">11000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-20">
-        <narrative>U.S. Government - Department of Energy</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-country code="CA"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:12:24-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:15:30-04:00" xml:lang="en">
     <iati-identifier>US-GOV-20-DE-AC02-06CH11357 (ANL); DE-NA0002839 (KCP-NSC)</iati-identifier>
     <reporting-org ref="US-GOV-20" type="10">
       <narrative>Department of Energy</narrative>
@@ -338,9 +195,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-10-01"/>
       <value value-date="2019-10-01">82000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-20">
         <narrative>U.S. Government - Department of Energy</narrative>
       </receiver-org>
@@ -353,14 +207,14 @@
       </sector>
       <recipient-country code="CA"/>
       <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T13:12:24-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-20-DE-AC05-76RL01830 (PNNL);-29485</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:15:30-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-20-DE-AC02-06CH11357 (ANL)-29501</iati-identifier>
     <reporting-org ref="US-GOV-20" type="10">
       <narrative>Department of Energy</narrative>
     </reporting-org>
@@ -380,15 +234,13 @@
       <narrative>Department of Energy</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Battelle Memorial Institute</narrative>
+      <narrative>UChicago Argonne, LLC</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-09-30" type="3"/>
-    <activity-date iso-date="2020-09-30" type="4"/>
+    <activity-date iso-date="2014-10-01" type="1"/>
+    <activity-date iso-date="2014-10-01" type="2"/>
+    <activity-date iso-date="2021-09-30" type="3"/>
+    <activity-date iso-date="2021-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Energy</narrative>
@@ -409,15 +261,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="75F017BAD816">
+    <transaction ref="97AF976054C0">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2020-06-30"/>
-      <value value-date="2020-06-30">8011</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
+      <transaction-date iso-date="2020-03-31"/>
+      <value value-date="2020-03-31">5931</value>
       <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
+        <narrative>UChicago Argonne, LLC</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="26" vocabulary="99">
@@ -428,7 +277,134 @@
       </sector>
       <recipient-country code="CA"/>
       <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:15:31-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-20-DE-AC05-76RL01830 (PNNL)-29500</iati-identifier>
+    <reporting-org ref="US-GOV-20" type="10">
+      <narrative>Department of Energy</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Department of Energy, International Nonproliferation Export Control Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Export Control Best Practices Exchange: Enforcement</narrative>
+    </description>
+    <participating-org ref="13" role="1" type="10">
+      <narrative>Department of Energy</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-20" role="2" type="10">
+      <narrative>Department of Energy</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-20" role="3" type="10">
+      <narrative>Department of Energy</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Energy</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2014-10-01" type="1"/>
+    <activity-date iso-date="2014-10-01" type="2"/>
+    <activity-date iso-date="2022-09-30" type="3"/>
+    <activity-date iso-date="2022-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Energy</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Janice Rivera and Melodie Washington; Ryan Bol</narrative>
+      </person-name>
+      <telephone>202-586-5000</telephone>
+      <email>janice.rivera@nnsa.doe.gov; Melodie.Washington@hq.doe.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1000 Independence Ave. SW, Washington, DC 20585</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="990D7281B4B0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-10-01"/>
+      <value value-date="2020-10-01">5221</value>
+      <receiver-org type="10" ref="US-GOV-20">
+        <narrative>U.S. Government - Department of Energy</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-country code="CA"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="990D7281B4B0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-10-01"/>
+      <value value-date="2020-10-01">43000</value>
+      <receiver-org type="10" ref="US-GOV-20">
+        <narrative>U.S. Government - Department of Energy</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-country code="CA"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A0F860176900">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-01-01"/>
+      <value value-date="2021-01-01">23639</value>
+      <receiver-org type="10" ref="US-GOV-20">
+        <narrative>U.S. Government - Department of Energy</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-country code="CA"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A2B708ACEA72">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-04-01"/>
+      <value value-date="2021-04-01">4003</value>
+      <receiver-org type="10" ref="US-GOV-20">
+        <narrative>U.S. Government - Department of Energy</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-country code="CA"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>

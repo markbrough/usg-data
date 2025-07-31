@@ -1,5 +1,117 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-06-16T14:29:29-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T14:29:07-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T15:53:54-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:53:18-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-19R125-249051</iati-identifier>
+    <reporting-org ref="US-GOV-15" type="10">
+      <narrative>Department of Justice</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DEA counternarcotics training via U.S. AFRICOM, Mozambique</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">DEA counternarcotics training via U.S. AFRICOM, Mozambique; Provide professional support including training, equipment and advisory support in Mozambique.</narrative>
+    </description>
+    <participating-org ref="8" role="1" type="10">
+      <narrative>Department of the Army</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="2" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="3" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Justice</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2021-09-30" type="3"/>
+    <activity-date iso-date="2021-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Justice</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Tamika Jordan; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-514-2000</telephone>
+      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="9672E7C893F6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-09-30"/>
+      <value value-date="2020-09-30">18652</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="4" vocabulary="99">
+        <narrative>Counter-Narcotics</narrative>
+      </sector>
+      <sector code="16063" vocabulary="1">
+        <narrative>Narcotics control</narrative>
+      </sector>
+      <recipient-country code="MZ"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9672E7C893F6">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-09-30"/>
+      <value value-date="2020-09-30">18652</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="4" vocabulary="99">
+        <narrative>Counter-Narcotics</narrative>
+      </sector>
+      <sector code="16063" vocabulary="1">
+        <narrative>Narcotics control</narrative>
+      </sector>
+      <recipient-country code="MZ"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0DC1610D45E5">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-12-31"/>
+      <value value-date="2020-12-31">-261</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="4" vocabulary="99">
+        <narrative>Counter-Narcotics</narrative>
+      </sector>
+      <sector code="16063" vocabulary="1">
+        <narrative>Narcotics control</narrative>
+      </sector>
+      <recipient-country code="MZ"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>221,388</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:53:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-18R023</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -53,9 +165,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-07-03"/>
       <value value-date="2018-07-03">17254</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -68,16 +177,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="BF4997753521">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-07-16"/>
       <value value-date="2018-07-16">9192</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -90,16 +196,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="8283FA44D4F7">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-07-20"/>
       <value value-date="2018-07-20">8980</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -112,16 +215,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="30E87DDA2BC7">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-07-31"/>
       <value value-date="2018-07-31">8575</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -134,16 +234,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="B6E0195C8CCB">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-08-04"/>
       <value value-date="2018-08-04">4809</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -156,16 +253,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="2CE544481CD3">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-08-07"/>
       <value value-date="2018-08-07">7662</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -178,16 +272,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="2CE544481CD3">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-08-07"/>
       <value value-date="2018-08-07">-1076</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -200,16 +291,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="13858DE9B8AD">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-08-08"/>
       <value value-date="2018-08-08">15622</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -222,16 +310,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="13858DE9B8AD">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-08-08"/>
       <value value-date="2018-08-08">-2086</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -244,16 +329,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="40FDB2F78423">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-08-10"/>
       <value value-date="2018-08-10">7731</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -266,16 +348,13 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="40FDB2F78423">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-08-10"/>
       <value value-date="2018-08-10">-1249</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -288,131 +367,10 @@
       </sector>
       <recipient-country code="MZ"/>
       <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-16T14:29:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-19R125-243255</iati-identifier>
-    <reporting-org ref="US-GOV-15" type="10">
-      <narrative>Department of Justice</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DEA counternarcotics training via U.S. AFRICOM, Mozambique</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">DEA counternarcotics training via U.S. AFRICOM, Mozambique; Provide professional support including training, equipment and advisory support in Mozambique.</narrative>
-    </description>
-    <participating-org ref="8" role="1" type="10">
-      <narrative>Department of the Army</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="2" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="3" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Justice</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2021-09-30" type="3"/>
-    <activity-date iso-date="2021-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Justice</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Tamika Jordan; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="CDEF998957F4">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-09-30"/>
-      <value value-date="2020-09-30">18652</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="4" vocabulary="99">
-        <narrative>Counter-Narcotics</narrative>
-      </sector>
-      <sector code="16063" vocabulary="1">
-        <narrative>Narcotics control</narrative>
-      </sector>
-      <recipient-country code="MZ"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CDEF998957F4">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-09-30"/>
-      <value value-date="2020-09-30">18652</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="4" vocabulary="99">
-        <narrative>Counter-Narcotics</narrative>
-      </sector>
-      <sector code="16063" vocabulary="1">
-        <narrative>Narcotics control</narrative>
-      </sector>
-      <recipient-country code="MZ"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="01DE8BED732C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-12-31"/>
-      <value value-date="2020-12-31">-261</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="4" vocabulary="99">
-        <narrative>Counter-Narcotics</narrative>
-      </sector>
-      <sector code="16063" vocabulary="1">
-        <narrative>Narcotics control</narrative>
-      </sector>
-      <recipient-country code="MZ"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>221,388</narrative>
-    </usg:tec1>
   </iati-activity>
 </iati-activities>
