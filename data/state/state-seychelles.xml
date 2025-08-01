@@ -1,5 +1,79 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-06-17T13:51:44-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-17T10:51:50-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-31T03:03:17-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T23:57:43-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-100856</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Department of State - Peacekeeping Operations: Africa Maritime Security Initiative (AMSI)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Physical security</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2015-10-01" type="2"/>
+    <activity-date iso-date="2016-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2016-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Mysers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="F02CC4B2487C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">15547</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="SC"/>
+      <usg:treasury-account code="11x1032">Peace Keeping Operations
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T23:58:52-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMP10021GR3037</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -53,9 +127,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2021-09-28"/>
       <value value-date="2021-09-28">4931</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -68,16 +139,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="0D226316238E">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-05-25"/>
       <value value-date="2022-05-25">2466</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -90,16 +158,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="917BE8AC49E3">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-05-04"/>
       <value value-date="2023-05-04">2466</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -112,13 +177,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-17T10:52:08-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T23:59:12-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMP10021GR3040</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -172,9 +237,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2021-09-28"/>
       <value value-date="2021-09-28">7596</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -187,16 +249,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="ABA4B3E1CA82">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-06-21"/>
       <value value-date="2022-06-21">1195</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -209,16 +268,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="F4F823A3CF04">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-05-04"/>
       <value value-date="2023-05-04">6401</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -231,13 +287,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-17T10:53:52-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-31T00:01:10-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMP10021GR3038</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -291,9 +347,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2021-09-29"/>
       <value value-date="2021-09-29">2563</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -306,16 +359,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="696FD205C8E1">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-06-14"/>
       <value value-date="2022-06-14">1282</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -328,16 +378,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="4D40639047CB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-07-21"/>
       <value value-date="2022-07-21">-1282</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -350,16 +397,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="161C0483F366">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-08-10"/>
       <value value-date="2022-08-10">1282</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -372,16 +416,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="74F4F5FCF720">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-05-04"/>
       <value value-date="2023-05-04">1282</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -394,14 +435,14 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-17T10:54:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SMP10020GR0017-72279</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-31T00:01:23-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SMP10020GR0017-72445</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -450,13 +491,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="B0D17DEAEB52">
+    <transaction ref="95FA3EEE1B02">
       <transaction-type code="2"/>
       <transaction-date iso-date="2022-03-17"/>
       <value value-date="2022-03-17">-6850</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="24" ref="XM-DAC-23000">
         <narrative>NGO - Non United States Other</narrative>
       </receiver-org>
@@ -469,16 +507,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="9A68D69329ED">
+    <transaction ref="3495D00248EE">
       <transaction-type code="2"/>
       <transaction-date iso-date="2023-02-17"/>
       <value value-date="2023-02-17">-1191</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="24" ref="XM-DAC-23000">
         <narrative>NGO - Non United States Other</narrative>
       </receiver-org>
@@ -491,13 +526,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-17T10:54:10-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-31T00:01:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMP10021GR3022</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -551,9 +586,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2021-07-27"/>
       <value value-date="2021-07-27">5000</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>Plant Conservation Action Group</narrative>
       </receiver-org>
@@ -566,16 +598,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="33D1AB95C0D7">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-08-09"/>
       <value value-date="2021-08-09">2500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>Plant Conservation Action Group</narrative>
       </receiver-org>
@@ -588,16 +617,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="1FB129CC63AF">
       <transaction-type code="2"/>
       <transaction-date iso-date="2023-04-05"/>
       <value value-date="2023-04-05">-2500</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org>
         <narrative>Plant Conservation Action Group</narrative>
       </receiver-org>
@@ -610,13 +636,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-17T10:54:43-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-31T00:02:00-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SMP10021GR3044</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -670,9 +696,6 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2021-09-29"/>
       <value value-date="2021-09-29">1860</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -685,16 +708,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="8679DCC7CAC3">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-06-02"/>
       <value value-date="2022-06-02">930</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -707,16 +727,13 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="ADA97A27B159">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-05-25"/>
       <value value-date="2023-05-25">930</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
       <receiver-org type="70" ref="XM-DAC-63000">
         <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
@@ -729,84 +746,7 @@
       </sector>
       <recipient-country code="SC"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="" end=""/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-06-17T10:55:30-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-100510</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Department of State - Peacekeeping Operations: Africa Maritime Security Initiative (AMSI)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Physical security</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2015-10-01" type="2"/>
-    <activity-date iso-date="2016-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2016-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="119F28C859FA">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">15547</value>
-      <description>
-        <narrative>GLIDE: (COVID-19)</narrative>
-      </description>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="SC"/>
-      <usg:treasury-account code="11x1032">Peace Keeping Operations
-        <usg:fiscal-funding-year begin="" end=""/>
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
