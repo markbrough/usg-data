@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T15:27:45-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:31-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-08T14:45:46-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-NU2GGH002095</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -112,19 +112,19 @@
       <narrative>6,400</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:32-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002011-46476</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:07-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU50CK000494-45293</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">GH17-1721</narrative>
+      <narrative xml:lang="en">CK18-1801.NU50 Pan American Health Organization (PAHO) Building Capacity and Net</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">Grants</narrative>
     </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
     </participating-org>
     <participating-org ref="US-GOV-14" role="2" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -133,13 +133,15 @@
       <narrative>Department of Health and Human Services</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Davis Memorial Hospital and Clinic (Guyana)</narrative>
+      <narrative>Pan-American Health Organisation</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-04-01" type="1"/>
-    <activity-date iso-date="2017-04-01" type="2"/>
-    <activity-date iso-date="2020-09-29" type="3"/>
-    <activity-date iso-date="2020-09-29" type="4"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2024-04-02" type="3"/>
+    <activity-date iso-date="2024-04-02" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Health and Human Services</narrative>
@@ -155,209 +157,55 @@
       </mailing-address>
     </contact-info>
     <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="81809093C113">
+    <transaction ref="A1E09715C4AC">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-07"/>
-      <value value-date="2021-01-07">-4671</value>
-      <receiver-org>
-        <narrative>Davis Memorial Hospital and Clinic (Guyana)</narrative>
+      <transaction-date iso-date="2023-02-24"/>
+      <value value-date="2023-02-24">117000</value>
+      <receiver-org type="40" ref="XM-DAC-47083">
+        <narrative>Pan-American Health Organisation</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
+      <sector code="47" vocabulary="99">
+        <narrative>Health - General</narrative>
       </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
       </sector>
       <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2F0486EA23D8">
+    <transaction ref="B0AE380ADA6D">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-31"/>
-      <value value-date="2021-01-31">296</value>
-      <receiver-org>
-        <narrative>Davis Memorial Hospital and Clinic (Guyana)</narrative>
+      <transaction-date iso-date="2023-08-31"/>
+      <value value-date="2023-08-31">110000</value>
+      <receiver-org type="40" ref="XM-DAC-47083">
+        <narrative>Pan-American Health Organisation</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
+      <sector code="47" vocabulary="99">
+        <narrative>Health - General</narrative>
       </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="76BBA917D947">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-03-31"/>
-      <value value-date="2021-03-31">4106</value>
-      <receiver-org>
-        <narrative>Davis Memorial Hospital and Clinic (Guyana)</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
       </sector>
       <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>4,106</narrative>
+      <narrative>110,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:38-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002103-44690</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Building Capacity to Deliver High Quality HIV Prevention, Care and Treatment Services for Key Popul</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-09-30" type="1"/>
-    <activity-date iso-date="2017-09-30" type="2"/>
-    <activity-date iso-date="2022-09-29" type="3"/>
-    <activity-date iso-date="2022-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="9408D0EBFD7E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-04-05"/>
-      <value value-date="2021-04-05">79</value>
-      <receiver-org>
-        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8DC6F12F8140">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-06-30"/>
-      <value value-date="2021-06-30">-79</value>
-      <receiver-org>
-        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D3FD48085A33">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-07-06"/>
-      <value value-date="2021-07-06">79</value>
-      <receiver-org>
-        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="79FF77C0DBC2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">-79</value>
-      <receiver-org>
-        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>79</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:40-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:12-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-NU2GGH002532</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -433,1121 +281,8 @@
       <narrative>880,754</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:42-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002103-46202</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">GH16-1607 Building Capacity to Deliver High Quality HIV Prevention, Care and Treatment Services for Key Populations and People Living with HIV in the Caribbean Region under the Presidents Emergency Plan for AIDS Relief (PEPFAR)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-09-30" type="1"/>
-    <activity-date iso-date="2017-09-30" type="2"/>
-    <activity-date iso-date="2022-09-29" type="3"/>
-    <activity-date iso-date="2022-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="30CC5CC72A68">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-01-09"/>
-      <value value-date="2023-01-09">-188</value>
-      <receiver-org>
-        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>-188</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:44-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU50CK000494-45105</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">CK18-1801 Pan American Health Organization (PAHO) Building Capacity and Networks to Address Emerging Infectious Diseases in the Americas - 2018</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Pan-American Health Organisation</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2023-09-02" type="3"/>
-    <activity-date iso-date="2023-09-02" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="4AD6D6249F90">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-12-03"/>
-      <value value-date="2021-12-03">380000</value>
-      <receiver-org type="40" ref="XM-DAC-47083">
-        <narrative>Pan-American Health Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="47" vocabulary="99">
-        <narrative>Health - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>380,000</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:45-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002094-47251</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Global AIDS: Delivery High Quality HIV Prevention, Care and Treatment Services to Ministries of Health in Western Hemisphere Countries under PEPFAR</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The U.S. President's Emergency Plan for AIDS Relief (PEPFAR) is the U.S. Government initiative to help save the lives of those suffering from HIV/AIDS around the world. This historic commitment is the largest by any nation to combat a single disease internationally, and PEPFAR investments also help alleviate suffering from other diseases across the global health spectrum. PEPFAR is the cornerstone and largest component of the U.S. President's Global Health Initiative. With a special focus on improving the health of women, newborns and children, the Global Health Initiative's goal is to save the greatest number of lives by increasing and building upon what works and, then, supporting countries as they work to improve the health of their own people.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Government of Jamaica</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-09-30" type="1"/>
-    <activity-date iso-date="2017-09-30" type="2"/>
-    <activity-date iso-date="2022-09-29" type="3"/>
-    <activity-date iso-date="2022-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="18B08D26963D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-07"/>
-      <value value-date="2021-01-07">-103823</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="88A9CE85EB44">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-31"/>
-      <value value-date="2021-01-31">65561</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="077CBB485B7C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-02-28"/>
-      <value value-date="2021-02-28">73277</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="AB0C5A90F7ED">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-03-31"/>
-      <value value-date="2021-03-31">-2669</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A94F128CBD8B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-04-30"/>
-      <value value-date="2021-04-30">49530</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5E8BA13F33BA">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-05-31"/>
-      <value value-date="2021-05-31">-4100</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7AC5963F73E6">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-06-30"/>
-      <value value-date="2021-06-30">-1523</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E6EA6DB9F5D3">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-07-31"/>
-      <value value-date="2021-07-31">19470</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A399AA445FE5">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-08-11"/>
-      <value value-date="2021-08-11">324944</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>324,944</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:46-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002267-46962</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">GH20-2136 Strengthening Access to and Delivery of Quality Public Health Services for Prevention, Care and Treatment of HIV, STIs, and TB, Addressing Diseases of Public Health Importance, and Advancing Global Health Security in Jamaica under PEPFAR</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Government of Jamaica</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2025-09-29" type="3"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="0E6ED887C3E0">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-05-04"/>
-      <value value-date="2022-05-04">525000</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BA95E005B668">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-05-31"/>
-      <value value-date="2022-05-31">101232</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>525,000</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:48-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002267-44909</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">CDC-RFA-GH20-2136.NU2G Strengthening Access to and Delivery of Quality Public He</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Government of Barbados</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2025-09-29" type="3"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="12458F34D8EE">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-01-06"/>
-      <value value-date="2022-01-06">3281</value>
-      <receiver-org>
-        <narrative>Government of Barbados</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>3,281</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:48-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002103-46200</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">GH16-1607 Building Capacity to Deliver High Quality HIV Prevention, Care and Treatment Services for Key Popul</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-09-30" type="1"/>
-    <activity-date iso-date="2017-09-30" type="2"/>
-    <activity-date iso-date="2022-09-29" type="3"/>
-    <activity-date iso-date="2022-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="7506D60B481D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-10-06"/>
-      <value value-date="2021-10-06">79</value>
-      <receiver-org>
-        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="38B427E4B17F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-12-31"/>
-      <value value-date="2021-12-31">-79</value>
-      <receiver-org>
-        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>79</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:48-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU50CK000494-45131</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Collaboration with the World Health Organization and its Regional Offices for Global Health Security and International Health Regulations</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Building Capacity and Networks to Address Emerging Infectious Diseases in the Americas. Cooperative Agreement on Immunization with the World Health Organization. On September 19, 2011, the Government of the United States of America and the World Health Organization (WHO) signed a memorandum of understanding (MOU) to help WHO Member States strengthen their capabilities to support the International Health Regulations (IHR), an international agreement that requires Member States to prevent and respond to acute public health risks that have the potential to cross borders. The MOU includes specific statements that authorize WHO and its regional offices to pursue activities that improve the ability of all nations to detect, report, and respond to infectious diseases quickly and accurately. The purpose is to assist WHO in implementing the MOU regarding the International Health Regulations, including the development and implementation of coordinated plans and networks that enable national governments and regional authorities globally to better address infectious diseases, particularly emerging infections.</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Pan-American Health Organisation</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-04-02" type="3"/>
-    <activity-date iso-date="2024-04-02" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="E7CE12DBED9F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-05-02"/>
-      <value value-date="2024-05-02">77800</value>
-      <receiver-org type="40" ref="XM-DAC-47083">
-        <narrative>Pan-American Health Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2F1704B12AF6">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-27"/>
-      <value value-date="2024-06-27">89</value>
-      <receiver-org type="40" ref="XM-DAC-47083">
-        <narrative>Pan-American Health Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>77,800</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:48-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU50CK000494-45107</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">CK18-1801.NU50 Pan American Health Organization (PAHO) Building Capacity and Net</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Pan-American Health Organisation</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2024-04-02" type="3"/>
-    <activity-date iso-date="2024-04-02" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="288B26932B17">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-02-24"/>
-      <value value-date="2023-02-24">117000</value>
-      <receiver-org type="40" ref="XM-DAC-47083">
-        <narrative>Pan-American Health Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="47" vocabulary="99">
-        <narrative>Health - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4DF6F45B32F7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-08-31"/>
-      <value value-date="2023-08-31">110000</value>
-      <receiver-org type="40" ref="XM-DAC-47083">
-        <narrative>Pan-American Health Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="47" vocabulary="99">
-        <narrative>Health - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>110,000</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:48-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002094-47250</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Global AIDS: Delivery High Quality HIV Prevention, Care and Treatment Services to Ministries of Health in Western Hemisphere Countries under PEPFAR</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The U.S. President's Emergency Plan for AIDS Relief (PEPFAR) is the U.S. Government initiative to help save the lives of those suffering from HIV/AIDS around the world. This historic commitment is the largest by any nation to combat a single disease internationally, and PEPFAR investments also help alleviate suffering from other diseases across the global health spectrum. PEPFAR is the cornerstone and largest component of the U.S. President's Global Health Initiative. With a special focus on improving the health of women, newborns and children, the Global Health Initiative's goal is to save the greatest number of lives by increasing and building upon what works and, then, supporting countries as they work to improve the health of their own people.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Government of Jamaica</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-09-30" type="1"/>
-    <activity-date iso-date="2017-09-30" type="2"/>
-    <activity-date iso-date="2022-09-29" type="3"/>
-    <activity-date iso-date="2022-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="A9661D3AD9E1">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-11-30"/>
-      <value value-date="2021-11-30">327444</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B428AB2674F6">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-12-31"/>
-      <value value-date="2021-12-31">-101447</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8B6B59435DF2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-01-06"/>
-      <value value-date="2022-01-06">80876</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B9F39A3A395D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-01-31"/>
-      <value value-date="2022-01-31">-241725</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2014FB5D2A56">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-03-31"/>
-      <value value-date="2022-03-31">160848</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5899CC2841F5">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-05-31"/>
-      <value value-date="2022-05-31">84959</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7C2C85B62A40">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-08-31"/>
-      <value value-date="2022-08-31">29736</value>
-      <receiver-org>
-        <narrative>Government of Jamaica</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>29,736</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:49-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002103-45027</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">CDC: Global AIDS Program (GAP)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-09-30" type="1"/>
-    <activity-date iso-date="2017-09-30" type="2"/>
-    <activity-date iso-date="2022-09-29" type="3"/>
-    <activity-date iso-date="2022-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="CE9BFA1B780A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-07"/>
-      <value value-date="2021-01-07">79</value>
-      <receiver-org>
-        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F12B7E353256">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-03-31"/>
-      <value value-date="2021-03-31">-79</value>
-      <receiver-org>
-        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="JM"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>79</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:49-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002267-46964</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:13-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002267-47150</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
@@ -1598,7 +333,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="65B5F70C1BC3">
+    <transaction ref="E0714E259E4C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-12-31"/>
       <value value-date="2021-12-31">-3281</value>
@@ -1622,7 +357,988 @@
       <narrative>-3,281</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:49-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:14-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002103-45213</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">CDC: Global AIDS Program (GAP)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-09-30" type="1"/>
+    <activity-date iso-date="2017-09-30" type="2"/>
+    <activity-date iso-date="2022-09-29" type="3"/>
+    <activity-date iso-date="2022-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="A598FF6B25EC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-01-07"/>
+      <value value-date="2021-01-07">79</value>
+      <receiver-org>
+        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4B61BB815393">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-03-31"/>
+      <value value-date="2021-03-31">-79</value>
+      <receiver-org>
+        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>79</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:15-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002011-46666</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">GH17-1721W. Hemisphere - Jamaica 19GHP ATL</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Davis Memorial Hospital and Clinic (Guyana)</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-04-01" type="1"/>
+    <activity-date iso-date="2017-04-01" type="2"/>
+    <activity-date iso-date="2020-09-29" type="3"/>
+    <activity-date iso-date="2020-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="B7A9F78A11D1">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-04-01"/>
+      <value value-date="2021-04-01">-444</value>
+      <receiver-org>
+        <narrative>Davis Memorial Hospital and Clinic (Guyana)</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>-444</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:16-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002103-46388</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">GH16-1607 Building Capacity to Deliver High Quality HIV Prevention, Care and Treatment Services for Key Populations and People Living with HIV in the Caribbean Region under the Presidents Emergency Plan for AIDS Relief (PEPFAR)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-09-30" type="1"/>
+    <activity-date iso-date="2017-09-30" type="2"/>
+    <activity-date iso-date="2022-09-29" type="3"/>
+    <activity-date iso-date="2022-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="D25E137124F7">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-01-09"/>
+      <value value-date="2023-01-09">-188</value>
+      <receiver-org>
+        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>-188</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002267-47148</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">GH20-2136 Strengthening Access to and Delivery of Quality Public Health Services for Prevention, Care and Treatment of HIV, STIs, and TB, Addressing Diseases of Public Health Importance, and Advancing Global Health Security in Jamaica under PEPFAR</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Government of Jamaica</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2025-09-29" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="46B66EDEFB3F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-05-04"/>
+      <value value-date="2022-05-04">525000</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A7B97EE48273">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-05-31"/>
+      <value value-date="2022-05-31">101232</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>525,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002094-47436</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Global AIDS: Delivery High Quality HIV Prevention, Care and Treatment Services to Ministries of Health in Western Hemisphere Countries under PEPFAR</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The U.S. President's Emergency Plan for AIDS Relief (PEPFAR) is the U.S. Government initiative to help save the lives of those suffering from HIV/AIDS around the world. This historic commitment is the largest by any nation to combat a single disease internationally, and PEPFAR investments also help alleviate suffering from other diseases across the global health spectrum. PEPFAR is the cornerstone and largest component of the U.S. President's Global Health Initiative. With a special focus on improving the health of women, newborns and children, the Global Health Initiative's goal is to save the greatest number of lives by increasing and building upon what works and, then, supporting countries as they work to improve the health of their own people.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Government of Jamaica</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-09-30" type="1"/>
+    <activity-date iso-date="2017-09-30" type="2"/>
+    <activity-date iso-date="2022-09-29" type="3"/>
+    <activity-date iso-date="2022-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="3CA4D7CA1B7D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-11-30"/>
+      <value value-date="2021-11-30">327444</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="09E80CDA56F1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-12-31"/>
+      <value value-date="2021-12-31">-101447</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="65DE5FC7A820">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-01-06"/>
+      <value value-date="2022-01-06">80876</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B15C34294352">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-01-31"/>
+      <value value-date="2022-01-31">-241725</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D3DCA6319C25">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-03-31"/>
+      <value value-date="2022-03-31">160848</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A627E12D416D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-05-31"/>
+      <value value-date="2022-05-31">84959</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A72DC2CD6E5E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-08-31"/>
+      <value value-date="2022-08-31">29736</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>29,736</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:18-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002103-46386</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">GH16-1607 Building Capacity to Deliver High Quality HIV Prevention, Care and Treatment Services for Key Popul</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-09-30" type="1"/>
+    <activity-date iso-date="2017-09-30" type="2"/>
+    <activity-date iso-date="2022-09-29" type="3"/>
+    <activity-date iso-date="2022-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="9E73E3ACB13E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-10-06"/>
+      <value value-date="2021-10-06">79</value>
+      <receiver-org>
+        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="315A5F7BA6CC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-12-31"/>
+      <value value-date="2021-12-31">-79</value>
+      <receiver-org>
+        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>79</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:18-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002094-47437</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Global AIDS: Delivery High Quality HIV Prevention, Care and Treatment Services to Ministries of Health in Western Hemisphere Countries under PEPFAR</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The U.S. President's Emergency Plan for AIDS Relief (PEPFAR) is the U.S. Government initiative to help save the lives of those suffering from HIV/AIDS around the world. This historic commitment is the largest by any nation to combat a single disease internationally, and PEPFAR investments also help alleviate suffering from other diseases across the global health spectrum. PEPFAR is the cornerstone and largest component of the U.S. President's Global Health Initiative. With a special focus on improving the health of women, newborns and children, the Global Health Initiative's goal is to save the greatest number of lives by increasing and building upon what works and, then, supporting countries as they work to improve the health of their own people.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Government of Jamaica</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-09-30" type="1"/>
+    <activity-date iso-date="2017-09-30" type="2"/>
+    <activity-date iso-date="2022-09-29" type="3"/>
+    <activity-date iso-date="2022-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="D8DA32C27808">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-01-07"/>
+      <value value-date="2021-01-07">-103823</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="E3FE8546F391">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-01-31"/>
+      <value value-date="2021-01-31">65561</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F826F962B6D0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-02-28"/>
+      <value value-date="2021-02-28">73277</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3CFCD187432B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-03-31"/>
+      <value value-date="2021-03-31">-2669</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C1AC75A9DE8F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-04-30"/>
+      <value value-date="2021-04-30">49530</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="14690EFE3F25">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-05-31"/>
+      <value value-date="2021-05-31">-4100</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="89371CB10DDD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-06-30"/>
+      <value value-date="2021-06-30">-1523</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="EF9B1EB756D8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-07-31"/>
+      <value value-date="2021-07-31">19470</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="70A50019F2E4">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-08-11"/>
+      <value value-date="2021-08-11">324944</value>
+      <receiver-org>
+        <narrative>Government of Jamaica</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>324,944</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:19-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002103-44876</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Building Capacity to Deliver High Quality HIV Prevention, Care and Treatment Services for Key Popul</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-09-30" type="1"/>
+    <activity-date iso-date="2017-09-30" type="2"/>
+    <activity-date iso-date="2022-09-29" type="3"/>
+    <activity-date iso-date="2022-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="0C4E3D7D1C98">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-04-05"/>
+      <value value-date="2021-04-05">79</value>
+      <receiver-org>
+        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F33C0CEAE509">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-06-30"/>
+      <value value-date="2021-06-30">-79</value>
+      <receiver-org>
+        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D595C3CF2D71">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-07-06"/>
+      <value value-date="2021-07-06">79</value>
+      <receiver-org>
+        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F9C414003BC6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">-79</value>
+      <receiver-org>
+        <narrative>National Alliance of State and Territorial AIDS Directors</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>79</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:20-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-NU38OT000318</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -1699,13 +1415,259 @@
       <narrative>17,700</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:26:01-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002011-46480</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:21-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU50CK000494-45317</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">GH17-1721W. Hemisphere - Jamaica 19GHP ATL</narrative>
+      <narrative xml:lang="en">Collaboration with the World Health Organization and its Regional Offices for Global Health Security and International Health Regulations</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Building Capacity and Networks to Address Emerging Infectious Diseases in the Americas. Cooperative Agreement on Immunization with the World Health Organization. On September 19, 2011, the Government of the United States of America and the World Health Organization (WHO) signed a memorandum of understanding (MOU) to help WHO Member States strengthen their capabilities to support the International Health Regulations (IHR), an international agreement that requires Member States to prevent and respond to acute public health risks that have the potential to cross borders. The MOU includes specific statements that authorize WHO and its regional offices to pursue activities that improve the ability of all nations to detect, report, and respond to infectious diseases quickly and accurately. The purpose is to assist WHO in implementing the MOU regarding the International Health Regulations, including the development and implementation of coordinated plans and networks that enable national governments and regional authorities globally to better address infectious diseases, particularly emerging infections.</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Pan-American Health Organisation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-04-02" type="3"/>
+    <activity-date iso-date="2024-04-02" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="E994282DE7AA">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-05-02"/>
+      <value value-date="2024-05-02">77800</value>
+      <receiver-org type="40" ref="XM-DAC-47083">
+        <narrative>Pan-American Health Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D5FE1FB97050">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-27"/>
+      <value value-date="2024-06-27">89</value>
+      <receiver-org type="40" ref="XM-DAC-47083">
+        <narrative>Pan-American Health Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>77,800</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:21-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU50CK000494-45291</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">CK18-1801 Pan American Health Organization (PAHO) Building Capacity and Networks to Address Emerging Infectious Diseases in the Americas - 2018</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Pan-American Health Organisation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2023-09-02" type="3"/>
+    <activity-date iso-date="2023-09-02" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="847D73ECB3E7">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-12-03"/>
+      <value value-date="2021-12-03">380000</value>
+      <receiver-org type="40" ref="XM-DAC-47083">
+        <narrative>Pan-American Health Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="47" vocabulary="99">
+        <narrative>Health - General</narrative>
+      </sector>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>380,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:24-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002267-45095</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">CDC-RFA-GH20-2136.NU2G Strengthening Access to and Delivery of Quality Public He</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Government of Barbados</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2025-09-29" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="FDCF2FB73D8D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-01-06"/>
+      <value value-date="2022-01-06">3281</value>
+      <receiver-org>
+        <narrative>Government of Barbados</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>3,281</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:24-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002011-46662</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">GH17-1721</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">Grants</narrative>
@@ -1750,10 +1712,48 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="C0A73E134CFF">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-04-01"/>
-      <value value-date="2021-04-01">-444</value>
+    <transaction ref="3E38C65B91C4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-01-07"/>
+      <value value-date="2021-01-07">-4671</value>
+      <receiver-org>
+        <narrative>Davis Memorial Hospital and Clinic (Guyana)</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="29C536B29620">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-01-31"/>
+      <value value-date="2021-01-31">296</value>
+      <receiver-org>
+        <narrative>Davis Memorial Hospital and Clinic (Guyana)</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="JM"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FFCB45CBEE27">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-03-31"/>
+      <value value-date="2021-03-31">4106</value>
       <receiver-org>
         <narrative>Davis Memorial Hospital and Clinic (Guyana)</narrative>
       </receiver-org>
@@ -1771,7 +1771,7 @@
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>-444</narrative>
+      <narrative>4,106</narrative>
     </usg:tec1>
   </iati-activity>
 </iati-activities>

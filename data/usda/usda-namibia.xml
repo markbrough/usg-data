@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T14:55:11-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:03-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-08T12:09:44-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:16-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-22IC11132762455</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -22,7 +22,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Namibia Nature Foundation</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2021-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -124,10 +124,29 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="477F802C438A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-31"/>
+      <value value-date="2024-12-31">12393</value>
+      <receiver-org>
+        <narrative>Namibia Nature Foundation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="36" vocabulary="99">
+        <narrative>Clean Productive Environment</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="NA"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:09-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-MCC-10-0118-IAA-80 TO 12</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>

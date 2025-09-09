@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T14:54:39-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:01-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-59-3060-0-001--F</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-08T12:10:01-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:14-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-59-3060-0-001-F</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -28,6 +28,7 @@
     </activity-date>
     <activity-date iso-date="2020-10-01" type="2"/>
     <activity-date iso-date="2025-08-31" type="3"/>
+    <activity-date iso-date="2025-08-31" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -68,10 +69,101 @@
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>45,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:16-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-250969</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Site Visit</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The NPPO of Chile (SAG) requested a site visit to the Lobesia botrana eradication program in California. The delegation included both representatives from SAG (2) and the Chilean industry (3). The SAG delegation observed all aspects of this successful regulatory program. This request was made at the US/Chile Bilateral Technical Discussions in March 2012. SAG hopes to show industry that eradication of Lobesia botrana can be successful but only with industry support. They are hopeful they can apply what APHIS has learned, in Chile.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-07-30" type="1"/>
+    <activity-date iso-date="2012-07-30" type="2"/>
+    <activity-date iso-date="2012-08-05" type="3"/>
+    <activity-date iso-date="2012-08-05" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="7BE72DB1807B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">6500</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
+      </sector>
+      <recipient-country code="CL"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7BE72DB1807B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">6500</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
+      </sector>
+      <recipient-country code="CL"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:03-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250482</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:16-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251047</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -118,7 +210,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="0407552811FB">
+    <transaction ref="42B9C864711F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">5000</value>
@@ -137,7 +229,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0407552811FB">
+    <transaction ref="42B9C864711F">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">5000</value>
@@ -159,196 +251,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250186</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-5930600001F</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">DOS - USDA/VS/CEAH Agreement</narrative>
+      <narrative xml:lang="en">Agricultural Research Basic and Applied Research</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The National Surveillance Unit at the APHIS Centers for Epidemiology and Animal Health (CEAH) is supporting a Department of State funded project under the U.S.-Chile Joint Commission for Environmental Cooperation. The Evidence-Based Disease control in Salmon Aquaculture project is ongoing. The purpose of the project is to reduce the impact of diseases on Chiles aquatic animal resources through enhanced disease detection and response. Five Chilean team members travelled to CEAH in May 2012 for a six-day workshop. The workshop focused on data access and development of empirical studies. These studies support strategies for surveillance and resolution of obstacles</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1"/>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3"/>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="34EFB9834278">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">15000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31320" vocabulary="1">
-        <narrative>Fishery development</narrative>
-      </sector>
-      <recipient-country code="CL"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="34EFB9834278">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">15000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31320" vocabulary="1">
-        <narrative>Fishery development</narrative>
-      </sector>
-      <recipient-country code="CL"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:05-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250484</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Workshop</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">International Workshop on the invasive alga, Didymosphenia geminata (didymo or rock snot): BRS, participated in this workshop, April 2 - 4, 2012 in Puerto Varas, Chile, discussing work on the management of didymo in New Zealand with the participants.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-04-02" type="1"/>
-    <activity-date iso-date="2012-04-02" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F59C8FFD0C62">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">5500</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="41030" vocabulary="1">
-        <narrative>Bio-diversity</narrative>
-      </sector>
-      <recipient-country code="CL"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F59C8FFD0C62">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">5500</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="41030" vocabulary="1">
-        <narrative>Bio-diversity</narrative>
-      </sector>
-      <recipient-country code="CL"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:06-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-5930600001F-249988</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">AGRICULTURAL RESEARCH BASIC AND APPLIED RESEARCH</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">WINTER NURSERY AND SEED PRODUCTION FOR RAPID GERMPLASM ENHANCEMENT - OBJECTIVE 1. ADVANCE CYTOPLASMIC MALE STERILITY (CMS) CONVERSIONS, MAPPING POPULATIONS, AND INBRED LINES TO ALLOW FOR MORE RAPID RELEASE OF SUNFLOWER GERMPLASM TO THE SEED INDUSTRY AND UNIVERSITY COLLABORATORS. OBJECTIVE 2. OBTAIN NOTES OF PLANT HEIGHT AND BLOOM DATE, AS WELL AS ANY OTHER NEEDED DATA, ON THE PLANTS IN THE CHILE ENVIRONMENT, TO PUBLISH IN GERMPLASM RELEASES.</narrative>
+      <narrative xml:lang="en">WINTER NURSERY AND SEED PRODUCTION FOR RAPID GERMPLASM ENHANCEMENT - OBJECTIVE 1. ADVANCE CYTOPLASMIC MALE STERILITY (CMS) CONVERSIONS, MAPPING POPULATIONS, AND INBRED LINES TO ALLOW FOR MORE RAPID RELEASE OF SUNFLOWER GERMPLASM TO THE SEED INDUSTRY AND UNIVERSITY COLLABORATORS. OBJECTIVE 2. OBTAIN</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -363,11 +275,12 @@
       <narrative>Graneros Winter Nursery</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
+    <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2022-10-01" type="2"/>
     <activity-date iso-date="2025-08-31" type="3"/>
+    <activity-date iso-date="2025-08-31" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -384,14 +297,14 @@
     </contact-info>
     <activity-scope code="5"/>
     <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
+    <default-flow-type code="50"/>
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="5"/>
-    <transaction ref="D39FB4135DAE">
+    <transaction ref="E859E1D21346">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-31"/>
-      <value value-date="2023-12-31">20600</value>
+      <transaction-date iso-date="2023-03-31"/>
+      <value value-date="2023-03-31">19700</value>
       <receiver-org>
         <narrative>Graneros Winter Nursery</narrative>
       </receiver-org>
@@ -410,8 +323,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:07-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-2735-250403</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-2735-250968</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -458,7 +371,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="F43EF525088C">
+    <transaction ref="A9A51F0E1D4C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">15000</value>
@@ -477,7 +390,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F43EF525088C">
+    <transaction ref="A9A51F0E1D4C">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">15000</value>
@@ -499,7 +412,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:07-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:20-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-21IG11132762385</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -522,7 +435,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Corporacin Red Colombiana de Organizaciones Comunitarias Ambientalmente AmigablesRed Colombia Verde</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2020-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -682,19 +595,127 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="855DED408D53">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-31"/>
+      <value value-date="2024-12-31">2142</value>
+      <receiver-org>
+        <narrative>Corporacin Red Colombiana de Organizaciones Comunitarias Ambientalmente AmigablesRed Colombia Verde</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
+      </sector>
+      <recipient-country code="CL"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:07-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250404</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:21-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-250751</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Site Visit</narrative>
+      <narrative xml:lang="en">DOS - USDA/VS/CEAH Agreement</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The NPPO of Chile (SAG) requested a site visit to the Lobesia botrana eradication program in California. The delegation included both representatives from SAG (2) and the Chilean industry (3). The SAG delegation observed all aspects of this successful regulatory program. This request was made at the US/Chile Bilateral Technical Discussions in March 2012. SAG hopes to show industry that eradication of Lobesia botrana can be successful but only with industry support. They are hopeful they can apply what APHIS has learned, in Chile.</narrative>
+      <narrative xml:lang="en">The National Surveillance Unit at the APHIS Centers for Epidemiology and Animal Health (CEAH) is supporting a Department of State funded project under the U.S.-Chile Joint Commission for Environmental Cooperation. The Evidence-Based Disease control in Salmon Aquaculture project is ongoing. The purpose of the project is to reduce the impact of diseases on Chiles aquatic animal resources through enhanced disease detection and response. Five Chilean team members travelled to CEAH in May 2012 for a six-day workshop. The workshop focused on data access and development of empirical studies. These studies support strategies for surveillance and resolution of obstacles</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-10-01" type="1"/>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="03D6834BE056">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">15000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31320" vocabulary="1">
+        <narrative>Fishery development</narrative>
+      </sector>
+      <recipient-country code="CL"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="03D6834BE056">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">15000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31320" vocabulary="1">
+        <narrative>Fishery development</narrative>
+      </sector>
+      <recipient-country code="CL"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:22-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251049</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Workshop</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">International Workshop on the invasive alga, Didymosphenia geminata (didymo or rock snot): BRS, participated in this workshop, April 2 - 4, 2012 in Puerto Varas, Chile, discussing work on the management of didymo in New Zealand with the participants.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -709,10 +730,12 @@
       <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-07-30" type="1"/>
-    <activity-date iso-date="2012-07-30" type="2"/>
-    <activity-date iso-date="2012-08-05" type="3"/>
-    <activity-date iso-date="2012-08-05" type="4"/>
+    <activity-date iso-date="2012-04-02" type="1"/>
+    <activity-date iso-date="2012-04-02" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -731,114 +754,43 @@
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
+    <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="4DD7736C4715">
+    <transaction ref="C0F68AFD183F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">6500</value>
+      <value value-date="2012-01-01">5500</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
       </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
       </sector>
       <recipient-country code="CL"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4DD7736C4715">
+    <transaction ref="C0F68AFD183F">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">6500</value>
+      <value value-date="2012-01-01">5500</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
       </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
       </sector>
       <recipient-country code="CL"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-5930600001F-250008</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Agricultural Research Basic and Applied Research</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">WINTER NURSERY AND SEED PRODUCTION FOR RAPID GERMPLASM ENHANCEMENT - OBJECTIVE 1. ADVANCE CYTOPLASMIC MALE STERILITY (CMS) CONVERSIONS, MAPPING POPULATIONS, AND INBRED LINES TO ALLOW FOR MORE RAPID RELEASE OF SUNFLOWER GERMPLASM TO THE SEED INDUSTRY AND UNIVERSITY COLLABORATORS. OBJECTIVE 2. OBTAIN</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Graneros Winter Nursery</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2025-08-31" type="3"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="9B0A3EED62EF">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-03-31"/>
-      <value value-date="2023-03-31">19700</value>
-      <receiver-org>
-        <narrative>Graneros Winter Nursery</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="CL"/>
-      <usg:treasury-account code="12x1400">Agricultural Research Service, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>

@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T14:54:38-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:07-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-08T12:09:58-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:20-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-22IC11132762041</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -22,7 +22,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Nevis Historical and Conservation Society</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2021-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -91,6 +91,25 @@
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-06-30"/>
       <value value-date="2023-06-30">31943</value>
+      <receiver-org>
+        <narrative>Nevis Historical and Conservation Society</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
+      </sector>
+      <recipient-country code="KN"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="764646459C61">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-01-01"/>
+      <value value-date="2025-01-01">-390</value>
       <receiver-org>
         <narrative>Nevis Historical and Conservation Society</narrative>
       </receiver-org>

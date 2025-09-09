@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T14:54:59-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:53:59-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-08T12:09:47-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:13-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672014050-4674</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -88,7 +88,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:00-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:14-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-590</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -181,7 +181,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:01-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:14-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672020012-4677</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1237,12 +1237,31 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="EA635ECF6F22">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-11-08"/>
+      <value value-date="2024-11-08">2087232</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>25,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:01-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:15-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-226</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1335,8 +1354,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:01-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FCC3672023001</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:15-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FCC3672023001-4809</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -1358,7 +1377,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Lutheran World Relief</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -1384,7 +1403,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="DE7E777D98EB">
+    <transaction ref="8171FC3C6803">
       <transaction-type code="2"/>
       <transaction-date iso-date="2023-09-20"/>
       <value value-date="2023-09-20">33100000</value>
@@ -1403,7 +1422,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="B898CE266449">
+    <transaction ref="E8AF3D2543AD">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-01-22"/>
       <value value-date="2024-01-22">405000</value>
@@ -1422,7 +1441,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F84E3A161EE0">
+    <transaction ref="E062517D321F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-05-23"/>
       <value value-date="2024-05-23">10975133</value>
@@ -1441,10 +1460,67 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1BCB354CEB2D">
+    <transaction ref="B1B0508926E8">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-06-20"/>
       <value value-date="2024-06-20">3421124</value>
+      <receiver-org>
+        <narrative>Lutheran World Relief</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D228010B4F0E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-11-27"/>
+      <value value-date="2024-11-27">8646672</value>
+      <receiver-org>
+        <narrative>Lutheran World Relief</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="90E36DF05553">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-01-09"/>
+      <value value-date="2025-01-09">1325200</value>
+      <receiver-org>
+        <narrative>Lutheran World Relief</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DA2BD45D696C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-26"/>
+      <value value-date="2025-03-26">469609</value>
       <receiver-org>
         <narrative>Lutheran World Relief</narrative>
       </receiver-org>
@@ -1465,7 +1541,7 @@
       <narrative>33,100,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:01-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:15-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672014050-4194</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1993,7 +2069,80 @@
       <narrative>26,958,500</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:02-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:15-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FCC3672023001-4808</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Food for Progress</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Global Communities</narrative>
+    </participating-org>
+    <activity-status code="2"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2028-09-30" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="D30466DC8B91">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-10-04"/>
+      <value value-date="2024-10-04">46332</value>
+      <receiver-org>
+        <narrative>Global Communities</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>33,100,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:15-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672020012-4676</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2387,7 +2536,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:02-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:16-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-529</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2480,7 +2629,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:03-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:16-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2011/030</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2554,7 +2703,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:03-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:17-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2012/030-00</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2685,7 +2834,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:04-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:17-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2013/030</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2812,7 +2961,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:05-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2012/030</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2886,7 +3035,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:05-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX24SR-10961R001</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2957,7 +3106,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:05-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX23SR-10961R002</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3066,7 +3215,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:05-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-16DG11132762215</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3155,7 +3304,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:05-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-16IG11132762162</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3244,7 +3393,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:06-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672017021-4452</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -4209,7 +4358,7 @@
       <narrative>29,300,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:07-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:20-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2011/030-00</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -4283,7 +4432,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:07-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:20-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672023006</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -4306,7 +4455,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>World Food Program</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -4522,12 +4671,183 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="B10B19EB0506">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-11-12"/>
+      <value value-date="2024-11-12">122</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="E7C62F4DBDC3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-11-15"/>
+      <value value-date="2024-11-15">728462</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="35745E85DBFC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-11-22"/>
+      <value value-date="2024-11-22">122</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5A8F2914D217">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-11-29"/>
+      <value value-date="2024-11-29">394188</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1C3289053B77">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-05"/>
+      <value value-date="2024-12-05">256222</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="520D175E6732">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-06"/>
+      <value value-date="2024-12-06">144015</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0969B08E33C0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-09"/>
+      <value value-date="2024-12-09">39381</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="CE9E80FE91F0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-01-14"/>
+      <value value-date="2025-01-14">159962</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A3EC3B8011ED">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-17"/>
+      <value value-date="2025-03-17">47339</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>33,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:09-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672017021-4675</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -4996,7 +5316,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:09-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX22SR-10961R001</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -5019,7 +5339,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Tennessee State University</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2021-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -5141,12 +5461,31 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="53968A23666D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">5011</value>
+      <receiver-org>
+        <narrative>Tennessee State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>50,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:09-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-286</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -5239,7 +5578,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:09-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-530</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -5332,7 +5671,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:10-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2014/050</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -6485,7 +6824,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:11-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-225</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -6578,7 +6917,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:11-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:23-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2013/030-00</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>

@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T14:54:36-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T14:54:03-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-08T12:09:54-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T12:09:16-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-23IG11132762108</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -22,7 +22,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>EcoAlbania</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -128,6 +128,44 @@
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-06-30"/>
       <value value-date="2024-06-30">11015</value>
+      <receiver-org>
+        <narrative>EcoAlbania</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41081" vocabulary="1">
+        <narrative>Environmental education/ training</narrative>
+      </sector>
+      <recipient-country code="AL"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="74D97629F63B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-31"/>
+      <value value-date="2024-12-31">3312</value>
+      <receiver-org>
+        <narrative>EcoAlbania</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41081" vocabulary="1">
+        <narrative>Environmental education/ training</narrative>
+      </sector>
+      <recipient-country code="AL"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="87845F012B05">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">3947</value>
       <receiver-org>
         <narrative>EcoAlbania</narrative>
       </receiver-org>

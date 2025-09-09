@@ -1,17 +1,17 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T15:27:44-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:32-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002174-46722</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-08T14:46:08-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:07-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002174-46903</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">GH18-1847.NU2G Strengthen Brazil's response to HIV and other infectious diseases</narrative>
+      <narrative xml:lang="en">GH18-1847 Strengthen Brazil's Response to HIV and Other Infectious Diseases through Prevention, Treatment, Care, Laboratory, Strategic Information, and Epidemiology and Surveillance Activities under the President's Emergency Plan for AIDS Relief (PEPFAR) - 2018</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">Grants</narrative>
     </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
     </participating-org>
     <participating-org ref="US-GOV-14" role="2" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -23,12 +23,12 @@
       <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
+    <activity-date iso-date="2021-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2024-09-29" type="3"/>
-    <activity-date iso-date="2024-09-29" type="4"/>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2023-09-29" type="3"/>
+    <activity-date iso-date="2023-09-29" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Health and Human Services</narrative>
@@ -52,10 +52,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="64A25BB66313">
+    <transaction ref="58BC4039B788">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-07"/>
-      <value value-date="2021-01-07">184</value>
+      <transaction-date iso-date="2021-10-06"/>
+      <value value-date="2021-10-06">44761</value>
       <receiver-org>
         <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
       </receiver-org>
@@ -71,10 +71,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="43F10F252C1A">
+    <transaction ref="113FADC33516">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-31"/>
-      <value value-date="2021-01-31">1971</value>
+      <transaction-date iso-date="2021-10-31"/>
+      <value value-date="2021-10-31">83560</value>
       <receiver-org>
         <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
       </receiver-org>
@@ -90,10 +90,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="ED3BC18463D7">
+    <transaction ref="3E9C2BE67BF5">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-02-28"/>
-      <value value-date="2021-02-28">154</value>
+      <transaction-date iso-date="2021-11-30"/>
+      <value value-date="2021-11-30">-39211</value>
       <receiver-org>
         <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
       </receiver-org>
@@ -109,10 +109,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3FEFF4723097">
+    <transaction ref="45780D7260C3">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-03-31"/>
-      <value value-date="2021-03-31">228</value>
+      <transaction-date iso-date="2021-12-31"/>
+      <value value-date="2021-12-31">-17682</value>
       <receiver-org>
         <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
       </receiver-org>
@@ -125,15 +125,34 @@
       </sector>
       <recipient-country code="BR"/>
       <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="54F8D09CFF49">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-12-13"/>
+      <value value-date="2021-12-13">1000000</value>
+      <receiver-org>
+        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="BR"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>2,854</narrative>
+      <narrative>1,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:38-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:11-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-NU2GGH002515</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -209,13 +228,13 @@
       <narrative>1,240,435</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:40-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH001152-45051</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:11-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH001152-45753</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">CDC: President's Emergency Plan for AIDS Relief (GHP)</narrative>
+      <narrative xml:lang="en">GH13-1343STRENGTHEN BRAZIL^S NATIONAL RESPONSE TO HIV AND OTHER DISEASES THROUGH INNOVATIVE AND EVIDENCE-BASED APPROACHES IN LABORATORY, STRATEGIC INFORMATION, PREVENTION AND CARE ACTIVITIES AND FOSTER PARTNER</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">Grants</narrative>
@@ -260,10 +279,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="4A30FC17989C">
+    <transaction ref="94FA25DC2036">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-07"/>
-      <value value-date="2021-01-07">1</value>
+      <transaction-date iso-date="2021-07-06"/>
+      <value value-date="2021-07-06">1</value>
       <receiver-org>
         <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
       </receiver-org>
@@ -279,10 +298,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1A137BCFF7EF">
+    <transaction ref="227875AE9534">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-03-31"/>
-      <value value-date="2021-03-31">-1</value>
+      <transaction-date iso-date="2021-07-31"/>
+      <value value-date="2021-07-31">-1</value>
       <receiver-org>
         <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
       </receiver-org>
@@ -303,8 +322,82 @@
       <narrative>1</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:42-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002174-48869</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:11-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-N/A HHS/CDC PROGRAM SUPPORT-44290</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Activities and Program Support - Other Administrative Costs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Activities and Program Support - Other Administrative Costs</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Georgia Institute of Technology</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="C16EB82DE722">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">337498</value>
+      <receiver-org>
+        <narrative>Georgia Institute of Technology</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="47" vocabulary="99">
+        <narrative>Health - General</narrative>
+      </sector>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="BR"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:14-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002174-49055</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
@@ -356,7 +449,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="429A265EF629">
+    <transaction ref="B64769BCD84B">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-04-05"/>
       <value value-date="2021-04-05">318</value>
@@ -375,7 +468,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="922F8A6F5954">
+    <transaction ref="47A073A23E47">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-04-30"/>
       <value value-date="2021-04-30">-1625</value>
@@ -394,7 +487,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2F341A4DE11A">
+    <transaction ref="C57699828BA2">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-05-31"/>
       <value value-date="2021-05-31">76745</value>
@@ -413,7 +506,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="8FD8CD363657">
+    <transaction ref="336A6602C250">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-06-30"/>
       <value value-date="2021-06-30">126893</value>
@@ -432,7 +525,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="8202C0924898">
+    <transaction ref="54DBB25ACB9B">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-07-06"/>
       <value value-date="2021-07-06">2951</value>
@@ -451,7 +544,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="32AE292E2317">
+    <transaction ref="0AB22C5AA114">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-07-31"/>
       <value value-date="2021-07-31">51874</value>
@@ -470,7 +563,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="7783E5DAC353">
+    <transaction ref="77BA538AC555">
       <transaction-type code="2"/>
       <transaction-date iso-date="2021-08-20"/>
       <value value-date="2021-08-20">3309</value>
@@ -489,7 +582,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E1BEA1EC4C17">
+    <transaction ref="442587E88A6C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-08-31"/>
       <value value-date="2021-08-31">163483</value>
@@ -508,7 +601,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="B757E20268AD">
+    <transaction ref="37EFD052C1A6">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-09-30"/>
       <value value-date="2021-09-30">127112</value>
@@ -532,8 +625,142 @@
       <narrative>390,181</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:46-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002174-47654</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:14-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002174-46908</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">GH18-1847.NU2G Strengthen Brazil's response to HIV and other infectious diseases</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2024-09-29" type="3"/>
+    <activity-date iso-date="2024-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="548A0CD1D1AA">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-01-07"/>
+      <value value-date="2021-01-07">184</value>
+      <receiver-org>
+        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="BR"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8B70BF1E8074">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-01-31"/>
+      <value value-date="2021-01-31">1971</value>
+      <receiver-org>
+        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="BR"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6D6D196D3DDE">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-02-28"/>
+      <value value-date="2021-02-28">154</value>
+      <receiver-org>
+        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="BR"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1C3C3A444B66">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-03-31"/>
+      <value value-date="2021-03-31">228</value>
+      <receiver-org>
+        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="BR"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>2,854</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:15-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002174-47840</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
@@ -585,7 +812,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="ECE6E6F856EB">
+    <transaction ref="52F281012C7B">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-01-06"/>
       <value value-date="2022-01-06">10693</value>
@@ -604,7 +831,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="9F6D6805AAB7">
+    <transaction ref="CF347B17C5FD">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-04-30"/>
       <value value-date="2022-04-30">3309</value>
@@ -623,7 +850,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="A20BC6B27CBF">
+    <transaction ref="D66AC4FC2B8B">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-04-30"/>
       <value value-date="2022-04-30">146691</value>
@@ -642,7 +869,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D7FBA35C5D71">
+    <transaction ref="3726FE64096C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-05-31"/>
       <value value-date="2022-05-31">100000</value>
@@ -661,7 +888,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="8A293652C3F0">
+    <transaction ref="A877223F531A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-06-30"/>
       <value value-date="2022-06-30">150000</value>
@@ -685,87 +912,13 @@
       <narrative>150,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:46-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-N/A HHS/CDC PROGRAM SUPPORT-44104</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:16-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH001152-45237</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Activities and Program Support - Other Administrative Costs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Activities and Program Support - Other Administrative Costs</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Georgia Institute of Technology</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F00EB579FC50">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">337498</value>
-      <receiver-org>
-        <narrative>Georgia Institute of Technology</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="47" vocabulary="99">
-        <narrative>Health - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="BR"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:48-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH001152-48811</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">STRENGTHEN BRAZIL^S NATIONAL RESPONSE TO HIV AND OTHER DISEASES THROUGH INNOVATIVE AND EVIDENCE-BASED APPROACHES IN LABORATORY, STRATEGIC INFORMATION, PREVENTION AND CARE ACTIVITIES AND FOSTER PARTNER</narrative>
+      <narrative xml:lang="en">CDC: President's Emergency Plan for AIDS Relief (GHP)</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">Grants</narrative>
@@ -810,10 +963,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="1E75447548D7">
+    <transaction ref="E7E455BA4EE1">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-04-05"/>
-      <value value-date="2021-04-05">1</value>
+      <transaction-date iso-date="2021-01-07"/>
+      <value value-date="2021-01-07">1</value>
       <receiver-org>
         <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
       </receiver-org>
@@ -829,104 +982,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4BD876D71C9E">
+    <transaction ref="925F8098944B">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2021-06-30"/>
-      <value value-date="2021-06-30">-1</value>
-      <receiver-org>
-        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="BR"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>1</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:25:50-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH001152-45567</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">GH13-1343STRENGTHEN BRAZIL^S NATIONAL RESPONSE TO HIV AND OTHER DISEASES THROUGH INNOVATIVE AND EVIDENCE-BASED APPROACHES IN LABORATORY, STRATEGIC INFORMATION, PREVENTION AND CARE ACTIVITIES AND FOSTER PARTNER</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2013-09-30" type="1"/>
-    <activity-date iso-date="2013-09-30" type="2"/>
-    <activity-date iso-date="2021-09-29" type="3"/>
-    <activity-date iso-date="2021-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="C2EF6513D19C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-07-06"/>
-      <value value-date="2021-07-06">1</value>
-      <receiver-org>
-        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="BR"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4D483B0501B0">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-07-31"/>
-      <value value-date="2021-07-31">-1</value>
+      <transaction-date iso-date="2021-03-31"/>
+      <value value-date="2021-03-31">-1</value>
       <receiver-org>
         <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
       </receiver-org>
@@ -947,161 +1006,8 @@
       <narrative>1</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:26:02-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002174-46717</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">GH18-1847 Strengthen Brazil's Response to HIV and Other Infectious Diseases through Prevention, Treatment, Care, Laboratory, Strategic Information, and Epidemiology and Surveillance Activities under the President's Emergency Plan for AIDS Relief (PEPFAR) - 2018</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Grants</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2023-09-29" type="3"/>
-    <activity-date iso-date="2023-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="09958F219569">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-10-06"/>
-      <value value-date="2021-10-06">44761</value>
-      <receiver-org>
-        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="BR"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5605439951C7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-10-31"/>
-      <value value-date="2021-10-31">83560</value>
-      <receiver-org>
-        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="BR"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="DF022F14F912">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-11-30"/>
-      <value value-date="2021-11-30">-39211</value>
-      <receiver-org>
-        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="BR"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="52A8D18D75D5">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-12-31"/>
-      <value value-date="2021-12-31">-17682</value>
-      <receiver-org>
-        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="BR"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="3FB8CB551F85">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-12-13"/>
-      <value value-date="2021-12-13">1000000</value>
-      <receiver-org>
-        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="BR"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>1,000,000</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:26:02-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH002174-46721</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:16-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH002174-46907</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
@@ -1153,7 +1059,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="1AE8C142DF06">
+    <transaction ref="2A5DB3B1F87A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-01-31"/>
       <value value-date="2022-01-31">221406</value>
@@ -1172,7 +1078,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="55E3796B604C">
+    <transaction ref="5F3D54B95756">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-02-28"/>
       <value value-date="2022-02-28">43758</value>
@@ -1191,7 +1097,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="06BF45187F02">
+    <transaction ref="8172E8AE1781">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-03-31"/>
       <value value-date="2022-03-31">-61572</value>
@@ -1210,7 +1116,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="00B01387DE0D">
+    <transaction ref="2887EB6726A6">
       <transaction-type code="2"/>
       <transaction-date iso-date="2022-07-08"/>
       <value value-date="2022-07-08">15361</value>
@@ -1229,7 +1135,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="05BD85AEC860">
+    <transaction ref="D836FDCD8211">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-08-31"/>
       <value value-date="2022-08-31">192857</value>
@@ -1248,7 +1154,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="64E4D4DDE96A">
+    <transaction ref="44463E0C1207">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-09-30"/>
       <value value-date="2022-09-30">225035</value>
@@ -1267,7 +1173,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="BEA2C75143DC">
+    <transaction ref="27344014E2DD">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-11-30"/>
       <value value-date="2022-11-30">110714</value>
@@ -1286,7 +1192,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="A690F26F2C9C">
+    <transaction ref="7D71C7117E4C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-12-21"/>
       <value value-date="2022-12-21">1054</value>
@@ -1305,7 +1211,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1345F4519FE1">
+    <transaction ref="36696A022BDE">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-01-05"/>
       <value value-date="2023-01-05">3161</value>
@@ -1324,7 +1230,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1CDBD1CFBA1B">
+    <transaction ref="447100F8348F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-01-31"/>
       <value value-date="2023-01-31">4214</value>
@@ -1343,7 +1249,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EE9D58630FC3">
+    <transaction ref="82092D3C2657">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-03-07"/>
       <value value-date="2023-03-07">124296</value>
@@ -1362,7 +1268,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1197CFD6C6D6">
+    <transaction ref="D0FA497761EA">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-04-05"/>
       <value value-date="2023-04-05">142857</value>
@@ -1381,7 +1287,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="15D8D9490F31">
+    <transaction ref="49F2A242F0D5">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-04-13"/>
       <value value-date="2023-04-13">44286</value>
@@ -1400,7 +1306,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F008DC127424">
+    <transaction ref="13A47BAECAC3">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-05-05"/>
       <value value-date="2023-05-05">142857</value>
@@ -1419,7 +1325,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D8ACF02FBEF1">
+    <transaction ref="96D0B2DD9570">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-06-08"/>
       <value value-date="2023-06-08">142857</value>
@@ -1438,7 +1344,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="C89050E6F94C">
+    <transaction ref="C0AAADC51A7E">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-06-15"/>
       <value value-date="2023-06-15">44286</value>
@@ -1457,7 +1363,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F681E92A80D5">
+    <transaction ref="4845307CC165">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-07-12"/>
       <value value-date="2023-07-12">142857</value>
@@ -1476,7 +1382,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2DC4BBF5819B">
+    <transaction ref="FDF6AACEF20A">
       <transaction-type code="2"/>
       <transaction-date iso-date="2023-07-25"/>
       <value value-date="2023-07-25">1746678</value>
@@ -1495,7 +1401,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4D3DA214B026">
+    <transaction ref="2CE9F3716598">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-08-03"/>
       <value value-date="2023-08-03">203174</value>
@@ -1514,7 +1420,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="A39CB3A6C46E">
+    <transaction ref="EAD317AF0FF5">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-08-31"/>
       <value value-date="2023-08-31">3772</value>
@@ -1533,7 +1439,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="503928ADD916">
+    <transaction ref="615B87F03F15">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-09-18"/>
       <value value-date="2023-09-18">3161</value>
@@ -1552,7 +1458,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="96AC82E4AB7F">
+    <transaction ref="8BF68B16128F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-11-07"/>
       <value value-date="2023-11-07">142857</value>
@@ -1571,7 +1477,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D3F72DFE98C7">
+    <transaction ref="15E6D7616B3A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-11-29"/>
       <value value-date="2023-11-29">30000</value>
@@ -1590,7 +1496,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0332282B304F">
+    <transaction ref="D8207D337C08">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-12-11"/>
       <value value-date="2023-12-11">107143</value>
@@ -1609,7 +1515,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0808E9AC4EFA">
+    <transaction ref="685862431C6E">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-01-16"/>
       <value value-date="2024-01-16">225170</value>
@@ -1628,7 +1534,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="B0C54E2AE861">
+    <transaction ref="5981FB280F02">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-02-13"/>
       <value value-date="2024-02-13">340000</value>
@@ -1647,7 +1553,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="97E9AE3E2E3A">
+    <transaction ref="65899C5CB0D2">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-03-27"/>
       <value value-date="2024-03-27">200000</value>
@@ -1666,7 +1572,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3F8172A4F201">
+    <transaction ref="D7DB36C612D0">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-05-10"/>
       <value value-date="2024-05-10">100000</value>
@@ -1685,7 +1591,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="18128DA6B74B">
+    <transaction ref="79840F92C494">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-06-10"/>
       <value value-date="2024-06-10">150000</value>
@@ -1704,7 +1610,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="C121650C6D95">
+    <transaction ref="026070F20810">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-02-28"/>
       <value value-date="2022-02-28">64367</value>
@@ -1723,7 +1629,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3182CA0933A9">
+    <transaction ref="CD9926DF6BC2">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-03-31"/>
       <value value-date="2022-03-31">55633</value>
@@ -1742,7 +1648,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="122BC9316ED1">
+    <transaction ref="EA7DA1B38605">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-07-31"/>
       <value value-date="2022-07-31">200000</value>
@@ -1761,7 +1667,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="A48BD781DD2F">
+    <transaction ref="585F8C525352">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-08-31"/>
       <value value-date="2022-08-31">283309</value>
@@ -1783,6 +1689,100 @@
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>100,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:45:20-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH001152-48997</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">STRENGTHEN BRAZIL^S NATIONAL RESPONSE TO HIV AND OTHER DISEASES THROUGH INNOVATIVE AND EVIDENCE-BASED APPROACHES IN LABORATORY, STRATEGIC INFORMATION, PREVENTION AND CARE ACTIVITIES AND FOSTER PARTNER</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Grants</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2013-09-30" type="1"/>
+    <activity-date iso-date="2013-09-30" type="2"/>
+    <activity-date iso-date="2021-09-29" type="3"/>
+    <activity-date iso-date="2021-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="ED9FCC8ADAA4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-04-05"/>
+      <value value-date="2021-04-05">1</value>
+      <receiver-org>
+        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="BR"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="58828CA01370">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-06-30"/>
+      <value value-date="2021-06-30">-1</value>
+      <receiver-org>
+        <narrative>Fundacao para o Desenvolvimento Cientifico e Tecnolgico em Sade</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="BR"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>1</narrative>
     </usg:tec1>
   </iati-activity>
 </iati-activities>

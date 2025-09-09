@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T15:46:08-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:09-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-08T14:55:50-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:45-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F22AP01302</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -168,8 +168,8 @@
       <narrative>368,941</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F13AP00333-62331</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:47-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F13AP00882-62869</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
     </reporting-org>
@@ -177,7 +177,7 @@
       <narrative xml:lang="en">Marine Turtle Conservation Fund</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Sea turtle technical assistance in the Gulf of Guinea, West Africa 2013-2014</narrative>
+      <narrative xml:lang="en">The recipient will implement community/National Park team patrols on main nesting beaches within the National Park to conduct standardized surveys and protect nests and nesting females according to prepared surveillance plan; select and train community members for beach patrol teams; and conduct education and outreach programs in local communities, schools and with artisianal fishers.</narrative>
     </description>
     <participating-org ref="9" role="1" type="10">
       <narrative>Department of the Interior</narrative>
@@ -189,13 +189,13 @@
       <narrative>Department of the Interior</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Wildlife Conservation Society</narrative>
+      <narrative>Instituto Da Biodiversidade</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2013-05-31" type="1"/>
-    <activity-date iso-date="2013-05-31" type="2"/>
-    <activity-date iso-date="2014-06-30" type="3"/>
-    <activity-date iso-date="2014-06-30" type="4"/>
+    <activity-date iso-date="2013-08-23" type="1"/>
+    <activity-date iso-date="2013-08-23" type="2"/>
+    <activity-date iso-date="2015-12-31" type="3"/>
+    <activity-date iso-date="2015-12-31" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of the Interior</narrative>
@@ -216,12 +216,120 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="778FCEDF691D">
+    <transaction ref="C3494FD154B1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2013-11-13"/>
+      <value value-date="2013-11-13">19903</value>
+      <receiver-org>
+        <narrative>Instituto Da Biodiversidade</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:49-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F14AP00314-62173</iati-identifier>
+    <reporting-org ref="US-GOV-9" type="10">
+      <narrative>Department of the Interior</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Great Apes Conservation Fund</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Great Apes Conservation Fund</narrative>
+    </description>
+    <participating-org ref="9" role="1" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="2" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="3" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Wara Conservation Project</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2014-05-23" type="1"/>
+    <activity-date iso-date="2014-05-23" type="2"/>
+    <activity-date iso-date="2015-06-30" type="3"/>
+    <activity-date iso-date="2015-06-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of the Interior</narrative>
+      </organisation>
+      <person-name>
+        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
+      </person-name>
+      <telephone>202-208-3574</telephone>
+      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="247D39BC23B1">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2013-05-24"/>
-      <value value-date="2013-05-24">46000</value>
-      <receiver-org type="22" ref="US-EIN-13-1740011">
-        <narrative>Wildlife Conservation Society</narrative>
+      <transaction-date iso-date="2014-06-05"/>
+      <value value-date="2014-06-05">55248</value>
+      <receiver-org>
+        <narrative>Wara Conservation Project</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8CB9F889D524">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-06-17"/>
+      <value value-date="2014-06-17">27624</value>
+      <receiver-org>
+        <narrative>Wara Conservation Project</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="729384E7A964">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-09-26"/>
+      <value value-date="2014-09-26">27624</value>
+      <receiver-org>
+        <narrative>Wara Conservation Project</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="44" vocabulary="99">
@@ -238,8 +346,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:12-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F13AP00333-62393</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:51-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F13AP00882-62782</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
     </reporting-org>
@@ -247,7 +355,7 @@
       <narrative xml:lang="en">Marine Turtle Conservation Fund</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea. The USFWS and grantee will consult on priorities for project field visits.</narrative>
+      <narrative xml:lang="en">Conservation and management of sea turtle populations in the Bijag6s Archipelago, Guinea Bissau: monitoring and protection of nesting and feeding sites in close collaboration with the local communities</narrative>
     </description>
     <participating-org ref="9" role="1" type="10">
       <narrative>Department of the Interior</narrative>
@@ -259,13 +367,13 @@
       <narrative>Department of the Interior</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Wildlife Conservation Society</narrative>
+      <narrative>Instituto Da Biodiversidade</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2013-05-31" type="1"/>
-    <activity-date iso-date="2013-05-31" type="2"/>
-    <activity-date iso-date="2014-06-30" type="3"/>
-    <activity-date iso-date="2014-06-30" type="4"/>
+    <activity-date iso-date="2013-08-23" type="1"/>
+    <activity-date iso-date="2013-08-23" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3"/>
+    <activity-date iso-date="2014-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of the Interior</narrative>
@@ -286,31 +394,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="C91275EDC288">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-06-06"/>
-      <value value-date="2014-06-06">36848</value>
-      <receiver-org type="22" ref="US-EIN-13-1740011">
-        <narrative>Wildlife Conservation Society</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="06C13E2767BF">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-08-04"/>
-      <value value-date="2014-08-04">9152</value>
-      <receiver-org type="22" ref="US-EIN-13-1740011">
-        <narrative>Wildlife Conservation Society</narrative>
+    <transaction ref="1C31850E97ED">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-08-19"/>
+      <value value-date="2013-08-19">19903</value>
+      <receiver-org>
+        <narrative>Instituto Da Biodiversidade</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="44" vocabulary="99">
@@ -327,7 +416,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:15-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:51-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F17AP00439</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -418,16 +507,16 @@
       <narrative>193,860</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:16-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F14AC00215-62394</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:54-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F14AP00314-65003</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Marine Turtle Conservation Fund</narrative>
+      <narrative xml:lang="en">WILDLIFE LAW ENFORCEMENT IN GUINEA - GALF (Guine-Application de la Loi sur la Faune)</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea. The USFWS and grantee will consult on priorities for project field visits.</narrative>
+      <narrative xml:lang="en">The purpose of this project is to assist the government of Guinea to increase wildlife law enforcement capacity, produce effective deterrents to the killing of elephant and other threatened wildlife, and monitor the illegtal wildlife trade and other activities detrimental to ape survival. The recipient will identify large-scale dealers in ivory and meat and provide evidence to support legal action against them; bring about the arrest of large-scale illegal wildlife traders; ensure the prosecution of large-scale illegal wildlife traders, and raise public awareness of the increased enforcement of wildlife alw and the risks and peanlties for wildlife criminals.</narrative>
     </description>
     <participating-org ref="9" role="1" type="10">
       <narrative>Department of the Interior</narrative>
@@ -439,11 +528,11 @@
       <narrative>Department of the Interior</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Wildlife Conservation Society</narrative>
+      <narrative>Wara Conservation Project</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2014-05-14" type="1"/>
-    <activity-date iso-date="2014-05-14" type="2"/>
+    <activity-date iso-date="2014-05-23" type="1"/>
+    <activity-date iso-date="2014-05-23" type="2"/>
     <activity-date iso-date="2015-06-30" type="3"/>
     <activity-date iso-date="2015-06-30" type="4"/>
     <contact-info type="1">
@@ -466,82 +555,69 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="161D7C45FE6C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-05-09"/>
-      <value value-date="2014-05-09">46002</value>
-      <receiver-org type="22" ref="US-EIN-13-1740011">
-        <narrative>Wildlife Conservation Society</narrative>
+    <transaction ref="28AE7E259F3C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-11-04"/>
+      <value value-date="2014-11-04">27624</value>
+      <receiver-org>
+        <narrative>Wara Conservation Project</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
       </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
       </sector>
       <recipient-country code="GN"/>
       <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:17-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F15AP01127-62110</iati-identifier>
-    <reporting-org ref="US-GOV-9" type="10">
-      <narrative>Department of the Interior</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Landscape Conservation for chimpanzees in the Bafing River Area</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The purpose of this project is to contribute to the conservation of the largest chimpanzee population in Guinea and West Africa through species and habitat protection. Specific activities include: (1) informing and educating key Guinean authorities and local communities about the importance of classified forests and plans to update the boundaries of the classified forests within the Foutah Djallon-Bafing Area critical to chimpanzee conservation; (2) working with key stakeholders to delimit and make visible the boundaries of the classified forests.</narrative>
-    </description>
-    <participating-org ref="9" role="1" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="2" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="3" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Wild Chimpanzee Foundation</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-09-22" type="1"/>
-    <activity-date iso-date="2015-09-22" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of the Interior</narrative>
-      </organisation>
-      <person-name>
-        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
-      </person-name>
-      <telephone>202-208-3574</telephone>
-      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="81ED888D064B">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2015-09-21"/>
-      <value value-date="2015-09-21">65560</value>
+    <transaction ref="5344C6F69FD5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-11-19"/>
+      <value value-date="2014-11-19">27624</value>
       <receiver-org>
-        <narrative>Wild Chimpanzee Foundation</narrative>
+        <narrative>Wara Conservation Project</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="E764CD2FD809">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-12-03"/>
+      <value value-date="2014-12-03">27624</value>
+      <receiver-org>
+        <narrative>Wara Conservation Project</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A40E1E20138C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-07-08"/>
+      <value value-date="2015-07-08">27624</value>
+      <receiver-org>
+        <narrative>Wara Conservation Project</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="35" vocabulary="99">
@@ -558,77 +634,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:18-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F13AP00882-62382</iati-identifier>
-    <reporting-org ref="US-GOV-9" type="10">
-      <narrative>Department of the Interior</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Marine Turtle Conservation Fund</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The recipient will implement community/National Park team patrols on main nesting beaches within the National Park to conduct standardized surveys and protect nests and nesting females according to prepared surveillance plan; select and train community members for beach patrol teams; and conduct education and outreach programs in local communities, schools and with artisianal fishers.</narrative>
-    </description>
-    <participating-org ref="9" role="1" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="2" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="3" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Instituto Da Biodiversidade</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2013-08-23" type="1"/>
-    <activity-date iso-date="2013-08-23" type="2"/>
-    <activity-date iso-date="2015-12-31" type="3"/>
-    <activity-date iso-date="2015-12-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of the Interior</narrative>
-      </organisation>
-      <person-name>
-        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
-      </person-name>
-      <telephone>202-208-3574</telephone>
-      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="D9F674305BBF">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2013-11-13"/>
-      <value value-date="2013-11-13">19903</value>
-      <receiver-org>
-        <narrative>Instituto Da Biodiversidade</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:18-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:54-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F12AP00385</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -717,7 +723,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:18-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:54-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F17AP00392</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -808,7 +814,77 @@
       <narrative>18,846</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:19-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:55-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F11AP00352-59798</iati-identifier>
+    <reporting-org ref="US-GOV-9" type="10">
+      <narrative>Department of the Interior</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">African Elephant Conserv-Species Conservation Grant</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Improving the protection of forest elephants (Loxodonta africana cyclotis) and reducing human-elephant conflicts at Ziama forest and Ziama-Wenegesi corridor in Southeastern Guinea, West Africa</narrative>
+    </description>
+    <participating-org ref="9" role="1" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="2" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="3" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Fauna &amp; Flora International</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-09-15" type="1"/>
+    <activity-date iso-date="2011-09-15" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of the Interior</narrative>
+      </organisation>
+      <person-name>
+        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
+      </person-name>
+      <telephone>202-208-3574</telephone>
+      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="F22E9BC96502">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">47075</value>
+      <receiver-org type="21" ref="GB-COH-0277068">
+        <narrative>Fauna &amp; Flora International</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="43" vocabulary="99">
+        <narrative>International Contributions</narrative>
+      </sector>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:55-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F18AP00881</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -901,16 +977,16 @@
       <narrative>215,534</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:19-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F15AP00284-63709</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:55-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F13AP00333-62818</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Sea Turtle Technical Assistance in the Gulf of Guinea, West Africa 2015-2016.</narrative>
+      <narrative xml:lang="en">Marine Turtle Conservation Fund</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea.The USFWS will work closely with grantee in setting priorities for project site visits, and developing budgets, and will also provide assistance as needed and requested in engaging with National Governmental and other institutions to improve collaboration and conservation outcomes.</narrative>
+      <narrative xml:lang="en">Sea turtle technical assistance in the Gulf of Guinea, West Africa 2013-2014</narrative>
     </description>
     <participating-org ref="9" role="1" type="10">
       <narrative>Department of the Interior</narrative>
@@ -925,10 +1001,10 @@
       <narrative>Wildlife Conservation Society</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2015-04-22" type="1"/>
-    <activity-date iso-date="2015-04-22" type="2"/>
-    <activity-date iso-date="2016-06-30" type="3"/>
-    <activity-date iso-date="2016-06-30" type="4"/>
+    <activity-date iso-date="2013-05-31" type="1"/>
+    <activity-date iso-date="2013-05-31" type="2"/>
+    <activity-date iso-date="2014-06-30" type="3"/>
+    <activity-date iso-date="2014-06-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of the Interior</narrative>
@@ -949,19 +1025,19 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="2E03B0D6E9B3">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-09-19"/>
-      <value value-date="2016-09-19">-50000</value>
+    <transaction ref="85FB43BA978E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-05-24"/>
+      <value value-date="2013-05-24">46000</value>
       <receiver-org type="22" ref="US-EIN-13-1740011">
         <narrative>Wildlife Conservation Society</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
       </sector>
-      <sector code="41030" vocabulary="1">
-        <narrative>Bio-diversity</narrative>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
       </sector>
       <recipient-country code="GN"/>
       <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
@@ -971,7 +1047,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:19-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:55-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F11AP00198</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -1041,134 +1117,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:19-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F14AP00314-64516</iati-identifier>
-    <reporting-org ref="US-GOV-9" type="10">
-      <narrative>Department of the Interior</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">WILDLIFE LAW ENFORCEMENT IN GUINEA - GALF (Guine-Application de la Loi sur la Faune)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The purpose of this project is to assist the government of Guinea to increase wildlife law enforcement capacity, produce effective deterrents to the killing of elephant and other threatened wildlife, and monitor the illegtal wildlife trade and other activities detrimental to ape survival. The recipient will identify large-scale dealers in ivory and meat and provide evidence to support legal action against them; bring about the arrest of large-scale illegal wildlife traders; ensure the prosecution of large-scale illegal wildlife traders, and raise public awareness of the increased enforcement of wildlife alw and the risks and peanlties for wildlife criminals.</narrative>
-    </description>
-    <participating-org ref="9" role="1" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="2" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="3" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Wara Conservation Project</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-05-23" type="1"/>
-    <activity-date iso-date="2014-05-23" type="2"/>
-    <activity-date iso-date="2015-06-30" type="3"/>
-    <activity-date iso-date="2015-06-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of the Interior</narrative>
-      </organisation>
-      <person-name>
-        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
-      </person-name>
-      <telephone>202-208-3574</telephone>
-      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="5CB5BCEDBDC4">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-11-04"/>
-      <value value-date="2014-11-04">27624</value>
-      <receiver-org>
-        <narrative>Wara Conservation Project</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="41030" vocabulary="1">
-        <narrative>Bio-diversity</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="87170A37CE1F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-11-19"/>
-      <value value-date="2014-11-19">27624</value>
-      <receiver-org>
-        <narrative>Wara Conservation Project</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="41030" vocabulary="1">
-        <narrative>Bio-diversity</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="003D5DBD442C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-12-03"/>
-      <value value-date="2014-12-03">27624</value>
-      <receiver-org>
-        <narrative>Wara Conservation Project</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="41030" vocabulary="1">
-        <narrative>Bio-diversity</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F002082B6E43">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-07-08"/>
-      <value value-date="2015-07-08">27624</value>
-      <receiver-org>
-        <narrative>Wara Conservation Project</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="41030" vocabulary="1">
-        <narrative>Bio-diversity</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:20-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:56-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F22AP01610</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -1337,16 +1286,16 @@
       <narrative>439,330</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:22-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F11AP00352-59311</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:56-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F14AC00215-62881</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">African Elephant Conserv-Species Conservation Grant</narrative>
+      <narrative xml:lang="en">Marine Turtle Conservation Fund</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Improving the protection of forest elephants (Loxodonta africana cyclotis) and reducing human-elephant conflicts at Ziama forest and Ziama-Wenegesi corridor in Southeastern Guinea, West Africa</narrative>
+      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea. The USFWS and grantee will consult on priorities for project field visits.</narrative>
     </description>
     <participating-org ref="9" role="1" type="10">
       <narrative>Department of the Interior</narrative>
@@ -1358,13 +1307,13 @@
       <narrative>Department of the Interior</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Fauna &amp; Flora International</narrative>
+      <narrative>Wildlife Conservation Society</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2011-09-15" type="1"/>
-    <activity-date iso-date="2011-09-15" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3"/>
-    <activity-date iso-date="2012-09-30" type="4"/>
+    <activity-date iso-date="2014-05-14" type="1"/>
+    <activity-date iso-date="2014-05-14" type="2"/>
+    <activity-date iso-date="2015-06-30" type="3"/>
+    <activity-date iso-date="2015-06-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of the Interior</narrative>
@@ -1385,16 +1334,86 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="C5482AD18633">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">47075</value>
-      <receiver-org type="21" ref="GB-COH-0277068">
-        <narrative>Fauna &amp; Flora International</narrative>
+    <transaction ref="C70F3176BA2A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2014-05-09"/>
+      <value value-date="2014-05-09">46002</value>
+      <receiver-org type="22" ref="US-EIN-13-1740011">
+        <narrative>Wildlife Conservation Society</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="43" vocabulary="99">
-        <narrative>International Contributions</narrative>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:57-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F14AC00215-64200</iati-identifier>
+    <reporting-org ref="US-GOV-9" type="10">
+      <narrative>Department of the Interior</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Sea Turtle techinical assistance in the Gulf of Guinea, West Africa 2014-2015</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea. The USFWS and grantee will consult on priorities for project field visits.</narrative>
+    </description>
+    <participating-org ref="9" role="1" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="2" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="3" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Wildlife Conservation Society</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2014-05-14" type="1"/>
+    <activity-date iso-date="2014-05-14" type="2"/>
+    <activity-date iso-date="2015-06-30" type="3"/>
+    <activity-date iso-date="2015-06-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of the Interior</narrative>
+      </organisation>
+      <person-name>
+        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
+      </person-name>
+      <telephone>202-208-3574</telephone>
+      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="8BBB69EE6A69">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-09-15"/>
+      <value value-date="2015-09-15">46002</value>
+      <receiver-org type="22" ref="US-EIN-13-1740011">
+        <narrative>Wildlife Conservation Society</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
       </sector>
       <sector code="41030" vocabulary="1">
         <narrative>Bio-diversity</narrative>
@@ -1407,7 +1426,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:22-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:58-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F14AP00316</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -1496,7 +1515,96 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:22-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:58-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F13AP00333-62880</iati-identifier>
+    <reporting-org ref="US-GOV-9" type="10">
+      <narrative>Department of the Interior</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Marine Turtle Conservation Fund</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea. The USFWS and grantee will consult on priorities for project field visits.</narrative>
+    </description>
+    <participating-org ref="9" role="1" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="2" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="3" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Wildlife Conservation Society</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2013-05-31" type="1"/>
+    <activity-date iso-date="2013-05-31" type="2"/>
+    <activity-date iso-date="2014-06-30" type="3"/>
+    <activity-date iso-date="2014-06-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of the Interior</narrative>
+      </organisation>
+      <person-name>
+        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
+      </person-name>
+      <telephone>202-208-3574</telephone>
+      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="A810388C2B88">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-06-06"/>
+      <value value-date="2014-06-06">36848</value>
+      <receiver-org type="22" ref="US-EIN-13-1740011">
+        <narrative>Wildlife Conservation Society</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D52E37697670">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-08-04"/>
+      <value value-date="2014-08-04">9152</value>
+      <receiver-org type="22" ref="US-EIN-13-1740011">
+        <narrative>Wildlife Conservation Society</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:58-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F19AP00484</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -1589,186 +1697,8 @@
       <narrative>15,220</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:23-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F15AP00284-63710</iati-identifier>
-    <reporting-org ref="US-GOV-9" type="10">
-      <narrative>Department of the Interior</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Sea Turtle Technical Assistance in the Gulf of Guinea, West Africa 2015-2016.</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea.The USFWS will work closely with grantee in setting priorities for project site visits, and developing budgets, and will also provide assistance as needed and requested in engaging with National Governmental and other institutions to improve collaboration and conservation outcomes.</narrative>
-    </description>
-    <participating-org ref="9" role="1" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="2" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="3" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Wildlife Conservation Society</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-04-22" type="1"/>
-    <activity-date iso-date="2015-04-22" type="2"/>
-    <activity-date iso-date="2016-06-30" type="3"/>
-    <activity-date iso-date="2016-06-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of the Interior</narrative>
-      </organisation>
-      <person-name>
-        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
-      </person-name>
-      <telephone>202-208-3574</telephone>
-      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="4C046FB38157">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2015-04-14"/>
-      <value value-date="2015-04-14">50000</value>
-      <receiver-org type="22" ref="US-EIN-13-1740011">
-        <narrative>Wildlife Conservation Society</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="41030" vocabulary="1">
-        <narrative>Bio-diversity</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:26-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F14AP00314-61686</iati-identifier>
-    <reporting-org ref="US-GOV-9" type="10">
-      <narrative>Department of the Interior</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Great Apes Conservation Fund</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Great Apes Conservation Fund</narrative>
-    </description>
-    <participating-org ref="9" role="1" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="2" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-9" role="3" type="10">
-      <narrative>Department of the Interior</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Wara Conservation Project</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-05-23" type="1"/>
-    <activity-date iso-date="2014-05-23" type="2"/>
-    <activity-date iso-date="2015-06-30" type="3"/>
-    <activity-date iso-date="2015-06-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of the Interior</narrative>
-      </organisation>
-      <person-name>
-        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
-      </person-name>
-      <telephone>202-208-3574</telephone>
-      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="4F6A675A8C6A">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-06-05"/>
-      <value value-date="2014-06-05">55248</value>
-      <receiver-org>
-        <narrative>Wara Conservation Project</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D1B4989E2A38">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-06-17"/>
-      <value value-date="2014-06-17">27624</value>
-      <receiver-org>
-        <narrative>Wara Conservation Project</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C019764E4764">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-09-26"/>
-      <value value-date="2014-09-26">27624</value>
-      <receiver-org>
-        <narrative>Wara Conservation Project</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:26-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F15AP01127-62109</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:54:59-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F15AP01127-62597</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
     </reporting-org>
@@ -1791,8 +1721,8 @@
       <narrative>Wild Chimpanzee Foundation</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2015-09-21" type="1"/>
-    <activity-date iso-date="2015-09-21" type="2"/>
+    <activity-date iso-date="2015-09-22" type="1"/>
+    <activity-date iso-date="2015-09-22" type="2"/>
     <activity-date iso-date="2017-09-30" type="3"/>
     <activity-date iso-date="2017-09-30" type="4"/>
     <contact-info type="1">
@@ -1815,10 +1745,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="502BCD62517A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-10-15"/>
-      <value value-date="2015-10-15">65560</value>
+    <transaction ref="DDDC964669D1">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2015-09-21"/>
+      <value value-date="2015-09-21">65560</value>
       <receiver-org>
         <narrative>Wild Chimpanzee Foundation</narrative>
       </receiver-org>
@@ -1837,7 +1767,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:27-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:55:02-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F18AP00883</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -1930,16 +1860,16 @@
       <narrative>78,296</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:28-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F14AC00215-63713</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:55:03-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F15AP01127-62596</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Sea Turtle techinical assistance in the Gulf of Guinea, West Africa 2014-2015</narrative>
+      <narrative xml:lang="en">Landscape Conservation for chimpanzees in the Bafing River Area</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea. The USFWS and grantee will consult on priorities for project field visits.</narrative>
+      <narrative xml:lang="en">The purpose of this project is to contribute to the conservation of the largest chimpanzee population in Guinea and West Africa through species and habitat protection. Specific activities include: (1) informing and educating key Guinean authorities and local communities about the importance of classified forests and plans to update the boundaries of the classified forests within the Foutah Djallon-Bafing Area critical to chimpanzee conservation; (2) working with key stakeholders to delimit and make visible the boundaries of the classified forests.</narrative>
     </description>
     <participating-org ref="9" role="1" type="10">
       <narrative>Department of the Interior</narrative>
@@ -1951,13 +1881,13 @@
       <narrative>Department of the Interior</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Wildlife Conservation Society</narrative>
+      <narrative>Wild Chimpanzee Foundation</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2014-05-14" type="1"/>
-    <activity-date iso-date="2014-05-14" type="2"/>
-    <activity-date iso-date="2015-06-30" type="3"/>
-    <activity-date iso-date="2015-06-30" type="4"/>
+    <activity-date iso-date="2015-09-21" type="1"/>
+    <activity-date iso-date="2015-09-21" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of the Interior</narrative>
@@ -1978,12 +1908,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="35A22467CA57">
+    <transaction ref="515822A40C23">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2015-09-15"/>
-      <value value-date="2015-09-15">46002</value>
-      <receiver-org type="22" ref="US-EIN-13-1740011">
-        <narrative>Wildlife Conservation Society</narrative>
+      <transaction-date iso-date="2015-10-15"/>
+      <value value-date="2015-10-15">65560</value>
+      <receiver-org>
+        <narrative>Wild Chimpanzee Foundation</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="35" vocabulary="99">
@@ -2000,7 +1930,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:28-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:55:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F10AP00330</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -2070,7 +2000,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:28-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:55:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F17AP01060</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -2161,8 +2091,78 @@
       <narrative>49,953</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:29-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F11AP00352-59965</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:55:06-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F15AP00284-64196</iati-identifier>
+    <reporting-org ref="US-GOV-9" type="10">
+      <narrative>Department of the Interior</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Sea Turtle Technical Assistance in the Gulf of Guinea, West Africa 2015-2016.</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea.The USFWS will work closely with grantee in setting priorities for project site visits, and developing budgets, and will also provide assistance as needed and requested in engaging with National Governmental and other institutions to improve collaboration and conservation outcomes.</narrative>
+    </description>
+    <participating-org ref="9" role="1" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="2" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-9" role="3" type="10">
+      <narrative>Department of the Interior</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Wildlife Conservation Society</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-04-22" type="1"/>
+    <activity-date iso-date="2015-04-22" type="2"/>
+    <activity-date iso-date="2016-06-30" type="3"/>
+    <activity-date iso-date="2016-06-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of the Interior</narrative>
+      </organisation>
+      <person-name>
+        <narrative>William Jones; Colleen Holland; Julie Rice; Ry</narrative>
+      </person-name>
+      <telephone>202-208-3574</telephone>
+      <email>william_jones@fws.gov;colleen_Holland@FWS.gov;julianna_rice@ios.doi.gov; rbole</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1100 Ohio Dr. SW, Washington DC</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="590B7E518C74">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-09-19"/>
+      <value value-date="2016-09-19">-50000</value>
+      <receiver-org type="22" ref="US-EIN-13-1740011">
+        <narrative>Wildlife Conservation Society</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:55:06-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F11AP00352-60452</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
     </reporting-org>
@@ -2209,7 +2209,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="4278B1705ED2">
+    <transaction ref="429D754B5DA7">
       <transaction-type code="3"/>
       <transaction-date iso-date="2013-06-11"/>
       <value value-date="2013-06-11">27244</value>
@@ -2231,16 +2231,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:35-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-9-F13AP00882-62295</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:55:08-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-9-F15AP00284-64197</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Marine Turtle Conservation Fund</narrative>
+      <narrative xml:lang="en">Sea Turtle Technical Assistance in the Gulf of Guinea, West Africa 2015-2016.</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Conservation and management of sea turtle populations in the Bijag6s Archipelago, Guinea Bissau: monitoring and protection of nesting and feeding sites in close collaboration with the local communities</narrative>
+      <narrative xml:lang="en">The recipient will provide technical support to MTCA funded projects in Equatorial Guinea, Gabon, Republic of Congo, Ivory Coast, Sao Tome and Principe, as well as conduct conservation programs and research in Corisco Bay as described in the proposal and conduct hawksbill and olive ridely genetics research focused on the Gulf of Guinea.The USFWS will work closely with grantee in setting priorities for project site visits, and developing budgets, and will also provide assistance as needed and requested in engaging with National Governmental and other institutions to improve collaboration and conservation outcomes.</narrative>
     </description>
     <participating-org ref="9" role="1" type="10">
       <narrative>Department of the Interior</narrative>
@@ -2252,13 +2252,13 @@
       <narrative>Department of the Interior</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Instituto Da Biodiversidade</narrative>
+      <narrative>Wildlife Conservation Society</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2013-08-23" type="1"/>
-    <activity-date iso-date="2013-08-23" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3"/>
-    <activity-date iso-date="2014-09-30" type="4"/>
+    <activity-date iso-date="2015-04-22" type="1"/>
+    <activity-date iso-date="2015-04-22" type="2"/>
+    <activity-date iso-date="2016-06-30" type="3"/>
+    <activity-date iso-date="2016-06-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of the Interior</narrative>
@@ -2279,19 +2279,19 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="D7AC796A9E05">
+    <transaction ref="C58F864774F0">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2013-08-19"/>
-      <value value-date="2013-08-19">19903</value>
-      <receiver-org>
-        <narrative>Instituto Da Biodiversidade</narrative>
+      <transaction-date iso-date="2015-04-14"/>
+      <value value-date="2015-04-14">50000</value>
+      <receiver-org type="22" ref="US-EIN-13-1740011">
+        <narrative>Wildlife Conservation Society</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
       </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
       </sector>
       <recipient-country code="GN"/>
       <usg:treasury-account code="14x1652">U.S. Fish and Wildlife Service, Multinational Species Conservation Fund
@@ -2301,7 +2301,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T15:45:35-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:55:09-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F14AP00324</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
