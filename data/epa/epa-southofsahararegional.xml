@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-07-30T16:26:52-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:44-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-32-X483482701-251810</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-09T11:49:29-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:25-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-X483482701-252375</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
     </reporting-org>
@@ -47,7 +47,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="F0FA91B341FB">
+    <transaction ref="6F9A41961A51">
       <transaction-type code="3"/>
       <transaction-date iso-date="2015-01-01"/>
       <value value-date="2015-01-01">50000</value>
@@ -66,7 +66,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F0FA91B341FB">
+    <transaction ref="6F9A41961A51">
       <transaction-type code="2"/>
       <transaction-date iso-date="2015-01-01"/>
       <value value-date="2015-01-01">190000</value>
@@ -88,16 +88,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:44-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-32-24B11R0039-252096</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:25-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-X483415201-252290</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Environmental Protection Agency, Office of the Chief Financial Officer, EPA Peace Corps Partnership - Regional Training of Trainers and Indirect Costs</narrative>
+      <narrative xml:lang="en">U.S. Environmental Protection Agency, Office of International and Tribal Affairs (OITA): Grant</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Establish a pilot project to invest in a pipeline of future EPA staff through capacity building trainings for Peace Corps Volunteers (PCVs) and local partners in support of both organizations missions through in-country trainings to PCVs and Peace Corps local partners, including Project Design and Managment Training culminating in a report of lessons learned and recommendations to further the EPA-Peace Corps strategic partnership.</narrative>
+      <narrative xml:lang="en">Public participation toolkit to build capacity on enforcement and compliance, public participation and management of drinking water.</narrative>
     </description>
     <participating-org ref="29" role="1" type="10">
       <narrative>Environmental Protection Agency</narrative>
@@ -109,14 +109,84 @@
       <narrative>Environmental Protection Agency</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Peace Corps</narrative>
+      <narrative>United Nations Environment Programme</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
+    <activity-date iso-date="2009-04-01" type="1"/>
+    <activity-date iso-date="2009-04-01" type="2"/>
+    <activity-date iso-date="2014-12-31" type="3"/>
+    <activity-date iso-date="2014-12-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Environmental Protection Agency</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Glen Cuscino and April Bullock; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-564-4700</telephone>
+      <email>cuscino.glen@epa.gov; bullock.april@epa.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1200 Pennsylvania Ave. NW, Washington, DC 20004</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="5"/>
+    <transaction ref="21D761CE7736">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">75000</value>
+      <receiver-org type="40" ref="XM-DAC-41116">
+        <narrative>United Nations Environment Programme</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="36" vocabulary="99">
+        <narrative>Clean Productive Environment</narrative>
+      </sector>
+      <sector code="41020" vocabulary="1">
+        <narrative>Biosphere protection</narrative>
+      </sector>
+      <recipient-country code="1027"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:25-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-2313BAG003-252640</iati-identifier>
+    <reporting-org ref="US-GOV-32" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Environmental Protection Agency, Office of International and Tribal Affairs (OITA), Engagement with African Countries to Address Environmental Issues</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Address solid waste management including plastics, exposure to toxic chemicals, and air quality.</narrative>
+    </description>
+    <participating-org ref="29" role="1" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-32" role="2" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-32" role="3" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Battelle Memorial Institute</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2029-07-14" type="3"/>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2025-09-30" type="3"/>
     <contact-info type="1">
       <organisation>
         <narrative>Environmental Protection Agency</narrative>
@@ -137,16 +207,92 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="B5B63AA5055A">
+    <transaction ref="426AD5AE934A">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2024-08-19"/>
-      <value value-date="2024-08-19">108819</value>
-      <receiver-org type="10" ref="US-GOV-10">
-        <narrative>U.S. Government - Peace Corps</narrative>
+      <transaction-date iso-date="2023-05-23"/>
+      <value value-date="2023-05-23">225000</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
+      <sector code="36" vocabulary="99">
+        <narrative>Clean Productive Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="71E4F053FA95">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-29"/>
+      <value value-date="2023-12-29">135</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="36" vocabulary="99">
+        <narrative>Clean Productive Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="066D94A635A8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-18"/>
+      <value value-date="2024-03-18">11582</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="36" vocabulary="99">
+        <narrative>Clean Productive Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="E0C1CCCB5DCE">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-06"/>
+      <value value-date="2024-06-06">3417</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="36" vocabulary="99">
+        <narrative>Clean Productive Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5C84EA5B3EBC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-20"/>
+      <value value-date="2024-09-20">19004</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="36" vocabulary="99">
+        <narrative>Clean Productive Environment</narrative>
       </sector>
       <sector code="41010" vocabulary="1">
         <narrative>Environmental policy and administrative management</narrative>
@@ -158,10 +304,10 @@
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>614,819</narrative>
+      <narrative>225,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:44-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-32-PR-OITA-16-00007, PR-OITA-16-00025</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
@@ -250,16 +396,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:44-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-32-X483482701-251726</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:26-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-24B11R0039-252661</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">U.S. Environmental Protection Agency, Office of International and Tribal Affairs (OITA): Grant</narrative>
+      <narrative xml:lang="en">Environmental Protection Agency, Office of the Chief Financial Officer, EPA Peace Corps Partnership - Regional Training of Trainers and Indirect Costs</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Public participation toolkit to build capacity on enforcement and compliance, public participation and management of drinking water.</narrative>
+      <narrative xml:lang="en">Establish a pilot project to invest in a pipeline of future EPA staff through capacity building trainings for Peace Corps Volunteers (PCVs) and local partners in support of both organizations missions through in-country trainings to PCVs and Peace Corps local partners, including Project Design and Managment Training culminating in a report of lessons learned and recommendations to further the EPA-Peace Corps strategic partnership.</narrative>
     </description>
     <participating-org ref="29" role="1" type="10">
       <narrative>Environmental Protection Agency</narrative>
@@ -271,13 +417,14 @@
       <narrative>Environmental Protection Agency</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>United Nations University (including Endowment Fund)</narrative>
+      <narrative>U.S. Government - Peace Corps</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2011-02-15" type="1"/>
-    <activity-date iso-date="2011-02-15" type="2"/>
-    <activity-date iso-date="2016-02-15" type="3"/>
-    <activity-date iso-date="2016-02-15" type="4"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2029-07-14" type="3"/>
     <contact-info type="1">
       <organisation>
         <narrative>Environmental Protection Agency</narrative>
@@ -297,30 +444,32 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
-    <default-tied-status code="5"/>
-    <transaction ref="A2AE840255CE">
+    <default-tied-status code="4"/>
+    <transaction ref="DA22292F00A4">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">75000</value>
-      <receiver-org type="40" ref="XM-DAC-41134">
-        <narrative>United Nations University (including Endowment Fund)</narrative>
+      <transaction-date iso-date="2024-08-19"/>
+      <value value-date="2024-08-19">108819</value>
+      <receiver-org type="10" ref="US-GOV-10">
+        <narrative>U.S. Government - Peace Corps</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="36" vocabulary="99">
-        <narrative>Clean Productive Environment</narrative>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
       </sector>
       <sector code="41010" vocabulary="1">
         <narrative>Environmental policy and administrative management</narrative>
       </sector>
-      <recipient-country code="1027"/>
+      <recipient-country code="289"/>
       <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>614,819</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:45-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-32-EPW10028</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
@@ -409,16 +558,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:45-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-32-2313BAG003-252064</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:26-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-X483482701-252291</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Environmental Protection Agency, Office of International and Tribal Affairs (OITA), Climate and Environmental Justice (EJ) Governance</narrative>
+      <narrative xml:lang="en">U.S. Environmental Protection Agency, Office of International and Tribal Affairs (OITA): Grant</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Develop workplans and trainings with key partner countries to enhance environmental governance systems by deploying EPA tools such as public participation guidelines, effective stakeholder engagement</narrative>
+      <narrative xml:lang="en">Public participation toolkit to build capacity on enforcement and compliance, public participation and management of drinking water.</narrative>
     </description>
     <participating-org ref="29" role="1" type="10">
       <narrative>Environmental Protection Agency</narrative>
@@ -430,14 +579,13 @@
       <narrative>Environmental Protection Agency</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Battelle Memorial Institute</narrative>
+      <narrative>United Nations University (including Endowment Fund)</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2025-09-30" type="3"/>
+    <activity-date iso-date="2011-02-15" type="1"/>
+    <activity-date iso-date="2011-02-15" type="2"/>
+    <activity-date iso-date="2016-02-15" type="3"/>
+    <activity-date iso-date="2016-02-15" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Environmental Protection Agency</narrative>
@@ -457,90 +605,31 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="ECC51A47F869">
+    <default-tied-status code="5"/>
+    <transaction ref="D100D3923A95">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2023-05-23"/>
-      <value value-date="2023-05-23">100000</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">75000</value>
+      <receiver-org type="40" ref="XM-DAC-41134">
+        <narrative>United Nations University (including Endowment Fund)</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
+      <sector code="36" vocabulary="99">
+        <narrative>Clean Productive Environment</narrative>
       </sector>
       <sector code="41010" vocabulary="1">
         <narrative>Environmental policy and administrative management</narrative>
       </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C8AF523AE748">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-29"/>
-      <value value-date="2023-12-29">254</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="427A2D39EC4C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-06"/>
-      <value value-date="2024-06-06">7687</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="EFAF2AE56969">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-20"/>
-      <value value-date="2024-09-20">59918</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="289"/>
+      <recipient-country code="1027"/>
       <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>100,000</narrative>
-    </usg:tec1>
+    <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:45-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-32-X483482701-251639</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:26-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-X483482701-252204</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
     </reporting-org>
@@ -587,7 +676,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="EFFA7CBF4E98">
+    <transaction ref="8AA0BC5D62BA">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">35000</value>
@@ -606,7 +695,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EFFA7CBF4E98">
+    <transaction ref="8AA0BC5D62BA">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">35000</value>
@@ -628,226 +717,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:45-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-32-2313BAG003-252075</iati-identifier>
-    <reporting-org ref="US-GOV-32" type="10">
-      <narrative>Environmental Protection Agency</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Environmental Protection Agency, Office of International and Tribal Affairs (OITA), Engagement with African Countries to Address Environmental Issues</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Address solid waste management including plastics, exposure to toxic chemicals, and air quality.</narrative>
-    </description>
-    <participating-org ref="29" role="1" type="10">
-      <narrative>Environmental Protection Agency</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-32" role="2" type="10">
-      <narrative>Environmental Protection Agency</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-32" role="3" type="10">
-      <narrative>Environmental Protection Agency</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Battelle Memorial Institute</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2025-09-30" type="3"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Environmental Protection Agency</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Glen Cuscino and April Bullock; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-564-4700</telephone>
-      <email>cuscino.glen@epa.gov; bullock.april@epa.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1200 Pennsylvania Ave. NW, Washington, DC 20004</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="ECD60F3D6A7C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-05-23"/>
-      <value value-date="2023-05-23">225000</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="36" vocabulary="99">
-        <narrative>Clean Productive Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="EE9C3784DABA">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-29"/>
-      <value value-date="2023-12-29">135</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="36" vocabulary="99">
-        <narrative>Clean Productive Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A86A688D1779">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-18"/>
-      <value value-date="2024-03-18">11582</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="36" vocabulary="99">
-        <narrative>Clean Productive Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="FCAFDB97247C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-06"/>
-      <value value-date="2024-06-06">3417</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="36" vocabulary="99">
-        <narrative>Clean Productive Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="EECAEC4A2D4C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-20"/>
-      <value value-date="2024-09-20">19004</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="36" vocabulary="99">
-        <narrative>Clean Productive Environment</narrative>
-      </sector>
-      <sector code="41010" vocabulary="1">
-        <narrative>Environmental policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>225,000</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:45-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-32-X483415201-251725</iati-identifier>
-    <reporting-org ref="US-GOV-32" type="10">
-      <narrative>Environmental Protection Agency</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">U.S. Environmental Protection Agency, Office of International and Tribal Affairs (OITA): Grant</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Public participation toolkit to build capacity on enforcement and compliance, public participation and management of drinking water.</narrative>
-    </description>
-    <participating-org ref="29" role="1" type="10">
-      <narrative>Environmental Protection Agency</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-32" role="2" type="10">
-      <narrative>Environmental Protection Agency</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-32" role="3" type="10">
-      <narrative>Environmental Protection Agency</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>United Nations Environment Programme</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2009-04-01" type="1"/>
-    <activity-date iso-date="2009-04-01" type="2"/>
-    <activity-date iso-date="2014-12-31" type="3"/>
-    <activity-date iso-date="2014-12-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Environmental Protection Agency</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Glen Cuscino and April Bullock; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-564-4700</telephone>
-      <email>cuscino.glen@epa.gov; bullock.april@epa.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1200 Pennsylvania Ave. NW, Washington, DC 20004</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="5"/>
-    <transaction ref="0D45BDB6641B">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">75000</value>
-      <receiver-org type="40" ref="XM-DAC-41116">
-        <narrative>United Nations Environment Programme</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="36" vocabulary="99">
-        <narrative>Clean Productive Environment</narrative>
-      </sector>
-      <sector code="41020" vocabulary="1">
-        <narrative>Biosphere protection</narrative>
-      </sector>
-      <recipient-country code="1027"/>
-      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-07-30T16:26:45-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-32-2413BAG002</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
@@ -918,6 +788,136 @@
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>624,574</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-09T11:49:26-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-2313BAG003-252629</iati-identifier>
+    <reporting-org ref="US-GOV-32" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Environmental Protection Agency, Office of International and Tribal Affairs (OITA), Climate and Environmental Justice (EJ) Governance</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Develop workplans and trainings with key partner countries to enhance environmental governance systems by deploying EPA tools such as public participation guidelines, effective stakeholder engagement</narrative>
+    </description>
+    <participating-org ref="29" role="1" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-32" role="2" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-32" role="3" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Battelle Memorial Institute</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2025-09-30" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Environmental Protection Agency</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Glen Cuscino and April Bullock; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-564-4700</telephone>
+      <email>cuscino.glen@epa.gov; bullock.april@epa.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1200 Pennsylvania Ave. NW, Washington, DC 20004</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="04C92AD70A0A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-05-23"/>
+      <value value-date="2023-05-23">100000</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3E5C4C930A1E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-29"/>
+      <value value-date="2023-12-29">254</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="ED7E64D78779">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-06"/>
+      <value value-date="2024-06-06">7687</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0F616C168994">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-20"/>
+      <value value-date="2024-09-20">59918</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="44" vocabulary="99">
+        <narrative>Environment</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>100,000</narrative>
     </usg:tec1>
   </iati-activity>
 </iati-activities>
