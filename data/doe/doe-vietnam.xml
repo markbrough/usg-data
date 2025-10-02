@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-09-08T14:35:01-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:34:28-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-20-DE-AC05-76RL01830 (PNNL);-29527</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-10-01T13:40:18-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:39:59-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-20-DE-AC05-76RL01830 (PNNL);-29536</iati-identifier>
     <reporting-org ref="US-GOV-20" type="10">
       <narrative>Department of Energy</narrative>
     </reporting-org>
@@ -8,7 +8,7 @@
       <narrative xml:lang="en">Department of Energy, International Nonproliferation Export Control Program</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Export Control Capacity Building: Awareness Building to prevent proliferation of dual-use commodities and technology</narrative>
+      <narrative xml:lang="en">Export Control Capacity Building: Awareness Building</narrative>
     </description>
     <participating-org ref="13" role="1" type="10">
       <narrative>Department of Energy</narrative>
@@ -20,7 +20,7 @@
       <narrative>Department of Energy</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Battelle Memorial Institute</narrative>
+      <narrative>U.S. Government - Department of Energy</narrative>
     </participating-org>
     <activity-status code="3"/>
     <activity-date iso-date="2019-10-01" type="1">
@@ -49,31 +49,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="E36AABD1A0A3">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-03-31"/>
-      <value value-date="2020-03-31">5848</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
-      </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="EF37D6C1104C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-06-30"/>
-      <value value-date="2020-06-30">13577</value>
-      <receiver-org>
-        <narrative>Battelle Memorial Institute</narrative>
+    <transaction ref="535895FC1E7F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-10-01"/>
+      <value value-date="2019-10-01">29000</value>
+      <receiver-org type="10" ref="US-GOV-20">
+        <narrative>U.S. Government - Department of Energy</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="26" vocabulary="99">
@@ -90,134 +71,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:34:29-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-20-NN9008010-30225</iati-identifier>
-    <reporting-org ref="US-GOV-20" type="10">
-      <narrative>Department of Energy</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Department of Energy, Office of Global Nuclear Material Threat Reduction (NA-212)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Canada Contributions.</narrative>
-    </description>
-    <participating-org ref="13" role="1" type="10">
-      <narrative>Department of Energy</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-20" role="2" type="10">
-      <narrative>Department of Energy</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-20" role="3" type="10">
-      <narrative>Department of Energy</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Energy</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1"/>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Energy</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Janice Rivera and Melodie Washington; Ryan Bol</narrative>
-      </person-name>
-      <telephone>202-586-5000</telephone>
-      <email>janice.rivera@nnsa.doe.gov; Melodie.Washington@hq.doe.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1000 Independence Ave. SW, Washington, DC 20585</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="32AFD86FF468">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-10-01"/>
-      <value value-date="2012-10-01">2799334</value>
-      <receiver-org type="10" ref="US-GOV-20">
-        <narrative>U.S. Government - Department of Energy</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="912AF0D83364">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2013-09-30"/>
-      <value value-date="2013-09-30">2667953</value>
-      <receiver-org type="10" ref="US-GOV-20">
-        <narrative>U.S. Government - Department of Energy</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="3CFE190314ED">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2013-10-01"/>
-      <value value-date="2013-10-01">313018</value>
-      <receiver-org type="10" ref="US-GOV-20">
-        <narrative>U.S. Government - Department of Energy</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="86D15E602662">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-09-30"/>
-      <value value-date="2014-09-30">313013</value>
-      <receiver-org type="10" ref="US-GOV-20">
-        <narrative>U.S. Government - Department of Energy</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:34:29-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:39:59-04:00" xml:lang="en">
     <iati-identifier>US-GOV-20-10/11-ISN(NADR)-5-VM</iati-identifier>
     <reporting-org ref="US-GOV-20" type="10">
       <narrative>Department of Energy</narrative>
@@ -306,7 +160,98 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:34:30-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:40:00-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-20-DE-AC05-76RL01830 (PNNL);-29538</iati-identifier>
+    <reporting-org ref="US-GOV-20" type="10">
+      <narrative>Department of Energy</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Department of Energy, International Nonproliferation Export Control Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Export Control Capacity Building: Awareness Building to prevent proliferation of dual-use commodities and technology</narrative>
+    </description>
+    <participating-org ref="13" role="1" type="10">
+      <narrative>Department of Energy</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-20" role="2" type="10">
+      <narrative>Department of Energy</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-20" role="3" type="10">
+      <narrative>Department of Energy</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Battelle Memorial Institute</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-09-30" type="3"/>
+    <activity-date iso-date="2020-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Energy</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Janice Rivera and Melodie Washington; Ryan Bol</narrative>
+      </person-name>
+      <telephone>202-586-5000</telephone>
+      <email>janice.rivera@nnsa.doe.gov; Melodie.Washington@hq.doe.gov; rboles@usaid.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1000 Independence Ave. SW, Washington, DC 20585</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="6E4DBB73066E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-03-31"/>
+      <value value-date="2020-03-31">5848</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="2203A2FF691A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-06-30"/>
+      <value value-date="2020-06-30">13577</value>
+      <receiver-org>
+        <narrative>Battelle Memorial Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="26" vocabulary="99">
+        <narrative>Trade and Investment</narrative>
+      </sector>
+      <sector code="33120" vocabulary="1">
+        <narrative>Trade facilitation</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:40:00-04:00" xml:lang="en">
     <iati-identifier>US-GOV-20-DN4002010.39</iati-identifier>
     <reporting-org ref="US-GOV-20" type="10">
       <narrative>Department of Energy</narrative>
@@ -395,16 +340,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-09-08T14:34:31-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-20-DE-AC05-76RL01830 (PNNL);-29525</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:40:01-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-20-NN9008010-30236</iati-identifier>
     <reporting-org ref="US-GOV-20" type="10">
       <narrative>Department of Energy</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Department of Energy, International Nonproliferation Export Control Program</narrative>
+      <narrative xml:lang="en">Department of Energy, Office of Global Nuclear Material Threat Reduction (NA-212)</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Export Control Capacity Building: Awareness Building</narrative>
+      <narrative xml:lang="en">Canada Contributions.</narrative>
     </description>
     <participating-org ref="13" role="1" type="10">
       <narrative>Department of Energy</narrative>
@@ -419,12 +364,10 @@
       <narrative>U.S. Government - Department of Energy</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-09-30" type="3"/>
-    <activity-date iso-date="2020-09-30" type="4"/>
+    <activity-date iso-date="2012-10-01" type="1"/>
+    <activity-date iso-date="2012-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Energy</narrative>
@@ -445,19 +388,76 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="7E307C7DBC94">
+    <transaction ref="2D326BA24626">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2019-10-01"/>
-      <value value-date="2019-10-01">29000</value>
+      <transaction-date iso-date="2012-10-01"/>
+      <value value-date="2012-10-01">2799334</value>
       <receiver-org type="10" ref="US-GOV-20">
         <narrative>U.S. Government - Department of Energy</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="26" vocabulary="99">
-        <narrative>Trade and Investment</narrative>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
       </sector>
-      <sector code="33120" vocabulary="1">
-        <narrative>Trade facilitation</narrative>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BF8130527D99">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2013-09-30"/>
+      <value value-date="2013-09-30">2667953</value>
+      <receiver-org type="10" ref="US-GOV-20">
+        <narrative>U.S. Government - Department of Energy</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="12AEFF21C73F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-10-01"/>
+      <value value-date="2013-10-01">313018</value>
+      <receiver-org type="10" ref="US-GOV-20">
+        <narrative>U.S. Government - Department of Energy</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="ABD7997A80BC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-09-30"/>
+      <value value-date="2014-09-30">313013</value>
+      <receiver-org type="10" ref="US-GOV-20">
+        <narrative>U.S. Government - Department of Energy</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
       </sector>
       <recipient-country code="VN"/>
       <usg:treasury-account code="89x0309">Department of Energy, Defense Nuclear Nonproliferation
