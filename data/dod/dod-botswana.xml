@@ -1,17 +1,17 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-10-01T13:26:26-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:05-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-292924</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T12:26:49-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:23:42-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104018-253454</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
+      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Batswanan Ministry of Defense with veteran's affairs reform initiatives.</narrative>
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
     </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="US-GOV-7" role="2" type="10">
       <narrative>Department of Defense</narrative>
@@ -20,15 +20,13 @@
       <narrative>Department of Defense</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
+      <narrative>U.S. Government - Department of State</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -37,61 +35,45 @@
         <narrative>Renee Haynes; Ryan Boles</narrative>
       </person-name>
       <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
       </mailing-address>
     </contact-info>
     <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
     <collaboration-type code="1"/>
     <default-flow-type code="50"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="8AC282A8E3B0">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-09-30"/>
-      <value value-date="2019-09-30">35175</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8AC282A8E3B0">
+    <default-tied-status code="5"/>
+    <transaction ref="5BAA0A15D730">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2019-09-30"/>
-      <value value-date="2019-09-30">35175</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">-6427</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
       </sector>
       <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:13-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-292923</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:23:47-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293528</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -114,10 +96,8 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
     <activity-date iso-date="2018-12-31" type="3"/>
     <activity-date iso-date="2018-12-31" type="4"/>
     <contact-info type="1">
@@ -128,7 +108,7 @@
         <narrative>Renee Haynes; Ryan Boles</narrative>
       </person-name>
       <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
@@ -140,10 +120,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="A0C620ED31C3">
+    <transaction ref="CD2172C1B46A">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2018-12-31"/>
-      <value value-date="2018-12-31">15000</value>
+      <transaction-date iso-date="2017-12-31"/>
+      <value value-date="2017-12-31">4757</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -159,10 +139,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="A0C620ED31C3">
+    <transaction ref="CD2172C1B46A">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2018-12-31"/>
-      <value value-date="2018-12-31">15000</value>
+      <transaction-date iso-date="2017-12-31"/>
+      <value value-date="2017-12-31">4757</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -181,97 +161,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:15-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-292919</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Batswanan Ministry of Defense with veteran's affairs reform initiatives.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-10-01" type="1"/>
-    <activity-date iso-date="2015-10-01" type="2"/>
-    <activity-date iso-date="2016-10-12" type="3"/>
-    <activity-date iso-date="2016-10-12" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="79D0FC5EA90A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-09-30"/>
-      <value value-date="2016-09-30">69430</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="79D0FC5EA90A">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-09-30"/>
-      <value value-date="2016-09-30">69430</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:18-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-292922</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:23:49-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293529</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -308,7 +199,7 @@
         <narrative>Renee Haynes; Ryan Boles</narrative>
       </person-name>
       <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
@@ -320,7 +211,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="3CFECBBEC92E">
+    <transaction ref="9E5E4834174C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-06-30"/>
       <value value-date="2018-06-30">20000</value>
@@ -339,7 +230,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3CFECBBEC92E">
+    <transaction ref="9E5E4834174C">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-06-30"/>
       <value value-date="2018-06-30">20000</value>
@@ -361,8 +252,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:28-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104018-252884</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:23:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104018-253455</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -385,12 +276,12 @@
       <narrative>U.S. Government - Department of State</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
+    <activity-date iso-date="2024-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3"/>
-    <activity-date iso-date="2024-09-30" type="4"/>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2025-09-30" type="3"/>
+    <activity-date iso-date="2025-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -399,7 +290,7 @@
         <narrative>Renee Haynes; Ryan Boles</narrative>
       </person-name>
       <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
@@ -414,10 +305,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="1D1C61312AE9">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">-49</value>
+    <transaction ref="D09FE27D129E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-12-31"/>
+      <value value-date="2024-12-31">-5000</value>
       <receiver-org type="10" ref="US-GOV-11">
         <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
@@ -436,13 +327,13 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:29-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-292921</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:24:25-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293609</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
+      <narrative xml:lang="en">Ministry of Defense Advisors Program (MODA)</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Batswanan Ministry of Defense with veteran's affairs reform initiatives.</narrative>
@@ -460,10 +351,12 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-12-31" type="3"/>
-    <activity-date iso-date="2018-12-31" type="4"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-09-30" type="3"/>
+    <activity-date iso-date="2020-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -472,7 +365,7 @@
         <narrative>Renee Haynes; Ryan Boles</narrative>
       </person-name>
       <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
@@ -484,10 +377,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="016365F6B9D6">
+    <transaction ref="929608FD40E6">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-12-31"/>
-      <value value-date="2017-12-31">4757</value>
+      <transaction-date iso-date="2019-12-31"/>
+      <value value-date="2019-12-31">27286</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -503,10 +396,48 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="016365F6B9D6">
+    <transaction ref="929608FD40E6">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2017-12-31"/>
-      <value value-date="2017-12-31">4757</value>
+      <transaction-date iso-date="2019-12-31"/>
+      <value value-date="2019-12-31">27286</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BW"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="50FED712DA6F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-03-31"/>
+      <value value-date="2020-03-31">24429</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BW"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="50FED712DA6F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-03-31"/>
+      <value value-date="2020-03-31">24429</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -525,96 +456,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:32-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-292920</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Batswanan Ministry of Defense with veteran's affairs reform initiatives.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="21B0E6D97542">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">68650</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="21B0E6D97542">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">68650</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:36-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:24:34-05:00" xml:lang="en">
     <iati-identifier>US-GOV-7-160028</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -652,7 +494,7 @@
         <narrative>Renee Haynes; Ryan Boles</narrative>
       </person-name>
       <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
@@ -689,136 +531,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:37-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-293002</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Ministry of Defense Advisors Program (MODA)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Batswanan Ministry of Defense with veteran's affairs reform initiatives.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-09-30" type="3"/>
-    <activity-date iso-date="2020-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="8A0036D59C71">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-12-31"/>
-      <value value-date="2019-12-31">27286</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8A0036D59C71">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-12-31"/>
-      <value value-date="2019-12-31">27286</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="9192D17A7DB3">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-03-31"/>
-      <value value-date="2020-03-31">24429</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="9192D17A7DB3">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-03-31"/>
-      <value value-date="2020-03-31">24429</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="BW"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:37-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:24:36-05:00" xml:lang="en">
     <iati-identifier>US-GOV-7-70001</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -856,7 +569,7 @@
         <narrative>Renee Haynes; Ryan Boles</narrative>
       </person-name>
       <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
@@ -893,8 +606,188 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:40-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104018-252882</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:24:42-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293526</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Batswanan Ministry of Defense with veteran's affairs reform initiatives.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-10-01" type="1"/>
+    <activity-date iso-date="2015-10-01" type="2"/>
+    <activity-date iso-date="2016-10-12" type="3"/>
+    <activity-date iso-date="2016-10-12" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="3A4661DE9646">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-09-30"/>
+      <value value-date="2016-09-30">69430</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BW"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3A4661DE9646">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-09-30"/>
+      <value value-date="2016-09-30">69430</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BW"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:24:42-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293530</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Batswanan Ministry of Defense with veteran's affairs reform initiatives.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2018-12-31" type="3"/>
+    <activity-date iso-date="2018-12-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="48D2B2312159">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-12-31"/>
+      <value value-date="2018-12-31">15000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BW"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="48D2B2312159">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-12-31"/>
+      <value value-date="2018-12-31">15000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BW"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:24:43-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104018-253456</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -917,10 +810,12 @@
       <narrative>U.S. Government - Department of State</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -929,7 +824,7 @@
         <narrative>Renee Haynes; Ryan Boles</narrative>
       </person-name>
       <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
@@ -944,10 +839,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="583053943C51">
-      <transaction-type code="2"/>
+    <transaction ref="064E54B743B0">
+      <transaction-type code="3"/>
       <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">-6427</value>
+      <value value-date="2024-09-30">-49</value>
       <receiver-org type="10" ref="US-GOV-11">
         <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
@@ -966,19 +861,19 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:24:55-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104018-252883</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:25:04-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293531</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
+      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Batswanan Ministry of Defense with veteran's affairs reform initiatives.</narrative>
     </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
     </participating-org>
     <participating-org ref="US-GOV-7" role="2" type="10">
       <narrative>Department of Defense</narrative>
@@ -987,15 +882,15 @@
       <narrative>Department of Defense</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
+      <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
-    <activity-status code="2"/>
-    <activity-date iso-date="2024-10-01" type="1">
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2024-10-01" type="2"/>
-    <activity-date iso-date="2025-09-30" type="3"/>
-    <activity-date iso-date="2025-09-30" type="4"/>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1004,37 +899,142 @@
         <narrative>Renee Haynes; Ryan Boles</narrative>
       </person-name>
       <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; rboles@usaid.gov</email>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
       </mailing-address>
     </contact-info>
     <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
     <collaboration-type code="1"/>
     <default-flow-type code="50"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="A76A412444BD">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">-5000</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
+    <default-tied-status code="4"/>
+    <transaction ref="27ED3788D972">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">35175</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
       </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
       </sector>
       <recipient-country code="BW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="27ED3788D972">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">35175</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BW"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T12:25:05-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-293527</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Ministry of Defense Advisors Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Ministry of Defense Advisors (MoDA) program partners senior Department of Defense (DoD) civilian experts with foreign counterparts to improve ministerial capacity. A MoDA is assisting the Batswanan Ministry of Defense with veteran's affairs reform initiatives.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="398378F54D40">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">68650</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BW"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="398378F54D40">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">68650</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="BW"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>

@@ -1,14 +1,14 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-10-01T14:34:28-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:34:02-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-248973</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T14:47:44-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:11-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-250067</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Special Investigative Unit (SIU) Basic Fundamental Law Enforcement Practices</narrative>
+      <narrative xml:lang="en">This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Special Investigative Unit (SIU) Basic Fundamental Law Enforcement Practices; This is a five week course conducted at the DEA Academy in Quantico, VA and is a requirement for all officers to complete who are assigned to DEA Sensitive Investigative Units (SIU) worldwide. The basic course serves as their foundation in fundamental law enforcement practices for these newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+      <narrative xml:lang="en">This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
     </description>
     <participating-org ref="10" role="1" type="10">
       <narrative>Department of Justice</narrative>
@@ -23,10 +23,12 @@
       <narrative>U.S. Government - Department of Justice</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-01-16" type="1"/>
-    <activity-date iso-date="2012-01-16" type="2"/>
-    <activity-date iso-date="2012-02-17" type="3"/>
-    <activity-date iso-date="2012-02-17" type="4"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2025-02-07" type="3"/>
+    <activity-date iso-date="2025-02-07" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Justice</narrative>
@@ -35,7 +37,7 @@
         <narrative>Tamika Jordan; Ryan Boles</narrative>
       </person-name>
       <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
@@ -47,10 +49,29 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="A3D8BECF0D7F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">62411</value>
+    <transaction ref="B432A43A0F58">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-12-30"/>
+      <value value-date="2024-12-30">4228</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="64F01BB4EE13">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-12-30"/>
+      <value value-date="2024-12-30">2013</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -66,67 +87,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="A3D8BECF0D7F">
+    <transaction ref="55BD92508E89">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">62411</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="GT"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D365E780C30B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">80243</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="MX"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D365E780C30B">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">80243</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="MX"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BFFD4D104C4F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">62411</value>
+      <transaction-date iso-date="2024-12-30"/>
+      <value value-date="2024-12-30">2013</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -142,10 +106,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="BFFD4D104C4F">
+    <transaction ref="958D2FC9A00E">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">62411</value>
+      <transaction-date iso-date="2024-12-30"/>
+      <value value-date="2024-12-30">1812</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -156,7 +120,7 @@
       <sector code="15130" vocabulary="1">
         <narrative>Legal and judicial development</narrative>
       </sector>
-      <recipient-country code="PA"/>
+      <recipient-country code="PE"/>
       <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
@@ -164,8 +128,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:34:03-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-12R115-248928</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:12-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-12R115-249441</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
@@ -200,7 +164,7 @@
         <narrative>Tamika Jordan; Ryan Boles</narrative>
       </person-name>
       <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
@@ -212,7 +176,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="6CCED5FDE5A4">
+    <transaction ref="E8B1B09D191D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">111635</value>
@@ -231,7 +195,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6CCED5FDE5A4">
+    <transaction ref="E8B1B09D191D">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">111635</value>
@@ -250,7 +214,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6C34844CD56A">
+    <transaction ref="7EC28311B56A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">27794</value>
@@ -269,7 +233,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6C34844CD56A">
+    <transaction ref="7EC28311B56A">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">27794</value>
@@ -288,7 +252,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EC61E82D3F34">
+    <transaction ref="969F5AA68CE3">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">17993</value>
@@ -307,7 +271,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EC61E82D3F34">
+    <transaction ref="969F5AA68CE3">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">17993</value>
@@ -326,7 +290,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F78FAE458F8A">
+    <transaction ref="AFF81D4FBA3C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">23459</value>
@@ -345,7 +309,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F78FAE458F8A">
+    <transaction ref="AFF81D4FBA3C">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">23460</value>
@@ -364,7 +328,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DC6D1FE09FBB">
+    <transaction ref="5AC75B517B10">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">10765</value>
@@ -383,7 +347,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DC6D1FE09FBB">
+    <transaction ref="5AC75B517B10">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">10765</value>
@@ -402,7 +366,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="779E1D7A9DC4">
+    <transaction ref="64C34C93FAF0">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">47402</value>
@@ -421,7 +385,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="779E1D7A9DC4">
+    <transaction ref="64C34C93FAF0">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">47402</value>
@@ -443,8 +407,1334 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:34:03-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-12R066-248940</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:12-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-250066</iati-identifier>
+    <reporting-org ref="US-GOV-15" type="10">
+      <narrative>Department of Justice</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+    </description>
+    <participating-org ref="10" role="1" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="2" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="3" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Justice</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Justice</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Tamika Jordan; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-514-2000</telephone>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="921676EBBBE6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">113529</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="921676EBBBE6">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">277645</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BF99E53CEC86">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">198016</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BF99E53CEC86">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">80903</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0D7F140D6FEB">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">45772</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0D7F140D6FEB">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-1231</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="75708502F02F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">496069</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="75708502F02F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">496069</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="066EF36BA6D1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">54696</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="DO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="066EF36BA6D1">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">69033</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="DO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A793DD1F2C50">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">18139</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="DO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A793DD1F2C50">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">13586</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="DO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C7CCADEF714E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">9591</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="DO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C7CCADEF714E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-194</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="DO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="402F2A1EC668">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">111327</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="DO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="402F2A1EC668">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">111327</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="DO"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9F100B664483">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">5575</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="EC"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D9DB89BE6396">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">7256</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="EC"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D9DB89BE6396">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">5551</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="EC"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8FECED61F211">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">3836</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="EC"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8FECED61F211">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-34</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="EC"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6B995E9B9C4E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">15144</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="EC"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6B995E9B9C4E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">15144</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="EC"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="652D3E05CD10">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">41812</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FD0805A297BE">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">54417</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FD0805A297BE">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">41633</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="82AB69F610B2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">28773</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="82AB69F610B2">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-254</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0164237B2EA4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">113580</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0164237B2EA4">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">113580</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="GT"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="08D9207FB626">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">1080</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="08D9207FB626">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">26959</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5E8742DB6AF3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">29890</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5E8742DB6AF3">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">4604</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AEAC474505C0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">431</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AEAC474505C0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-163</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9A0CB740AAC1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">45647</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9A0CB740AAC1">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">45647</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="2E9CC7449338">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">13937</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="MX"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8FC79C128D4D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">18139</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="MX"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8FC79C128D4D">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">13878</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="MX"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="00886F29E761">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">9591</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="MX"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="00886F29E761">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-85</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="MX"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="2D82DDF03FEA">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">37860</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="MX"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="2D82DDF03FEA">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">37860</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="MX"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1D84F6EAF2B2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">2519</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PA"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1D84F6EAF2B2">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">62904</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PA"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6407A7593F01">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">69743</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PA"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6407A7593F01">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">10743</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PA"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="70726718DC78">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">1006</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PA"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="70726718DC78">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-379</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PA"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DF101A85C024">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">106509</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PA"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DF101A85C024">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">106509</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PA"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B3642A128BB9">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">50485</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B3642A128BB9">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">81038</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B29EBA48A422">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">34871</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B29EBA48A422">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">5109</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FC47EC066F67">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">503</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FC47EC066F67">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-288</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="56DBF418460C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">119375</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="56DBF418460C">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">119375</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D61BBD9C07B5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">54696</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PE"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D61BBD9C07B5">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">55096</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PE"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8305B9566390">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">-291</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PE"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D948773D9D24">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-109</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PE"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7C71B79BE98A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">73467</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PE"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7C71B79BE98A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">73467</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PE"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:12-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-12R066-249453</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
@@ -479,7 +1769,7 @@
         <narrative>Tamika Jordan; Ryan Boles</narrative>
       </person-name>
       <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
@@ -491,7 +1781,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="3499BAEC5392">
+    <transaction ref="1A14C4450141">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">181735</value>
@@ -510,7 +1800,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3499BAEC5392">
+    <transaction ref="1A14C4450141">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">203748</value>
@@ -529,7 +1819,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2853B1D12C29">
+    <transaction ref="CE2AEB25EE0D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">167319</value>
@@ -548,7 +1838,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2853B1D12C29">
+    <transaction ref="CE2AEB25EE0D">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">184775</value>
@@ -570,7 +1860,375 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:34:04-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:13-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-249489</iati-identifier>
+    <reporting-org ref="US-GOV-15" type="10">
+      <narrative>Department of Justice</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Special Investigative Unit (SIU) Basic Fundamental Law Enforcement Practices</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Special Investigative Unit (SIU) Basic Fundamental Law Enforcement Practices; This is a five week course conducted at the DEA Academy in Quantico, VA and is a requirement for all officers to complete who are assigned to DEA Sensitive Investigative Units (SIU) worldwide. The basic course serves as their foundation in fundamental law enforcement practices for these newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+    </description>
+    <participating-org ref="10" role="1" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="2" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="3" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Justice</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-08-20" type="1"/>
+    <activity-date iso-date="2012-08-20" type="2"/>
+    <activity-date iso-date="2012-09-20" type="3"/>
+    <activity-date iso-date="2012-09-20" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Justice</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Tamika Jordan; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-514-2000</telephone>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="D7EC35970335">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">47502</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="GH"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D7EC35970335">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">47502</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="GH"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="CBB65BA72B87">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">105561</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="CBB65BA72B87">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">105561</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="HN"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="11F3FB54BFC0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">52781</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="11F3FB54BFC0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">52781</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:13-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-13R202-249550</iati-identifier>
+    <reporting-org ref="US-GOV-15" type="10">
+      <narrative>Department of Justice</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Military Interdepartmental Purchase Request - Vetted Unit Expenses, Kenya and Nigeria</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Military Interdepartmental Purchase Request - Vetted Unit Expenses, Kenya and Nigeria; Nigeria &amp; Kenya Vetted Unit expenses</narrative>
+    </description>
+    <participating-org ref="8" role="1" type="10">
+      <narrative>Department of the Army</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="2" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="3" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Justice</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2013-05-15" type="1"/>
+    <activity-date iso-date="2013-05-15" type="2"/>
+    <activity-date iso-date="2013-09-30" type="3"/>
+    <activity-date iso-date="2013-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Justice</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Tamika Jordan; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-514-2000</telephone>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="2E449C9EDAB4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">22186</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="KE"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="2E449C9EDAB4">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">109066</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="KE"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7DD5E48555E1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">398536</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="4" vocabulary="99">
+        <narrative>Counter-Narcotics</narrative>
+      </sector>
+      <sector code="16063" vocabulary="1">
+        <narrative>Narcotics control</narrative>
+      </sector>
+      <recipient-country code="KE"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7DD5E48555E1">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">-80703</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="4" vocabulary="99">
+        <narrative>Counter-Narcotics</narrative>
+      </sector>
+      <sector code="16063" vocabulary="1">
+        <narrative>Narcotics control</narrative>
+      </sector>
+      <recipient-country code="KE"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C1DD4A4FC213">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">50644</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="NG"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C1DD4A4FC213">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">653388</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="NG"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9B0AA0F96270">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">84630</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="4" vocabulary="99">
+        <narrative>Counter-Narcotics</narrative>
+      </sector>
+      <sector code="16063" vocabulary="1">
+        <narrative>Narcotics control</narrative>
+      </sector>
+      <recipient-country code="NG"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9B0AA0F96270">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">-250</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="4" vocabulary="99">
+        <narrative>Counter-Narcotics</narrative>
+      </sector>
+      <sector code="16063" vocabulary="1">
+        <narrative>Narcotics control</narrative>
+      </sector>
+      <recipient-country code="NG"/>
+      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:13-05:00" xml:lang="en">
     <iati-identifier>US-GOV-15-12R001</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -606,7 +2264,7 @@
         <narrative>Tamika Jordan; Ryan Boles</narrative>
       </person-name>
       <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
@@ -735,8 +2393,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:34:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-248975</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:14-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-249488</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
@@ -771,7 +2429,7 @@
         <narrative>Tamika Jordan; Ryan Boles</narrative>
       </person-name>
       <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
@@ -783,7 +2441,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="21D318A41E14">
+    <transaction ref="904975684758">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">91018</value>
@@ -802,7 +2460,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="21D318A41E14">
+    <transaction ref="904975684758">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">91018</value>
@@ -821,7 +2479,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="940D641F07C9">
+    <transaction ref="43DF882EF9EB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">45509</value>
@@ -840,7 +2498,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="940D641F07C9">
+    <transaction ref="43DF882EF9EB">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">45509</value>
@@ -859,7 +2517,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E8169265C96E">
+    <transaction ref="A425F12C2F21">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">72814</value>
@@ -878,7 +2536,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E8169265C96E">
+    <transaction ref="A425F12C2F21">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">72814</value>
@@ -900,8 +2558,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:34:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-248974</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:14-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-249487</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
@@ -936,7 +2594,7 @@
         <narrative>Tamika Jordan; Ryan Boles</narrative>
       </person-name>
       <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
@@ -948,7 +2606,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="8E022C90A4F2">
+    <transaction ref="331D452CCD75">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">154516</value>
@@ -967,7 +2625,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="8E022C90A4F2">
+    <transaction ref="331D452CCD75">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">154516</value>
@@ -986,7 +2644,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="67956321C95D">
+    <transaction ref="81D43D545FE9">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">39875</value>
@@ -1005,7 +2663,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="67956321C95D">
+    <transaction ref="81D43D545FE9">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">39875</value>
@@ -1027,7 +2685,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:34:05-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:15-05:00" xml:lang="en">
     <iati-identifier>US-GOV-15-12R096</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -1063,7 +2721,7 @@
         <narrative>Tamika Jordan; Ryan Boles</narrative>
       </person-name>
       <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
@@ -1154,8 +2812,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:34:05-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-248976</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:47:15-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-249486</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
@@ -1178,10 +2836,10 @@
       <narrative>U.S. Government - Department of Justice</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-08-20" type="1"/>
-    <activity-date iso-date="2012-08-20" type="2"/>
-    <activity-date iso-date="2012-09-20" type="3"/>
-    <activity-date iso-date="2012-09-20" type="4"/>
+    <activity-date iso-date="2012-01-16" type="1"/>
+    <activity-date iso-date="2012-01-16" type="2"/>
+    <activity-date iso-date="2012-02-17" type="3"/>
+    <activity-date iso-date="2012-02-17" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Justice</narrative>
@@ -1190,7 +2848,7 @@
         <narrative>Tamika Jordan; Ryan Boles</narrative>
       </person-name>
       <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
@@ -1202,10 +2860,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="521DBC28F519">
+    <transaction ref="CB52461F447C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">47502</value>
+      <value value-date="2012-01-01">62411</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -1216,15 +2874,15 @@
       <sector code="15130" vocabulary="1">
         <narrative>Legal and judicial development</narrative>
       </sector>
-      <recipient-country code="GH"/>
+      <recipient-country code="GT"/>
       <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="521DBC28F519">
+    <transaction ref="CB52461F447C">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">47502</value>
+      <value value-date="2012-01-01">62411</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -1235,15 +2893,15 @@
       <sector code="15130" vocabulary="1">
         <narrative>Legal and judicial development</narrative>
       </sector>
-      <recipient-country code="GH"/>
+      <recipient-country code="GT"/>
       <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4BC85D1BD48B">
+    <transaction ref="9C098243C3D5">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">105561</value>
+      <value value-date="2012-01-01">80243</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -1254,15 +2912,15 @@
       <sector code="15130" vocabulary="1">
         <narrative>Legal and judicial development</narrative>
       </sector>
-      <recipient-country code="HN"/>
+      <recipient-country code="MX"/>
       <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4BC85D1BD48B">
+    <transaction ref="9C098243C3D5">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">105561</value>
+      <value value-date="2012-01-01">80243</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -1273,15 +2931,15 @@
       <sector code="15130" vocabulary="1">
         <narrative>Legal and judicial development</narrative>
       </sector>
-      <recipient-country code="HN"/>
+      <recipient-country code="MX"/>
       <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EE157C138BCC">
+    <transaction ref="4BEBB2F7C642">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">52781</value>
+      <value value-date="2012-01-01">62411</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -1292,15 +2950,15 @@
       <sector code="15130" vocabulary="1">
         <narrative>Legal and judicial development</narrative>
       </sector>
-      <recipient-country code="PY"/>
+      <recipient-country code="PA"/>
       <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EE157C138BCC">
+    <transaction ref="4BEBB2F7C642">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">52781</value>
+      <value value-date="2012-01-01">62411</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -1311,211 +2969,8 @@
       <sector code="15130" vocabulary="1">
         <narrative>Legal and judicial development</narrative>
       </sector>
-      <recipient-country code="PY"/>
+      <recipient-country code="PA"/>
       <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:34:06-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-13R202-249037</iati-identifier>
-    <reporting-org ref="US-GOV-15" type="10">
-      <narrative>Department of Justice</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Military Interdepartmental Purchase Request - Vetted Unit Expenses, Kenya and Nigeria</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Military Interdepartmental Purchase Request - Vetted Unit Expenses, Kenya and Nigeria; Nigeria &amp; Kenya Vetted Unit expenses</narrative>
-    </description>
-    <participating-org ref="8" role="1" type="10">
-      <narrative>Department of the Army</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="2" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="3" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Justice</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2013-05-15" type="1"/>
-    <activity-date iso-date="2013-05-15" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3"/>
-    <activity-date iso-date="2013-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Justice</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Tamika Jordan; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="7A6FC3257D5D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">22186</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="KE"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7A6FC3257D5D">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">109066</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="KE"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="1D1BD4B57041">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">398536</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="4" vocabulary="99">
-        <narrative>Counter-Narcotics</narrative>
-      </sector>
-      <sector code="16063" vocabulary="1">
-        <narrative>Narcotics control</narrative>
-      </sector>
-      <recipient-country code="KE"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="1D1BD4B57041">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">-80703</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="4" vocabulary="99">
-        <narrative>Counter-Narcotics</narrative>
-      </sector>
-      <sector code="16063" vocabulary="1">
-        <narrative>Narcotics control</narrative>
-      </sector>
-      <recipient-country code="KE"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="41D28E6A760F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">50644</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="NG"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="41D28E6A760F">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">653388</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="NG"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2670B2A8E343">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">84630</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="4" vocabulary="99">
-        <narrative>Counter-Narcotics</narrative>
-      </sector>
-      <sector code="16063" vocabulary="1">
-        <narrative>Narcotics control</narrative>
-      </sector>
-      <recipient-country code="NG"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2670B2A8E343">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">-250</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="4" vocabulary="99">
-        <narrative>Counter-Narcotics</narrative>
-      </sector>
-      <sector code="16063" vocabulary="1">
-        <narrative>Narcotics control</narrative>
-      </sector>
-      <recipient-country code="NG"/>
-      <usg:treasury-account code="21x2020">Department of the Army, Operations and Maintenance
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>

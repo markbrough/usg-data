@@ -1,17 +1,17 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-10-01T15:32:39-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T15:32:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-12-124775</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T17:12:51-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T17:12:13-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-12-125109</iati-identifier>
     <reporting-org ref="US-GOV-12" type="10">
       <narrative>Trade and Development Agency</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Desk Study - Coal Mine Project, through Government of Georgia</narrative>
+      <narrative xml:lang="en">Desk Study - Coal Bed Methane/Coal Mine Methane Project, through Raven Ridge Resources, Inc.</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">This grant supports a feasibility study (FS) on the proposed Coal Bed Methane / Coal Mine Methane (CBM/CMM) project in Georgia. The FS is evaluating the economic, financial, and technical viability of recovering methane from coal seams, active coal mines, and abandoned coal mines in the Tkibuli-Shaori Coal Basin. It is also evaluating various end-use options for the recovered methane. The development of CBM/CMM in the Tkibuli-Shaori Coal Basin would reduce dependence on natural gas imports, decrease greenhouse gas emissions, and improve coal mine safety in Georgia.</narrative>
+      <narrative xml:lang="en">This desk study reviewed and assessed the value of the work product completed pursuant to the Terms of Reference for the Georgia Coal Bed Methane/Coal Mine Methane Project Feasibility Study (USTDA Activity No. 2008-81015B). .</narrative>
     </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
+    <participating-org ref="17" role="1" type="10">
+      <narrative>Trade and Development Agency</narrative>
     </participating-org>
     <participating-org ref="US-GOV-12" role="2" type="10">
       <narrative>Trade and Development Agency</narrative>
@@ -20,15 +20,13 @@
       <narrative>Trade and Development Agency</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Government of Georgia</narrative>
+      <narrative>Raven Ridge Resources, Inc.</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2009-09-25" type="1"/>
-    <activity-date iso-date="2009-09-25" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-09-30" type="4"/>
+    <activity-date iso-date="2014-03-28" type="1"/>
+    <activity-date iso-date="2014-03-28" type="2"/>
+    <activity-date iso-date="2014-12-01" type="3"/>
+    <activity-date iso-date="2014-12-01" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Trade and Development Agency</narrative>
@@ -37,7 +35,7 @@
         <narrative>Amy Swers and Liz Sutton; Ryan Boles</narrative>
       </person-name>
       <telephone>703-875-4357</telephone>
-      <email>aswers@ustda.gov; esutton@ustda.gov; rboles@usaid.gov</email>
+      <email>aswers@ustda.gov; esutton@ustda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1101 Wilson Blvd. Suite 1100, Arlington, VA, 22209</narrative>
@@ -48,31 +46,50 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="76B3143FC58D">
+    <default-tied-status code="4"/>
+    <transaction ref="B478ECB5F4DD">
       <transaction-type code="3"/>
       <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">136108</value>
+      <value value-date="2014-01-01">4982</value>
       <receiver-org>
-        <narrative>Government of Georgia</narrative>
+        <narrative>Raven Ridge Resources, Inc.</narrative>
       </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="34" vocabulary="99">
-        <narrative>Mining and Natural Resources</narrative>
+      <disbursement-channel code="2"/>
+      <sector code="28" vocabulary="99">
+        <narrative>Infrastructure</narrative>
       </sector>
-      <sector code="32261" vocabulary="1">
-        <narrative>Coal</narrative>
+      <sector code="32262" vocabulary="1">
+        <narrative>Oil and gas (upstream)</narrative>
       </sector>
       <recipient-country code="GE"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
+      <usg:treasury-account code="11x1001">Trade and Development Agency
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B478ECB5F4DD">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">4982</value>
+      <receiver-org>
+        <narrative>Raven Ridge Resources, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="28" vocabulary="99">
+        <narrative>Infrastructure</narrative>
+      </sector>
+      <sector code="32262" vocabulary="1">
+        <narrative>Oil and gas (upstream)</narrative>
+      </sector>
+      <recipient-country code="GE"/>
+      <usg:treasury-account code="11x1001">Trade and Development Agency
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T15:32:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-12-131107</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T17:12:14-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-12-131445</iati-identifier>
     <reporting-org ref="US-GOV-12" type="10">
       <narrative>Trade and Development Agency</narrative>
     </reporting-org>
@@ -109,7 +126,7 @@
         <narrative>Amy Swers and Liz Sutton; Ryan Boles</narrative>
       </person-name>
       <telephone>703-875-4357</telephone>
-      <email>aswers@ustda.gov; esutton@ustda.gov; rboles@usaid.gov</email>
+      <email>aswers@ustda.gov; esutton@ustda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1101 Wilson Blvd. Suite 1100, Arlington, VA, 22209</narrative>
@@ -121,7 +138,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="6C9674D380CB">
+    <transaction ref="4C67FDAA7FE6">
       <transaction-type code="3"/>
       <transaction-date iso-date="2014-01-01"/>
       <value value-date="2014-01-01">50445</value>
@@ -143,7 +160,79 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T15:32:08-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T17:12:14-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-12-125113</iati-identifier>
+    <reporting-org ref="US-GOV-12" type="10">
+      <narrative>Trade and Development Agency</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Desk Study - Coal Mine Project, through Government of Georgia</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">This grant supports a feasibility study (FS) on the proposed Coal Bed Methane / Coal Mine Methane (CBM/CMM) project in Georgia. The FS is evaluating the economic, financial, and technical viability of recovering methane from coal seams, active coal mines, and abandoned coal mines in the Tkibuli-Shaori Coal Basin. It is also evaluating various end-use options for the recovered methane. The development of CBM/CMM in the Tkibuli-Shaori Coal Basin would reduce dependence on natural gas imports, decrease greenhouse gas emissions, and improve coal mine safety in Georgia.</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-12" role="2" type="10">
+      <narrative>Trade and Development Agency</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-12" role="3" type="10">
+      <narrative>Trade and Development Agency</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Government of Georgia</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2009-09-25" type="1"/>
+    <activity-date iso-date="2009-09-25" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Trade and Development Agency</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Amy Swers and Liz Sutton; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-875-4357</telephone>
+      <email>aswers@ustda.gov; esutton@ustda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1101 Wilson Blvd. Suite 1100, Arlington, VA, 22209</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="811C20169816">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">136108</value>
+      <receiver-org>
+        <narrative>Government of Georgia</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="34" vocabulary="99">
+        <narrative>Mining and Natural Resources</narrative>
+      </sector>
+      <sector code="32261" vocabulary="1">
+        <narrative>Coal</narrative>
+      </sector>
+      <recipient-country code="GE"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T17:12:14-05:00" xml:lang="en">
     <iati-identifier>US-GOV-12-200981013B</iati-identifier>
     <reporting-org ref="US-GOV-12" type="10">
       <narrative>Trade and Development Agency</narrative>
@@ -181,7 +270,7 @@
         <narrative>Amy Swers and Liz Sutton; Ryan Boles</narrative>
       </person-name>
       <telephone>703-875-4357</telephone>
-      <email>aswers@ustda.gov; esutton@ustda.gov; rboles@usaid.gov</email>
+      <email>aswers@ustda.gov; esutton@ustda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1101 Wilson Blvd. Suite 1100, Arlington, VA, 22209</narrative>
@@ -215,167 +304,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T15:32:11-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-12-200981038A</iati-identifier>
-    <reporting-org ref="US-GOV-12" type="10">
-      <narrative>Trade and Development Agency</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Orientation Visit - OV: UNDERGROUND GAS STORAGE, through Millennium Science &amp; Engineering, Inc.</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">This $231,088 orientation visit of Georgian officials allows these officials to gain exposure to U.S. underground gas storage (UGS) technology, ownership and regulatory structures, and operations, through visits to U.S. facilities and meetings with leading U.S. companies and U.S. regulators. UGS is important to Georgia because it will enhance Georgia's energy security.</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-12" role="2" type="10">
-      <narrative>Trade and Development Agency</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-12" role="3" type="10">
-      <narrative>Trade and Development Agency</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Millennium Science &amp; Engineering, Inc.</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2009-09-24" type="1"/>
-    <activity-date iso-date="2009-09-24" type="2"/>
-    <activity-date iso-date="2011-12-31" type="3"/>
-    <activity-date iso-date="2011-12-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Trade and Development Agency</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Amy Swers and Liz Sutton; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-875-4357</telephone>
-      <email>aswers@ustda.gov; esutton@ustda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1101 Wilson Blvd. Suite 1100, Arlington, VA, 22209</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="C70F147CF85E">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">25462</value>
-      <receiver-org>
-        <narrative>Millennium Science &amp; Engineering, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="34" vocabulary="99">
-        <narrative>Mining and Natural Resources</narrative>
-      </sector>
-      <sector code="32264" vocabulary="1">
-        <narrative>Nonferrous metals</narrative>
-      </sector>
-      <recipient-country code="GE"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T15:32:15-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-12-124771</iati-identifier>
-    <reporting-org ref="US-GOV-12" type="10">
-      <narrative>Trade and Development Agency</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Desk Study - Coal Bed Methane/Coal Mine Methane Project, through Raven Ridge Resources, Inc.</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">This desk study reviewed and assessed the value of the work product completed pursuant to the Terms of Reference for the Georgia Coal Bed Methane/Coal Mine Methane Project Feasibility Study (USTDA Activity No. 2008-81015B). .</narrative>
-    </description>
-    <participating-org ref="17" role="1" type="10">
-      <narrative>Trade and Development Agency</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-12" role="2" type="10">
-      <narrative>Trade and Development Agency</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-12" role="3" type="10">
-      <narrative>Trade and Development Agency</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Raven Ridge Resources, Inc.</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-03-28" type="1"/>
-    <activity-date iso-date="2014-03-28" type="2"/>
-    <activity-date iso-date="2014-12-01" type="3"/>
-    <activity-date iso-date="2014-12-01" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Trade and Development Agency</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Amy Swers and Liz Sutton; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-875-4357</telephone>
-      <email>aswers@ustda.gov; esutton@ustda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1101 Wilson Blvd. Suite 1100, Arlington, VA, 22209</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="A5CDBB2E4311">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">4982</value>
-      <receiver-org>
-        <narrative>Raven Ridge Resources, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="28" vocabulary="99">
-        <narrative>Infrastructure</narrative>
-      </sector>
-      <sector code="32262" vocabulary="1">
-        <narrative>Oil and gas (upstream)</narrative>
-      </sector>
-      <recipient-country code="GE"/>
-      <usg:treasury-account code="11x1001">Trade and Development Agency
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A5CDBB2E4311">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">4982</value>
-      <receiver-org>
-        <narrative>Raven Ridge Resources, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="28" vocabulary="99">
-        <narrative>Infrastructure</narrative>
-      </sector>
-      <sector code="32262" vocabulary="1">
-        <narrative>Oil and gas (upstream)</narrative>
-      </sector>
-      <recipient-country code="GE"/>
-      <usg:treasury-account code="11x1001">Trade and Development Agency
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T15:32:17-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-12-124776</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T17:12:17-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-12-125114</iati-identifier>
     <reporting-org ref="US-GOV-12" type="10">
       <narrative>Trade and Development Agency</narrative>
     </reporting-org>
@@ -412,7 +342,7 @@
         <narrative>Amy Swers and Liz Sutton; Ryan Boles</narrative>
       </person-name>
       <telephone>703-875-4357</telephone>
-      <email>aswers@ustda.gov; esutton@ustda.gov; rboles@usaid.gov</email>
+      <email>aswers@ustda.gov; esutton@ustda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1101 Wilson Blvd. Suite 1100, Arlington, VA, 22209</narrative>
@@ -424,7 +354,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="0D0A44955643">
+    <transaction ref="F36D12AD04B0">
       <transaction-type code="2"/>
       <transaction-date iso-date="2014-01-01"/>
       <value value-date="2014-01-01">4000</value>
@@ -440,6 +370,76 @@
       </sector>
       <recipient-country code="GE"/>
       <usg:treasury-account code="11x1001">Trade and Development Agency
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T17:12:18-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-12-200981038A</iati-identifier>
+    <reporting-org ref="US-GOV-12" type="10">
+      <narrative>Trade and Development Agency</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Orientation Visit - OV: UNDERGROUND GAS STORAGE, through Millennium Science &amp; Engineering, Inc.</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">This $231,088 orientation visit of Georgian officials allows these officials to gain exposure to U.S. underground gas storage (UGS) technology, ownership and regulatory structures, and operations, through visits to U.S. facilities and meetings with leading U.S. companies and U.S. regulators. UGS is important to Georgia because it will enhance Georgia's energy security.</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-12" role="2" type="10">
+      <narrative>Trade and Development Agency</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-12" role="3" type="10">
+      <narrative>Trade and Development Agency</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Millennium Science &amp; Engineering, Inc.</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2009-09-24" type="1"/>
+    <activity-date iso-date="2009-09-24" type="2"/>
+    <activity-date iso-date="2011-12-31" type="3"/>
+    <activity-date iso-date="2011-12-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Trade and Development Agency</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Amy Swers and Liz Sutton; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-875-4357</telephone>
+      <email>aswers@ustda.gov; esutton@ustda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1101 Wilson Blvd. Suite 1100, Arlington, VA, 22209</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="C70F147CF85E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">25462</value>
+      <receiver-org>
+        <narrative>Millennium Science &amp; Engineering, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="34" vocabulary="99">
+        <narrative>Mining and Natural Resources</narrative>
+      </sector>
+      <sector code="32264" vocabulary="1">
+        <narrative>Nonferrous metals</narrative>
+      </sector>
+      <recipient-country code="GE"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>

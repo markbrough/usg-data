@@ -1,6 +1,95 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-10-01T13:01:05-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:03-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250378</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T11:30:14-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:12-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-250929</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">CaribVET</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Caribbean animal health network (CaribVET) is a collaboration network among veterinary services, laboratories, research institutes and regional/international organizations to improve animal and veterinary public health in 25 countries and/or territories (English, Spanish and French speaking) of the Caribbean (Gongora et al., 2008). Its specific objectives are to foster exchange of information and collaboration, promote a regional approach for emergency preparedness and diseases control especially for emerging and priority diseases, reinforce regional diagnostic capacities, and strengthen national epidemiological surveillance systems the CaribVET working group continues to developed tools to implement END and AI surveillance in the region: a regional protocol of surveillance and a diagnostic network for the Caribbean. The meeting was held in San Juan, Puerto Rico.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-07-22" type="1"/>
+    <activity-date iso-date="2012-07-22" type="2"/>
+    <activity-date iso-date="2012-07-26" type="3"/>
+    <activity-date iso-date="2012-07-26" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="0BAA87128700">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">2200</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31195" vocabulary="1">
+        <narrative>Livestock/veterinary services</narrative>
+      </sector>
+      <recipient-country code="1031"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0BAA87128700">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">2200</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31195" vocabulary="1">
+        <narrative>Livestock/veterinary services</narrative>
+      </sector>
+      <recipient-country code="1031"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:13-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-250952</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -37,7 +126,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -49,7 +138,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="D1BF82F08C9E">
+    <transaction ref="A5CDFECC7D17">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">10000</value>
@@ -68,7 +157,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D1BF82F08C9E">
+    <transaction ref="A5CDFECC7D17">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">10000</value>
@@ -90,16 +179,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250440</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:14-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251271</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Fruit Fly Workshop</narrative>
+      <narrative xml:lang="en">Workshop</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Fruit Fly Identification Workshop (without an existing fruit fly trapping program) was held at the H. Lavity Stoutt Community College, Paraquita Bay, British Virgin Island. This workshop was a collaborative effort between The United States Department of Agriculture, Animal and Plant Health Inspection Services- International Services (USDA-APHIS IS), the Greater Caribbean Safeguarding Initiative (GCSI), and the Department of Agriculture of the British Virgin Island. Over sixteen (16) participants attended the workshop from six (6) countries in the Caribbean. (The Countries Trained included Anguilla, BVI, Nevis, St Kitts, St Maarten, and Turks and Caicos). The objectives of the Fruit Fly Identification Workshop were to: 1. Familiarize participants with characters of the major tephritid genera (and species) present in the neotropics. 2. To enable participants to survey, collect, preserve and conduct preliminary identification if a species of economic importance is trapped . (without an existing fruit fly trapping program). 3. To convey to participants current survey protocol</narrative>
+      <narrative xml:lang="en">The Mite Identification Workshop was held at the Windward Islands Research and Education Foundation (WINDREF) Building at the St Georges University, Grenada from August 27th 31th 2012. This workshop was a collaborative effort between The United States Department of Agriculture, Animal and Plant Health Inspection Services- International Services (USDA-APHIS IS) and the Greater Caribbean Safeguarding Initiative (GCSI), the Ministry of Agriculture and Fisheries, Jamaica, The St. Georges University, the Windward Islands Research and Education Foundation (WINDREF) and the Ministry of Agriculture in Grenada. Ten (10) participants attended from over seven (7) countries in the Caribbean. .The general objective of the Mite Identification Workshop was to inform participants on the science and technical knowledge needed to correctly identify Mite Pests in the Caribbean Region of Quarantine Importance. .</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -114,103 +203,12 @@
       <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-01-09" type="1"/>
-    <activity-date iso-date="2012-01-09" type="2"/>
-    <activity-date iso-date="2012-01-12" type="3"/>
-    <activity-date iso-date="2012-01-12" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="E773E4AC6DE8">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">15000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E773E4AC6DE8">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">15000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250381</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Caribbean Regional Workshop Thysanopteran Pests of Economic Importance to the Caribbean region</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Greater Caribbean Safeguarding Initiative - Technical Training</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3">
+    <activity-date iso-date="2011-10-01" type="1"/>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2013-09-30" type="4"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -219,7 +217,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -231,10 +229,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="199CF32C173D">
+    <transaction ref="38AC1271DFC7">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">5000</value>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">6000</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -242,18 +240,18 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="1031"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="199CF32C173D">
+    <transaction ref="38AC1271DFC7">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">5000</value>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">6000</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -261,8 +259,8 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="1031"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
@@ -272,7 +270,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:04-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:14-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-16CA11132762306-0004</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -310,7 +308,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -346,16 +344,16 @@
       <narrative>22,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-2726-250362</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:17-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251207</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Caribbean - Assessment of Differences in Anastrepha Obliqua Infestations</narrative>
+      <narrative xml:lang="en">Survey</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">APHIS IS in collaboration with the Caribbean Agricultural Research and Development Institution (CARDI) and the Ministry of Agriculture, St Lucia, developed a research experiment for four counties (St Lucia, Dominica, Grenada and Trinidad) to obtain a better understanding of the apparent differences in the host range of the West Indian Fruit Fly and test they hypothesis - that perhaps there is biotype difference with West Indian fruit flies among the islands.</narrative>
+      <narrative xml:lang="en">APHIS assisted in conducting the survey for Tuta Absoluta in Antigua and Tobago. The Agricultural Scientist, by the request of the Ministries of Agriculture in both Tobago and Antigua, visited these countries to assist with the survey of Tuta Absoluta. These 2 Caribbean Countries, in particular, suffer from a lack of resources, especially well trained man power and field equipment to adequately conduct a survey of this magnitude. Therefore it became necessary, in order to have to survey competed in time for the 5th CPHD, that assist be given. To assist the Tobago House of Assembly and the Department of Agriculture in Antigua in conducting the survey for Tuta Absoluta.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -370,10 +368,10 @@
       <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2016-06-24" type="1"/>
-    <activity-date iso-date="2016-06-24" type="2"/>
-    <activity-date iso-date="2016-09-30" type="3"/>
-    <activity-date iso-date="2016-09-30" type="4"/>
+    <activity-date iso-date="2012-05-27" type="1"/>
+    <activity-date iso-date="2012-05-27" type="2"/>
+    <activity-date iso-date="2012-06-21" type="3"/>
+    <activity-date iso-date="2012-06-21" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -382,7 +380,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -394,278 +392,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="626742371548">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">7900</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="626742371548">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">7900</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:06-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250512</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Jamaica - Caribbean Advanced Mite Identification Workshop</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Greater Caribbean Safeguarding Initiative - Technical Training</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="B99CD0F00424">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">20200</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B99CD0F00424">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">20200</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:06-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250355</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">CaribVET</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Caribbean animal health network (CaribVET) is a collaboration network among veterinary services, laboratories, research institutes and regional/international organizations to improve animal and veterinary public health in 25 countries and/or territories (English, Spanish and French speaking) of the Caribbean (Gongora et al., 2008). Its specific objectives are to foster exchange of information and collaboration, promote a regional approach for emergency preparedness and diseases control especially for emerging and priority diseases, reinforce regional diagnostic capacities, and strengthen national epidemiological surveillance systems the CaribVET working group continues to developed tools to implement END and AI surveillance in the region: a regional protocol of surveillance and a diagnostic network for the Caribbean. The meeting was held in San Juan, Puerto Rico.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-07-22" type="1"/>
-    <activity-date iso-date="2012-07-22" type="2"/>
-    <activity-date iso-date="2012-07-26" type="3"/>
-    <activity-date iso-date="2012-07-26" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="0A65F0E63C6E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">2200</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31195" vocabulary="1">
-        <narrative>Livestock/veterinary services</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0A65F0E63C6E">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">2200</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31195" vocabulary="1">
-        <narrative>Livestock/veterinary services</narrative>
-      </sector>
-      <recipient-country code="1031"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:07-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250558</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Palm Pest Technical Working Group</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Conducted 3nd meeting of the Palm Pest Technical Working Group (PP TWG) Meeting: held at the CENTENO Research Office, in Trinidad on July 19th 2012. In attendance were Technical Working Group members from Dominica, St Maarten, St Vincent, Jamaica, Antigua and Barbuda, and Trinidad and Tobago (the Chair of the PP TWG). The objective of the Meeting was to develop an implementation plan for the recommendations of the 2nd meeting, identify the achievements of the Technical Working Group for the past year, and agree on recommendations to take forward at the 5th Meeting of the Caribbean Plant Health Directors (CPHD) Forum.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-07-19" type="1"/>
-    <activity-date iso-date="2012-07-19" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3"/>
-    <activity-date iso-date="2012-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="49B0EF741A81">
+    <transaction ref="B711E29E0E84">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">8000</value>
@@ -684,7 +411,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="49B0EF741A81">
+    <transaction ref="B711E29E0E84">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">8000</value>
@@ -706,16 +433,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:07-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250364</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:18-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-2681-250932</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Caribbean - Emergency Response Technical Working Group Meeting</narrative>
+      <narrative xml:lang="en">Caribbean - 1st Meeting Communications Technical Working Group</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Greater Caribbean Safeguarding Initiative - Technical Working Group Support for Emergency Response</narrative>
+      <narrative xml:lang="en">Represented were three member states: Martinique, St. Maarten and Turks and Caicos, and four partner organizations: Caribbean Agricultural Health and Food Safety Agency (CAHFSA), Caribbean Animal Health Network (CaribVET), USDA APHIS, and the University of the West Indies. The Chairman and Technical Secretary of the Caribbean Plant Health Directors (CPHD) were also in attendance.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -730,14 +457,10 @@
       <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-09-30" type="4"/>
+    <activity-date iso-date="2016-04-14" type="1"/>
+    <activity-date iso-date="2016-04-14" type="2"/>
+    <activity-date iso-date="2016-04-15" type="3"/>
+    <activity-date iso-date="2016-04-15" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -746,7 +469,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -756,12 +479,12 @@
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
+    <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="1444DE415ABD">
+    <transaction ref="52A7FD90EEA0">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">20000</value>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">18505</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -769,18 +492,18 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="1031"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1444DE415ABD">
+    <transaction ref="52A7FD90EEA0">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">20000</value>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">18505</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -788,8 +511,8 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31192" vocabulary="1">
-        <narrative>Plant and post-harvest protection and pest control</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="1031"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
@@ -799,8 +522,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250369</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:21-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-250943</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -839,7 +562,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -851,7 +574,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="5FFE942AC035">
+    <transaction ref="F30AFDC3C4F8">
       <transaction-type code="3"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">21500</value>
@@ -870,7 +593,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="5FFE942AC035">
+    <transaction ref="F30AFDC3C4F8">
       <transaction-type code="2"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">21500</value>
@@ -892,16 +615,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250451</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:21-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-250955</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Greater Caribbean Safeguarding Initiative</narrative>
+      <narrative xml:lang="en">Caribbean Regional Workshop Thysanopteran Pests of Economic Importance to the Caribbean region</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Under the USDA APHIS supported Greater Caribbean Safeguarding Initiative, A regional workshop on Thysanopteran Pest of Economic Importance to the Caribbean region was implemented October 1 - 5, 2012. 16 countries were invited and approximately twenty persons attended the training including about four from Tortola, BVI. The workshop was held in the British Virgin Islands and on Tortola specifically at the H. Lavity Stoute Community College. The workshop was held in collaboration with the Department of Agriculture in the British Virgin Islands and the Florida International Volunteer Corps (FAVACA).</narrative>
+      <narrative xml:lang="en">Greater Caribbean Safeguarding Initiative - Technical Training</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -916,10 +639,14 @@
       <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-09-28" type="1"/>
-    <activity-date iso-date="2012-09-28" type="2"/>
-    <activity-date iso-date="2012-10-06" type="3"/>
-    <activity-date iso-date="2012-10-06" type="4"/>
+    <activity-date iso-date="2012-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-10-01" type="2"/>
+    <activity-date iso-date="2013-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2013-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -928,7 +655,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -940,10 +667,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="71D3B21C5BD0">
+    <transaction ref="EAC45F56135A">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">4500</value>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">5000</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -959,10 +686,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="71D3B21C5BD0">
+    <transaction ref="EAC45F56135A">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">4500</value>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">5000</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -981,16 +708,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:09-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-2681-250358</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:22-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-250938</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Caribbean - 1st Meeting Communications Technical Working Group</narrative>
+      <narrative xml:lang="en">Caribbean - Emergency Response Technical Working Group Meeting</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Represented were three member states: Martinique, St. Maarten and Turks and Caicos, and four partner organizations: Caribbean Agricultural Health and Food Safety Agency (CAHFSA), Caribbean Animal Health Network (CaribVET), USDA APHIS, and the University of the West Indies. The Chairman and Technical Secretary of the Caribbean Plant Health Directors (CPHD) were also in attendance.</narrative>
+      <narrative xml:lang="en">Greater Caribbean Safeguarding Initiative - Technical Working Group Support for Emergency Response</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1005,10 +732,14 @@
       <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2016-04-14" type="1"/>
-    <activity-date iso-date="2016-04-14" type="2"/>
-    <activity-date iso-date="2016-04-15" type="3"/>
-    <activity-date iso-date="2016-04-15" type="4"/>
+    <activity-date iso-date="2012-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-10-01" type="2"/>
+    <activity-date iso-date="2013-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2013-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -1017,7 +748,96 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="73F21F792D77">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">20000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
+      </sector>
+      <recipient-country code="1031"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="73F21F792D77">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">20000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
+      </sector>
+      <recipient-country code="1031"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:22-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251132</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Palm Pest Technical Working Group</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Conducted 3nd meeting of the Palm Pest Technical Working Group (PP TWG) Meeting: held at the CENTENO Research Office, in Trinidad on July 19th 2012. In attendance were Technical Working Group members from Dominica, St Maarten, St Vincent, Jamaica, Antigua and Barbuda, and Trinidad and Tobago (the Chair of the PP TWG). The objective of the Meeting was to develop an implementation plan for the recommendations of the 2nd meeting, identify the achievements of the Technical Working Group for the past year, and agree on recommendations to take forward at the 5th Meeting of the Caribbean Plant Health Directors (CPHD) Forum.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-07-19" type="1"/>
+    <activity-date iso-date="2012-07-19" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -1029,10 +849,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="D6422C0A7E5A">
+    <transaction ref="ADCB4A2D185A">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">18505</value>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">8000</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -1040,18 +860,18 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
       </sector>
       <recipient-country code="1031"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D6422C0A7E5A">
+    <transaction ref="ADCB4A2D185A">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">18505</value>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">8000</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -1059,8 +879,8 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
       </sector>
       <recipient-country code="1031"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
@@ -1070,8 +890,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250239</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:25-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-250813</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -1106,7 +926,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -1118,7 +938,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="2C92F4A5B92D">
+    <transaction ref="EC5F9CF23884">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">20000</value>
@@ -1137,7 +957,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2C92F4A5B92D">
+    <transaction ref="EC5F9CF23884">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">20000</value>
@@ -1159,16 +979,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:12-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250633</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:26-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251014</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Survey</narrative>
+      <narrative xml:lang="en">Fruit Fly Workshop</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">APHIS assisted in conducting the survey for Tuta Absoluta in Antigua and Tobago. The Agricultural Scientist, by the request of the Ministries of Agriculture in both Tobago and Antigua, visited these countries to assist with the survey of Tuta Absoluta. These 2 Caribbean Countries, in particular, suffer from a lack of resources, especially well trained man power and field equipment to adequately conduct a survey of this magnitude. Therefore it became necessary, in order to have to survey competed in time for the 5th CPHD, that assist be given. To assist the Tobago House of Assembly and the Department of Agriculture in Antigua in conducting the survey for Tuta Absoluta.</narrative>
+      <narrative xml:lang="en">The Fruit Fly Identification Workshop (without an existing fruit fly trapping program) was held at the H. Lavity Stoutt Community College, Paraquita Bay, British Virgin Island. This workshop was a collaborative effort between The United States Department of Agriculture, Animal and Plant Health Inspection Services- International Services (USDA-APHIS IS), the Greater Caribbean Safeguarding Initiative (GCSI), and the Department of Agriculture of the British Virgin Island. Over sixteen (16) participants attended the workshop from six (6) countries in the Caribbean. (The Countries Trained included Anguilla, BVI, Nevis, St Kitts, St Maarten, and Turks and Caicos). The objectives of the Fruit Fly Identification Workshop were to: 1. Familiarize participants with characters of the major tephritid genera (and species) present in the neotropics. 2. To enable participants to survey, collect, preserve and conduct preliminary identification if a species of economic importance is trapped . (without an existing fruit fly trapping program). 3. To convey to participants current survey protocol</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1183,10 +1003,10 @@
       <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2012-05-27" type="1"/>
-    <activity-date iso-date="2012-05-27" type="2"/>
-    <activity-date iso-date="2012-06-21" type="3"/>
-    <activity-date iso-date="2012-06-21" type="4"/>
+    <activity-date iso-date="2012-01-09" type="1"/>
+    <activity-date iso-date="2012-01-09" type="2"/>
+    <activity-date iso-date="2012-01-12" type="3"/>
+    <activity-date iso-date="2012-01-12" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -1195,7 +1015,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -1205,12 +1025,12 @@
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
+    <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="1241AA402E88">
+    <transaction ref="E61E283EAE14">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">8000</value>
+      <value value-date="2012-01-01">15000</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -1226,10 +1046,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1241AA402E88">
+    <transaction ref="E61E283EAE14">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">8000</value>
+      <value value-date="2012-01-01">15000</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -1248,8 +1068,97 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:13-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250614</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:28-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-2726-250936</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Caribbean - Assessment of Differences in Anastrepha Obliqua Infestations</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">APHIS IS in collaboration with the Caribbean Agricultural Research and Development Institution (CARDI) and the Ministry of Agriculture, St Lucia, developed a research experiment for four counties (St Lucia, Dominica, Grenada and Trinidad) to obtain a better understanding of the apparent differences in the host range of the West Indian Fruit Fly and test they hypothesis - that perhaps there is biotype difference with West Indian fruit flies among the islands.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-06-24" type="1"/>
+    <activity-date iso-date="2016-06-24" type="2"/>
+    <activity-date iso-date="2016-09-30" type="3"/>
+    <activity-date iso-date="2016-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="8003AD2DB315">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">7900</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
+      </sector>
+      <recipient-country code="1031"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8003AD2DB315">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">7900</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
+      </sector>
+      <recipient-country code="1031"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:28-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251188</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -1284,7 +1193,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -1296,7 +1205,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="ABD6CD1DC9A9">
+    <transaction ref="4A86F939E827">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">2500</value>
@@ -1315,7 +1224,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="ABD6CD1DC9A9">
+    <transaction ref="4A86F939E827">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">2500</value>
@@ -1337,7 +1246,96 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:15-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:30-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251025</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Greater Caribbean Safeguarding Initiative</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Under the USDA APHIS supported Greater Caribbean Safeguarding Initiative, A regional workshop on Thysanopteran Pest of Economic Importance to the Caribbean region was implemented October 1 - 5, 2012. 16 countries were invited and approximately twenty persons attended the training including about four from Tortola, BVI. The workshop was held in the British Virgin Islands and on Tortola specifically at the H. Lavity Stoute Community College. The workshop was held in collaboration with the Department of Agriculture in the British Virgin Islands and the Florida International Volunteer Corps (FAVACA).</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-09-28" type="1"/>
+    <activity-date iso-date="2012-09-28" type="2"/>
+    <activity-date iso-date="2012-10-06" type="3"/>
+    <activity-date iso-date="2012-10-06" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="90E4FC96D09B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">4500</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
+      </sector>
+      <recipient-country code="1031"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="90E4FC96D09B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">4500</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
+      </sector>
+      <recipient-country code="1031"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:32-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-3368</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1375,7 +1373,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -1409,8 +1407,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:15-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250438</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:32-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251012</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -1447,7 +1445,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -1459,7 +1457,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="5604888BF5F0">
+    <transaction ref="809F4536E0DB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">1200</value>
@@ -1478,7 +1476,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="5604888BF5F0">
+    <transaction ref="809F4536E0DB">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">1200</value>
@@ -1500,16 +1498,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:16-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250697</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:33-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251086</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Workshop</narrative>
+      <narrative xml:lang="en">Jamaica - Caribbean Advanced Mite Identification Workshop</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Mite Identification Workshop was held at the Windward Islands Research and Education Foundation (WINDREF) Building at the St Georges University, Grenada from August 27th 31th 2012. This workshop was a collaborative effort between The United States Department of Agriculture, Animal and Plant Health Inspection Services- International Services (USDA-APHIS IS) and the Greater Caribbean Safeguarding Initiative (GCSI), the Ministry of Agriculture and Fisheries, Jamaica, The St. Georges University, the Windward Islands Research and Education Foundation (WINDREF) and the Ministry of Agriculture in Grenada. Ten (10) participants attended from over seven (7) countries in the Caribbean. .The general objective of the Mite Identification Workshop was to inform participants on the science and technical knowledge needed to correctly identify Mite Pests in the Caribbean Region of Quarantine Importance. .</narrative>
+      <narrative xml:lang="en">Greater Caribbean Safeguarding Initiative - Technical Training</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1524,12 +1522,14 @@
       <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1"/>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
+    <activity-date iso-date="2012-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-10-01" type="2"/>
+    <activity-date iso-date="2013-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
+    <activity-date iso-date="2013-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -1538,7 +1538,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -1550,10 +1550,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="F7812B1EBE68">
+    <transaction ref="21ADF798A88B">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">6000</value>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">20200</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -1561,18 +1561,18 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
       </sector>
       <recipient-country code="1031"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F7812B1EBE68">
+    <transaction ref="21ADF798A88B">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">6000</value>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">20200</value>
       <receiver-org type="10" ref="US-GOV-2">
         <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
@@ -1580,8 +1580,8 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
+      <sector code="31192" vocabulary="1">
+        <narrative>Plant and post-harvest protection and pest control</narrative>
       </sector>
       <recipient-country code="1031"/>
       <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses

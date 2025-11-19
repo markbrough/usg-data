@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-10-01T14:38:15-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:37:56-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T14:56:32-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:56:18-05:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL26682</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
@@ -35,7 +35,7 @@
         <narrative>Doris Senko; Ryan Boles</narrative>
       </person-name>
       <telephone>866-487-2365</telephone>
-      <email>senko.doris@dol.gov; rboles@usaid.gov</email>
+      <email>senko.doris@dol.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>500 C St. NW, Washington DC 20001</narrative>
@@ -337,7 +337,7 @@
       <narrative>13,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:37:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:56:19-05:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL29690</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
@@ -360,7 +360,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>International Labour Organisation</narrative>
     </participating-org>
-    <activity-status code="2"/>
+    <activity-status code="3"/>
     <activity-date iso-date="2016-10-01" type="1"/>
     <activity-date iso-date="2016-10-01" type="2"/>
     <activity-date iso-date="2025-03-27" type="3"/>
@@ -373,7 +373,7 @@
         <narrative>Doris Senko; Ryan Boles</narrative>
       </person-name>
       <telephone>866-487-2365</telephone>
-      <email>senko.doris@dol.gov; rboles@usaid.gov</email>
+      <email>senko.doris@dol.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>500 C St. NW, Washington DC 20001</narrative>
@@ -694,8 +694,8 @@
       <narrative>9,750,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:37:56-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-17-IL266821475K11-252665</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:56:19-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-17-IL266821475K11-253238</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
     </reporting-org>
@@ -720,8 +720,8 @@
     <activity-status code="3"/>
     <activity-date iso-date="2014-12-15" type="1"/>
     <activity-date iso-date="2014-12-15" type="2"/>
-    <activity-date iso-date="2020-06-30" type="3"/>
-    <activity-date iso-date="2020-06-30" type="4"/>
+    <activity-date iso-date="2022-03-31" type="3"/>
+    <activity-date iso-date="2022-03-31" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Labor</narrative>
@@ -730,7 +730,7 @@
         <narrative>Doris Senko; Ryan Boles</narrative>
       </person-name>
       <telephone>866-487-2365</telephone>
-      <email>senko.doris@dol.gov; rboles@usaid.gov</email>
+      <email>senko.doris@dol.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>500 C St. NW, Washington DC 20001</narrative>
@@ -742,10 +742,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="5DFE7D681970">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-12-31"/>
-      <value value-date="2019-12-31">926000</value>
+    <transaction ref="7EC776C9D0EE">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-05-14"/>
+      <value value-date="2020-05-14">2000000</value>
       <receiver-org type="40" ref="XM-DAC-41302">
         <narrative>International Labour Organisation</narrative>
       </receiver-org>
@@ -761,10 +761,86 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="34720B6064F0">
+    <transaction ref="44E8EBE993ED">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2020-03-31"/>
-      <value value-date="2020-03-31">700000</value>
+      <transaction-date iso-date="2020-06-30"/>
+      <value value-date="2020-06-30">300000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="23" vocabulary="99">
+        <narrative>Social Services</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="403B82633B17">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-09-30"/>
+      <value value-date="2020-09-30">1633853</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="23" vocabulary="99">
+        <narrative>Social Services</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="316B4E8E7668">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-03-31"/>
+      <value value-date="2021-03-31">315000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="23" vocabulary="99">
+        <narrative>Social Services</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D3AB287DF5D1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-06-30"/>
+      <value value-date="2021-06-30">110000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="23" vocabulary="99">
+        <narrative>Social Services</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A83CE9EEF098">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">300624</value>
       <receiver-org type="40" ref="XM-DAC-41302">
         <narrative>International Labour Organisation</narrative>
       </receiver-org>
@@ -785,8 +861,97 @@
       <narrative>8,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:37:57-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-17-IL266821475K11-252664</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:56:19-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-17-IL237431275K-253146</iati-identifier>
+    <reporting-org ref="US-GOV-17" type="10">
+      <narrative>Department of Labor</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Industrial Relations Project</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Implementation of new labor laws &amp; capacity building</narrative>
+    </description>
+    <participating-org ref="11" role="1" type="10">
+      <narrative>Department of Labor</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-17" role="2" type="10">
+      <narrative>Department of Labor</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-17" role="3" type="10">
+      <narrative>Department of Labor</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>International Labour Organisation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-09-30" type="1"/>
+    <activity-date iso-date="2012-09-30" type="2"/>
+    <activity-date iso-date="2016-09-30" type="3"/>
+    <activity-date iso-date="2016-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Labor</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Doris Senko; Ryan Boles</narrative>
+      </person-name>
+      <telephone>866-487-2365</telephone>
+      <email>senko.doris@dol.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>500 C St. NW, Washington DC 20001</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="04B9EE81C257">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2013-09-30"/>
+      <value value-date="2013-09-30">500000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="04B9EE81C257">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-09-30"/>
+      <value value-date="2013-09-30">500000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:56:19-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-17-IL266821475K11-253236</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
     </reporting-org>
@@ -821,7 +986,7 @@
         <narrative>Doris Senko; Ryan Boles</narrative>
       </person-name>
       <telephone>866-487-2365</telephone>
-      <email>senko.doris@dol.gov; rboles@usaid.gov</email>
+      <email>senko.doris@dol.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>500 C St. NW, Washington DC 20001</narrative>
@@ -833,7 +998,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="074824BB3B5D">
+    <transaction ref="A691AD1C6E0D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2014-12-15"/>
       <value value-date="2014-12-15">8000000</value>
@@ -852,7 +1017,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="074824BB3B5D">
+    <transaction ref="A691AD1C6E0D">
       <transaction-type code="2"/>
       <transaction-date iso-date="2014-12-15"/>
       <value value-date="2014-12-15">8000000</value>
@@ -871,7 +1036,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2894212B5880">
+    <transaction ref="D2C0AF16034D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2015-07-01"/>
       <value value-date="2015-07-01">80000</value>
@@ -890,7 +1055,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F5A0056FEB2C">
+    <transaction ref="F441549BD593">
       <transaction-type code="3"/>
       <transaction-date iso-date="2015-10-01"/>
       <value value-date="2015-10-01">156325</value>
@@ -909,7 +1074,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="61D8A8D16B5D">
+    <transaction ref="79AACA31E7E8">
       <transaction-type code="3"/>
       <transaction-date iso-date="2015-12-31"/>
       <value value-date="2015-12-31">156325</value>
@@ -928,7 +1093,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="546C17A2F05E">
+    <transaction ref="69EBF30FCC68">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-03-31"/>
       <value value-date="2016-03-31">163675</value>
@@ -947,7 +1112,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="79DF9F3A1FCD">
+    <transaction ref="0C6CE7786273">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-06-30"/>
       <value value-date="2016-06-30">200000</value>
@@ -966,7 +1131,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="81F6F8C7FFA6">
+    <transaction ref="635410B8CC94">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-09-30"/>
       <value value-date="2016-09-30">70000</value>
@@ -985,7 +1150,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4DCB6552769C">
+    <transaction ref="8259D015BD4F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-12-31"/>
       <value value-date="2016-12-31">300000</value>
@@ -1004,7 +1169,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="98A1806D6453">
+    <transaction ref="CB06DA99D47B">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-03-31"/>
       <value value-date="2017-03-31">150000</value>
@@ -1023,7 +1188,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E0695107A218">
+    <transaction ref="5548C630F9AB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-06-30"/>
       <value value-date="2017-06-30">179000</value>
@@ -1042,7 +1207,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="FA2093AE2C93">
+    <transaction ref="C287514BC8AB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-09-30"/>
       <value value-date="2017-09-30">247000</value>
@@ -1061,7 +1226,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="252CDDA90E0B">
+    <transaction ref="46CE50920A6C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-12-31"/>
       <value value-date="2017-12-31">300000</value>
@@ -1080,7 +1245,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="059F3F5254C7">
+    <transaction ref="DBD889FD3612">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-03-31"/>
       <value value-date="2018-03-31">330000</value>
@@ -1099,7 +1264,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="CC30E55982C6">
+    <transaction ref="01B421CB7743">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-06-30"/>
       <value value-date="2018-06-30">360000</value>
@@ -1118,7 +1283,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4E12E57A6D4C">
+    <transaction ref="97E38D3C30E8">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-09-30"/>
       <value value-date="2018-09-30">220000</value>
@@ -1137,7 +1302,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="8D92D2EA1883">
+    <transaction ref="8D7FF43190FA">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-12-31"/>
       <value value-date="2018-12-31">441000</value>
@@ -1156,7 +1321,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="ED38E5B42D34">
+    <transaction ref="1C5D093BC144">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-03-31"/>
       <value value-date="2019-03-31">650000</value>
@@ -1175,7 +1340,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="A5B78E24FAA9">
+    <transaction ref="3645D7CC386E">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-06-30"/>
       <value value-date="2019-06-30">160000</value>
@@ -1194,7 +1359,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EC583D92BE1C">
+    <transaction ref="B03482A0CF98">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-09-30"/>
       <value value-date="2019-09-30">288000</value>
@@ -1218,7 +1383,7 @@
       <narrative>8,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:37:57-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:56:19-05:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL296901675K11</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
@@ -1254,7 +1419,7 @@
         <narrative>Doris Senko; Ryan Boles</narrative>
       </person-name>
       <telephone>866-487-2365</telephone>
-      <email>senko.doris@dol.gov; rboles@usaid.gov</email>
+      <email>senko.doris@dol.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>500 C St. NW, Washington DC 20001</narrative>
@@ -1689,7 +1854,248 @@
       <narrative>1,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:37:57-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:56:20-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-17-IL237431275K-253145</iati-identifier>
+    <reporting-org ref="US-GOV-17" type="10">
+      <narrative>Department of Labor</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Industrial Relations (Labor Law Reform) Project</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Reform laws, regulations &amp; admin, improve worker orgs &amp; CBAs</narrative>
+    </description>
+    <participating-org ref="11" role="1" type="10">
+      <narrative>Department of Labor</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-17" role="2" type="10">
+      <narrative>Department of Labor</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-17" role="3" type="10">
+      <narrative>Department of Labor</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>International Labour Organisation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-09-30" type="1"/>
+    <activity-date iso-date="2012-09-30" type="2"/>
+    <activity-date iso-date="2016-09-30" type="3"/>
+    <activity-date iso-date="2016-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Labor</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Doris Senko; Ryan Boles</narrative>
+      </person-name>
+      <telephone>866-487-2365</telephone>
+      <email>senko.doris@dol.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>500 C St. NW, Washington DC 20001</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="BE4A4F1C46C3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-10-01"/>
+      <value value-date="2014-10-01">135103</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="137C24EE6E7C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-01-01"/>
+      <value value-date="2015-01-01">100000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B5570DB1CAC0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-04-01"/>
+      <value value-date="2015-04-01">160000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="CDA35C0911B5">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2015-06-03"/>
+      <value value-date="2015-06-03">500000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4E51932AB4F2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-07-01"/>
+      <value value-date="2015-07-01">190000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D08AD6D83939">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-10-01"/>
+      <value value-date="2015-10-01">50000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D8B2EC527242">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-12-31"/>
+      <value value-date="2015-12-31">50000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="31E736E04EDD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-03-31"/>
+      <value value-date="2016-03-31">180000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3F8B11E21FDD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-06-30"/>
+      <value value-date="2016-06-30">150000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="EB54CB3F4C53">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-09-30"/>
+      <value value-date="2016-09-30">140000</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="VN"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:56:20-05:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL-23743-12-75-K</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
@@ -1725,7 +2131,7 @@
         <narrative>Doris Senko; Ryan Boles</narrative>
       </person-name>
       <telephone>866-487-2365</telephone>
-      <email>senko.doris@dol.gov; rboles@usaid.gov</email>
+      <email>senko.doris@dol.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>500 C St. NW, Washington DC 20001</narrative>
@@ -1778,8 +2184,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:37:57-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-17-IL266821475K11-252666</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T14:56:20-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-17-IL266821475K11-253237</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
     </reporting-org>
@@ -1804,8 +2210,8 @@
     <activity-status code="3"/>
     <activity-date iso-date="2014-12-15" type="1"/>
     <activity-date iso-date="2014-12-15" type="2"/>
-    <activity-date iso-date="2022-03-31" type="3"/>
-    <activity-date iso-date="2022-03-31" type="4"/>
+    <activity-date iso-date="2020-06-30" type="3"/>
+    <activity-date iso-date="2020-06-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Labor</narrative>
@@ -1814,7 +2220,7 @@
         <narrative>Doris Senko; Ryan Boles</narrative>
       </person-name>
       <telephone>866-487-2365</telephone>
-      <email>senko.doris@dol.gov; rboles@usaid.gov</email>
+      <email>senko.doris@dol.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>500 C St. NW, Washington DC 20001</narrative>
@@ -1826,10 +2232,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="B9BE50314F8F">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-05-14"/>
-      <value value-date="2020-05-14">2000000</value>
+    <transaction ref="1D59977C7CE1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-12-31"/>
+      <value value-date="2019-12-31">926000</value>
       <receiver-org type="40" ref="XM-DAC-41302">
         <narrative>International Labour Organisation</narrative>
       </receiver-org>
@@ -1845,86 +2251,10 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="49D78AF53695">
+    <transaction ref="A78F6EC2C460">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2020-06-30"/>
-      <value value-date="2020-06-30">300000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="23" vocabulary="99">
-        <narrative>Social Services</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E15588D95139">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-09-30"/>
-      <value value-date="2020-09-30">1633853</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="23" vocabulary="99">
-        <narrative>Social Services</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="426081E12B4E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-03-31"/>
-      <value value-date="2021-03-31">315000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="23" vocabulary="99">
-        <narrative>Social Services</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CF8395442FBD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-06-30"/>
-      <value value-date="2021-06-30">110000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="23" vocabulary="99">
-        <narrative>Social Services</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="57E4B28117F7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">300624</value>
+      <transaction-date iso-date="2020-03-31"/>
+      <value value-date="2020-03-31">700000</value>
       <receiver-org type="40" ref="XM-DAC-41302">
         <narrative>International Labour Organisation</narrative>
       </receiver-org>
@@ -1944,335 +2274,5 @@
     <usg:tec1>
       <narrative>8,000,000</narrative>
     </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:37:57-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-17-IL237431275K-252574</iati-identifier>
-    <reporting-org ref="US-GOV-17" type="10">
-      <narrative>Department of Labor</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Industrial Relations Project</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Implementation of new labor laws &amp; capacity building</narrative>
-    </description>
-    <participating-org ref="11" role="1" type="10">
-      <narrative>Department of Labor</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-17" role="2" type="10">
-      <narrative>Department of Labor</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-17" role="3" type="10">
-      <narrative>Department of Labor</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>International Labour Organisation</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-09-30" type="1"/>
-    <activity-date iso-date="2012-09-30" type="2"/>
-    <activity-date iso-date="2016-09-30" type="3"/>
-    <activity-date iso-date="2016-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Labor</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Doris Senko; Ryan Boles</narrative>
-      </person-name>
-      <telephone>866-487-2365</telephone>
-      <email>senko.doris@dol.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>500 C St. NW, Washington DC 20001</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="78BEA90905CD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2013-09-30"/>
-      <value value-date="2013-09-30">500000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="78BEA90905CD">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2013-09-30"/>
-      <value value-date="2013-09-30">500000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T14:37:57-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-17-IL237431275K-252573</iati-identifier>
-    <reporting-org ref="US-GOV-17" type="10">
-      <narrative>Department of Labor</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Industrial Relations (Labor Law Reform) Project</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Reform laws, regulations &amp; admin, improve worker orgs &amp; CBAs</narrative>
-    </description>
-    <participating-org ref="11" role="1" type="10">
-      <narrative>Department of Labor</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-17" role="2" type="10">
-      <narrative>Department of Labor</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-17" role="3" type="10">
-      <narrative>Department of Labor</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>International Labour Organisation</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-09-30" type="1"/>
-    <activity-date iso-date="2012-09-30" type="2"/>
-    <activity-date iso-date="2016-09-30" type="3"/>
-    <activity-date iso-date="2016-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Labor</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Doris Senko; Ryan Boles</narrative>
-      </person-name>
-      <telephone>866-487-2365</telephone>
-      <email>senko.doris@dol.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>500 C St. NW, Washington DC 20001</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="ADD177633C1C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-10-01"/>
-      <value value-date="2014-10-01">135103</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="98EDF57CC4B4">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-01-01"/>
-      <value value-date="2015-01-01">100000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6A0EB5D79797">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-04-01"/>
-      <value value-date="2015-04-01">160000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="495AF76F805A">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2015-06-03"/>
-      <value value-date="2015-06-03">500000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D90A061511E5">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-07-01"/>
-      <value value-date="2015-07-01">190000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4750F5D1181E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-10-01"/>
-      <value value-date="2015-10-01">50000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="80E2BA669063">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-12-31"/>
-      <value value-date="2015-12-31">50000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7AB47AE6160A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-03-31"/>
-      <value value-date="2016-03-31">180000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2E1C087C026A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-06-30"/>
-      <value value-date="2016-06-30">150000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0FEABB30210D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-09-30"/>
-      <value value-date="2016-09-30">140000</value>
-      <receiver-org type="40" ref="XM-DAC-41302">
-        <narrative>International Labour Organisation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="32" vocabulary="99">
-        <narrative>Labor Policies and Markets</narrative>
-      </sector>
-      <sector code="16070" vocabulary="1">
-        <narrative>Labour Rights</narrative>
-      </sector>
-      <recipient-country code="VN"/>
-      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
   </iati-activity>
 </iati-activities>

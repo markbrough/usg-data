@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-10-01T13:01:02-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:04-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T11:30:10-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:15-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC6932023002</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -36,7 +36,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -300,8 +300,80 @@
       <narrative>29,465,180</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:06-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-250640</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:21-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FFE-693-2019/016</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">McGovern-Dole Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Catholic Relief Services</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="7D9B0629FA78">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-09-25"/>
+      <value value-date="2019-09-25">20000000</value>
+      <receiver-org type="90" ref="US-EIN-13-5563422">
+        <narrative>Catholic Relief Services</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="TG"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:25-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-251214</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -340,7 +412,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -352,7 +424,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="B8B74E43B5DC">
+    <transaction ref="38F024A93CD4">
       <transaction-type code="3"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">31630</value>
@@ -371,7 +443,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="B8B74E43B5DC">
+    <transaction ref="38F024A93CD4">
       <transaction-type code="2"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">31630</value>
@@ -393,80 +465,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FFE-693-2019/016</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">McGovern-Dole Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Catholic Relief Services</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3"/>
-    <activity-date iso-date="2024-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="7D9B0629FA78">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-09-25"/>
-      <value value-date="2019-09-25">20000000</value>
-      <receiver-org type="90" ref="US-EIN-13-5563422">
-        <narrative>Catholic Relief Services</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="TG"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:14-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-2597-250316</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:26-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-2597-250890</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -501,7 +501,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -513,7 +513,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="C3C0F2F77EE4">
+    <transaction ref="46DCA6B3FFC3">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-01-01"/>
       <value value-date="2016-01-01">100473</value>
@@ -532,7 +532,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="C3C0F2F77EE4">
+    <transaction ref="46DCA6B3FFC3">
       <transaction-type code="2"/>
       <transaction-date iso-date="2016-01-01"/>
       <value value-date="2016-01-01">100473</value>
@@ -554,8 +554,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:15-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-3064-250603</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:32-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-3064-251177</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -592,7 +592,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -604,7 +604,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="0E1DE482B2E7">
+    <transaction ref="1672931D2874">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-07-03"/>
       <value value-date="2018-07-03">34357</value>
@@ -623,7 +623,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0E1DE482B2E7">
+    <transaction ref="1672931D2874">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-07-03"/>
       <value value-date="2018-07-03">34357</value>
@@ -645,7 +645,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:16-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:33-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE6932023003</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -668,7 +668,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Catholic Relief Services</narrative>
     </participating-org>
-    <activity-status code="2"/>
+    <activity-status code="3"/>
     <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -682,7 +682,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
@@ -1060,7 +1060,7 @@
       <narrative>33,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T13:00:16-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:33-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE6932019016</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1083,7 +1083,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Catholic Relief Services</narrative>
     </participating-org>
-    <activity-status code="2"/>
+    <activity-status code="3"/>
     <activity-date iso-date="2019-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -1098,7 +1098,7 @@
         <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
       </person-name>
       <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; rboles@usaid.gov</email>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
