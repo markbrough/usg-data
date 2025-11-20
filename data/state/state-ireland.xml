@@ -1,6 +1,78 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-10-02T01:30:05-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T22:00:44-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-120561</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-19T02:21:43-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T23:14:28-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SEI30024CA0052</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Investment Screening Exchange Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">RUN AN EXCHANGE PROGRAM ON INVESTMENT SCREENING.</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - United States Redacted</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-10-01" type="3"/>
+    <activity-date iso-date="2024-10-01" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="86B39C523691">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">120000</value>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="49" vocabulary="99">
+        <narrative>Economic Development - General</narrative>
+      </sector>
+      <sector code="15110" vocabulary="1">
+        <narrative>Public sector policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="IE"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T23:17:53-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-120899</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -36,10 +108,10 @@
         <narrative>Department of State</narrative>
       </organisation>
       <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
+        <narrative>Robin Myers; Ryan Boles</narrative>
       </person-name>
       <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
       <website></website>
       <mailing-address>
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
@@ -51,7 +123,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="36C35CB3DE08">
+    <transaction ref="98F007DEFB1C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">15480</value>
@@ -70,7 +142,7 @@
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="36C35CB3DE08">
+    <transaction ref="98F007DEFB1C">
       <transaction-type code="2"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">15480</value>
@@ -86,78 +158,6 @@
       </sector>
       <recipient-country code="IE"/>
       <usg:treasury-account code="19x0209">Department of State, Educational and Cultural Exchange Programs,
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-10-01T22:01:55-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SEI30024CA0052</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Investment Screening Exchange Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">RUN AN EXCHANGE PROGRAM ON INVESTMENT SCREENING.</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-10-01" type="3"/>
-    <activity-date iso-date="2024-10-01" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Mysers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>rmyers@usaid.gov; rboles@usaid.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="86B39C523691">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">120000</value>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="49" vocabulary="99">
-        <narrative>Economic Development - General</narrative>
-      </sector>
-      <sector code="15110" vocabulary="1">
-        <narrative>Public sector policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="IE"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2024" end="2025"/>
       </usg:treasury-account>
     </transaction>
