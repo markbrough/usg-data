@@ -1,6 +1,80 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T11:30:41-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:13-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX18BF-10777R027</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T11:29:04-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX18BF-10777R016-197</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Florida Agricultural and Mechanical University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-08-15" type="3"/>
+    <activity-date iso-date="2020-08-15" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="54838BAA48EC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-02-03"/>
+      <value value-date="2020-02-03">922</value>
+      <receiver-org>
+        <narrative>Florida Agricultural and Mechanical University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>49,803</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX18BF-10777R027-443</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -49,7 +123,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="D45EAAD69EA2">
+    <transaction ref="7C801795FE0A">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-08-15"/>
       <value value-date="2018-08-15">48345</value>
@@ -65,48 +139,10 @@
       </sector>
       <recipient-country code="ZM"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="405F2AF91189">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-01-24"/>
-      <value value-date="2020-01-24">12561</value>
-      <receiver-org>
-        <narrative>University of Tennessee</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D3B5A5FB7087">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-03-10"/>
-      <value value-date="2020-03-10">6648</value>
-      <receiver-org>
-        <narrative>University of Tennessee</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D30BEEC445A0">
+    <transaction ref="06DCD28723BC">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-08-03"/>
       <value value-date="2020-08-03">326</value>
@@ -122,7 +158,7 @@
       </sector>
       <recipient-country code="ZM"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
@@ -130,196 +166,8 @@
       <narrative>48,345</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:14-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX21SX-10620R010-4928</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Scientific Exchange Program - Climate Smart Agriculture and Food Systems</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Scientific Exchange Program (SEP) advances USDAs agricultural research goals to promote collaborative programs among agricultural professionals of eligible countries, the United States, the international agricultural research system, and United States entities conducting research in the agricultural sciences.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Colorado State University</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2024-10-31" type="3"/>
-    <activity-date iso-date="2024-10-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="0C97C534B68E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-03-31"/>
-      <value value-date="2022-03-31">2649</value>
-      <receiver-org>
-        <narrative>Colorado State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7FD108210DEB">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">1812</value>
-      <receiver-org>
-        <narrative>Colorado State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="9B558F5F7711">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">5863</value>
-      <receiver-org>
-        <narrative>Colorado State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="24487AAFCCDD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">25793</value>
-      <receiver-org>
-        <narrative>Colorado State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="69B0F3BF2C19">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">8085</value>
-      <receiver-org>
-        <narrative>Colorado State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="861C9DEC0EB2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">8176</value>
-      <receiver-org>
-        <narrative>Colorado State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="9EF33AC7AF5D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-03-31"/>
-      <value value-date="2025-03-31">7569</value>
-      <receiver-org>
-        <narrative>Colorado State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>59,948</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:14-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX18BF-10777R011</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX18BF-10777R011-436</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -368,7 +216,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="2E8A83834FE6">
+    <transaction ref="13B47DC67971">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-08-05"/>
       <value value-date="2018-08-05">49156</value>
@@ -384,10 +232,10 @@
       </sector>
       <recipient-country code="ZM"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="93A0BC901680">
+    <transaction ref="D7E6F06A5D4A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-08-27"/>
       <value value-date="2019-08-27">9778</value>
@@ -403,26 +251,7 @@
       </sector>
       <recipient-country code="ZM"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E7F434A74C44">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-02-20"/>
-      <value value-date="2020-02-20">408</value>
-      <receiver-org>
-        <narrative>Michigan State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
@@ -430,16 +259,16 @@
       <narrative>49,156</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:23-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX18BF-10777R016</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX21SX-10620R010-293</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Borlaug Fellowship Program - Plant Health</narrative>
+      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+      <narrative xml:lang="en">The United States has an existing Trade and Investment Framework Agreement with Kenya. There are strong indicators that this TIFA could soon lead to a Free Trade Agreement, resulting in increased agricultural trade opportunities. This award seeks to address ongoing Kenyan food safety issues through a focus on animal health.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -451,15 +280,15 @@
       <narrative>Department of Agriculture</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Florida Agricultural and Mechanical University</narrative>
+      <narrative>Colorado State University</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1">
+    <activity-date iso-date="2020-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2020-08-15" type="3"/>
-    <activity-date iso-date="2020-08-15" type="4"/>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2024-08-31" type="3"/>
+    <activity-date iso-date="2024-08-31" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -480,12 +309,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="0B9099DB9F2C">
+    <transaction ref="2B0164A06D7C">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2018-08-15"/>
-      <value value-date="2018-08-15">49803</value>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">59948</value>
       <receiver-org>
-        <narrative>Florida Agricultural and Mechanical University</narrative>
+        <narrative>Colorado State University</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="29" vocabulary="99">
@@ -496,167 +325,277 @@
       </sector>
       <recipient-country code="ZM"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5268AFA9AA79">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-10-29"/>
-      <value value-date="2018-10-29">1782</value>
-      <receiver-org>
-        <narrative>Florida Agricultural and Mechanical University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="72428EE739B9">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-12-17"/>
-      <value value-date="2018-12-17">8964</value>
-      <receiver-org>
-        <narrative>Florida Agricultural and Mechanical University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="78F099878A09">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-07-26"/>
-      <value value-date="2019-07-26">384</value>
-      <receiver-org>
-        <narrative>Florida Agricultural and Mechanical University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A11A3A0E5114">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-08-22"/>
-      <value value-date="2019-08-22">9209</value>
-      <receiver-org>
-        <narrative>Florida Agricultural and Mechanical University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="85C3F81E6451">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-08-26"/>
-      <value value-date="2019-08-26">3029</value>
-      <receiver-org>
-        <narrative>Florida Agricultural and Mechanical University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CCA15F3254DF">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-09-04"/>
-      <value value-date="2019-09-04">245</value>
-      <receiver-org>
-        <narrative>Florida Agricultural and Mechanical University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CFAB62A940B3">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-11-04"/>
-      <value value-date="2019-11-04">891</value>
-      <receiver-org>
-        <narrative>Florida Agricultural and Mechanical University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="59B08AE31232">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-02-03"/>
-      <value value-date="2020-02-03">922</value>
-      <receiver-org>
-        <narrative>Florida Agricultural and Mechanical University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>49,803</narrative>
+      <narrative>59,948</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:26-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:58-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX21SX-10620R010-5133</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Scientific Exchange Program - Climate Smart Agriculture and Food Systems</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Scientific Exchange Program (SEP) advances USDAs agricultural research goals to promote collaborative programs among agricultural professionals of eligible countries, the United States, the international agricultural research system, and United States entities conducting research in the agricultural sciences.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Colorado State University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2024-10-31" type="3"/>
+    <activity-date iso-date="2024-10-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="3463C80E20B5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-03-31"/>
+      <value value-date="2022-03-31">2649</value>
+      <receiver-org>
+        <narrative>Colorado State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1ECD3C62A811">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">1812</value>
+      <receiver-org>
+        <narrative>Colorado State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8ABA258C9C1E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">5863</value>
+      <receiver-org>
+        <narrative>Colorado State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="73C962254650">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">25793</value>
+      <receiver-org>
+        <narrative>Colorado State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="822534EC2B16">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">8085</value>
+      <receiver-org>
+        <narrative>Colorado State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="618CDEA32959">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">8176</value>
+      <receiver-org>
+        <narrative>Colorado State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8AC57FF29D45">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">7569</value>
+      <receiver-org>
+        <narrative>Colorado State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>59,948</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX18BF-10777R011-194</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Michigan State University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-02-14" type="3"/>
+    <activity-date iso-date="2020-02-14" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="B18D82F80307">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-02-20"/>
+      <value value-date="2020-02-20">408</value>
+      <receiver-org>
+        <narrative>Michigan State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>49,156</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-15-019</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -720,13 +659,313 @@
       </sector>
       <recipient-country code="ZM"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:30-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX18BF-10777R027-200</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>University of Tennessee</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-09-30" type="3"/>
+    <activity-date iso-date="2020-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="58B4A2BFD30E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-01-24"/>
+      <value value-date="2020-01-24">12561</value>
+      <receiver-org>
+        <narrative>University of Tennessee</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="ABD5081DDCDB">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-03-10"/>
+      <value value-date="2020-03-10">6648</value>
+      <receiver-org>
+        <narrative>University of Tennessee</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>48,345</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX18BF-10777R016-439</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Borlaug Fellowship Program - Plant Health</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Florida Agricultural and Mechanical University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2020-08-15" type="3"/>
+    <activity-date iso-date="2020-08-15" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="01BAA7037D25">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-08-15"/>
+      <value value-date="2018-08-15">49803</value>
+      <receiver-org>
+        <narrative>Florida Agricultural and Mechanical University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="760F5BBEE877">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-10-29"/>
+      <value value-date="2018-10-29">1782</value>
+      <receiver-org>
+        <narrative>Florida Agricultural and Mechanical University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FE2C68BCE1DB">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-12-17"/>
+      <value value-date="2018-12-17">8964</value>
+      <receiver-org>
+        <narrative>Florida Agricultural and Mechanical University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AD87DBFBDA2D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-07-26"/>
+      <value value-date="2019-07-26">384</value>
+      <receiver-org>
+        <narrative>Florida Agricultural and Mechanical University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="09C1E634EB94">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-08-22"/>
+      <value value-date="2019-08-22">9209</value>
+      <receiver-org>
+        <narrative>Florida Agricultural and Mechanical University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="20E240AC48F5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-08-26"/>
+      <value value-date="2019-08-26">3029</value>
+      <receiver-org>
+        <narrative>Florida Agricultural and Mechanical University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="494BC0F2B3E3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-09-04"/>
+      <value value-date="2019-09-04">245</value>
+      <receiver-org>
+        <narrative>Florida Agricultural and Mechanical University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A9BD08FA1648">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-11-04"/>
+      <value value-date="2019-11-04">891</value>
+      <receiver-org>
+        <narrative>Florida Agricultural and Mechanical University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="ZM"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>49,803</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:04-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-LRP-611-2010-010-00</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -790,79 +1029,7 @@
       </sector>
       <recipient-country code="ZM"/>
       <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:33-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX21SX-10620R010-4767</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Scientific Exchange Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Scientific Exchange Program (SEP) advances USDAs agricultural research goals to promote collaborative programs among agricultural professionals of eligible countries, the United States, the international agricultural research system, and United States entities conducting research in the agricultural sciences.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Colorado State University</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2024-08-31" type="3"/>
-    <activity-date iso-date="2024-08-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="0AF663F2192B">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">59948</value>
-      <receiver-org>
-        <narrative>Colorado State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="ZM"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>

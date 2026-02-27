@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T11:30:07-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:12-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T11:28:42-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:52-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX24SR-10961R010</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -64,22 +64,22 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:14-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX21BF-10777R012</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:53-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-2646-252490</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
+      <narrative xml:lang="en">Philippines - Animal Disease Outbreak Response Management</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+      <narrative xml:lang="en">From July 15-23, 2016, the Animal Disease Outbreak Response Management Training was held in the Philippines. The subject matter experts attending the training conducted lectures on topics such as: Managing Crisis Situations, Epidemiological Analysis and Response, Epidemiological Tools, Risk Analysis, and a one-day case study.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -91,15 +91,13 @@
       <narrative>Department of Agriculture</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Michigan State University</narrative>
+      <narrative>U.S. Government - Department of Agriculture</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2023-10-31" type="3"/>
-    <activity-date iso-date="2023-10-31" type="4"/>
+    <activity-date iso-date="2016-07-15" type="1"/>
+    <activity-date iso-date="2016-07-15" type="2"/>
+    <activity-date iso-date="2016-07-23" type="3"/>
+    <activity-date iso-date="2016-07-23" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -118,109 +116,50 @@
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
+    <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="C38036A7A853">
+    <transaction ref="63B429863A0A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">64000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="63B429863A0A">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2021-01-08"/>
-      <value value-date="2021-01-08">59830</value>
-      <receiver-org>
-        <narrative>Michigan State University</narrative>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">64000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E0244DF580EA">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">9915</value>
-      <receiver-org>
-        <narrative>Michigan State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BFD2F63AE040">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-06-30"/>
-      <value value-date="2023-06-30">16244</value>
-      <receiver-org>
-        <narrative>Michigan State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CDCCF95891F4">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">10545</value>
-      <receiver-org>
-        <narrative>Michigan State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="1729FEB278FA">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">35678</value>
-      <receiver-org>
-        <narrative>Michigan State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>69,745</narrative>
-    </usg:tec1>
+    <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:14-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:53-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-16CA11132762149</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -284,7 +223,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="CFD9B45DF255">
@@ -303,13 +242,13 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:14-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:53-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC-492-2009/012</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -377,191 +316,13 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:15-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-2649-250833</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Animal Disease Outbreak Response Management</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The course supported the Philippines in developing, planning and coordinating between Regional QRTs, provincial veterinary responders, emergency staff, and private practitioners/veterinary schools</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-08-22" type="1"/>
-    <activity-date iso-date="2016-08-22" type="2"/>
-    <activity-date iso-date="2016-08-26" type="3"/>
-    <activity-date iso-date="2016-08-26" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="48275E7E30E7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">63773</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="48275E7E30E7">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">63773</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:15-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-2563-251251</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Veterinary Training Plan Development</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">From April 16-30, 2016, DTRA funded an effort to develop a Philippines veterinary training strategy based on gaps identified by the APHIS/Manila Office and a planned scoping mission in spring 2016.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-04-16" type="1"/>
-    <activity-date iso-date="2016-04-16" type="2"/>
-    <activity-date iso-date="2016-04-30" type="3"/>
-    <activity-date iso-date="2016-04-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="261C13C5D5CC">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">40000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="261C13C5D5CC">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">40000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:16-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:54-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC-492-2013/032-00-A</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -629,7 +390,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2277">Public Law 480 Title I Direct Credit and Food for Progress Program Account
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="B6BCAD71055C">
@@ -648,7 +409,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2277">Public Law 480 Title I Direct Credit and Food for Progress Program Account
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="0ED40BDF3924">
@@ -667,7 +428,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2277">Public Law 480 Title I Direct Credit and Food for Progress Program Account
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="A00A1CF80462">
@@ -686,7 +447,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2277">Public Law 480 Title I Direct Credit and Food for Progress Program Account
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="5BAA6D18FC2C">
@@ -705,107 +466,14 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2277">Public Law 480 Title I Direct Credit and Food for Progress Program Account
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:18-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-251143</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Philippines - Specimen sample collection</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Poultry disease specimen sample collection technical assistance</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="BA2F037B510A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">51000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31195" vocabulary="1">
-        <narrative>Livestock/veterinary services</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BA2F037B510A">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">51000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31195" vocabulary="1">
-        <narrative>Livestock/veterinary services</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:19-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FCC4922018001</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FCC-492-2009/013</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -825,15 +493,13 @@
       <narrative>Department of Agriculture</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      <narrative>Land O'Lakes Venture37</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2023-12-31" type="3"/>
-    <activity-date iso-date="2023-12-31" type="4"/>
+    <activity-date iso-date="2009-06-04" type="1"/>
+    <activity-date iso-date="2009-06-04" type="2"/>
+    <activity-date iso-date="2016-05-30" type="3"/>
+    <activity-date iso-date="2016-05-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -854,12 +520,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="8D60D6E17A21">
+    <transaction ref="69E8975F3B09">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2019-02-23"/>
-      <value value-date="2019-02-23">307000</value>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">406857</value>
       <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+        <narrative>Land O'Lakes Venture37</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="29" vocabulary="99">
@@ -870,15 +536,15 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1EB789568FEF">
+    <transaction ref="CAE2A7DEB401">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2019-06-15"/>
-      <value value-date="2019-06-15">379000</value>
+      <transaction-date iso-date="2017-01-11"/>
+      <value value-date="2017-01-11">602</value>
       <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+        <narrative>Land O'Lakes Venture37</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="29" vocabulary="99">
@@ -889,262 +555,400 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="5C30258F3889">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-09-04"/>
-      <value value-date="2019-09-04">8086314</value>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX21SX-10620R001-284</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The United States has an existing Trade and Investment Framework Agreement with Kenya. There are strong indicators that this TIFA could soon lead to a Free Trade Agreement, resulting in increased agricultural trade opportunities. This award seeks to address ongoing Kenyan food safety issues through a focus on animal health.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Louisiana State University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2024-08-31" type="3"/>
+    <activity-date iso-date="2024-08-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="1EFB43466C80">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">49128</value>
       <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+        <narrative>Louisiana State University</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
       </sector>
       <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D2D1FD1C2C6D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-09-16"/>
-      <value value-date="2019-09-16">5181087</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CE8E35A7880A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-11-22"/>
-      <value value-date="2019-11-22">5282618</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="519ACEB0D6FB">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-11-30"/>
-      <value value-date="2019-11-30">19391</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="735E250C23B6">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-12-17"/>
-      <value value-date="2019-12-17">766730</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="DFB0AC6D5205">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-04-11"/>
-      <value value-date="2020-04-11">100000</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="1ED65DCF087C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-09-19"/>
-      <value value-date="2020-09-19">977740</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="851D288C6FFC">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-10-11"/>
-      <value value-date="2020-10-11">402311</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CF8B4A60F127">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-11-14"/>
-      <value value-date="2020-11-14">30168</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="41C4036D58D7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-12-11"/>
-      <value value-date="2020-12-11">2016755</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="74F79FD2087A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-01-26"/>
-      <value value-date="2021-01-26">186139</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F6C5CC10BDF8">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-02-17"/>
-      <value value-date="2021-02-17">889</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2273DAFD6851">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-03-18"/>
-      <value value-date="2023-03-18">55598</value>
-      <receiver-org>
-        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>25,209,166</narrative>
+      <narrative>49,128</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:20-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-1645</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Commodity Cost of Food Aid under Food For Progress Title I, Commodity Credit Corporation Purchase Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Food Aid (Food For Progress Title I, Commodity Credit Corporation Purchase) Commodity Cost for soybean meal bulk [20,000 gross metric tons] - through Catholic Relief Services</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Catholic Relief Services</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="FF9C4A85E3A0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">7833600</value>
+      <receiver-org type="90" ref="US-EIN-13-5563422">
+        <narrative>Catholic Relief Services</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FF9C4A85E3A0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">7833600</value>
+      <receiver-org type="90" ref="US-EIN-13-5563422">
+        <narrative>Catholic Relief Services</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FCC-492-2013/032</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Food for Progress</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Winrock International</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2014-02-18" type="1"/>
+    <activity-date iso-date="2014-02-18" type="2"/>
+    <activity-date iso-date="2020-09-30" type="3"/>
+    <activity-date iso-date="2020-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="A56BCAA650BD">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">23317116</value>
+      <receiver-org>
+        <narrative>Winrock International</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="87C72EF1CF72">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-03-28"/>
+      <value value-date="2017-03-28">194418</value>
+      <receiver-org>
+        <narrative>Winrock International</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX21BF-10777R012-4813</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Michigan State University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2023-10-31" type="3"/>
+    <activity-date iso-date="2023-10-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="8AC19C93FC19">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">9915</value>
+      <receiver-org>
+        <narrative>Michigan State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="00D1294770D8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-06-30"/>
+      <value value-date="2023-06-30">16244</value>
+      <receiver-org>
+        <narrative>Michigan State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8278BC0FA9B4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">10545</value>
+      <receiver-org>
+        <narrative>Michigan State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B592CA870E63">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-31"/>
+      <value value-date="2024-12-31">35678</value>
+      <receiver-org>
+        <narrative>Michigan State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>69,745</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:57-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC-492-2014/057</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1208,7 +1012,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="F42B89230406">
@@ -1227,7 +1031,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="E3321B67E13C">
@@ -1246,7 +1050,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="6EFE91CFF323">
@@ -1265,7 +1069,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="6DD2C582C4E2">
@@ -1284,7 +1088,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="C6EB513EEE7D">
@@ -1303,13 +1107,13 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:20-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:57-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-21IC11132762290</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1374,19 +1178,19 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:21-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX19BF-10777R047</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:57-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX19BF-10777R047-249</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Borlaug Fellowship Program - Resilient Agriculture</narrative>
+      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
@@ -1404,10 +1208,10 @@
       <narrative>Louisiana State University</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
+    <activity-date iso-date="2020-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2020-10-01" type="2"/>
     <activity-date iso-date="2023-03-30" type="3"/>
     <activity-date iso-date="2023-03-30" type="4"/>
     <contact-info type="1">
@@ -1430,26 +1234,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="1E77744DB0EA">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-09-15"/>
-      <value value-date="2019-09-15">43481</value>
-      <receiver-org>
-        <narrative>Louisiana State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="494BDEE62F75">
+    <transaction ref="237DD44A76CE">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-10-16"/>
       <value value-date="2020-10-16">9357</value>
@@ -1465,70 +1250,15 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="60344F95DBB2">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">5736</value>
-      <receiver-org>
-        <narrative>Louisiana State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="847AB9DF4174">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-06-30"/>
-      <value value-date="2023-06-30">13159</value>
-      <receiver-org>
-        <narrative>Louisiana State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D21B5B79CE2B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">25109</value>
-      <receiver-org>
-        <narrative>Louisiana State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>43,481</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:23-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:59-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC-492-2019/015</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1594,13 +1324,15 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>13,301,340</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:23-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:59-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-14-017</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1664,7 +1396,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="987F73ABD871">
@@ -1683,13 +1415,13 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:24-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:59-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC4922013032</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1753,7 +1485,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="8F2127FE6E97">
@@ -1772,7 +1504,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="2B4A92D19AEF">
@@ -1791,7 +1523,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="43CD1448E0F6">
@@ -1810,7 +1542,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="33F223CBBFF3">
@@ -1829,7 +1561,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="8487B9FCB25B">
@@ -1848,7 +1580,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
@@ -1856,172 +1588,7 @@
       <narrative>25,717,116</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:24-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX21SX-10620R001-4923</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Scientific Exchange Program - Climate Smart Agriculture</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Scientific Exchange Program (SEP) advances USDAs agricultural research goals to promote collaborative programs among agricultural professionals of eligible countries, the United States, the international agricultural research system, and United States entities conducting research in the agricultural sciences.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Louisiana State University</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-08-31" type="3"/>
-    <activity-date iso-date="2024-08-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F5EED4B9FC26">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">45221</value>
-      <receiver-org>
-        <narrative>Louisiana State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="9230FFA2A5E5">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">3908</value>
-      <receiver-org>
-        <narrative>Louisiana State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>49,128</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:24-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX21SX-10620R001-4759</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Scientific Exchange Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Scientific Exchange Program (SEP) advances USDAs agricultural research goals to promote collaborative programs among agricultural professionals of eligible countries, the United States, the international agricultural research system, and United States entities conducting research in the agricultural sciences.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Louisiana State University</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2024-08-31" type="3"/>
-    <activity-date iso-date="2024-08-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="C8F86D2FDFA9">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">49128</value>
-      <receiver-org>
-        <narrative>Louisiana State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:24-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:59-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX24BF-10777R007</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2086,7 +1653,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="671574E93E3A">
@@ -2105,89 +1672,15 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>73,362</narrative>
+      <narrative>73,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:24-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FCC-492-2009/013-3309</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Food for Progress</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Land O'Lakes Venture37</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="BBE251C81197">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">406857</value>
-      <receiver-org>
-        <narrative>Land O'Lakes Venture37</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:25-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:00-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC492201800100</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2253,22 +1746,22 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:26-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-405</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX17BF-10777R015-378</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Commodity Cost of Food Aid under Food For Progress Title I, Commodity Credit Corporation Purchase Program</narrative>
+      <narrative xml:lang="en">Borlaug Fellowship Program - Climate Smart Agriculture</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Food Aid (Food For Progress Title I, Commodity Credit Corporation Purchase) Commodity Cost for soybean meal bulk [20,000 gross metric tons] - through Catholic Relief Services</narrative>
+      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
     </description>
     <participating-org ref="5" role="1" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2280,17 +1773,294 @@
       <narrative>Department of Agriculture</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Catholic Relief Services</narrative>
+      <narrative>Ohio State University</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
+    <activity-date iso-date="2018-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="D5D6913B2BA6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-11-21"/>
+      <value value-date="2018-11-21">2296</value>
+      <receiver-org>
+        <narrative>Ohio State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>36,223</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX21BF-10777R012-267</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Michigan State University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2023-08-31" type="3"/>
+    <activity-date iso-date="2023-08-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="CF720DA23F90">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-01-08"/>
+      <value value-date="2021-01-08">59830</value>
+      <receiver-org>
+        <narrative>Michigan State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>59,830</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX19BF-10777R047-476</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Borlaug Fellowship Program - Resilient Agriculture</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Louisiana State University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2023-03-30" type="3"/>
+    <activity-date iso-date="2023-03-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="56030A501489">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-09-15"/>
+      <value value-date="2019-09-15">43481</value>
+      <receiver-org>
+        <narrative>Louisiana State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="521EE7A3D3C4">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">5736</value>
+      <receiver-org>
+        <narrative>Louisiana State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="236C6A9F8E8C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-06-30"/>
+      <value value-date="2023-06-30">13159</value>
+      <receiver-org>
+        <narrative>Louisiana State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3C51BB9DDEB1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">25109</value>
+      <receiver-org>
+        <narrative>Louisiana State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>43,481</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FCC4922018001-4894</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Food for Progress</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-12-31" type="3"/>
+    <activity-date iso-date="2023-12-31" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>
@@ -2311,12 +2081,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="5F99F1699A02">
+    <transaction ref="38E0B06C0BA5">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">7833600</value>
-      <receiver-org type="90" ref="US-EIN-13-5563422">
-        <narrative>Catholic Relief Services</narrative>
+      <transaction-date iso-date="2023-03-18"/>
+      <value value-date="2023-03-18">55598</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="29" vocabulary="99">
@@ -2327,32 +2097,178 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="5F99F1699A02">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">7833600</value>
-      <receiver-org type="90" ref="US-EIN-13-5563422">
-        <narrative>Catholic Relief Services</narrative>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>25,209,166</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX21SX-10620R001-5128</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Scientific Exchange Program - Climate Smart Agriculture</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Scientific Exchange Program (SEP) advances USDAs agricultural research goals to promote collaborative programs among agricultural professionals of eligible countries, the United States, the international agricultural research system, and United States entities conducting research in the agricultural sciences.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Louisiana State University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-08-31" type="3"/>
+    <activity-date iso-date="2024-08-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="8992B9622E21">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">45221</value>
+      <receiver-org>
+        <narrative>Louisiana State University</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
       </sector>
       <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9AA174D52493">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-31"/>
+      <value value-date="2024-12-31">3908</value>
+      <receiver-org>
+        <narrative>Louisiana State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>49,128</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX17BF-10777R015-175</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Ohio State University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-08-01" type="1"/>
+    <activity-date iso-date="2017-08-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="D01A6C9F6E00">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-06-30"/>
+      <value value-date="2018-06-30">27988</value>
+      <receiver-org>
+        <narrative>Ohio State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:28-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC492201303200E</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2418,83 +2334,13 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:28-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FCC-492-2013/032-4056</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Food for Progress</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Winrock International</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-02-18" type="1"/>
-    <activity-date iso-date="2014-02-18" type="2"/>
-    <activity-date iso-date="2020-09-30" type="3"/>
-    <activity-date iso-date="2020-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="5BCC2D4147B3">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-03-28"/>
-      <value value-date="2017-03-28">194418</value>
-      <receiver-org>
-        <narrative>Winrock International</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:28-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC4922019015</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2560,7 +2406,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="A6BCCFC4E880">
@@ -2579,7 +2425,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="23E8D675D3F7">
@@ -2598,7 +2444,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="6DCF82C5F04F">
@@ -2617,7 +2463,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="24EDFBB5008F">
@@ -2636,7 +2482,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="1808E49D4093">
@@ -2655,7 +2501,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="A8E5B7E1E43A">
@@ -2674,7 +2520,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="91E225D26054">
@@ -2693,7 +2539,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="E4F225EFFB2D">
@@ -2712,7 +2558,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="A45FB73991C2">
@@ -2731,7 +2577,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
@@ -2739,7 +2585,7 @@
       <narrative>25,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:28-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R023</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2803,7 +2649,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <transaction ref="467F9893F63F">
@@ -2822,7 +2668,7 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
@@ -2830,8 +2676,507 @@
       <narrative>49,249</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:29-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-707</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FCC4922018001-2506</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Food for Progress</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2023-06-30" type="3"/>
+    <activity-date iso-date="2023-06-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="00452D727C62">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-02-23"/>
+      <value value-date="2019-02-23">307000</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="64CCA0DA762D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-06-15"/>
+      <value value-date="2019-06-15">379000</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8BBA3893E44F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-09-04"/>
+      <value value-date="2019-09-04">8086314</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F2885D16A55F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-09-16"/>
+      <value value-date="2019-09-16">5181087</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="34A786C90E49">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-11-22"/>
+      <value value-date="2019-11-22">5282618</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="60CBF6F80F61">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-11-30"/>
+      <value value-date="2019-11-30">19391</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BE36D2382C06">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-12-17"/>
+      <value value-date="2019-12-17">766730</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3B27B6AC3AFC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-04-11"/>
+      <value value-date="2020-04-11">100000</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B649656D1E93">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-09-19"/>
+      <value value-date="2020-09-19">977740</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C52331EF14D4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-10-11"/>
+      <value value-date="2020-10-11">402311</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FF02B0BE202D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-11-14"/>
+      <value value-date="2020-11-14">30168</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="31334EC0D668">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-12-11"/>
+      <value value-date="2020-12-11">2016755</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="E62130C8B543">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-01-26"/>
+      <value value-date="2021-01-26">186139</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6706402A309B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-02-17"/>
+      <value value-date="2021-02-17">889</value>
+      <receiver-org>
+        <narrative>Agriculture Cooperative Development International/Volunteers in Overseas Cooperative Assistance</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>25,466,430</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-2563-252599</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Veterinary Training Plan Development</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">From April 16-30, 2016, DTRA funded an effort to develop a Philippines veterinary training strategy based on gaps identified by the APHIS/Manila Office and a planned scoping mission in spring 2016.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-04-16" type="1"/>
+    <activity-date iso-date="2016-04-16" type="2"/>
+    <activity-date iso-date="2016-04-30" type="3"/>
+    <activity-date iso-date="2016-04-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="CC86F0AF926E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">40000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="CC86F0AF926E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">40000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-2649-252181</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Animal Disease Outbreak Response Management</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The course supported the Philippines in developing, planning and coordinating between Regional QRTs, provincial veterinary responders, emergency staff, and private practitioners/veterinary schools</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-08-22" type="1"/>
+    <activity-date iso-date="2016-08-22" type="2"/>
+    <activity-date iso-date="2016-08-26" type="3"/>
+    <activity-date iso-date="2016-08-26" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="DB26C7D74D08">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">63773</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DB26C7D74D08">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">63773</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:04-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-3684</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
     </reporting-org>
@@ -2882,7 +3227,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="0EAECB894ED3">
+    <transaction ref="D22F80A7314D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">3990400</value>
@@ -2898,10 +3243,10 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0EAECB894ED3">
+    <transaction ref="D22F80A7314D">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">3990400</value>
@@ -2917,316 +3262,13 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:29-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-2646-251142</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Philippines - Animal Disease Outbreak Response Management</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">From July 15-23, 2016, the Animal Disease Outbreak Response Management Training was held in the Philippines. The subject matter experts attending the training conducted lectures on topics such as: Managing Crisis Situations, Epidemiological Analysis and Response, Epidemiological Tools, Risk Analysis, and a one-day case study.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-07-15" type="1"/>
-    <activity-date iso-date="2016-07-15" type="2"/>
-    <activity-date iso-date="2016-07-23" type="3"/>
-    <activity-date iso-date="2016-07-23" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="C21A4B92BC3D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">64000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C21A4B92BC3D">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">64000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31181" vocabulary="1">
-        <narrative>Agricultural education/training</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:30-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX17BF-10777R015-4318</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Borlaug Fellowship Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Ohio State University</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-08-01" type="1"/>
-    <activity-date iso-date="2017-08-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="471E6DD3E613">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-06-30"/>
-      <value value-date="2018-06-30">27988</value>
-      <receiver-org>
-        <narrative>Ohio State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:31-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FCC-492-2009/013-4055</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Food for Progress</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Land O'Lakes Venture37</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2009-06-04" type="1"/>
-    <activity-date iso-date="2009-06-04" type="2"/>
-    <activity-date iso-date="2016-05-30" type="3"/>
-    <activity-date iso-date="2016-05-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="FAC0DD473024">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-11"/>
-      <value value-date="2017-01-11">602</value>
-      <receiver-org>
-        <narrative>Land O'Lakes Venture37</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:31-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX17BF-10777R015-4362</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Borlaug Fellowship Program - Climate Smart Agriculture</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Borlaug Fellowship Program promotes food security and economic growth by providing training and collaborative research opportunities to fellows from developing and middle-income countries.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Ohio State University</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="C8777D316C47">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-11-21"/>
-      <value value-date="2018-11-21">2296</value>
-      <receiver-org>
-        <narrative>Ohio State University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>36,223</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:31-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:05-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC-492-2009/011</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3290,13 +3332,13 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:31-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:05-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC4922009013</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3360,87 +3402,13 @@
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:32-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FCC-492-2013/032-3310</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Food for Progress</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Winrock International</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="AEC538A9E9EE">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">23317116</value>
-      <receiver-org>
-        <narrative>Winrock International</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="52010" vocabulary="1">
-        <narrative>Food Assistance</narrative>
-      </sector>
-      <recipient-country code="PH"/>
-      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T11:29:33-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:06-05:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX22FE-10613R001</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3490,7 +3458,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="B924DF0232B5">
+    <transaction ref="3FD24AB0353B">
       <transaction-type code="2"/>
       <transaction-date iso-date="2022-09-30"/>
       <value value-date="2022-09-30">499786</value>
@@ -3501,15 +3469,15 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E7BA59B494D6">
+    <transaction ref="9D1F0B13102D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-06-30"/>
       <value value-date="2023-06-30">9489</value>
@@ -3520,15 +3488,15 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="002FB121C46A">
+    <transaction ref="4BC645130CCB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-09-30"/>
       <value value-date="2023-09-30">5561</value>
@@ -3539,15 +3507,15 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E0B919AF527C">
+    <transaction ref="616527681A7A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2023-12-31"/>
       <value value-date="2023-12-31">119880</value>
@@ -3558,15 +3526,15 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2E4B0DCD62A1">
+    <transaction ref="F4D17F54FC64">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-03-31"/>
       <value value-date="2024-03-31">170266</value>
@@ -3577,15 +3545,15 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E4431510C984">
+    <transaction ref="00669E39A26C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-06-30"/>
       <value value-date="2024-06-30">55366</value>
@@ -3596,15 +3564,15 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="63393B05E23D">
+    <transaction ref="C06E04B9CA2D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-12-31"/>
       <value value-date="2024-12-31">94874</value>
@@ -3615,17 +3583,110 @@
       <sector code="29" vocabulary="99">
         <narrative>Agriculture</narrative>
       </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
+      <sector code="31181" vocabulary="1">
+        <narrative>Agricultural education/training</narrative>
       </sector>
       <recipient-country code="PH"/>
       <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>499,786</narrative>
     </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:06-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-252491</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Philippines - Specimen sample collection</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Poultry disease specimen sample collection technical assistance</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-10-01" type="2"/>
+    <activity-date iso-date="2013-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2013-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="25B3C5A9B359">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">51000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31195" vocabulary="1">
+        <narrative>Livestock/veterinary services</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="25B3C5A9B359">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">51000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31195" vocabulary="1">
+        <narrative>Livestock/veterinary services</narrative>
+      </sector>
+      <recipient-country code="PH"/>
+      <usg:treasury-account code="12x1600">Animal and Plant Health Inspection Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
   </iati-activity>
 </iati-activities>

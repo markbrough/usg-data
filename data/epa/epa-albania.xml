@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T16:43:51-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T16:43:33-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-32-24B11R0039-252880</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T12:37:16-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T12:37:00-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-24B11R0039-254239</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
     </reporting-org>
@@ -48,7 +48,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="38B1B8FE5C42">
+    <transaction ref="5D7C7171ABF4">
       <transaction-type code="2"/>
       <transaction-date iso-date="2024-08-19"/>
       <value value-date="2024-08-19">70000</value>
@@ -56,15 +56,34 @@
         <narrative>U.S. Government - Peace Corps</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="44" vocabulary="99">
-        <narrative>Environment</narrative>
+      <sector code="50" vocabulary="99">
+        <narrative>Environment - General</narrative>
       </sector>
       <sector code="41010" vocabulary="1">
         <narrative>Environmental policy and administrative management</narrative>
       </sector>
       <recipient-country code="AL"/>
       <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="02B922180B6C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-04-04"/>
+      <value value-date="2025-04-04">2346</value>
+      <receiver-org type="10" ref="US-GOV-10">
+        <narrative>U.S. Government - Peace Corps</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="50" vocabulary="99">
+        <narrative>Environment - General</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="AL"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>

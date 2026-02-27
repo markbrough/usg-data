@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2025-11-18T17:12:55-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2025-11-18T17:12:13-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T13:00:59-05:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T13:00:17-05:00" xml:lang="en">
     <iati-identifier>US-GOV-12-1131PL22GH31277</iati-identifier>
     <reporting-org ref="US-GOV-12" type="10">
       <narrative>Trade and Development Agency</narrative>
@@ -64,12 +64,104 @@
       </sector>
       <recipient-country code="FJ"/>
       <usg:treasury-account code="11x1001">Trade and Development Agency
-        <usg:fiscal-funding-year begin="2024" end="2025"/>
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DF1856F21BD2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-04-09"/>
+      <value value-date="2025-04-09">422274</value>
+      <receiver-org>
+        <narrative>Arizona State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="28" vocabulary="99">
+        <narrative>Infrastructure</narrative>
+      </sector>
+      <sector code="23631" vocabulary="1">
+        <narrative>Electric power transmission and distribution (isolated mini-grids)</narrative>
+      </sector>
+      <recipient-country code="FJ"/>
+      <usg:treasury-account code="11x1001">Trade and Development Agency
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>750,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T13:00:24-05:00" xml:lang="en">
+    <iati-identifier>US-GOV-12-1131PL25GH31030</iati-identifier>
+    <reporting-org ref="US-GOV-12" type="10">
+      <narrative>Trade and Development Agency</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Technical Assistance - Government Information and Communications Technology Modernization, through Astro Systems, Inc.</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">A USTDA grant for the Fiji Department of Information Technology and Computing Services is funding technical assistance to provide a roadmap to guide modernization of government digital infrastructure and workforce development in Fiji. The Project will benefit the Government of Fiji by increasing efficiency, resilience, and accessibility in public service delivery, reducing operational risks, and improving data security.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-12" role="2" type="10">
+      <narrative>Trade and Development Agency</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-12" role="3" type="10">
+      <narrative>Trade and Development Agency</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Astro Systems, Inc.</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2029-05-05" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Trade and Development Agency</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Amy Swers and Liz Sutton; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-875-4357</telephone>
+      <email>aswers@ustda.gov; esutton@ustda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1101 Wilson Blvd. Suite 1100, Arlington, VA, 22209</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="2DF97BACEDC0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-05-05"/>
+      <value value-date="2025-05-05">760000</value>
+      <receiver-org>
+        <narrative>Astro Systems, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="28" vocabulary="99">
+        <narrative>Infrastructure</narrative>
+      </sector>
+      <sector code="22040" vocabulary="1">
+        <narrative>Information and communication technology (ICT)</narrative>
+      </sector>
+      <recipient-country code="FJ"/>
+      <usg:treasury-account code="19x0113">Department of State, Diplomatic and Consular Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>760,000</narrative>
     </usg:tec1>
   </iati-activity>
 </iati-activities>
