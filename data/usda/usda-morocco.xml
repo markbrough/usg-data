@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T11:28:48-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:52-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-04-09T12:00:43-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19SR-10961R002-4680</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -92,7 +92,7 @@
       <narrative>49,919</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:52-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-16-051-368</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -164,7 +164,7 @@
       <narrative>55,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:52-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-16-051-411</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -234,7 +234,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:52-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-16-039</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -304,7 +304,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:54-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:20-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R041-188</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -374,7 +374,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX24BF-10777R002</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -397,7 +397,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Texas Tech University</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2023-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -442,12 +442,50 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="8450EE0FB874">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-06-30"/>
+      <value value-date="2025-06-30">49692</value>
+      <receiver-org>
+        <narrative>Texas Tech University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="MA"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="619B294908F4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-12-31"/>
+      <value value-date="2025-12-31">5008</value>
+      <receiver-org>
+        <narrative>Texas Tech University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="MA"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>75,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX18BF-10777R005-481</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -521,7 +559,7 @@
       <narrative>33,239</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R035-4711</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -593,7 +631,7 @@
       <narrative>48,895</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-16-051-159</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -701,7 +739,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:59-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R037-450</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -775,7 +813,7 @@
       <narrative>40,220</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:00-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX18BF-10777R022-346</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -887,7 +925,7 @@
       <narrative>49,258</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-17-007</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -978,7 +1016,7 @@
       <narrative>39,700</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19SR-10961R002-4715</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1071,7 +1109,7 @@
       <narrative>49,919</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R035-366</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1162,7 +1200,7 @@
       <narrative>48,895</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R037-4855</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1234,7 +1272,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R019</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1325,7 +1363,7 @@
       <narrative>39,163</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R037-241</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1437,7 +1475,7 @@
       <narrative>40,220</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:04-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-5920909002F</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1528,7 +1566,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:04-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R041-431</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1600,7 +1638,7 @@
       <narrative>39,724</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:04-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX18BF-10777R005-461</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1693,7 +1731,7 @@
       <narrative>33,239</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:04-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX24BF-10777R001</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1804,7 +1842,7 @@
       <narrative>74,523</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:04-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-23DG11132762322</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1914,7 +1952,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:05-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:28-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R025</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1986,7 +2024,7 @@
       <narrative>40,976</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:05-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:28-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX18BF-10777R022-199</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2060,7 +2098,7 @@
       <narrative>49,258</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:06-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:28-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R026-492</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>

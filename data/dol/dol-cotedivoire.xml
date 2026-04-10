@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T12:03:29-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T12:03:18-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-04-09T13:20:57-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T13:20:50-04:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL280931575K1</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
@@ -413,7 +413,7 @@
       <narrative>4,500,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T12:03:19-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T13:20:51-04:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL355362075K</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
@@ -523,7 +523,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T12:03:19-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T13:20:51-04:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL35536</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
@@ -547,10 +547,10 @@
       <narrative>Save the Children Federation, Inc.</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
+    <activity-date iso-date="2020-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2020-10-01" type="2"/>
     <activity-date iso-date="2025-03-26" type="3"/>
     <activity-date iso-date="2025-03-26" type="4"/>
     <contact-info type="1">
@@ -573,6 +573,25 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
+    <transaction ref="CF84D44F252A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-12-10"/>
+      <value value-date="2020-12-10">4000000</value>
+      <receiver-org type="21" ref="GB-CHC-1076822">
+        <narrative>Save the Children Federation, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="CI"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <transaction ref="462828BC28BE">
       <transaction-type code="3"/>
       <transaction-date iso-date="2021-12-31"/>
@@ -824,6 +843,25 @@
       <transaction-type code="3"/>
       <transaction-date iso-date="2025-03-31"/>
       <value value-date="2025-03-31">119162</value>
+      <receiver-org type="21" ref="GB-CHC-1076822">
+        <narrative>Save the Children Federation, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="CI"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7245944C5D3B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-09-30"/>
+      <value value-date="2025-09-30">177414</value>
       <receiver-org type="21" ref="GB-CHC-1076822">
         <narrative>Save the Children Federation, Inc.</narrative>
       </receiver-org>

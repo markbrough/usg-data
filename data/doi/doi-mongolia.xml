@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T11:58:24-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:57:54-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-04-09T13:08:52-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T13:07:52-04:00" xml:lang="en">
     <iati-identifier>US-GOV-9-F22AP03161</iati-identifier>
     <reporting-org ref="US-GOV-9" type="10">
       <narrative>Department of the Interior</narrative>
@@ -186,6 +186,25 @@
       <transaction-type code="3"/>
       <transaction-date iso-date="2025-01-22"/>
       <value value-date="2025-01-22">5859</value>
+      <receiver-org type="22" ref="US-EIN-13-1740011">
+        <narrative>Wildlife Conservation Society</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="41030" vocabulary="1">
+        <narrative>Bio-diversity</narrative>
+      </sector>
+      <recipient-country code="MN"/>
+      <usg:treasury-account code="14x1611">U.S. Fish and Wildlife Service, Resource Management
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="104705172DE2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-09-18"/>
+      <value value-date="2025-09-18">12040</value>
       <receiver-org type="22" ref="US-EIN-13-1740011">
         <narrative>Wildlife Conservation Society</narrative>
       </receiver-org>

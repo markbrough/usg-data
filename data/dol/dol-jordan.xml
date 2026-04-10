@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T12:03:29-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T12:03:18-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-04-09T13:21:05-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T13:20:50-04:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL211951075K</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
@@ -69,7 +69,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T12:03:18-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T13:20:50-04:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL000001</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>
@@ -271,12 +271,31 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="3D29EF626B3A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-09-30"/>
+      <value value-date="2025-09-30">-163588</value>
+      <receiver-org type="40" ref="XM-DAC-41302">
+        <narrative>International Labour Organisation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="32" vocabulary="99">
+        <narrative>Labor Policies and Markets</narrative>
+      </sector>
+      <sector code="16070" vocabulary="1">
+        <narrative>Labour Rights</narrative>
+      </sector>
+      <recipient-country code="JO"/>
+      <usg:treasury-account code="16x0165">Department of Labor, Departmental Management, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>2,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T12:03:19-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T13:20:51-04:00" xml:lang="en">
     <iati-identifier>US-GOV-17-IL211801060K</iati-identifier>
     <reporting-org ref="US-GOV-17" type="10">
       <narrative>Department of Labor</narrative>

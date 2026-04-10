@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T11:29:06-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:52-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-04-09T12:00:43-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC3672023001-4887</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -186,7 +186,157 @@
       <narrative>33,100,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:54-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:19-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FFE36723006</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">McGovern-Dole Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>World Food Program</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2025-06-30" type="3"/>
+    <activity-date iso-date="2025-06-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="275AB25D07CD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-04-03"/>
+      <value value-date="2025-04-03">48818</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="631B2D91921E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-04-18"/>
+      <value value-date="2025-04-18">122</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="94C39A658085">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-05-01"/>
+      <value value-date="2025-05-01">4185</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FFC3DBB9189C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-05-05"/>
+      <value value-date="2025-05-05">244</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="81F49235F03E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-05-28"/>
+      <value value-date="2025-05-28">1330232</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>33,000,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:20-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-1116</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -279,155 +429,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FFE3672017021-4953</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">McGovern-Dole Program</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>World Food Program</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-09-29" type="1"/>
-    <activity-date iso-date="2017-09-29" type="2"/>
-    <activity-date iso-date="2023-09-30" type="3"/>
-    <activity-date iso-date="2023-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="639DEFC4DC86">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-11-12"/>
-      <value value-date="2021-11-12">2210232</value>
-      <receiver-org type="40" ref="XM-DAC-41140">
-        <narrative>World Food Program</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="NP"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="525B098DB269">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-10-21"/>
-      <value value-date="2022-10-21">1199201</value>
-      <receiver-org type="40" ref="XM-DAC-41140">
-        <narrative>World Food Program</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="NP"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="64178E13131A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-03-21"/>
-      <value value-date="2023-03-21">118241</value>
-      <receiver-org type="40" ref="XM-DAC-41140">
-        <narrative>World Food Program</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="NP"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="47B851EEF2CD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-09-11"/>
-      <value value-date="2023-09-11">-1081</value>
-      <receiver-org type="40" ref="XM-DAC-41140">
-        <narrative>World Food Program</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="NP"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6BBD1F6583B7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-07-15"/>
-      <value value-date="2024-07-15">1081</value>
-      <receiver-org type="40" ref="XM-DAC-41140">
-        <narrative>World Food Program</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="19" vocabulary="99">
-        <narrative>Nutrition</narrative>
-      </sector>
-      <sector code="11250" vocabulary="1">
-        <narrative>School feeding</narrative>
-      </sector>
-      <recipient-country code="NP"/>
-      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>29,300,000</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC3672023001-4886</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -500,7 +502,7 @@
       <narrative>33,100,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-1176</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -593,7 +595,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2011/030</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -667,7 +669,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2012/030-00</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -798,7 +800,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:57-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672020012-4542</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1195,7 +1197,155 @@
       <narrative>25,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:57-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FFE3672017021-4962</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">McGovern-Dole Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>World Food Program</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-09-29" type="1"/>
+    <activity-date iso-date="2017-09-29" type="2"/>
+    <activity-date iso-date="2023-09-30" type="3"/>
+    <activity-date iso-date="2023-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="570BB3E95EBF">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-11-12"/>
+      <value value-date="2021-11-12">2210232</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A3E1B1BB16F1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-10-21"/>
+      <value value-date="2022-10-21">1199201</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="279B529F07AC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-03-21"/>
+      <value value-date="2023-03-21">118241</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1E5FA946821D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-09-11"/>
+      <value value-date="2023-09-11">-1081</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="3E15BFE82DEC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-07-15"/>
+      <value value-date="2024-07-15">1081</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>29,300,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2013/030</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1322,7 +1472,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:58-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:23-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2012/030</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1396,7 +1546,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:58-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:23-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX24SR-10961R001</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1419,7 +1569,7 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Ohio State University</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2023-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
@@ -1464,10 +1614,31 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="497564B472EE">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-12-31"/>
+      <value value-date="2025-12-31">4591</value>
+      <receiver-org>
+        <narrative>Ohio State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>50,000</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:58-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:23-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672020012-4543</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2548,7 +2719,7 @@
       <narrative>25,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:58-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX23SR-10961R002</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2655,12 +2826,31 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="63A7CE3D7AB5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-06-30"/>
+      <value value-date="2025-06-30">15582</value>
+      <receiver-org>
+        <narrative>Ohio State University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>50,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:58-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-16DG11132762215</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2749,7 +2939,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:58-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-16IG11132762162</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2838,7 +3028,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:59-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672014050-4538</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2929,7 +3119,7 @@
       <narrative>26,958,500</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:00-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:24-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672017021-4540</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3400,7 +3590,81 @@
       <narrative>29,300,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:24-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FFE36720012</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">McGovern-Dole Program</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The McGovern-Dole program provides for the donation of agricultural commodities and the provision of financial and technical assistance to improve the education, food security and health of school-age children, especially girls, in developing countries.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>World Food Program</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2025-03-31" type="3"/>
+    <activity-date iso-date="2025-03-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="225AEBB90519">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-06-24"/>
+      <value value-date="2025-06-24">860478</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>25,000,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2011/030-00</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3474,7 +3738,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672023006</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3884,12 +4148,31 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="1837C9F93720">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-07-28"/>
+      <value value-date="2025-07-28">26575</value>
+      <receiver-org type="40" ref="XM-DAC-41140">
+        <narrative>World Food Program</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="19" vocabulary="99">
+        <narrative>Nutrition</narrative>
+      </sector>
+      <sector code="11250" vocabulary="1">
+        <narrative>School feeding</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x2903">McGovern-Dole International Food for Education and Child Nutrition Program Grants
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>33,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672017021-4541</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -4757,7 +5040,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-3179</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -4850,7 +5133,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE3672014050-4539</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -5378,7 +5661,7 @@
       <narrative>26,958,500</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-3180</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -5471,7 +5754,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX22SR-10961R001</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -5640,7 +5923,7 @@
       <narrative>50,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:04-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2014/050</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -6793,7 +7076,78 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:05-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FCC3672025011</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Food for Progress</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Food for Progress Program provides for the donation of U.S. agricultural commodities to developing countries and emerging democracies that are committed to introducing or expanding free enterprise in their agricultural economies. The program has two primary strategic objectives: (1) increase agricultural productivity and (2) expand trade of agricultural products.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Lutheran World Relief</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2029-03-31" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="150A59C66ECC">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-09-23"/>
+      <value value-date="2025-09-23">9115000</value>
+      <receiver-org>
+        <narrative>Lutheran World Relief</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="52010" vocabulary="1">
+        <narrative>Food Assistance</narrative>
+      </sector>
+      <recipient-country code="NP"/>
+      <usg:treasury-account code="12x4336">Commodity Credit Corporation Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:28-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-1115</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -6886,7 +7240,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:05-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:28-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-367-2013/030-00</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -7207,7 +7561,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:05-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:28-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-3240</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>

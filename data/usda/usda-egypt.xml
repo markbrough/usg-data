@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-02-26T11:28:42-05:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:53-05:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-04-09T12:00:58-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC263201800300</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -71,7 +71,138 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:54-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:20-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX19SR-10961R003-5110</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Scientific Cooperation Research Program - Fruit Production Systems</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Scientific Cooperation Research Program supports joint research, extension, and education projects lasting up to two years among domestic and international agricultural professionals. These projects address issues including agricultural trade and market access, animal and plant health, biotechnology, food safety and security, and sustainable natural resource management.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>University of Georgia</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2024-07-31" type="3"/>
+    <activity-date iso-date="2024-07-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="0C00F37297AA">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">1940</value>
+      <receiver-org>
+        <narrative>University of Georgia</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="EG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FDA919849DDB">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-12-31"/>
+      <value value-date="2022-12-31">7768</value>
+      <receiver-org>
+        <narrative>University of Georgia</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="EG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B094B8E06F05">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">1361</value>
+      <receiver-org>
+        <narrative>University of Georgia</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="EG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C9A2D417E523">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">12704</value>
+      <receiver-org>
+        <narrative>University of Georgia</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="EG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>49,874</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:20-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-22IG11132762298</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -181,7 +312,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R046-4831</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -293,7 +424,7 @@
       <narrative>49,734</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R031-182</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -365,7 +496,7 @@
       <narrative>49,478</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:55-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19SR-10961R001-4705</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -553,7 +684,96 @@
       <narrative>49,831</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-252515</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Foot and Mouth Specialists</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Per the CVO of Egypts request through John Clifford, U.S. CVO, the United States sent two specialists to Egypt to assist with the response to the Foot and Mouth Disease outbreak. They specifically made an assessment of Egyptian capacity for diagnosis (laboratory) of Foot and Mouth Disease, production of polyvalent vaccines, and quality control of these vaccines. Egypt has recently initiated work on development/production of a polyvalent vaccine. The U.S. APHIS team helped provide guidance as the Egyptians moved forward with this. CBV was recommended for this mission.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Agriculture</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-08-12" type="1"/>
+    <activity-date iso-date="2012-08-12" type="2"/>
+    <activity-date iso-date="2012-08-19" type="3"/>
+    <activity-date iso-date="2012-08-19" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="4576B7B945A0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">15000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31195" vocabulary="1">
+        <narrative>Livestock/veterinary services</narrative>
+      </sector>
+      <recipient-country code="EG"/>
+      <usg:treasury-account code="97x0134">Department of Defense, Cooperative Threat Reduction Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4576B7B945A0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">15000</value>
+      <receiver-org type="10" ref="US-GOV-2">
+        <narrative>U.S. Government - Department of Agriculture</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31195" vocabulary="1">
+        <narrative>Livestock/veterinary services</narrative>
+      </sector>
+      <recipient-country code="EG"/>
+      <usg:treasury-account code="97x0134">Department of Defense, Cooperative Threat Reduction Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:21-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R025-231</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -665,7 +885,7 @@
       <narrative>49,915</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX21BF-10777R003-258</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -739,7 +959,7 @@
       <narrative>51,564</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R046-357</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -832,7 +1052,7 @@
       <narrative>49,734</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:56-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX18BF-10777R015-438</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -963,7 +1183,7 @@
       <narrative>46,660</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:57-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R025-4820</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1035,7 +1255,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:57-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-22IG11132762293</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1164,7 +1384,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:58-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:23-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R046-248</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1238,7 +1458,7 @@
       <narrative>49,734</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:27:58-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:23-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX21BF-10777R002-4837</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1348,7 +1568,117 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:00-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:23-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-FX19SR-10961R001-5094</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Scientific Cooperation Research Program - Affordable and Efficient Hydroponic or Aeroponic Crop Production Technology for Small-Scale Producers in Egypt</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Scientific Cooperation Research Program supports joint research, extension, and education projects lasting up to two years among domestic and international agricultural professionals. These projects address issues including agricultural trade and market access, animal and plant health, biotechnology, food safety and security, and sustainable natural resource management.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Purdue University</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2023-12-31" type="3"/>
+    <activity-date iso-date="2023-12-31" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="1C4BEA19BBAD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">1185</value>
+      <receiver-org>
+        <narrative>Purdue University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="EG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="59131D5F1299">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">18834</value>
+      <receiver-org>
+        <narrative>Purdue University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="EG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="66A5F96AD7DC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">12066</value>
+      <receiver-org>
+        <narrative>Purdue University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31182" vocabulary="1">
+        <narrative>Agricultural research</narrative>
+      </sector>
+      <recipient-country code="EG"/>
+      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC2632018003-2487</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1726,7 +2056,7 @@
       <narrative>6,391</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:01-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX21BF-10777R002-257</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1800,206 +2130,7 @@
       <narrative>45,176</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-252356</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Foot and Mouth Specialists</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Per the CVO of Egypts request through John Clifford, U.S. CVO, the United States sent two specialists to Egypt to assist with the response to the Foot and Mouth Disease outbreak. They specifically made an assessment of Egyptian capacity for diagnosis (laboratory) of Foot and Mouth Disease, production of polyvalent vaccines, and quality control of these vaccines. Egypt has recently initiated work on development/production of a polyvalent vaccine. The U.S. APHIS team helped provide guidance as the Egyptians moved forward with this. CBV was recommended for this mission.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Agriculture</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-08-12" type="1"/>
-    <activity-date iso-date="2012-08-12" type="2"/>
-    <activity-date iso-date="2012-08-19" type="3"/>
-    <activity-date iso-date="2012-08-19" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="0E1A409A3701">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">15000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31195" vocabulary="1">
-        <narrative>Livestock/veterinary services</narrative>
-      </sector>
-      <recipient-country code="EG"/>
-      <usg:treasury-account code="97x0134">Department of Defense, Cooperative Threat Reduction Account
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0E1A409A3701">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">15000</value>
-      <receiver-org type="10" ref="US-GOV-2">
-        <narrative>U.S. Government - Department of Agriculture</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31195" vocabulary="1">
-        <narrative>Livestock/veterinary services</narrative>
-      </sector>
-      <recipient-country code="EG"/>
-      <usg:treasury-account code="97x0134">Department of Defense, Cooperative Threat Reduction Account
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX19SR-10961R001-5075</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Scientific Cooperation Research Program - Affordable and Efficient Hydroponic or Aeroponic Crop Production Technology for Small-Scale Producers in Egypt</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Scientific Cooperation Research Program supports joint research, extension, and education projects lasting up to two years among domestic and international agricultural professionals. These projects address issues including agricultural trade and market access, animal and plant health, biotechnology, food safety and security, and sustainable natural resource management.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Purdue University</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2023-12-31" type="3"/>
-    <activity-date iso-date="2023-12-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="6448760803A6">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">1185</value>
-      <receiver-org>
-        <narrative>Purdue University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="EG"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="ADF8EEF13A31">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">18834</value>
-      <receiver-org>
-        <narrative>Purdue University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="EG"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7A200181A670">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">12066</value>
-      <receiver-org>
-        <narrative>Purdue University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="EG"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX17BF-10777R031-364</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2071,138 +2202,7 @@
       <narrative>49,478</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:02-05:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-FX19SR-10961R003-5092</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Scientific Cooperation Research Program - Fruit Production Systems</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Scientific Cooperation Research Program supports joint research, extension, and education projects lasting up to two years among domestic and international agricultural professionals. These projects address issues including agricultural trade and market access, animal and plant health, biotechnology, food safety and security, and sustainable natural resource management.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>University of Georgia</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2024-07-31" type="3"/>
-    <activity-date iso-date="2024-07-31" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="03C96793A786">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">1940</value>
-      <receiver-org>
-        <narrative>University of Georgia</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="EG"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6FEF4CAC0088">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-12-31"/>
-      <value value-date="2022-12-31">7768</value>
-      <receiver-org>
-        <narrative>University of Georgia</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="EG"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F86B9C72B556">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-31"/>
-      <value value-date="2023-12-31">1361</value>
-      <receiver-org>
-        <narrative>University of Georgia</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="EG"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="916B72989C4B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">12704</value>
-      <receiver-org>
-        <narrative>University of Georgia</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31182" vocabulary="1">
-        <narrative>Agricultural research</narrative>
-      </sector>
-      <recipient-country code="EG"/>
-      <usg:treasury-account code="12x2900">Foreign Agricultural Service, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>49,874</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX18BF-10777R015-196</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2276,7 +2276,7 @@
       <narrative>46,660</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19SR-10961R003-4718</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2369,7 +2369,7 @@
       <narrative>49,874</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19SR-10961R001-4679</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2500,7 +2500,7 @@
       <narrative>49,830</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:03-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX21BF-10777R003-4838</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2650,7 +2650,7 @@
       <narrative>58,820</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:04-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19SR-10961R003-4734</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2743,7 +2743,7 @@
       <narrative>49,874</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:05-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-15-005</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2813,7 +2813,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-26T11:28:06-05:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-04-09T12:00:28-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC2632018003-4885</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
