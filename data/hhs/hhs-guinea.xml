@@ -1,5 +1,79 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-05-28T14:03:13-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:34-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-09T13:20:33-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:18:53-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-43181</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Disease Control, Research and Training</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Disease Control, Research and Training</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Association of Public Health Laboratories</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2015-10-01" type="2"/>
+    <activity-date iso-date="2016-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2016-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="33F32C58FA4F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">683549</value>
+      <receiver-org>
+        <narrative>Association of Public Health Laboratories</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="47" vocabulary="99">
+        <narrative>Health - General</narrative>
+      </sector>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:18:54-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-NU19GH001585</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -92,8 +166,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:34-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU19GH001626-43780</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:18:55-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU19GH001626-44141</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
@@ -140,7 +214,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="9DD9C8BCA2F8">
+    <transaction ref="B0FBF70D80E6">
       <transaction-type code="2"/>
       <transaction-date iso-date="2016-01-01"/>
       <value value-date="2016-01-01">1299964</value>
@@ -159,7 +233,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DA870753FAA4">
+    <transaction ref="57F52E560F72">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">835613</value>
@@ -178,7 +252,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DA870753FAA4">
+    <transaction ref="57F52E560F72">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">500000</value>
@@ -197,7 +271,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="1CD9FFADC529">
+    <transaction ref="49439FEC5300">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-01-01"/>
       <value value-date="2018-01-01">151706</value>
@@ -216,7 +290,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DB9D27645D6D">
+    <transaction ref="D94460588130">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">7422</value>
@@ -235,7 +309,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DB9D27645D6D">
+    <transaction ref="D94460588130">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">15000</value>
@@ -254,7 +328,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="36BC3202DE38">
+    <transaction ref="FE9578A24495">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-01-01"/>
       <value value-date="2018-01-01">4551</value>
@@ -276,8 +350,317 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:35-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-42820</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:18:55-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH001858-44244</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Protecting and Improving Health Globally:Building and Strengthening Public Health Impact, Systems,Capacity and Security</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Building and Strengthening Public Health Capacity and Systems in Guinea. U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, manage effectively, and evaluate public health programs; achieve U.S. Government program and international organization goals to improve health, including disease eradication and elimination targets; expand CDC's global health programs that focus on the leading causes of worldwide mortality, morbidity and disability, including chronic disease and injuries; generate and apply new knowledge to achieve health goals; and, strengthen health systems and their impact.</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Government of Guinea</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-09-30" type="1"/>
+    <activity-date iso-date="2015-09-30" type="2"/>
+    <activity-date iso-date="2020-09-29" type="3"/>
+    <activity-date iso-date="2020-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="2E599C23E852">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">1500000</value>
+      <receiver-org>
+        <narrative>Government of Guinea</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="769F6B75BF27">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">6374</value>
+      <receiver-org>
+        <narrative>Government of Guinea</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="769F6B75BF27">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">1</value>
+      <receiver-org>
+        <narrative>Government of Guinea</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:18:56-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-56EB311101-43521</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Ebola Response and Preparedness</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">International Ebola Response and Preparedness. U.S. Centers for Disease Control and Prevention (CDC), Division of Global Health Protection (DGHP) leads CDCs efforts to help partner countries meet the goals of the Global Health Security Agenda. The Global Health Security Agenda aims to close gaps in preparedness and accelerate progress toward a world safe and secure from infectious disease threats. This work is critical to protecting health around the world and is focused on: (1) Disease surveillance and outbreak response, including establishing routine surveillance for priority diseases and developing information technology tools and systems; (2) Emergency management, ensuring countries have the knowledge and resources they need, including emergency operations centers that can mount a fast, coordinated response when outbreaks happen; (3) Safe laboratory systems and diagnostics, building the capacity to identify disease threats close to the source and inform decision-making; (4) Developing the workforce, training frontline responders, laboratorians, disease detectives, emergency managers, and other health professionals who are responsible for taking the lead when crisis strikes.</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Government of Guinea</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2014-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-10-01" type="2"/>
+    <activity-date iso-date="2015-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2015-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="534810164A71">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2015-01-01"/>
+      <value value-date="2015-01-01">1582830</value>
+      <receiver-org>
+        <narrative>Government of Guinea</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="47" vocabulary="99">
+        <narrative>Health - General</narrative>
+      </sector>
+      <sector code="12110" vocabulary="1">
+        <narrative>Health policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:18:57-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU2GGH001858-44245</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Protecting and Improving Health Globally:Building and Strengthening Public Health Impact, Systems,Capacity and Security</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Building and Strengthening Public Health Capacity and Systems in Guinea. U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, manage effectively, and evaluate public health programs; achieve U.S. Government program and international organization goals to improve health, including disease eradication and elimination targets; expand CDC's global health programs that focus on the leading causes of worldwide mortality, morbidity and disability, including chronic disease and injuries; generate and apply new knowledge to achieve health goals; and, strengthen health systems and their impact.</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Government of Guinea</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-09-30" type="1"/>
+    <activity-date iso-date="2015-09-30" type="2"/>
+    <activity-date iso-date="2020-09-29" type="3"/>
+    <activity-date iso-date="2020-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="97977D40863E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">169761</value>
+      <receiver-org>
+        <narrative>Government of Guinea</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9976FD722DC7">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">940464</value>
+      <receiver-org>
+        <narrative>Government of Guinea</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AC150E725783">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-01-01"/>
+      <value value-date="2020-01-01">404553</value>
+      <receiver-org>
+        <narrative>Government of Guinea</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AC150E725783">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-01-01"/>
+      <value value-date="2020-01-01">-221565</value>
+      <receiver-org>
+        <narrative>Government of Guinea</narrative>
+      </receiver-org>
+      <disbursement-channel code="1"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:18:58-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-43179</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
@@ -297,7 +680,7 @@
       <narrative>Department of Health and Human Services</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Association of Public Health Laboratories</narrative>
+      <narrative>World Health Organisation</narrative>
     </participating-org>
     <activity-status code="3"/>
     <activity-date iso-date="2015-10-01" type="1">
@@ -327,13 +710,13 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="859020964C11">
+    <default-tied-status code="5"/>
+    <transaction ref="515F4C078335">
       <transaction-type code="3"/>
       <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">683549</value>
-      <receiver-org>
-        <narrative>Association of Public Health Laboratories</narrative>
+      <value value-date="2016-01-01">7842224</value>
+      <receiver-org type="40" ref="XM-DAC-928">
+        <narrative>World Health Organisation</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="47" vocabulary="99">
@@ -350,369 +733,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:36-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU19GH001626-43781</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Protecting and Improving Health Globally:Building and Strengthening Public Health Impact, Systems,Capacity and Security</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Global Health Security Partnership Engagement: Expanding Efforts and Strategies to Protect and Improve Public Health Globally. U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, manage effectively, and evaluate public health programs; achieve U.S. Government program and international organization goals to improve health, including disease eradication and elimination targets; expand CDC's global health programs that focus on the leading causes of worldwide mortality, morbidity and disability, including chronic disease and injuries; generate and apply new knowledge to achieve health goals; and, strengthen health systems and their impact.</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Georgetown University</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-02-02" type="1"/>
-    <activity-date iso-date="2015-02-02" type="2"/>
-    <activity-date iso-date="2019-06-30" type="3"/>
-    <activity-date iso-date="2019-06-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="305E34D33231">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">791680</value>
-      <receiver-org>
-        <narrative>Georgetown University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F8841B79545A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">129111</value>
-      <receiver-org>
-        <narrative>Georgetown University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CF2A816AC3EF">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">9264</value>
-      <receiver-org>
-        <narrative>Georgetown University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="985CBE44DEF2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">-2993</value>
-      <receiver-org>
-        <narrative>Georgetown University</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:36-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH001858-43884</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Protecting and Improving Health Globally:Building and Strengthening Public Health Impact, Systems,Capacity and Security</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Building and Strengthening Public Health Capacity and Systems in Guinea. U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, manage effectively, and evaluate public health programs; achieve U.S. Government program and international organization goals to improve health, including disease eradication and elimination targets; expand CDC's global health programs that focus on the leading causes of worldwide mortality, morbidity and disability, including chronic disease and injuries; generate and apply new knowledge to achieve health goals; and, strengthen health systems and their impact.</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Government of Guinea</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-09-30" type="1"/>
-    <activity-date iso-date="2015-09-30" type="2"/>
-    <activity-date iso-date="2020-09-29" type="3"/>
-    <activity-date iso-date="2020-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="3CEE44861E11">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">169761</value>
-      <receiver-org>
-        <narrative>Government of Guinea</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7D5D529A5B99">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">940464</value>
-      <receiver-org>
-        <narrative>Government of Guinea</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C6700CE6E81B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-01-01"/>
-      <value value-date="2020-01-01">404553</value>
-      <receiver-org>
-        <narrative>Government of Guinea</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C6700CE6E81B">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-01-01"/>
-      <value value-date="2020-01-01">-221565</value>
-      <receiver-org>
-        <narrative>Government of Guinea</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:38-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU2GGH001858-43883</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Protecting and Improving Health Globally:Building and Strengthening Public Health Impact, Systems,Capacity and Security</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Building and Strengthening Public Health Capacity and Systems in Guinea. U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, manage effectively, and evaluate public health programs; achieve U.S. Government program and international organization goals to improve health, including disease eradication and elimination targets; expand CDC's global health programs that focus on the leading causes of worldwide mortality, morbidity and disability, including chronic disease and injuries; generate and apply new knowledge to achieve health goals; and, strengthen health systems and their impact.</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Government of Guinea</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-09-30" type="1"/>
-    <activity-date iso-date="2015-09-30" type="2"/>
-    <activity-date iso-date="2020-09-29" type="3"/>
-    <activity-date iso-date="2020-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="1EEBA1EDAA6B">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">1500000</value>
-      <receiver-org>
-        <narrative>Government of Guinea</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="226C21AF47EE">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">6374</value>
-      <receiver-org>
-        <narrative>Government of Guinea</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="226C21AF47EE">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">1</value>
-      <receiver-org>
-        <narrative>Government of Guinea</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:38-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:18:58-04:00" xml:lang="en">
     <iati-identifier>US-GOV-14-NU2GGH001888</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -782,82 +803,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:38-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-56EB311101-43160</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Ebola Response and Preparedness</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">International Ebola Response and Preparedness. U.S. Centers for Disease Control and Prevention (CDC), Division of Global Health Protection (DGHP) leads CDCs efforts to help partner countries meet the goals of the Global Health Security Agenda. The Global Health Security Agenda aims to close gaps in preparedness and accelerate progress toward a world safe and secure from infectious disease threats. This work is critical to protecting health around the world and is focused on: (1) Disease surveillance and outbreak response, including establishing routine surveillance for priority diseases and developing information technology tools and systems; (2) Emergency management, ensuring countries have the knowledge and resources they need, including emergency operations centers that can mount a fast, coordinated response when outbreaks happen; (3) Safe laboratory systems and diagnostics, building the capacity to identify disease threats close to the source and inform decision-making; (4) Developing the workforce, training frontline responders, laboratorians, disease detectives, emergency managers, and other health professionals who are responsible for taking the lead when crisis strikes.</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Government of Guinea</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-10-01" type="2"/>
-    <activity-date iso-date="2015-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2015-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="9E987B7F0BCA">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2015-01-01"/>
-      <value value-date="2015-01-01">1582830</value>
-      <receiver-org>
-        <narrative>Government of Guinea</narrative>
-      </receiver-org>
-      <disbursement-channel code="1"/>
-      <sector code="47" vocabulary="99">
-        <narrative>Health - General</narrative>
-      </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:42-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU19GH001607-43774</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:19:01-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU19GH001607-44136</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
@@ -904,115 +851,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="895696267400">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">469142</value>
-      <receiver-org>
-        <narrative>Agence de Mdecine Prventive</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="895696267400">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">350000</value>
-      <receiver-org>
-        <narrative>Agence de Mdecine Prventive</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2583B149C615">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">349211</value>
-      <receiver-org>
-        <narrative>Agence de Mdecine Prventive</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="14" vocabulary="99">
-        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
-      </sector>
-      <sector code="12250" vocabulary="1">
-        <narrative>Infectious disease control</narrative>
-      </sector>
-      <recipient-country code="GN"/>
-      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:42-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU19GH001607-43775</iati-identifier>
-    <reporting-org ref="US-GOV-14" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Protecting and Improving Health Globally:Building and Strengthening Public Health Impact, Systems,Capacity and Security</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, manage effectively, and evaluate public health programs; achieve U.S. Government program and international organization goals to improve health, including disease eradication and elimination targets; expand CDC's global health programs that focus on the leading causes of worldwide mortality, morbidity and disability, including chronic disease and injuries; generate and apply new knowledge to achieve health goals; and, strengthen health systems and their impact.</narrative>
-    </description>
-    <participating-org ref="6" role="1" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="2" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-14" role="3" type="10">
-      <narrative>Department of Health and Human Services</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Agence de Mdecine Prventive</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-02-02" type="1"/>
-    <activity-date iso-date="2015-02-02" type="2"/>
-    <activity-date iso-date="2017-08-22" type="3"/>
-    <activity-date iso-date="2017-08-22" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Health and Human Services</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
-      </person-name>
-      <telephone>877-696-6775</telephone>
-      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="09F57C52B78B">
+    <transaction ref="FAAD22F9F5F4">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-01-01"/>
       <value value-date="2018-01-01">-5150</value>
@@ -1031,7 +870,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="09F57C52B78B">
+    <transaction ref="FAAD22F9F5F4">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-01-01"/>
       <value value-date="2018-01-01">-631537</value>
@@ -1050,7 +889,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="9D5647848AF4">
+    <transaction ref="55644268175B">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">4361</value>
@@ -1072,8 +911,116 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:43-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-NU19GH001587-43764</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:19:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU19GH001607-44135</iati-identifier>
+    <reporting-org ref="US-GOV-14" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Protecting and Improving Health Globally:Building and Strengthening Public Health Impact, Systems,Capacity and Security</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, manage effectively, and evaluate public health programs; achieve U.S. Government program and international organization goals to improve health, including disease eradication and elimination targets; expand CDC's global health programs that focus on the leading causes of worldwide mortality, morbidity and disability, including chronic disease and injuries; generate and apply new knowledge to achieve health goals; and, strengthen health systems and their impact.</narrative>
+    </description>
+    <participating-org ref="6" role="1" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="2" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-14" role="3" type="10">
+      <narrative>Department of Health and Human Services</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Agence de Mdecine Prventive</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-02-02" type="1"/>
+    <activity-date iso-date="2015-02-02" type="2"/>
+    <activity-date iso-date="2017-08-22" type="3"/>
+    <activity-date iso-date="2017-08-22" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Health and Human Services</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Katherine Bailey and Katie Spiering; Ryan Bole</narrative>
+      </person-name>
+      <telephone>877-696-6775</telephone>
+      <email>katherine.bailey@hhs.gov; kathryn.spiering@hhs.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>200 Independence Ave. SW, Washington, DC 20201</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="79B94F7BCF8B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">469142</value>
+      <receiver-org>
+        <narrative>Agence de Mdecine Prventive</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="79B94F7BCF8B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">350000</value>
+      <receiver-org>
+        <narrative>Agence de Mdecine Prventive</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F2037F3F4A68">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">349211</value>
+      <receiver-org>
+        <narrative>Agence de Mdecine Prventive</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:19:05-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU19GH001587-44125</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
@@ -1120,7 +1067,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="9D6A28BAA38A">
+    <transaction ref="BA488CED61F6">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-01-01"/>
       <value value-date="2018-01-01">1793836</value>
@@ -1139,7 +1086,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="43DFF411D4C8">
+    <transaction ref="C0CD96B53444">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">-482096</value>
@@ -1161,16 +1108,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T14:01:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-14-42818</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:19:09-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-14-NU19GH001626-44142</iati-identifier>
     <reporting-org ref="US-GOV-14" type="10">
       <narrative>Department of Health and Human Services</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Disease Control, Research and Training</narrative>
+      <narrative xml:lang="en">Protecting and Improving Health Globally:Building and Strengthening Public Health Impact, Systems,Capacity and Security</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">U.S. Centers for Disease Control and Prevention: Disease Control, Research and Training</narrative>
+      <narrative xml:lang="en">Global Health Security Partnership Engagement: Expanding Efforts and Strategies to Protect and Improve Public Health Globally. U.S. Centers for Disease Control and Prevention (CDC) global health efforts are to assist Ministries of Health and other international partners to plan, manage effectively, and evaluate public health programs; achieve U.S. Government program and international organization goals to improve health, including disease eradication and elimination targets; expand CDC's global health programs that focus on the leading causes of worldwide mortality, morbidity and disability, including chronic disease and injuries; generate and apply new knowledge to achieve health goals; and, strengthen health systems and their impact.</narrative>
     </description>
     <participating-org ref="6" role="1" type="10">
       <narrative>Department of Health and Human Services</narrative>
@@ -1182,17 +1129,13 @@
       <narrative>Department of Health and Human Services</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>World Health Organisation</narrative>
+      <narrative>Georgetown University</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2015-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2015-10-01" type="2"/>
-    <activity-date iso-date="2016-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2016-09-30" type="4"/>
+    <activity-date iso-date="2015-02-02" type="1"/>
+    <activity-date iso-date="2015-02-02" type="2"/>
+    <activity-date iso-date="2019-06-30" type="3"/>
+    <activity-date iso-date="2019-06-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Health and Human Services</narrative>
@@ -1212,23 +1155,80 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="3824DA17BCA1">
+    <default-tied-status code="4"/>
+    <transaction ref="D69B0214E8B6">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">7842224</value>
-      <receiver-org type="40" ref="XM-DAC-928">
-        <narrative>World Health Organisation</narrative>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">791680</value>
+      <receiver-org>
+        <narrative>Georgetown University</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="47" vocabulary="99">
-        <narrative>Health - General</narrative>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
       </sector>
-      <sector code="12110" vocabulary="1">
-        <narrative>Health policy and administrative management</narrative>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
       </sector>
       <recipient-country code="GN"/>
       <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AE4E55EE1423">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">129111</value>
+      <receiver-org>
+        <narrative>Georgetown University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0943">Centers for Disease Control, Disease Control, Research, and Training
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BCC5D1A3F95F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">9264</value>
+      <receiver-org>
+        <narrative>Georgetown University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="539480AE0429">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">-2993</value>
+      <receiver-org>
+        <narrative>Georgetown University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="14" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="75x0955">Centers for Disease Control and Prevention, Global Health
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>

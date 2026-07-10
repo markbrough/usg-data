@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-05-28T13:34:06-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:27-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-09T13:03:27-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:56-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-18823</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -88,16 +88,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:40-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-29353</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:01-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-29734</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Disaster Relief - Haiti Earthquake</narrative>
+      <narrative xml:lang="en">Humanitarian Assistance - Hurricane Matthew</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Disaster Relief - Haiti Earthquake through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
+      <narrative xml:lang="en">Humanitarian Assistance - Hurricane Matthew through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -112,14 +112,14 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
+    <activity-date iso-date="2016-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -140,10 +140,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="CF63CC169806">
+    <transaction ref="17C381E3DD77">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">14137000</value>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">11965000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -159,10 +159,29 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="90B2FAF712B5">
+    <transaction ref="17C381E3DD77">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">15943000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="HT"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="CDA82FE8BDA3">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">5164000</value>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">3648000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -178,10 +197,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="90B2FAF712B5">
+    <transaction ref="CDA82FE8BDA3">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2013-01-01"/>
-      <value value-date="2013-01-01">-20261000</value>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">-105000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -197,29 +216,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D9FC4FA4B099">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">2558000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="HT"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D9FC4FA4B099">
+    <transaction ref="A302F7CA5FE0">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">-274000</value>
+      <transaction-date iso-date="2021-01-01"/>
+      <value value-date="2021-01-01">-43000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -235,48 +235,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4AC2CD967266">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-01-01"/>
-      <value value-date="2015-01-01">138000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="HT"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4AC2CD967266">
+    <transaction ref="0783D88D3044">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2015-01-01"/>
-      <value value-date="2015-01-01">-9614000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="HT"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="7414B56C2EB5">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-01-01"/>
-      <value value-date="2016-01-01">-865000</value>
+      <transaction-date iso-date="2022-01-01"/>
+      <value value-date="2022-01-01">-183000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -295,7 +257,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:44-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:15-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-18822</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -384,7 +346,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:50-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:20-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-18821</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -473,16 +435,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:37-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-29377</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:52-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-29710</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Humanitarian Assistance - Hurricane Matthew</narrative>
+      <narrative xml:lang="en">Disaster Relief - Haiti Earthquake</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Humanitarian Assistance - Hurricane Matthew through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
+      <narrative xml:lang="en">Disaster Relief - Haiti Earthquake through the Department of Defense's Overseas Humanitarian, Disaster and Civic Aid (OHDACA).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -497,14 +459,14 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1">
+    <activity-date iso-date="2011-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3">
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2017-09-30" type="4"/>
+    <activity-date iso-date="2012-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -525,10 +487,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="569078554FBE">
+    <transaction ref="FA40D04A76FF">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">11965000</value>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">14137000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -544,29 +506,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="569078554FBE">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">15943000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="51" vocabulary="99">
-        <narrative>Humanitarian Assistance - General</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="HT"/>
-      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="447ACB1B948E">
+    <transaction ref="EDBC5C973B56">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">3648000</value>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">5164000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -582,10 +525,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="447ACB1B948E">
+    <transaction ref="EDBC5C973B56">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">-105000</value>
+      <transaction-date iso-date="2013-01-01"/>
+      <value value-date="2013-01-01">-20261000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -601,10 +544,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0296E7DC973E">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-01-01"/>
-      <value value-date="2021-01-01">-43000</value>
+    <transaction ref="50A7D4EEDFCD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">2558000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -620,10 +563,67 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0F37305D6D29">
+    <transaction ref="50A7D4EEDFCD">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2022-01-01"/>
-      <value value-date="2022-01-01">-183000</value>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">-274000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="HT"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="04E59DCFD850">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-01-01"/>
+      <value value-date="2015-01-01">138000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="HT"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="04E59DCFD850">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2015-01-01"/>
+      <value value-date="2015-01-01">-9614000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="51" vocabulary="99">
+        <narrative>Humanitarian Assistance - General</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="HT"/>
+      <usg:treasury-account code="97x0819">Department of Defense, Overseas Humanitarian, Disaster, and Civic Aid
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="28D1ADC0A452">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-01-01"/>
+      <value value-date="2016-01-01">-865000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>

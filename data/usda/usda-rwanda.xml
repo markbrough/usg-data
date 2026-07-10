@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-05-28T13:09:31-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:43-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-09T12:16:28-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R024-230</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -92,7 +92,7 @@
       <narrative>50,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:43-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-696-2015/007</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -371,7 +371,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:44-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE6962024005</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -442,7 +442,100 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:46-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:27-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-20IG11132762212-252864</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">International Forestry Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">COMMUNITY ENGAGEMENT IN HABITAT RESTORATION AND BIODIVERSITY CONSERVATION FOR AGRICULTURAL PURPOSES</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Rwanda Wildlife Conservation Association</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2025-06-20" type="3"/>
+    <activity-date iso-date="2025-06-20" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="5"/>
+    <transaction ref="F63251138613">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-06-30"/>
+      <value value-date="2020-06-30">20000</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="108FB026188F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-09-08"/>
+      <value value-date="2020-09-08">40000</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>40,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:28-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-23IG11132762447</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -514,7 +607,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:47-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:29-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R021-399</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -664,7 +757,7 @@
       <narrative>50,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:48-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:31-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE6962015007-5088</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -774,7 +867,7 @@
       <narrative>25,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:49-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:32-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE69624005</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -904,7 +997,7 @@
       <narrative>28,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:49-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:32-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R024-298</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -978,7 +1071,7 @@
       <narrative>50,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:49-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:33-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-17-006-296</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1048,7 +1141,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:50-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:33-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE6962020013-4669</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1692,7 +1785,7 @@
       <narrative>25,426,705</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:50-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:33-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE6962020013-4668</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -1918,100 +2011,7 @@
       <narrative>25,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-20IG11132762212-251193</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">International Forestry Programs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">COMMUNITY ENGAGEMENT IN HABITAT RESTORATION AND BIODIVERSITY CONSERVATION FOR AGRICULTURAL PURPOSES</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Rwanda Wildlife Conservation Association</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2025-06-20" type="3"/>
-    <activity-date iso-date="2025-06-20" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="5"/>
-    <transaction ref="71BBFAA1EFF7">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-06-30"/>
-      <value value-date="2020-06-30">20000</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="13273304F30F">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-09-08"/>
-      <value value-date="2020-09-08">40000</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="29" vocabulary="99">
-        <narrative>Agriculture</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>40,000</narrative>
-    </usg:tec1>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:51-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:35-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE69620013</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2085,7 +2085,7 @@
       <narrative>25,000,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:52-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:36-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-LRP-696-2016/019</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2155,7 +2155,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:54-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:38-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-BF-CR-17-006-165</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2282,7 +2282,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:54-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:39-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX18BF-10777R025</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2375,231 +2375,7 @@
       <narrative>49,995</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:54-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-2-20IG11132762212-251071</iati-identifier>
-    <reporting-org ref="US-GOV-2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Community engagement in habitat restoration and biodiversity conservation</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">To extend Forest Service efforts to improve forest policies and practices internationally, address climate change, conserve and protect critical global forest environments and resources, and improve the lives of forest-dependent peoples by awarding grants to and entering into cooperative agreements with nonprofit organizations, multilateral organizations, and other individuals, organizations, institutions, and governments engaged in forest conservation and management.</narrative>
-    </description>
-    <participating-org ref="5" role="1" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="2" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-2" role="3" type="10">
-      <narrative>Department of Agriculture</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Rwanda Wildlife Conservation Association</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2025-06-20" type="3"/>
-    <activity-date iso-date="2025-06-20" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Agriculture</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-401-7211</telephone>
-      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="5"/>
-    <transaction ref="5C5BD0DC3438">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-07-28"/>
-      <value value-date="2021-07-28">40000</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="CB052AE4D7FB">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">24547</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="196B0F482EBE">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-07-08"/>
-      <value value-date="2022-07-08">166000</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="82F896323B9A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">25547</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BE0EF5ADFDA4">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-03-31"/>
-      <value value-date="2023-03-31">25145</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="05DBD91B8F8D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">30610</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="DC68FD561F75">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">23390</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="12393E0B032E">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-04-01"/>
-      <value value-date="2024-04-01">40000</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BAF224C00116">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-03-31"/>
-      <value value-date="2025-03-31">27082</value>
-      <receiver-org>
-        <narrative>Rwanda Wildlife Conservation Association</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="35" vocabulary="99">
-        <narrative>Natural Resources and Biodiversity</narrative>
-      </sector>
-      <sector code="31210" vocabulary="1">
-        <narrative>Forestry policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="RW"/>
-      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:55-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:39-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19SR-10961R009-4683</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -2692,7 +2468,7 @@
       <narrative>49,943</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:41-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FCC6962024012</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3107,7 +2883,7 @@
       <narrative>31,955,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:41-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-696-2009/011-00</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3181,7 +2957,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:41-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R021-227</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3255,7 +3031,250 @@
       <narrative>50,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:41-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-2-20IG11132762212-252742</iati-identifier>
+    <reporting-org ref="US-GOV-2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Community engagement in habitat restoration and biodiversity conservation</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">To extend Forest Service efforts to improve forest policies and practices internationally, address climate change, conserve and protect critical global forest environments and resources, and improve the lives of forest-dependent peoples by awarding grants to and entering into cooperative agreements with nonprofit organizations, multilateral organizations, and other individuals, organizations, institutions, and governments engaged in forest conservation and management.</narrative>
+    </description>
+    <participating-org ref="5" role="1" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="2" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-2" role="3" type="10">
+      <narrative>Department of Agriculture</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Rwanda Wildlife Conservation Association</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2025-06-20" type="3"/>
+    <activity-date iso-date="2025-06-20" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Agriculture</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Daniel Herche and Tyson Whitney; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-401-7211</telephone>
+      <email>daniel.herche@cfo.usda.gov; Tyson.Whitney@cfo.usda.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1280 Maryland Ave. SW, Washington, DC 20250</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="5"/>
+    <transaction ref="59494FEEEBEF">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-07-28"/>
+      <value value-date="2021-07-28">40000</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7B39FC69835F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">24547</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="08379429A52F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-07-08"/>
+      <value value-date="2022-07-08">166000</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DD17A334410A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">25547</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="2C228F5E9D1F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-03-31"/>
+      <value value-date="2023-03-31">25145</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="601523E2AE8C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">30610</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="CB31E5AA129C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">23390</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7FCA3CC02C91">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-04-01"/>
+      <value value-date="2024-04-01">40000</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6242F3D6D5FC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">27082</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="E1CC2C3F7851">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-09-30"/>
+      <value value-date="2025-09-30">2706</value>
+      <receiver-org>
+        <narrative>Rwanda Wildlife Conservation Association</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31210" vocabulary="1">
+        <narrative>Forestry policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="RW"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:41-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19SR-10961R009-4708</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3348,7 +3367,7 @@
       <narrative>49,943</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:41-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19BF-10777R024-301</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3479,7 +3498,7 @@
       <narrative>50,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:57-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:42-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FX19SR-10961R009-4753</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -3553,7 +3572,7 @@
       <narrative>49,943</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:57-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:42-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-FFE-696-2024/005-00</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>

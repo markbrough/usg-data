@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://explorer.usaid.gov" generated-datetime="2026-02-25T23:57:59.159Z" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+<iati-activities xmlns:usg="https://explorer.usaid.gov" generated-datetime="2026-07-09T03:04:10.461Z" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720201650913</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -98,7 +98,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720201750913</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -239,7 +239,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720201850913</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -317,7 +317,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720202581834</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -416,7 +416,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-72049224T00001</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -494,7 +494,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA21IO00110</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -812,7 +812,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA21IO00139</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -835,11 +835,10 @@
     <participating-org ref="XM-DAC-21018" role="4" type="40">
       <narrative>International Federation of Red Cross and Red Crescent Societies</narrative>
     </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1"/>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3"/>
-    <activity-date iso-date="2024-09-30" type="4"/>
+    <activity-status code="2"/>
+    <activity-date iso-date="2025-10-01" type="1"/>
+    <activity-date iso-date="2025-10-01" type="2"/>
+    <activity-date iso-date="2026-09-30" type="3"/>
     <contact-info type="1">
       <organisation>
         <narrative>U.S. Agency for International Development</narrative>
@@ -1096,6 +1095,28 @@
         <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2021" end="2026"/>
       </usg:treasury-account>
+      <usg:humanitarian-scope type="1" vocabulary="99"/>
+    </transaction>
+    <transaction ref="20C47B7F0F50" humanitarian="1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-11-30"/>
+      <value value-date="2025-11-30">-19611.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-21018" type="40">
+        <narrative>International Federation of Red Cross and Red Crescent Societies</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="72050" vocabulary="1">
+        <narrative>Relief co-ordination; protection and support services</narrative>
+      </sector>
+      <sector code="7001" vocabulary="99">
+        <narrative>Protection, Assistance and Solutions</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2021" end="2026"/>
+      </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:mechanism-signing-date iso-date="2025-10-01"/>
@@ -1106,7 +1127,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA21IO00212</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1290,7 +1311,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA21IO00233</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -1572,7 +1593,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA22GR00132</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -2287,7 +2308,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA23GR00231</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -2696,7 +2717,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA23IO00083</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -2995,7 +3016,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA23IO00110</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -3294,7 +3315,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA23IO00111</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -3320,7 +3341,8 @@
     <activity-status code="2"/>
     <activity-date iso-date="2023-04-20" type="1"/>
     <activity-date iso-date="2023-04-20" type="2"/>
-    <activity-date iso-date="2026-07-19" type="3"/>
+    <activity-date iso-date="2025-05-27" type="3"/>
+    <activity-date iso-date="2025-05-27" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>U.S. Agency for International Development</narrative>
@@ -3539,6 +3561,28 @@
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
     </transaction>
+    <transaction ref="DACE8780D93A" humanitarian="1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-03-31"/>
+      <value value-date="2026-03-31">-121592.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-41119" type="40">
+        <narrative>United Nations Population Fund</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="74020" vocabulary="1">
+        <narrative>Multi-hazard response preparedness</narrative>
+      </sector>
+      <sector code="7002" vocabulary="99">
+        <narrative>Disaster Readiness</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2023" end="2026"/>
+      </usg:treasury-account>
+      <usg:humanitarian-scope type="1" vocabulary="99"/>
+    </transaction>
     <conditions attached="0"/>
     <usg:mechanism-signing-date iso-date="2023-04-20"/>
     <usg:tec1>
@@ -3548,7 +3592,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA23IO00115</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -3737,7 +3781,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA24CA00005</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -3947,7 +3991,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA24GR00011</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -4127,6 +4171,28 @@
       </usg:treasury-account>
       <usg:humanitarian-scope type="1" vocabulary="99"/>
     </transaction>
+    <transaction ref="10CA3690FA86" humanitarian="1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-02-28"/>
+      <value value-date="2026-02-28">159079.00</value>
+      <receiver-org type="70">
+        <narrative>nan</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="74020" vocabulary="1">
+        <narrative>Multi-hazard response preparedness</narrative>
+      </sector>
+      <sector code="7002" vocabulary="99">
+        <narrative>Disaster Readiness</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2024" end="2026"/>
+      </usg:treasury-account>
+      <usg:humanitarian-scope type="1" vocabulary="99"/>
+    </transaction>
     <conditions attached="0"/>
     <usg:mechanism-signing-date iso-date="2023-12-04"/>
     <usg:tec1>
@@ -4136,7 +4202,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA24GR00131</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -4313,6 +4379,28 @@
         <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2026"/>
       </usg:treasury-account>
+      <usg:humanitarian-scope type="1" vocabulary="99"/>
+    </transaction>
+    <transaction ref="382D40208EF4" humanitarian="1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-10-31"/>
+      <value value-date="2025-10-31">-12392.00</value>
+      <receiver-org receiver-activity-id="XI-UEI-G69LHXJ3ABL5" type="40">
+        <narrative>American Red Cross</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="74020" vocabulary="1">
+        <narrative>Multi-hazard response preparedness</narrative>
+      </sector>
+      <sector code="7002" vocabulary="99">
+        <narrative>Disaster Readiness</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2024" end="2026"/>
+      </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:mechanism-signing-date iso-date="2024-07-22"/>
@@ -4323,7 +4411,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA24IO00097</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -4349,7 +4437,8 @@
     <activity-status code="2"/>
     <activity-date iso-date="2024-04-08" type="1"/>
     <activity-date iso-date="2024-04-08" type="2"/>
-    <activity-date iso-date="2026-04-07" type="3"/>
+    <activity-date iso-date="2025-05-27" type="3"/>
+    <activity-date iso-date="2025-05-27" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>U.S. Agency for International Development</narrative>
@@ -4544,6 +4633,28 @@
         <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
         <usg:fiscal-funding-year begin="2024" end="2026"/>
       </usg:treasury-account>
+      <usg:humanitarian-scope type="1" vocabulary="99"/>
+    </transaction>
+    <transaction ref="CB59C3B3241D" humanitarian="1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-12-31"/>
+      <value value-date="2025-12-31">9954.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-21018" type="40">
+        <narrative>International Federation of Red Cross and Red Crescent Societies</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="74020" vocabulary="1">
+        <narrative>Multi-hazard response preparedness</narrative>
+      </sector>
+      <sector code="7002" vocabulary="99">
+        <narrative>Disaster Readiness</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1035">International Disaster and Famine Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2024" end="2026"/>
+      </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:mechanism-signing-date iso-date="2024-04-08"/>
@@ -4554,7 +4665,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA24IO00099</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -4633,7 +4744,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720BHA24IO00193</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -4755,7 +4866,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA18IO00058</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -5010,7 +5121,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA19GR00071</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -5661,7 +5772,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA19GR00206</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -5920,7 +6031,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA19IO00031</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -6241,7 +6352,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA19IO00058</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -6474,7 +6585,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA20GR00058</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -7031,7 +7142,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA20GR00128</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -7539,7 +7650,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA20GR00187</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -7972,7 +8083,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA20IO00084</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -8205,7 +8316,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-720FDA20IO00089</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -8538,7 +8649,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-879-13-MIT-ASIA</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -8637,7 +8748,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-879-DFAT-20-001</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -8781,7 +8892,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-879-GIZ-14-001</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -9132,7 +9243,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-879-PCFMC-ILNO.10</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -9599,6 +9710,90 @@
         <usg:fiscal-funding-year begin="2023" end="2024"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="64D170796AF8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-10-31"/>
+      <value value-date="2025-10-31">37237.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-47096" type="40">
+        <narrative>Pacific Community Secretariat</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <sector code="5001" vocabulary="99">
+        <narrative>Macroeconomic Foundation for Growth</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2020" end="2021"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8F05243094A9">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-10-31"/>
+      <value value-date="2025-10-31">183242.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-47096" type="40">
+        <narrative>Pacific Community Secretariat</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <sector code="5001" vocabulary="99">
+        <narrative>Macroeconomic Foundation for Growth</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2023" end="2024"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C22AA02FF139">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-12-31"/>
+      <value value-date="2025-12-31">110333.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-47096" type="40">
+        <narrative>Pacific Community Secretariat</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <sector code="5001" vocabulary="99">
+        <narrative>Macroeconomic Foundation for Growth</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2023" end="2024"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5B5A157BBCBB">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-02-28"/>
+      <value value-date="2026-02-28">210190.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-47096" type="40">
+        <narrative>Pacific Community Secretariat</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <sector code="5001" vocabulary="99">
+        <narrative>Macroeconomic Foundation for Growth</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="72"/>
+        <usg:main-account code="1021">Development Assistance</usg:main-account>
+        <usg:fiscal-funding-year begin="2023" end="2024"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:mechanism-signing-date iso-date="2021-09-30"/>
     <usg:tec1>
@@ -9608,7 +9803,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-879-SPC-GHS-ILNO.18</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -9697,6 +9892,69 @@
         <usg:fiscal-funding-year begin="2022" end="2023"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="FA5B2B73CC32">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-10-31"/>
+      <value value-date="2025-10-31">47354.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-47096" type="40">
+        <narrative>Pacific Community Secretariat</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <sector code="3004" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="19"/>
+        <usg:main-account code="1031">Global Health Programs</usg:main-account>
+        <usg:fiscal-funding-year begin="2022" end="2023"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4FE06A665426">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-11-30"/>
+      <value value-date="2025-11-30">234338.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-47096" type="40">
+        <narrative>Pacific Community Secretariat</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <sector code="3004" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="19"/>
+        <usg:main-account code="1031">Global Health Programs</usg:main-account>
+        <usg:fiscal-funding-year begin="2022" end="2023"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F0BC1039FE3F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-03-31"/>
+      <value value-date="2026-03-31">573245.00</value>
+      <receiver-org receiver-activity-id="XM-DAC-47096" type="40">
+        <narrative>Pacific Community Secretariat</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="12250" vocabulary="1">
+        <narrative>Infectious disease control</narrative>
+      </sector>
+      <sector code="3004" vocabulary="99">
+        <narrative>Pandemic Influenza and Other Emerging Threats (PIOET)</narrative>
+      </sector>
+      <recipient-region code="889"/>
+      <usg:treasury-account>
+        <usg:regular-account code="19"/>
+        <usg:main-account code="1031">Global Health Programs</usg:main-account>
+        <usg:fiscal-funding-year begin="2022" end="2023"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:mechanism-signing-date iso-date="2024-10-03"/>
     <usg:tec1>
@@ -9706,7 +9964,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-882-TA-24-001</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -9805,7 +10063,7 @@
       <narrative>Oceania</narrative>
     </usg:state-location>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-02-25T23:57:59.159Z" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T03:04:10.461Z" xml:lang="en">
     <iati-identifier>US-GOV-1-AID-OFDA-A-10-00003</iati-identifier>
     <reporting-org ref="US-GOV-1" type="10">
       <narrative>U.S. Agency for International Development</narrative>

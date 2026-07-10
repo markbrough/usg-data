@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-05-28T13:09:51-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:51-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-09T12:16:16-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:34-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-12IG111327624</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -88,7 +88,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:55-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:40-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-23IG11132762469</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -213,10 +213,29 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="2E0E9D466859">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-09-30"/>
+      <value value-date="2025-09-30">-12048</value>
+      <receiver-org>
+        <narrative>Association Mines Sans Pauvrete</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="35" vocabulary="99">
+        <narrative>Natural Resources and Biodiversity</narrative>
+      </sector>
+      <sector code="31220" vocabulary="1">
+        <narrative>Forestry development</narrative>
+      </sector>
+      <recipient-country code="GN"/>
+      <usg:treasury-account code="12x1105">State and Private Forestry, Forest Service
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:08:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T12:15:40-04:00" xml:lang="en">
     <iati-identifier>US-GOV-2-21IG11132762233</iati-identifier>
     <reporting-org ref="US-GOV-2" type="10">
       <narrative>Department of Agriculture</narrative>
@@ -245,6 +264,7 @@
     </activity-date>
     <activity-date iso-date="2020-10-01" type="2"/>
     <activity-date iso-date="2026-06-01" type="3"/>
+    <activity-date iso-date="2026-06-01" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Agriculture</narrative>

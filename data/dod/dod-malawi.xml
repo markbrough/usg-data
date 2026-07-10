@@ -1,6 +1,758 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-05-28T13:34:34-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:17-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-23164</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-09T13:02:34-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:35-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104091-254927</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="81CD7B6C4671">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">18187</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="81868F73FAAF">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">27509</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="56AADFF7767B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">50680</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="56AADFF7767B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">24928</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D67E8DCB9055">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">30616</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D67E8DCB9055">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">1756</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BC7B6FFFD398">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-31"/>
+      <value value-date="2024-12-31">11637</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="81EB9FE19C60">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">4513</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7BDF270180A3">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-06-30"/>
+      <value value-date="2025-06-30">324</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="7BDF270180A3">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-06-30"/>
+      <value value-date="2025-06-30">-88219</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:35-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-23850</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">HOUSEHOLD/COMMERCIAL FURNISHINGS/APPLIANCES [Quantity Delivered: Unspecified].</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2013-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2013-10-01" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="CCB3EBD2B882">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-09-30"/>
+      <value value-date="2014-09-30">1016</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="CCB3EBD2B882">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2014-09-30"/>
+      <value value-date="2014-09-30">1016</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:41-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-24858</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">MEDICAL/DENTAL/VETERINARY.EQUIP/SUPPLIES [Quantity Delivered: Unspecified].</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2013-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2013-10-01" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="AF217980312E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-09-30"/>
+      <value value-date="2014-09-30">1311</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AF217980312E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2014-09-30"/>
+      <value value-date="2014-09-30">1311</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:43-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-81748-255208</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Jhpiego Corporation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="AA1C1EF25E92">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">-65361</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:44-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-81748-255209</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Jhpiego Corporation</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="E4F595F29951">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">-174414</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D8973C41E684">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-12-31"/>
+      <value value-date="2024-12-31">-317000</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:52-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104091-254926</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3"/>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="CA64B2E7C0A8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">373</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="22894295266E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">338</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="22894295266E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">-44367</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4319CAA1A685">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">-3</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1571826685FD">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-06-30"/>
+      <value value-date="2025-06-30">-498</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:01-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-23293</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -51,7 +803,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="6E012C07E71F">
+    <transaction ref="B79F902CF5A4">
       <transaction-type code="3"/>
       <transaction-date iso-date="2015-09-30"/>
       <value value-date="2015-09-30">19421</value>
@@ -70,7 +822,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6E012C07E71F">
+    <transaction ref="B79F902CF5A4">
       <transaction-type code="2"/>
       <transaction-date iso-date="2015-09-30"/>
       <value value-date="2015-09-30">19421</value>
@@ -92,8 +844,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:19-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-81748-253534</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-86694-255250</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -145,48 +897,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="3B0A4BE6312E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-31"/>
-      <value value-date="2023-12-31">833580</value>
-      <receiver-org>
-        <narrative>Jhpiego Corporation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="FE582D0FC09D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">494027</value>
-      <receiver-org>
-        <narrative>Jhpiego Corporation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="75F5CAEC7F98">
+    <transaction ref="ABE732B9C681">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">-7835</value>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">1014167</value>
       <receiver-org>
         <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
@@ -202,87 +916,12 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:26-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104091-253250</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3"/>
-    <activity-date iso-date="2024-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="D32FF21ED63E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-31"/>
-      <value value-date="2023-12-31">373</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="27A761635441">
+    <transaction ref="6C3E6B45098F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">338</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
+      <value value-date="2024-03-31">571597</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="11" vocabulary="99">
@@ -296,123 +935,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="27A761635441">
+    <transaction ref="6C3E6B45098F">
       <transaction-type code="2"/>
       <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">-44367</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BC779D51C22E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">-3</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="ED7999607957">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2025-06-30"/>
-      <value value-date="2025-06-30">-498</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:27-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-81748-253533</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Jhpiego Corporation</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3"/>
-    <activity-date iso-date="2024-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="B171853FCDCD">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">-174414</value>
+      <value value-date="2024-03-31">497257</value>
       <receiver-org>
         <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
@@ -428,10 +954,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E835ADA4DB9A">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">-317000</value>
+    <transaction ref="A5B4D72890FF">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">910264</value>
       <receiver-org>
         <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
@@ -447,407 +973,12 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:29-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-23708</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">HOUSEHOLD/COMMERCIAL.FURNISHINGS/APPLIANCES [Quantity Delivered: N/A].</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-10-01" type="2"/>
-    <activity-date iso-date="2015-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2015-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="A67902427463">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2015-09-30"/>
-      <value value-date="2015-09-30">8924</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="97xDEDA">Excess Defense Articles
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A67902427463">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2015-09-30"/>
-      <value value-date="2015-09-30">8924</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="97xDEDA">Excess Defense Articles
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:44-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-81748-253532</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Jhpiego Corporation</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3"/>
-    <activity-date iso-date="2024-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="E34B161EDCF2">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">-65361</value>
-      <receiver-org>
-        <narrative>Jhpiego Corporation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:45-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104091-253251</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3"/>
-    <activity-date iso-date="2024-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="A1CF340C8C1D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-31"/>
-      <value value-date="2023-12-31">18187</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2FD7822F8B64">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">27509</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D1E23ED18EE7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">50680</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D1E23ED18EE7">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">24928</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="954118DD1D78">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">30616</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="954118DD1D78">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">1756</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="89D9C69176D3">
+    <transaction ref="6603E4407B3F">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">11637</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="FC5AC68CDCFD">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-03-31"/>
-      <value value-date="2025-03-31">4513</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5CAE2CBFC29D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-06-30"/>
-      <value value-date="2025-06-30">324</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5CAE2CBFC29D">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2025-06-30"/>
-      <value value-date="2025-06-30">-88219</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
+      <value value-date="2024-12-31">512122</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="11" vocabulary="99">
@@ -864,8 +995,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:45-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-86694-253576</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:06-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-86694-255251</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -888,11 +1019,12 @@
       <narrative>Jhpiego Corporation</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2024-10-01" type="1">
+    <activity-date iso-date="2023-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2024-10-01" type="2"/>
-    <activity-date iso-date="2026-09-30" type="3"/>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2025-09-30" type="3"/>
+    <activity-date iso-date="2025-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -916,10 +1048,48 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="8D499578F960">
+    <transaction ref="35E422177E64">
       <transaction-type code="2"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">606078</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B2585B70B638">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-06-30"/>
+      <value value-date="2025-06-30">510191</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AE887B05BAC7">
+      <transaction-type code="3"/>
       <transaction-date iso-date="2025-09-30"/>
-      <value value-date="2025-09-30">742474</value>
+      <value value-date="2025-09-30">963112</value>
       <receiver-org>
         <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
@@ -938,100 +1108,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:47-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-23474</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">HAND AND MEASURING TOOLS [Quantity Delivered: Unspecified].</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2013-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-10-01" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="975898A9533A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-09-30"/>
-      <value value-date="2014-09-30">6522</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="97xDEDA">Excess Defense Articles
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="975898A9533A">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-09-30"/>
-      <value value-date="2014-09-30">6522</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="97xDEDA">Excess Defense Articles
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:48-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-86695</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -1125,8 +1202,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-86694-253575</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:24-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-86694-255252</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1149,125 +1226,11 @@
       <narrative>Jhpiego Corporation</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2025-09-30" type="3"/>
-    <activity-date iso-date="2025-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="E0DD024C6701">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">606078</value>
-      <receiver-org>
-        <narrative>Jhpiego Corporation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="654A18D8E867">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-06-30"/>
-      <value value-date="2025-06-30">510191</value>
-      <receiver-org>
-        <narrative>Jhpiego Corporation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="968961C67978">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-09-30"/>
-      <value value-date="2025-09-30">963112</value>
-      <receiver-org>
-        <narrative>Jhpiego Corporation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104091-253252</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="2"/>
     <activity-date iso-date="2024-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
     <activity-date iso-date="2024-10-01" type="2"/>
-    <activity-date iso-date="2025-09-30" type="3"/>
-    <activity-date iso-date="2025-09-30" type="4"/>
+    <activity-date iso-date="2026-09-30" type="3"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1291,107 +1254,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="E5D7523F06B2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">9264</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0F2F34F4D802">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-03-31"/>
-      <value value-date="2025-03-31">40994</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0F2F34F4D802">
+    <transaction ref="36E340140D8B">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2025-03-31"/>
-      <value value-date="2025-03-31">20000</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="FD12E17C758F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-06-30"/>
-      <value value-date="2025-06-30">16442</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="08C8591746C3">
-      <transaction-type code="3"/>
       <transaction-date iso-date="2025-09-30"/>
-      <value value-date="2025-09-30">19883</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="682A20CA2081">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-12-31"/>
-      <value value-date="2025-12-31">9498</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
+      <value value-date="2025-09-30">742474</value>
+      <receiver-org>
+        <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="11" vocabulary="99">
@@ -1408,8 +1276,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:53-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-23706</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:35-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-23615</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1417,7 +1285,7 @@
       <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">HOUSEHOLD/COMMERCIAL FURNISHINGS/APPLIANCES [Quantity Delivered: Unspecified].</narrative>
+      <narrative xml:lang="en">HAND AND MEASURING TOOLS [Quantity Delivered: Unspecified].</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -1460,10 +1328,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="29C2B53C9186">
+    <transaction ref="DA753DF17B47">
       <transaction-type code="3"/>
       <transaction-date iso-date="2014-09-30"/>
-      <value value-date="2014-09-30">1016</value>
+      <value value-date="2014-09-30">6522</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1479,10 +1347,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="29C2B53C9186">
+    <transaction ref="DA753DF17B47">
       <transaction-type code="2"/>
       <transaction-date iso-date="2014-09-30"/>
-      <value value-date="2014-09-30">1016</value>
+      <value value-date="2014-09-30">6522</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1501,81 +1369,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:01-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104091-253249</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="27EC245E6C64">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">-8472</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-86694-253574</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:45-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-81748-255210</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1627,10 +1422,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="1222A9DC83CF">
-      <transaction-type code="2"/>
+    <transaction ref="C9192294443F">
+      <transaction-type code="3"/>
       <transaction-date iso-date="2023-12-31"/>
-      <value value-date="2023-12-31">1014167</value>
+      <value value-date="2023-12-31">833580</value>
       <receiver-org>
         <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
@@ -1646,10 +1441,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3FC9FC52160A">
+    <transaction ref="D4EEAFD8C740">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">571597</value>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">494027</value>
       <receiver-org>
         <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
@@ -1665,48 +1460,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3FC9FC52160A">
+    <transaction ref="D676EFB2624F">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">497257</value>
-      <receiver-org>
-        <narrative>Jhpiego Corporation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8988492096E4">
-      <transaction-type code="3"/>
       <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">910264</value>
-      <receiver-org>
-        <narrative>Jhpiego Corporation</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0E9466CF7FC0">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-12-31"/>
-      <value value-date="2024-12-31">512122</value>
+      <value value-date="2024-09-30">-7835</value>
       <receiver-org>
         <narrative>Jhpiego Corporation</narrative>
       </receiver-org>
@@ -1725,8 +1482,101 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104091-253253</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:47-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-23852</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">HOUSEHOLD/COMMERCIAL.FURNISHINGS/APPLIANCES [Quantity Delivered: N/A].</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2014-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-10-01" type="2"/>
+    <activity-date iso-date="2015-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2015-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="FDFA44EB916B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2015-09-30"/>
+      <value value-date="2015-09-30">8924</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="FDFA44EB916B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2015-09-30"/>
+      <value value-date="2015-09-30">8924</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:47-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104091-254925</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1748,12 +1598,11 @@
     <participating-org ref="" role="4" type="10">
       <narrative>U.S. Government - Department of State</narrative>
     </participating-org>
-    <activity-status code="2"/>
-    <activity-date iso-date="2025-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2025-10-01" type="2"/>
-    <activity-date iso-date="2026-09-30" type="3"/>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1777,29 +1626,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="E20D78E625FE">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-12-31"/>
-      <value value-date="2025-12-31">8103</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="MW"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E20D78E625FE">
+    <transaction ref="F4B4DF5569AD">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2025-12-31"/>
-      <value value-date="2025-12-31">49949</value>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">-8472</value>
       <receiver-org type="10" ref="US-GOV-11">
         <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
@@ -1818,7 +1648,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:26-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:54-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-81746</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -1912,19 +1742,19 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:31-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-24676</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:54-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104091-254929</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">DoD Excess Defense Articles, Grant Authority</narrative>
+      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">MEDICAL/DENTAL/VETERINARY.EQUIP/SUPPLIES [Quantity Delivered: Unspecified].</narrative>
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
     </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="US-GOV-7" role="2" type="10">
       <narrative>Department of Defense</narrative>
@@ -1933,17 +1763,14 @@
       <narrative>Department of Defense</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
+      <narrative>U.S. Government - Department of State</narrative>
     </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2013-10-01" type="1">
+    <activity-status code="2"/>
+    <activity-date iso-date="2025-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2013-10-01" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-09-30" type="4"/>
+    <activity-date iso-date="2025-10-01" type="2"/>
+    <activity-date iso-date="2026-09-30" type="3"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1959,46 +1786,219 @@
       </mailing-address>
     </contact-info>
     <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
     <collaboration-type code="1"/>
     <default-flow-type code="50"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="848C5BFD1E04">
+    <default-tied-status code="5"/>
+    <transaction ref="5D298F775891">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2014-09-30"/>
-      <value value-date="2014-09-30">1311</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
+      <transaction-date iso-date="2025-12-31"/>
+      <value value-date="2025-12-31">8103</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
       </sector>
       <recipient-country code="MW"/>
-      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="848C5BFD1E04">
+    <transaction ref="5D298F775891">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2014-09-30"/>
-      <value value-date="2014-09-30">1311</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
+      <transaction-date iso-date="2025-12-31"/>
+      <value value-date="2025-12-31">49949</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
       </sector>
       <recipient-country code="MW"/>
-      <usg:treasury-account code="97xDEDA">Excess Defense Articles
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:59-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104091-254928</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="2"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2025-09-30" type="3"/>
+    <activity-date iso-date="2025-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="2191EF1BFC38">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-31"/>
+      <value value-date="2024-12-31">9264</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A3866219F160">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">40994</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A3866219F160">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">20000</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A58492F258BA">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-06-30"/>
+      <value value-date="2025-06-30">16442</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="36318EF708A8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-09-30"/>
+      <value value-date="2025-09-30">19883</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="429E663E334F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-12-31"/>
+      <value value-date="2025-12-31">9498</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
+      </sector>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
+      </sector>
+      <recipient-country code="MW"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>

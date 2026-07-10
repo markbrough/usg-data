@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-05-28T13:34:49-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:12-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-09T13:02:40-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:38-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-19994</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -92,7 +92,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:23-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:51-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-ACSS-41</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -183,7 +183,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:24-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:52-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-ACSS-82</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -274,19 +274,19 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:25-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-292965</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104141-254972</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Law Enforcement Counter Illicit Drug Trafficking Support</narrative>
+      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
+      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
     </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="US-GOV-7" role="2" type="10">
       <narrative>Department of Defense</narrative>
@@ -295,13 +295,14 @@
       <narrative>Department of Defense</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
+      <narrative>U.S. Government - Department of State</narrative>
     </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
+    <activity-status code="2"/>
+    <activity-date iso-date="2025-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2025-10-01" type="2"/>
+    <activity-date iso-date="2026-09-30" type="3"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -317,53 +318,37 @@
       </mailing-address>
     </contact-info>
     <activity-scope code="5"/>
+    <tag vocabulary="99" code="99">
+      <narrative>#PEPFAR</narrative>
+    </tag>
     <collaboration-type code="1"/>
     <default-flow-type code="50"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="6B23F5606533">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">1500000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="TZ"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6B23F5606533">
+    <default-tied-status code="5"/>
+    <transaction ref="8F30A6FF04D6">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">1500000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
+      <transaction-date iso-date="2025-12-31"/>
+      <value value-date="2025-12-31">581600</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      <sector code="11" vocabulary="99">
+        <narrative>HIV/AIDS</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="13040" vocabulary="1">
+        <narrative>STD control including HIV/AIDS</narrative>
       </sector>
       <recipient-country code="TZ"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:40-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:10-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-20017</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -456,8 +441,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:44-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104141-253296</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:23-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104141-254970</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -508,84 +493,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="6E2AF4CC6D63">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2025-12-31"/>
-      <value value-date="2025-12-31">581600</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="11" vocabulary="99">
-        <narrative>HIV/AIDS</narrative>
-      </sector>
-      <sector code="13040" vocabulary="1">
-        <narrative>STD control including HIV/AIDS</narrative>
-      </sector>
-      <recipient-country code="TZ"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:49-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104141-253295</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">President's Emergency Plan for AIDS Relief - PEPFAR Operational Plan Programs</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The DoD HIV/AIDS Prevention Program (DHAPP) mission is to reduce the incidence of HIV/AIDS among partner militaries across the globe by assisting in developing and implementing culturally focused military-specific HIV prevention, care, and treatment programs. DHAPP is integrated with similar programs offered by other US Government agencies as part of the United States Presidents Emergency Plan for AIDS Relief (PEPFAR) initiative, allied governments, and organizations dedicated to HIV/AIDS prevention, care, and treatment. DoD contributions coordinated by DHAPP can also be viewed at the PEPFAR web site: https://www.state.gov/where-we-work-pepfar/. The DoD HIV/AIDS Prevention Program Directive, DoDD 6485.02E, can be found at https://www.esd.whs.mil/Directives/issuances/dodd/.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="2"/>
-    <activity-date iso-date="2025-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2025-10-01" type="2"/>
-    <activity-date iso-date="2026-09-30" type="3"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <tag vocabulary="99" code="99">
-      <narrative>#PEPFAR</narrative>
-    </tag>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="1674C3007763">
+    <transaction ref="15AE60723164">
       <transaction-type code="3"/>
       <transaction-date iso-date="2025-12-31"/>
-      <value value-date="2025-12-31">35252</value>
+      <value value-date="2025-12-31">4551</value>
       <receiver-org type="10" ref="US-GOV-11">
         <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
@@ -604,7 +515,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:32:55-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-ACSS-44</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -695,8 +606,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-104141-253294</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:35-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-104141-254971</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -747,10 +658,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="49B847A9F742">
+    <transaction ref="A7A4081D5FDB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2025-12-31"/>
-      <value value-date="2025-12-31">4551</value>
+      <value value-date="2025-12-31">35252</value>
       <receiver-org type="10" ref="US-GOV-11">
         <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
@@ -769,7 +680,96 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:18-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:40-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294641</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Global Train and Equip Program - Law Enforcement Counter Illicit Drug Trafficking Support</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="8338DDBF270E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">1500000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TZ"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8338DDBF270E">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">1500000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="TZ"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:46-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-ACSS-42</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -860,7 +860,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:19-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:46-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-20053</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -953,7 +953,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:20-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-ACSS-81</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -1044,7 +1044,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-05-28T13:33:40-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:02:08-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-ACSS-43</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
