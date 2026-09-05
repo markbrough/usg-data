@@ -1,14 +1,14 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-09T13:03:50-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:37-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294432</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T10:27:05-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:24:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296301</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Advanced Rotary Wing Phase II Enhancement</narrative>
+      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Border Security Gendarmerie Equipment</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
+      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -25,8 +25,8 @@
     <activity-status code="3"/>
     <activity-date iso-date="2016-10-01" type="1"/>
     <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -47,10 +47,101 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="E683DD129D32">
+    <transaction ref="BC82017E2122">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">12394422</value>
+      <value value-date="2017-01-01">4995880</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BC82017E2122">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">4995880</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:24:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-314364</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">NESA/AFRICOM Future Regional Trends and Outside Players Workshop 02-22</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The workshop, launched with the 7th NESA-SSN-USAFRICOM-IEMed Sahel compendium, convenes experts to assess regional security, review interventions, explore global trends, and develop innovative, whole-of-society strategiesengaging governments, civil society, and youth to strengthen collaboration and prepare for evolving, complex future security challenges.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-06-23" type="3"/>
+    <activity-date iso-date="2022-06-23" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="F086B70A8CCF">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">208580</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -66,10 +157,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E683DD129D32">
+    <transaction ref="F086B70A8CCF">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">12394422</value>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">208580</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -88,16 +179,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:39-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294691</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:24:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296317</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Military Intelligence Company</narrative>
+      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - UPDF Force Protection Enhancement</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
+      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -114,8 +205,8 @@
     <activity-status code="3"/>
     <activity-date iso-date="2016-10-01" type="1"/>
     <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -136,16 +227,16 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="593D5AFC922A">
+    <transaction ref="DBE2565DB69A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">4267994</value>
+      <value value-date="2017-01-01">6315250</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
       </sector>
       <sector code="15210" vocabulary="1">
         <narrative>Security system management and reform</narrative>
@@ -155,16 +246,16 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="593D5AFC922A">
+    <transaction ref="DBE2565DB69A">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">4267994</value>
+      <value value-date="2017-01-01">6315250</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
       </sector>
       <sector code="15210" vocabulary="1">
         <narrative>Security system management and reform</narrative>
@@ -177,8 +268,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:40-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294516</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:24:50-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294869</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -225,7 +316,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="87F7413F933A">
+    <transaction ref="9FC522BBE8F2">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">408</value>
@@ -244,7 +335,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="87F7413F933A">
+    <transaction ref="9FC522BBE8F2">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">408</value>
@@ -266,99 +357,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:41-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294756</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Trans-Africa - Maritime Patrol Maintenance</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="1F543A63E501">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">1951414</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="1F543A63E501">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-01-01"/>
-      <value value-date="2019-01-01">1951414</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294537</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:24:51-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294890</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -405,7 +405,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="15FCB66ADA72">
+    <transaction ref="3F97B29968BD">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">1659395</value>
@@ -424,7 +424,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="15FCB66ADA72">
+    <transaction ref="3F97B29968BD">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">1659395</value>
@@ -446,16 +446,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294235</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:24:52-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296286</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">International Counterproliferation Program (ICP): Africa Shield 2025 - Counterproliferation Workshop</narrative>
+      <narrative xml:lang="en">Proliferation Security Initiative - Exercise Obangame Express</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Multilateral workshop from African partner nations and international organizations to discuss the complexities and synergies of territorial management and supply chain security, including CBRNE proliferation threats, regional smuggling by non-state actors, transportation and storage of illicit goods and dual-use items, intelligence flow, and incident response management.</narrative>
+      <narrative xml:lang="en">The Proliferation Security Initiative (PSI) is an international cooperative effort to stop trafficking in Weapons of Mass Destruction (WMD), their delivery systems, and related materials to and from state and non-state actors of proliferation concern. DoD is the U.S. Governments operational lead for the PSI and works closely with other departments/agencies to conduct and participate in PSI exercises, workshops, training events, meetings and other activities. These activities demonstrate the commitment of participants to the PSI Statement of Interdiction Principles, test national capabilities to conduct air, ground, and maritime interdictions and increase understanding of PSI globally and within geographic regions.</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -470,12 +470,10 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2024-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2024-10-01" type="2"/>
-    <activity-date iso-date="2025-08-06" type="3"/>
-    <activity-date iso-date="2025-08-06" type="4"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -496,10 +494,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="C6D8A0A8461E">
+    <transaction ref="8F172F7EDDCC">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2025-09-30"/>
-      <value value-date="2025-09-30">277769</value>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">14700</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -515,10 +513,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="C6D8A0A8461E">
+    <transaction ref="8F172F7EDDCC">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2025-09-30"/>
-      <value value-date="2025-09-30">277769</value>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">14700</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -537,7 +535,276 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:52-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:24:53-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294887</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Global Train and Equip Program - Counter-Improvised Explosive Device Enhancement</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="5D35261A27C2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">21676789</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5D35261A27C2">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">21676789</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:24:56-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296300</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Agadez Quick Reaction Force</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="B8A33978FE24">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">10946277</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B8A33978FE24">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">10946277</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:24:57-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296265</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of the Air Force</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Inter-European Professional Development Seminar (IEPDS)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Inter-European Professional Development Seminar (IEPDS) is designed to develop non-commissioned officers, senior non-commissioned officers, warrant officers and junior officers in a blended officer/enlisted environment to prepare them for increased leadership roles and responsibilities. The curriculum is developed from a sampling of courses offered in the 5-week IESOS and IENCOA Professional Military Education courses. After completing this course, graduates will have acquired and practiced new leadership skills such as problem solving, critical thinking, and teambuilding. These new skillsets will help them develop as leaders and as team members. Course activities will challenge students to apply newly learned principles.</narrative>
+    </description>
+    <participating-org ref="32" role="1" type="10">
+      <narrative>Department of the Air Force</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of the Air Force</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of the Air Force</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of the Air Force</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-09-30" type="3"/>
+    <activity-date iso-date="2022-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of the Air Force</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="C98C4E91CBE4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-05-23"/>
+      <value value-date="2022-05-23">42870</value>
+      <receiver-org>
+        <narrative>U.S. Government - Department of the Air Force</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="57x3400">Department of the Air Force, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="C98C4E91CBE4">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-05-23"/>
+      <value value-date="2022-05-23">42870</value>
+      <receiver-org>
+        <narrative>U.S. Government - Department of the Air Force</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="45" vocabulary="99">
+        <narrative>Peace and Security - General</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="57x3400">Department of the Air Force, Operations and Maintenance
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:00-04:00" xml:lang="en">
     <iati-identifier>US-GOV-7-29733</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
@@ -858,16 +1125,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:53-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295961</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:02-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294785</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Somali National Army Galwaade Support Battlion</narrative>
+      <narrative xml:lang="en">Global Train and Equip Program - Advanced Rotary Wing Phase II Enhancement</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
+      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -884,8 +1151,8 @@
     <activity-status code="3"/>
     <activity-date iso-date="2016-10-01" type="1"/>
     <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -906,101 +1173,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="8B3450DE9118">
+    <transaction ref="FD6B6D310588">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">10420027</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8B3450DE9118">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">10420027</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:54-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-313947</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">NESA/AFRICOM North African Senior Leaders Workshop 01-22</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The objective is to focus efforts with presentations from think tanks, academics and government officials on the changing nature of security and to challenge existing thinking on non-traditional security threats. A table top exercise and discussions will examine regional understanding of "interagency cooperation" and their ability to operate in a national, regional and international environment to address transnational threats. Also considered will be non-traditional tasks such as peacekeeping operations, disaster management, border security and human trafficking and how best to organize to deal with these new merging threats, while gauging the effectiveness and gaps of their and other allied training provided to the region.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-09-15" type="3"/>
-    <activity-date iso-date="2022-09-15" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="04466C983320">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">68794</value>
+      <value value-date="2017-01-01">12394422</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1016,10 +1192,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="04466C983320">
+    <transaction ref="FD6B6D310588">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">68794</value>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">12394422</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1038,364 +1214,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:57-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295950</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - C2 and Intelligence Fusion Center</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="6DF934E2790B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">18628588</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6DF934E2790B">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">18628588</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:00:58-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295946</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Advanced Rotary Wing Training</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="8DF4D1F6712D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">752000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8DF4D1F6712D">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">752000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:00-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295931</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Proliferation Security Initiative - Exercise Cutlass Express</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Proliferation Security Initiative (PSI) is an international cooperative effort to stop trafficking in Weapons of Mass Destruction (WMD), their delivery systems, and related materials to and from state and non-state actors of proliferation concern. DoD is the U.S. Governments operational lead for the PSI and works closely with other departments/agencies to conduct and participate in PSI exercises, workshops, training events, meetings and other activities. These activities demonstrate the commitment of participants to the PSI Statement of Interdiction Principles, test national capabilities to conduct air, ground, and maritime interdictions and increase understanding of PSI globally and within geographic regions.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="1CB0CB452E39">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">12500</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="1CB0CB452E39">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">12500</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:12-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295947</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Agadez Quick Reaction Force</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="2265D2A01EBF">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">10946277</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2265D2A01EBF">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">10946277</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:18-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295944</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296297</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1442,7 +1262,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="D1BAFBB9E7C8">
+    <transaction ref="952F23287B8B">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">11986830</value>
@@ -1461,7 +1281,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D1BAFBB9E7C8">
+    <transaction ref="952F23287B8B">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">11986830</value>
@@ -1483,16 +1303,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:24-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295948</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:09-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-295024</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Border Security Gendarmerie Equipment</narrative>
+      <narrative xml:lang="en">Global Train and Equip Program - Maritime Domain Awareness Support</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
+      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -1507,10 +1327,10 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2018-09-30" type="3"/>
+    <activity-date iso-date="2018-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1531,16 +1351,16 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="6E17F5F47FAA">
+    <transaction ref="A1D4D5F3128B">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">4995880</value>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">1290000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
       </sector>
       <sector code="15210" vocabulary="1">
         <narrative>Security system management and reform</narrative>
@@ -1550,16 +1370,16 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6E17F5F47FAA">
+    <transaction ref="A1D4D5F3128B">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">4995880</value>
+      <transaction-date iso-date="2018-01-01"/>
+      <value value-date="2018-01-01">1290000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
       </sector>
       <sector code="15210" vocabulary="1">
         <narrative>Security system management and reform</narrative>
@@ -1572,16 +1392,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:28-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295933</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:11-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294588</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Proliferation Security Initiative - Exercise Obangame Express</narrative>
+      <narrative xml:lang="en">International Counterproliferation Program (ICP): Africa Shield 2025 - Counterproliferation Workshop</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The Proliferation Security Initiative (PSI) is an international cooperative effort to stop trafficking in Weapons of Mass Destruction (WMD), their delivery systems, and related materials to and from state and non-state actors of proliferation concern. DoD is the U.S. Governments operational lead for the PSI and works closely with other departments/agencies to conduct and participate in PSI exercises, workshops, training events, meetings and other activities. These activities demonstrate the commitment of participants to the PSI Statement of Interdiction Principles, test national capabilities to conduct air, ground, and maritime interdictions and increase understanding of PSI globally and within geographic regions.</narrative>
+      <narrative xml:lang="en">Multilateral workshop from African partner nations and international organizations to discuss the complexities and synergies of territorial management and supply chain security, including CBRNE proliferation threats, regional smuggling by non-state actors, transportation and storage of illicit goods and dual-use items, intelligence flow, and incident response management.</narrative>
     </description>
     <participating-org ref="7" role="1" type="10">
       <narrative>Department of Defense</narrative>
@@ -1596,10 +1416,12 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2025-08-06" type="3"/>
+    <activity-date iso-date="2025-08-06" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Defense</narrative>
@@ -1620,10 +1442,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="D5D5E94C8993">
+    <transaction ref="DB92DCAA7212">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">14700</value>
+      <transaction-date iso-date="2025-09-30"/>
+      <value value-date="2025-09-30">277769</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1639,10 +1461,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D5D5E94C8993">
+    <transaction ref="DB92DCAA7212">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">14700</value>
+      <transaction-date iso-date="2025-09-30"/>
+      <value value-date="2025-09-30">277769</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1661,102 +1483,13 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:29-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295964</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:20-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-295044</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - UPDF Force Protection Enhancement</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="B67997B9D07D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">6315250</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B67997B9D07D">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">6315250</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:30-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294732</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Rotary-Wing Lift Logistics Enhancement</narrative>
+      <narrative xml:lang="en">Global Train and Equip Program - Military Intelligence Company</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
@@ -1798,10 +1531,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="6092ECC08F61">
+    <transaction ref="CD16C46CCFDB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">12550000</value>
+      <value value-date="2017-01-01">4267994</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1817,10 +1550,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6092ECC08F61">
+    <transaction ref="CD16C46CCFDB">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">12550000</value>
+      <value value-date="2017-01-01">4267994</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -1839,97 +1572,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:35-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295949</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Brigade and Battalion-level Staff Functions</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="3DAF427C1379">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">465750</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="3DAF427C1379">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">465750</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:40-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295953</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:26-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296306</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -1976,7 +1620,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="19514452AD93">
+    <transaction ref="1382DBD65BF4">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">19740198</value>
@@ -1995,7 +1639,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="19514452AD93">
+    <transaction ref="1382DBD65BF4">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">19740198</value>
@@ -2017,8 +1661,186 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:41-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295945</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:40-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296299</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Advanced Rotary Wing Training</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="BB430AA63D2C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">752000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BB430AA63D2C">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">752000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:47-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296308</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Maritime Border Surveillance System</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="5440E6F95CE0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">7829000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="5440E6F95CE0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">7829000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:50-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296298</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -2065,7 +1887,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="4ADDB7587D77">
+    <transaction ref="354C2A2C4B95">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">2666575</value>
@@ -2084,7 +1906,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4ADDB7587D77">
+    <transaction ref="354C2A2C4B95">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">2666575</value>
@@ -2106,368 +1928,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:42-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295912</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of the Air Force</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Inter-European Professional Development Seminar (IEPDS)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Inter-European Professional Development Seminar (IEPDS) is designed to develop non-commissioned officers, senior non-commissioned officers, warrant officers and junior officers in a blended officer/enlisted environment to prepare them for increased leadership roles and responsibilities. The curriculum is developed from a sampling of courses offered in the 5-week IESOS and IENCOA Professional Military Education courses. After completing this course, graduates will have acquired and practiced new leadership skills such as problem solving, critical thinking, and teambuilding. These new skillsets will help them develop as leaders and as team members. Course activities will challenge students to apply newly learned principles.</narrative>
-    </description>
-    <participating-org ref="32" role="1" type="10">
-      <narrative>Department of the Air Force</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of the Air Force</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of the Air Force</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of the Air Force</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-09-30" type="3"/>
-    <activity-date iso-date="2022-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of the Air Force</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="D4AE300E89C2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-05-23"/>
-      <value value-date="2022-05-23">42870</value>
-      <receiver-org>
-        <narrative>U.S. Government - Department of the Air Force</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="57x3400">Department of the Air Force, Operations and Maintenance
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D4AE300E89C2">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-05-23"/>
-      <value value-date="2022-05-23">42870</value>
-      <receiver-org>
-        <narrative>U.S. Government - Department of the Air Force</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="45" vocabulary="99">
-        <narrative>Peace and Security - General</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="57x3400">Department of the Air Force, Operations and Maintenance
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:46-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294534</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Counter-Improvised Explosive Device Enhancement</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2018-09-30" type="3"/>
-    <activity-date iso-date="2018-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="52E62FCDE3C7">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">21676789</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="52E62FCDE3C7">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">21676789</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:47-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-313952</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">NESA/AFRICOM/IEMED Future Trends Workshop 01-22 (Virtual)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The workshop, launched with the 7th NESA-SSN-USAFRICOM-IEMed Sahel compendium, gathers experts to assess regional security challenges, review intervention successes and failures, explore global trends, and develop innovative, cooperative strategiesengaging governments, civil society, and youth to strengthen whole-of-society approaches for future stability.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-02-08" type="3"/>
-    <activity-date iso-date="2022-02-08" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F8D4480C99D2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-03-31"/>
-      <value value-date="2022-03-31">5250</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F8D4480C99D2">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-03-31"/>
-      <value value-date="2022-03-31">5250</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:48-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295935</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Proliferation Security Initiative - Exercise Phoenix Express</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Proliferation Security Initiative (PSI) is an international cooperative effort to stop trafficking in Weapons of Mass Destruction (WMD), their delivery systems, and related materials to and from state and non-state actors of proliferation concern. DoD is the U.S. Governments operational lead for the PSI and works closely with other departments/agencies to conduct and participate in PSI exercises, workshops, training events, meetings and other activities. These activities demonstrate the commitment of participants to the PSI Statement of Interdiction Principles, test national capabilities to conduct air, ground, and maritime interdictions and increase understanding of PSI globally and within geographic regions.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="5672A4D3BB64">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">17400</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="5672A4D3BB64">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">17400</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294580</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:53-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294933</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -2514,7 +1976,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="A76802465651">
+    <transaction ref="A8135212BFE9">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">11835000</value>
@@ -2533,7 +1995,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="A76802465651">
+    <transaction ref="A8135212BFE9">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
       <value value-date="2017-01-01">11835000</value>
@@ -2555,13 +2017,13 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:01:54-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294514</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:54-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-295085</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Command and Control (C2) Node</narrative>
+      <narrative xml:lang="en">Global Train and Equip Program - Rotary-Wing Lift Logistics Enhancement</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
@@ -2603,10 +2065,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="BFC0BEA9F331">
+    <transaction ref="0AA98994A32E">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">16573285</value>
+      <value value-date="2017-01-01">12550000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -2622,10 +2084,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="BFC0BEA9F331">
+    <transaction ref="0AA98994A32E">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">16573285</value>
+      <value value-date="2017-01-01">12550000</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -2644,8 +2106,97 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:02:00-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294755</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:25:56-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296312</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Raven Support</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="EA2E0E873D2D">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">2860079</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="EA2E0E873D2D">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">2860079</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:03-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-295108</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
@@ -2694,7 +2245,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="87928AE5D557">
+    <transaction ref="61A6A3D68189">
       <transaction-type code="3"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">953971</value>
@@ -2713,7 +2264,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="87928AE5D557">
+    <transaction ref="61A6A3D68189">
       <transaction-type code="2"/>
       <transaction-date iso-date="2019-01-01"/>
       <value value-date="2019-01-01">953971</value>
@@ -2735,193 +2286,13 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:02:02-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295955</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:07-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-294867</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Maritime Border Surveillance System</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="853F12048548">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">7829000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="853F12048548">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">7829000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="1" vocabulary="99">
-        <narrative>Counter-Terrorism</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:02:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-313945</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">NESA/AFRICOM Future Regional Trends and Outside Players Workshop 02-22</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The workshop, launched with the 7th NESA-SSN-USAFRICOM-IEMed Sahel compendium, convenes experts to assess regional security, review interventions, explore global trends, and develop innovative, whole-of-society strategiesengaging governments, civil society, and youth to strengthen collaboration and prepare for evolving, complex future security challenges.</narrative>
-    </description>
-    <participating-org ref="7" role="1" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="2" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-7" role="3" type="10">
-      <narrative>Department of Defense</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-06-23" type="3"/>
-    <activity-date iso-date="2022-06-23" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Defense</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Renee Haynes; Ryan Boles</narrative>
-      </person-name>
-      <telephone>703-546-6700</telephone>
-      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="2BCF1AAE3C0E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">208580</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2BCF1AAE3C0E">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">208580</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="289"/>
-      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:02:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-294671</iati-identifier>
-    <reporting-org ref="US-GOV-7" type="10">
-      <narrative>Department of Defense</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Global Train and Equip Program - Maritime Domain Awareness Support</narrative>
+      <narrative xml:lang="en">Global Train and Equip Program - Command and Control (C2) Node</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
@@ -2939,8 +2310,8 @@
       <narrative>U.S. Government - Department of Defense</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
     <activity-date iso-date="2018-09-30" type="3"/>
     <activity-date iso-date="2018-09-30" type="4"/>
     <contact-info type="1">
@@ -2963,10 +2334,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="386064FD903E">
+    <transaction ref="9881B37D64A5">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">1290000</value>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">16573285</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -2982,10 +2353,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="386064FD903E">
+    <transaction ref="9881B37D64A5">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2018-01-01"/>
-      <value value-date="2018-01-01">1290000</value>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">16573285</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -3004,13 +2375,104 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:02:09-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-7-295959</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-314366</iati-identifier>
     <reporting-org ref="US-GOV-7" type="10">
       <narrative>Department of Defense</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Raven Support</narrative>
+      <narrative xml:lang="en">NESA/AFRICOM North African Senior Leaders Workshop 01-22</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The objective is to focus efforts with presentations from think tanks, academics and government officials on the changing nature of security and to challenge existing thinking on non-traditional security threats. A table top exercise and discussions will examine regional understanding of "interagency cooperation" and their ability to operate in a national, regional and international environment to address transnational threats. Also considered will be non-traditional tasks such as peacekeeping operations, disaster management, border security and human trafficking and how best to organize to deal with these new merging threats, while gauging the effectiveness and gaps of their and other allied training provided to the region.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-09-15" type="3"/>
+    <activity-date iso-date="2022-09-15" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="64AA2A6165A0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">68794</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="64AA2A6165A0">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">68794</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:18-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296303</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - C2 and Intelligence Fusion Center</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
@@ -3052,10 +2514,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="C3E3D87F39C4">
+    <transaction ref="E625B15D2D7D">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">2860079</value>
+      <value value-date="2017-01-01">18628588</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
@@ -3071,16 +2533,554 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="C3E3D87F39C4">
+    <transaction ref="E625B15D2D7D">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-01-01"/>
-      <value value-date="2017-01-01">2860079</value>
+      <value value-date="2017-01-01">18628588</value>
       <receiver-org type="10" ref="US-GOV-7">
         <narrative>U.S. Government - Department of Defense</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="1" vocabulary="99">
         <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:20-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296302</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Brigade and Battalion-level Staff Functions</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="A3F208E5BF77">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">465750</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A3F208E5BF77">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">465750</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:21-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296314</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Counterterrorism Partnerships Fund (CTPF) - Somali National Army Galwaade Support Battlion</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Counterterrorism Partnerships Fund (CTPF) supports a sustainable and partnership-focused approach to counterterrorism with a flexible mechanism that allows the Department of Defense (DoD) to respond more nimbly to evolving terrorist threats from South Asia to the Sahel. The CTPF builds on existing tools and authorities to respond to a range of terrorist threats by providing direct support to partner nations as well as augmenting U.S. capability to support partners in counterterrorism (CT) operations.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="F3527B85E888">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">10420027</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F3527B85E888">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">10420027</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="1" vocabulary="99">
+        <narrative>Counter-Terrorism</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:21-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-314371</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">NESA/AFRICOM/IEMED Future Trends Workshop 01-22 (Virtual)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The workshop, launched with the 7th NESA-SSN-USAFRICOM-IEMed Sahel compendium, gathers experts to assess regional security challenges, review intervention successes and failures, explore global trends, and develop innovative, cooperative strategiesengaging governments, civil society, and youth to strengthen whole-of-society approaches for future stability.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-02-08" type="3"/>
+    <activity-date iso-date="2022-02-08" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="05232BCAE64F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-03-31"/>
+      <value value-date="2022-03-31">5250</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="05232BCAE64F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-03-31"/>
+      <value value-date="2022-03-31">5250</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:25-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296284</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Proliferation Security Initiative - Exercise Cutlass Express</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Proliferation Security Initiative (PSI) is an international cooperative effort to stop trafficking in Weapons of Mass Destruction (WMD), their delivery systems, and related materials to and from state and non-state actors of proliferation concern. DoD is the U.S. Governments operational lead for the PSI and works closely with other departments/agencies to conduct and participate in PSI exercises, workshops, training events, meetings and other activities. These activities demonstrate the commitment of participants to the PSI Statement of Interdiction Principles, test national capabilities to conduct air, ground, and maritime interdictions and increase understanding of PSI globally and within geographic regions.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="924D7ACCED6B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">12500</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="924D7ACCED6B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">12500</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:33-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-295109</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Global Train and Equip Program - Trans-Africa - Maritime Patrol Maintenance</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">To conduct or support programs providing training and equipment to national security forces of foreign countries for the purpose of building capacity of partner nations. The Defense Security Cooperation Agency (DSCA) provides program management. Country teams work through DoD geographic Combatant Commands (COCOMs).</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="1142E3CBFC6F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">1951414</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1142E3CBFC6F">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-01-01"/>
+      <value value-date="2019-01-01">1951414</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T10:26:34-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-7-296288</iati-identifier>
+    <reporting-org ref="US-GOV-7" type="10">
+      <narrative>Department of Defense</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Proliferation Security Initiative - Exercise Phoenix Express</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The Proliferation Security Initiative (PSI) is an international cooperative effort to stop trafficking in Weapons of Mass Destruction (WMD), their delivery systems, and related materials to and from state and non-state actors of proliferation concern. DoD is the U.S. Governments operational lead for the PSI and works closely with other departments/agencies to conduct and participate in PSI exercises, workshops, training events, meetings and other activities. These activities demonstrate the commitment of participants to the PSI Statement of Interdiction Principles, test national capabilities to conduct air, ground, and maritime interdictions and increase understanding of PSI globally and within geographic regions.</narrative>
+    </description>
+    <participating-org ref="7" role="1" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="2" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-7" role="3" type="10">
+      <narrative>Department of Defense</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Defense</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Renee Haynes; Ryan Boles</narrative>
+      </person-name>
+      <telephone>703-546-6700</telephone>
+      <email>renee.d.haynes2.civ@mail.mil; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>100 S Washington Blvd., Arlington, VA 22202</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="0E4804C3E493">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">17400</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="97x0100">Department of Defense, Operation and Maintenance, Defense-Wide
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0E4804C3E493">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2017-01-01"/>
+      <value value-date="2017-01-01">17400</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
       </sector>
       <sector code="15210" vocabulary="1">
         <narrative>Security system management and reform</narrative>

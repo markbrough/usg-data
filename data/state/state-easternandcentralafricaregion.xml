@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-10T00:58:01-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:45:27-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SINLEC22GR0409-86592</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T22:32:38-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:07:28-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SINLEC22GR0409-86729</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -27,8 +27,8 @@
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
     <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2025-06-26" type="3"/>
-    <activity-date iso-date="2025-06-26" type="4"/>
+    <activity-date iso-date="2025-12-16" type="3"/>
+    <activity-date iso-date="2025-12-16" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -49,7 +49,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="BC19D421F4E0">
+    <transaction ref="ED720EB4D780">
       <transaction-type code="2"/>
       <transaction-date iso-date="2022-09-12"/>
       <value value-date="2022-09-12">1500000</value>
@@ -71,7 +71,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:46:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:14:53-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SINLEC21GR3325</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -94,13 +94,13 @@
     <participating-org ref="" role="4" type="10">
       <narrative>World Resources Institute</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
     <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2025-05-07" type="3"/>
-    <activity-date iso-date="2025-05-07" type="4"/>
+    <activity-date iso-date="2025-12-16" type="3"/>
+    <activity-date iso-date="2025-12-16" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -239,6 +239,63 @@
       <transaction-type code="3"/>
       <transaction-date iso-date="2025-05-07"/>
       <value value-date="2025-05-07">29562</value>
+      <receiver-org type="80" ref="US-EIN-521257057">
+        <narrative>World Resources Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="5" vocabulary="99">
+        <narrative>Transnational Crime</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B5381F7E9B6A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-08-01"/>
+      <value value-date="2025-08-01">62060</value>
+      <receiver-org type="80" ref="US-EIN-521257057">
+        <narrative>World Resources Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="5" vocabulary="99">
+        <narrative>Transnational Crime</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0758C2C0340C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-08-13"/>
+      <value value-date="2025-08-13">8050</value>
+      <receiver-org type="80" ref="US-EIN-521257057">
+        <narrative>World Resources Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="5" vocabulary="99">
+        <narrative>Transnational Crime</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="289"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9171FEF2B9F4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-12-16"/>
+      <value value-date="2025-12-16">3881</value>
       <receiver-org type="80" ref="US-EIN-521257057">
         <narrative>World Resources Institute</narrative>
       </receiver-org>

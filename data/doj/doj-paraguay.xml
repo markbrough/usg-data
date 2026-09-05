@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-09T13:44:25-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:56-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T11:02:52-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:14-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-000031I</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -126,16 +126,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:56-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251178</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:15-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251617</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Special Investigation Unit (SIU) 3 Basic Course, Paraguay</narrative>
+      <narrative xml:lang="en">Special Investigative Unit (SIU) 108 Basic Course, Paraguay</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Special Investigation Unit (SIU) 3 Basic Course, Paraguay; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+      <narrative xml:lang="en">Special Investigative Unit (SIU) 108 Basic Course, Paraguay; Special Investigative Unit (SIUG) Basic Course, SIUB108; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
     </description>
     <participating-org ref="10" role="1" type="10">
       <narrative>Department of Justice</narrative>
@@ -150,10 +150,12 @@
       <narrative>U.S. Government - Department of Justice</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2014-10-01" type="1"/>
-    <activity-date iso-date="2014-10-01" type="2"/>
-    <activity-date iso-date="2015-09-30" type="3"/>
-    <activity-date iso-date="2015-09-30" type="4"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2021-09-30" type="3"/>
+    <activity-date iso-date="2021-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Justice</narrative>
@@ -174,10 +176,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="649AFEC947B8">
+    <transaction ref="0CDCDF967F66">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2015-09-30"/>
-      <value value-date="2015-09-30">104087</value>
+      <transaction-date iso-date="2021-06-30"/>
+      <value value-date="2021-06-30">13534</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -193,10 +195,48 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="649AFEC947B8">
+    <transaction ref="0CDCDF967F66">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2015-09-30"/>
-      <value value-date="2015-09-30">104087</value>
+      <transaction-date iso-date="2021-06-30"/>
+      <value value-date="2021-06-30">-5</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="355A2821E34A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">75615</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="355A2821E34A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">75586</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -215,8 +255,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:56-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-250933</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:15-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251271</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
@@ -263,7 +303,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="22AD64B8065D">
+    <transaction ref="3D9506318CF6">
       <transaction-type code="3"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">15746</value>
@@ -282,7 +322,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="22AD64B8065D">
+    <transaction ref="3D9506318CF6">
       <transaction-type code="2"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">21845</value>
@@ -304,7 +344,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:15-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-31532</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -393,96 +433,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:56-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251030</iati-identifier>
-    <reporting-org ref="US-GOV-15" type="10">
-      <narrative>Department of Justice</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Special Investigative Unit (SIU 6) Advanced Course, Paraguay</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Special Investigative Unit (SIU 6) Advanced Course, Paraguay; This course supplements instruction provided during the SIU Basic Course and provides additional instruction on several aspects of conducting a judicial wire intercept investigation. These include undercover operations, advanced operational planning, tactical entries, confidential Source management, and money laundering</narrative>
-    </description>
-    <participating-org ref="10" role="1" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="2" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="3" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Justice</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2013-10-01" type="1"/>
-    <activity-date iso-date="2013-10-01" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3"/>
-    <activity-date iso-date="2014-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Justice</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Tamika Jordan; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="AA1D1309CFBF">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">13248</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="4" vocabulary="99">
-        <narrative>Counter-Narcotics</narrative>
-      </sector>
-      <sector code="16063" vocabulary="1">
-        <narrative>Narcotics control</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="AA1D1309CFBF">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-01-01"/>
-      <value value-date="2014-01-01">13248</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="4" vocabulary="99">
-        <narrative>Counter-Narcotics</narrative>
-      </sector>
-      <sector code="16063" vocabulary="1">
-        <narrative>Narcotics control</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:57-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:16-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-31533</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -571,175 +522,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:57-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251417</iati-identifier>
-    <reporting-org ref="US-GOV-15" type="10">
-      <narrative>Department of Justice</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Special Investigative Unit (SIUF) Basic Course, Paraguay</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
-    </description>
-    <participating-org ref="10" role="1" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="2" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="3" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Justice</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-09-30" type="3"/>
-    <activity-date iso-date="2022-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Justice</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Tamika Jordan; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="858E77BB1FEA">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-03-31"/>
-      <value value-date="2022-03-31">1634</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="858E77BB1FEA">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-03-31"/>
-      <value value-date="2022-03-31">2192</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4C8FC5774915">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">34076</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4C8FC5774915">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">50790</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D7ED327219B2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">70705</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D7ED327219B2">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">54684</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:57-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-250923</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:16-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251261</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
@@ -786,7 +570,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="4321ACFAB318">
+    <transaction ref="8EB25A53EDDF">
       <transaction-type code="3"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">3478</value>
@@ -805,7 +589,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="4321ACFAB318">
+    <transaction ref="8EB25A53EDDF">
       <transaction-type code="2"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">3478</value>
@@ -827,7 +611,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:57-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-31538</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -916,16 +700,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:57-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251168</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251580</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Special Investigation Unit (SIU) 1 Basic Course, Paraguay</narrative>
+      <narrative xml:lang="en">Special Investigative Unit (SIU 6) Advanced Course, Paraguay</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Special Investigation Unit (SIU) 1 Basic Course, Paraguay; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+      <narrative xml:lang="en">Special Investigative Unit (SIU 6) Advanced Course, Paraguay; This one-week advanced training course is designed for SIU commanders responsible for supervising units. The course addresses all core topics from a SIU managers perspective which includes the following; management of SIU, DEA oversight of program, operational planning, critical incident response, risk management, officer safety, leadership, ethics and professionalism in law enforcement, confidential source management, the supervision of enforcement operations, as well as the identification of trends associated with narco-terrorism. The course is conducted via a workshop environment and also encourages SIU commanders and DEA management to exchange information in order to make important decisions needed to improve the SIU program</narrative>
     </description>
     <participating-org ref="10" role="1" type="10">
       <narrative>Department of Justice</narrative>
@@ -964,10 +748,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="E2A59B5F14C1">
+    <transaction ref="7DF615A46303">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">27760</value>
+      <value value-date="2017-09-30">487</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -983,10 +767,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E2A59B5F14C1">
+    <transaction ref="7DF615A46303">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">27760</value>
+      <value value-date="2017-09-30">487</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -1005,8 +789,139 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:58-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251241</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251607</iati-identifier>
+    <reporting-org ref="US-GOV-15" type="10">
+      <narrative>Department of Justice</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Special Investigative Unit (SIU) 106 Basic Course, Paraguay</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Special Investigative Unit (SIU) 106 Basic Course, Paraguay; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+    </description>
+    <participating-org ref="10" role="1" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="2" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="3" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Justice</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Justice</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Tamika Jordan; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-514-2000</telephone>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="B1AE4136BAD8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">37101</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="B1AE4136BAD8">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">45653</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4071F2BE0362">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-09-30"/>
+      <value value-date="2020-09-30">89053</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4071F2BE0362">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-09-30"/>
+      <value value-date="2020-09-30">89053</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>89,053</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251579</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
@@ -1053,7 +968,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="0195342E2F2B">
+    <transaction ref="A24F0831473B">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-09-30"/>
       <value value-date="2017-09-30">12572</value>
@@ -1072,7 +987,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0195342E2F2B">
+    <transaction ref="A24F0831473B">
       <transaction-type code="2"/>
       <transaction-date iso-date="2017-09-30"/>
       <value value-date="2017-09-30">12572</value>
@@ -1094,7 +1009,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:58-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-31502</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -1183,7 +1098,356 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:58-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251597</iati-identifier>
+    <reporting-org ref="US-GOV-15" type="10">
+      <narrative>Department of Justice</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Special Investigative Unit (SIU) 102 Basic Course, Paraguay</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Special Investigative Unit (SIU) 102 Basic Course, Paraguay; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+    </description>
+    <participating-org ref="10" role="1" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="2" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="3" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Justice</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3"/>
+    <activity-date iso-date="2019-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Justice</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Tamika Jordan; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-514-2000</telephone>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="9F73200595D6">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">51651</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9F73200595D6">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-09-30"/>
+      <value value-date="2019-09-30">50429</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>51,651</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251755</iati-identifier>
+    <reporting-org ref="US-GOV-15" type="10">
+      <narrative>Department of Justice</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Special Investigative Unit (SIUF) Basic Course, Paraguay</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+    </description>
+    <participating-org ref="10" role="1" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="2" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="3" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Justice</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-09-30" type="3"/>
+    <activity-date iso-date="2022-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Justice</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Tamika Jordan; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-514-2000</telephone>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="957E1C5A264A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-03-31"/>
+      <value value-date="2022-03-31">1634</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="957E1C5A264A">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-03-31"/>
+      <value value-date="2022-03-31">2192</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="61093E51E9D1">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">34076</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="61093E51E9D1">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">50790</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A7FDB8F71EC7">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">70705</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A7FDB8F71EC7">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">54684</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="3" vocabulary="99">
+        <narrative>Stabilization Operations and Security Sector Reform</narrative>
+      </sector>
+      <sector code="15130" vocabulary="1">
+        <narrative>Legal and judicial development</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251368</iati-identifier>
+    <reporting-org ref="US-GOV-15" type="10">
+      <narrative>Department of Justice</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Special Investigative Unit (SIU 6) Advanced Course, Paraguay</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Special Investigative Unit (SIU 6) Advanced Course, Paraguay; This course supplements instruction provided during the SIU Basic Course and provides additional instruction on several aspects of conducting a judicial wire intercept investigation. These include undercover operations, advanced operational planning, tactical entries, confidential Source management, and money laundering</narrative>
+    </description>
+    <participating-org ref="10" role="1" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="2" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-15" role="3" type="10">
+      <narrative>Department of Justice</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Justice</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2013-10-01" type="1"/>
+    <activity-date iso-date="2013-10-01" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3"/>
+    <activity-date iso-date="2014-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of Justice</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Tamika Jordan; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-514-2000</telephone>
+      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="D981F5375C6B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">13248</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="4" vocabulary="99">
+        <narrative>Counter-Narcotics</narrative>
+      </sector>
+      <sector code="16063" vocabulary="1">
+        <narrative>Narcotics control</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D981F5375C6B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2014-01-01"/>
+      <value value-date="2014-01-01">13248</value>
+      <receiver-org type="10" ref="US-GOV-15">
+        <narrative>U.S. Government - Department of Justice</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="4" vocabulary="99">
+        <narrative>Counter-Narcotics</narrative>
+      </sector>
+      <sector code="16063" vocabulary="1">
+        <narrative>Narcotics control</narrative>
+      </sector>
+      <recipient-country code="PY"/>
+      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-31558</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -1310,7 +1574,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:58-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:17-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-000031</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -1437,16 +1701,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:58-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251259</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:18-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251516</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Special Investigative Unit (SIU) 102 Basic Course, Paraguay</narrative>
+      <narrative xml:lang="en">Special Investigation Unit (SIU) 3 Basic Course, Paraguay</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Special Investigative Unit (SIU) 102 Basic Course, Paraguay; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+      <narrative xml:lang="en">Special Investigation Unit (SIU) 3 Basic Course, Paraguay; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
     </description>
     <participating-org ref="10" role="1" type="10">
       <narrative>Department of Justice</narrative>
@@ -1461,12 +1725,10 @@
       <narrative>U.S. Government - Department of Justice</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
+    <activity-date iso-date="2014-10-01" type="1"/>
+    <activity-date iso-date="2014-10-01" type="2"/>
+    <activity-date iso-date="2015-09-30" type="3"/>
+    <activity-date iso-date="2015-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Justice</narrative>
@@ -1487,10 +1749,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="079F45C1F1D9">
+    <transaction ref="7EDDE3D41D8C">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2019-09-30"/>
-      <value value-date="2019-09-30">51651</value>
+      <transaction-date iso-date="2015-09-30"/>
+      <value value-date="2015-09-30">104087</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -1506,10 +1768,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="079F45C1F1D9">
+    <transaction ref="7EDDE3D41D8C">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2019-09-30"/>
-      <value value-date="2019-09-30">50429</value>
+      <transaction-date iso-date="2015-09-30"/>
+      <value value-date="2015-09-30">104087</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -1526,11 +1788,9 @@
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>51,651</narrative>
-    </usg:tec1>
+    <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:59-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-000004</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -1657,225 +1917,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:59-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251279</iati-identifier>
-    <reporting-org ref="US-GOV-15" type="10">
-      <narrative>Department of Justice</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Special Investigative Unit (SIU) 108 Basic Course, Paraguay</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Special Investigative Unit (SIU) 108 Basic Course, Paraguay; Special Investigative Unit (SIUG) Basic Course, SIUB108; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
-    </description>
-    <participating-org ref="10" role="1" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="2" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="3" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Justice</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2021-09-30" type="3"/>
-    <activity-date iso-date="2021-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Justice</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Tamika Jordan; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="C761A711D0B1">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-06-30"/>
-      <value value-date="2021-06-30">13534</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C761A711D0B1">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-06-30"/>
-      <value value-date="2021-06-30">-5</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E167AB9CD746">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">75615</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="E167AB9CD746">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">75586</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:59-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251242</iati-identifier>
-    <reporting-org ref="US-GOV-15" type="10">
-      <narrative>Department of Justice</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Special Investigative Unit (SIU 6) Advanced Course, Paraguay</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Special Investigative Unit (SIU 6) Advanced Course, Paraguay; This one-week advanced training course is designed for SIU commanders responsible for supervising units. The course addresses all core topics from a SIU managers perspective which includes the following; management of SIU, DEA oversight of program, operational planning, critical incident response, risk management, officer safety, leadership, ethics and professionalism in law enforcement, confidential source management, the supervision of enforcement operations, as well as the identification of trends associated with narco-terrorism. The course is conducted via a workshop environment and also encourages SIU commanders and DEA management to exchange information in order to make important decisions needed to improve the SIU program</narrative>
-    </description>
-    <participating-org ref="10" role="1" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="2" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-15" role="3" type="10">
-      <narrative>Department of Justice</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Justice</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2016-10-01" type="1"/>
-    <activity-date iso-date="2016-10-01" type="2"/>
-    <activity-date iso-date="2017-09-30" type="3"/>
-    <activity-date iso-date="2017-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of Justice</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Tamika Jordan; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-514-2000</telephone>
-      <email>tamika.l.jordan@usdoj.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>950 Pennsylvania Ave. NW, Washington DC 20530</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="D02"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F789302E3B36">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">487</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F789302E3B36">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2017-09-30"/>
-      <value value-date="2017-09-30">487</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:59-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-31556</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -1964,7 +2006,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:59-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-31551</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -2072,7 +2114,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:59-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:18-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-000004I</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
@@ -2199,16 +2241,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:59-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251269</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:19-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251506</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Special Investigative Unit (SIU) 106 Basic Course, Paraguay</narrative>
+      <narrative xml:lang="en">Special Investigation Unit (SIU) 1 Basic Course, Paraguay</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Special Investigative Unit (SIU) 106 Basic Course, Paraguay; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
+      <narrative xml:lang="en">Special Investigation Unit (SIU) 1 Basic Course, Paraguay; This is a five week course serves as the foundation in fundamental law enforcement practices for newly assigned officers. It is based on the DEA Basic Agent training program and covers a wide range of topics in drug law enforcement.</narrative>
     </description>
     <participating-org ref="10" role="1" type="10">
       <narrative>Department of Justice</narrative>
@@ -2223,12 +2265,10 @@
       <narrative>U.S. Government - Department of Justice</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3"/>
-    <activity-date iso-date="2019-09-30" type="4"/>
+    <activity-date iso-date="2016-10-01" type="1"/>
+    <activity-date iso-date="2016-10-01" type="2"/>
+    <activity-date iso-date="2017-09-30" type="3"/>
+    <activity-date iso-date="2017-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of Justice</narrative>
@@ -2249,10 +2289,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="933BEEFB9378">
+    <transaction ref="EC59D39288BA">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2019-09-30"/>
-      <value value-date="2019-09-30">37101</value>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">27760</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -2268,48 +2308,10 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="933BEEFB9378">
+    <transaction ref="EC59D39288BA">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2019-09-30"/>
-      <value value-date="2019-09-30">45653</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="EDD86EB77601">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-09-30"/>
-      <value value-date="2020-09-30">89053</value>
-      <receiver-org type="10" ref="US-GOV-15">
-        <narrative>U.S. Government - Department of Justice</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="3" vocabulary="99">
-        <narrative>Stabilization Operations and Security Sector Reform</narrative>
-      </sector>
-      <sector code="15130" vocabulary="1">
-        <narrative>Legal and judicial development</narrative>
-      </sector>
-      <recipient-country code="PY"/>
-      <usg:treasury-account code="15x1100">Drug Enforcement Administration, Salaries and Expenses
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="EDD86EB77601">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-09-30"/>
-      <value value-date="2020-09-30">89053</value>
+      <transaction-date iso-date="2017-09-30"/>
+      <value value-date="2017-09-30">27760</value>
       <receiver-org type="10" ref="US-GOV-15">
         <narrative>U.S. Government - Department of Justice</narrative>
       </receiver-org>
@@ -2326,12 +2328,10 @@
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>89,053</narrative>
-    </usg:tec1>
+    <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:43:59-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-15-251208</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:19-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-15-251546</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>
     </reporting-org>
@@ -2378,7 +2378,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="4"/>
-    <transaction ref="F977D125EBC9">
+    <transaction ref="2B3C1308643B">
       <transaction-type code="3"/>
       <transaction-date iso-date="2018-09-30"/>
       <value value-date="2018-09-30">70542</value>
@@ -2397,7 +2397,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F977D125EBC9">
+    <transaction ref="2B3C1308643B">
       <transaction-type code="2"/>
       <transaction-date iso-date="2018-09-30"/>
       <value value-date="2018-09-30">70542</value>
@@ -2419,7 +2419,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T13:44:00-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:02:19-04:00" xml:lang="en">
     <iati-identifier>US-GOV-15-31550</iati-identifier>
     <reporting-org ref="US-GOV-15" type="10">
       <narrative>Department of Justice</narrative>

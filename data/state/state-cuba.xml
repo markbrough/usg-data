@@ -1,14 +1,88 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-10T01:03:23-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:39:47-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-7200AA23CA00036-226566</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T22:30:15-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:07:47-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-110175</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Cuba Democracy Program</narrative>
+      <narrative xml:lang="en">Refugee Processing Program Costs, Resettlement Support Center Havana</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Independent media and free flow of information</narrative>
+      <narrative xml:lang="en">United States Population Migration and Refugee Assistance, Appropriation 1143. Protection and assistance needs of refugees, migrants and conflict victims worldwide. [U.S. Government - Department of State]</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2011-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2011-10-01" type="2"/>
+    <activity-date iso-date="2012-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="7CD128213433">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-01-01"/>
+      <value value-date="2012-01-01">618218</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="37" vocabulary="99">
+        <narrative>Protection, Assistance and Solutions</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="19x1143">Department of State, Migration and Refugee Assistance
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:07:50-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-10117GB002-275540</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">This amendment is for the following purposes: 1) add funds; 2) extend the period of performance, see section 6; 3) revise Scope of Work; 4)increase</narrative>
     </description>
     <participating-org ref="1" role="1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -20,14 +94,15 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Foundation for Human Rights in Cuba</narrative>
+      <narrative>Enterprise - United States Redacted</narrative>
     </participating-org>
-    <activity-status code="2"/>
-    <activity-date iso-date="2024-10-01" type="1">
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2024-10-01" type="2"/>
-    <activity-date iso-date="2027-03-31" type="3"/>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-05-28" type="3"/>
+    <activity-date iso-date="2020-05-28" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -48,114 +123,19 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="11F6886DA883">
+    <transaction ref="51ABCD6DDA33">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2025-07-01"/>
-      <value value-date="2025-07-01">130370</value>
-      <receiver-org>
-        <narrative>Foundation for Human Rights in Cuba</narrative>
+      <transaction-date iso-date="2020-05-28"/>
+      <value value-date="2020-05-28">22420</value>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="8" vocabulary="99">
-        <narrative>Good Governance</narrative>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
       </sector>
-      <sector code="15153" vocabulary="1">
-        <narrative>Media and free flow of information</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C4EFA6C5261C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-09-01"/>
-      <value value-date="2025-09-01">58542</value>
-      <receiver-org>
-        <narrative>Foundation for Human Rights in Cuba</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="8" vocabulary="99">
-        <narrative>Good Governance</narrative>
-      </sector>
-      <sector code="15153" vocabulary="1">
-        <narrative>Media and free flow of information</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C4EFA6C5261C">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2025-09-01"/>
-      <value value-date="2025-09-01">1000000</value>
-      <receiver-org>
-        <narrative>Foundation for Human Rights in Cuba</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="8" vocabulary="99">
-        <narrative>Good Governance</narrative>
-      </sector>
-      <sector code="15153" vocabulary="1">
-        <narrative>Media and free flow of information</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="14DDC8E3088B">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-11-01"/>
-      <value value-date="2025-11-01">284375</value>
-      <receiver-org>
-        <narrative>Foundation for Human Rights in Cuba</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="8" vocabulary="99">
-        <narrative>Good Governance</narrative>
-      </sector>
-      <sector code="15153" vocabulary="1">
-        <narrative>Media and free flow of information</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="B1E507BD6280">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2026-01-01"/>
-      <value value-date="2026-01-01">115579</value>
-      <receiver-org>
-        <narrative>Foundation for Human Rights in Cuba</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="8" vocabulary="99">
-        <narrative>Good Governance</narrative>
-      </sector>
-      <sector code="15153" vocabulary="1">
-        <narrative>Media and free flow of information</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F04A4B4F4B41">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2026-03-01"/>
-      <value value-date="2026-03-01">301560</value>
-      <receiver-org>
-        <narrative>Foundation for Human Rights in Cuba</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="8" vocabulary="99">
-        <narrative>Good Governance</narrative>
-      </sector>
-      <sector code="15153" vocabulary="1">
-        <narrative>Media and free flow of information</narrative>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
       </sector>
       <recipient-country code="CU"/>
       <usg:treasury-account code="72x1037">Economic Support Fund
@@ -163,11 +143,9 @@
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1>
-      <narrative>9,974,405</narrative>
-    </usg:tec1>
+    <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:40:23-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:08:04-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SPRMCO14VC1274</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -260,7 +238,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:40:52-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:08:32-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SLMAQM14GR1217</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -332,19 +310,19 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:40:59-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-109990</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:09:26-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-7200AA23CA00036-226852</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Refugee Processing Program Costs, Resettlement Support Center Havana</narrative>
+      <narrative xml:lang="en">Cuba Democracy Program</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">United States Population Migration and Refugee Assistance, Appropriation 1143. Protection and assistance needs of refugees, migrants and conflict victims worldwide. [U.S. Government - Department of State]</narrative>
+      <narrative xml:lang="en">Independent media and free flow of information</narrative>
     </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
     </participating-org>
     <participating-org ref="US-GOV-11" role="2" type="10">
       <narrative>Department of State</narrative>
@@ -353,17 +331,14 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
+      <narrative>Foundation for Human Rights in Cuba</narrative>
     </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2011-10-01" type="1">
+    <activity-status code="2"/>
+    <activity-date iso-date="2024-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2011-10-01" type="2"/>
-    <activity-date iso-date="2012-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-09-30" type="4"/>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2027-03-31" type="3"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -383,30 +358,146 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="4E67E1309791">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-01-01"/>
-      <value value-date="2012-01-01">618218</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
+    <default-tied-status code="4"/>
+    <transaction ref="14083186F450">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-07-01"/>
+      <value value-date="2025-07-01">130370</value>
+      <receiver-org>
+        <narrative>Foundation for Human Rights in Cuba</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="37" vocabulary="99">
-        <narrative>Protection, Assistance and Solutions</narrative>
+      <sector code="8" vocabulary="99">
+        <narrative>Good Governance</narrative>
       </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
+      <sector code="15153" vocabulary="1">
+        <narrative>Media and free flow of information</narrative>
       </sector>
       <recipient-country code="CU"/>
-      <usg:treasury-account code="19x1143">Department of State, Migration and Refugee Assistance
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AA0B055871F4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-09-01"/>
+      <value value-date="2025-09-01">58542</value>
+      <receiver-org>
+        <narrative>Foundation for Human Rights in Cuba</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="8" vocabulary="99">
+        <narrative>Good Governance</narrative>
+      </sector>
+      <sector code="15153" vocabulary="1">
+        <narrative>Media and free flow of information</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AA0B055871F4">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-09-01"/>
+      <value value-date="2025-09-01">1000000</value>
+      <receiver-org>
+        <narrative>Foundation for Human Rights in Cuba</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="8" vocabulary="99">
+        <narrative>Good Governance</narrative>
+      </sector>
+      <sector code="15153" vocabulary="1">
+        <narrative>Media and free flow of information</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D1D8383B00F9">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-11-01"/>
+      <value value-date="2025-11-01">284375</value>
+      <receiver-org>
+        <narrative>Foundation for Human Rights in Cuba</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="8" vocabulary="99">
+        <narrative>Good Governance</narrative>
+      </sector>
+      <sector code="15153" vocabulary="1">
+        <narrative>Media and free flow of information</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="0A86CE81F1F8">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-01-01"/>
+      <value value-date="2026-01-01">115579</value>
+      <receiver-org>
+        <narrative>Foundation for Human Rights in Cuba</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="8" vocabulary="99">
+        <narrative>Good Governance</narrative>
+      </sector>
+      <sector code="15153" vocabulary="1">
+        <narrative>Media and free flow of information</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F42AD57BAE42">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-03-01"/>
+      <value value-date="2026-03-01">301560</value>
+      <receiver-org>
+        <narrative>Foundation for Human Rights in Cuba</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="8" vocabulary="99">
+        <narrative>Good Governance</narrative>
+      </sector>
+      <sector code="15153" vocabulary="1">
+        <narrative>Media and free flow of information</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A8F295B40A4C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-05-01"/>
+      <value value-date="2026-05-01">135419</value>
+      <receiver-org>
+        <narrative>Foundation for Human Rights in Cuba</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="8" vocabulary="99">
+        <narrative>Good Governance</narrative>
+      </sector>
+      <sector code="15153" vocabulary="1">
+        <narrative>Media and free flow of information</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>3,000,000</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:41:53-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:09:37-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SPRMCO16VC1274</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -499,8 +590,138 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:42:24-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-7200AA22CA00036-226217</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:10:11-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-7200AA22CA00035-227159</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Humanitarian Aid for Activists Resiliency (HAAR)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The activity will provide humanitarian assistance to cuban political prisoners, their family members, and politically marginalized individuals in an effort to alleviate their hardships and allow them to continue their efforts to promote democracy and freedom in cuba.</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>International Republican Institute</narrative>
+    </participating-org>
+    <activity-status code="2"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2027-03-31" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="C49B6E8BF80D">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-09-01"/>
+      <value value-date="2025-09-01">1500000</value>
+      <receiver-org>
+        <narrative>International Republican Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="8DD5B01E1097">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-10-01"/>
+      <value value-date="2025-10-01">153330</value>
+      <receiver-org>
+        <narrative>International Republican Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6004A1881C7A">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-01-01"/>
+      <value value-date="2026-01-01">77836</value>
+      <receiver-org>
+        <narrative>International Republican Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="807C3714F431">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-04-01"/>
+      <value value-date="2026-04-01">373158</value>
+      <receiver-org>
+        <narrative>International Republican Institute</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>4,475,000</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:10:29-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-7200AA22CA00036-226503</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -548,7 +769,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="EACDF616BB31">
+    <transaction ref="1465ADEF4D56">
       <transaction-type code="3"/>
       <transaction-date iso-date="2025-07-01"/>
       <value value-date="2025-07-01">159058</value>
@@ -567,7 +788,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="B40BCA6B38E5">
+    <transaction ref="9EF70395AE39">
       <transaction-type code="2"/>
       <transaction-date iso-date="2025-09-01"/>
       <value value-date="2025-09-01">1196140</value>
@@ -586,7 +807,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="3F9F5B23BB11">
+    <transaction ref="82DF2C3F7710">
       <transaction-type code="3"/>
       <transaction-date iso-date="2025-10-01"/>
       <value value-date="2025-10-01">32081</value>
@@ -605,7 +826,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="14B4C0A74D96">
+    <transaction ref="CD8C02EF11BB">
       <transaction-type code="3"/>
       <transaction-date iso-date="2026-02-01"/>
       <value value-date="2026-02-01">354487</value>
@@ -624,84 +845,31 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:42:30-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-110922</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Refugee Processing Program Cost, Resettlement Support Center Havana - Second Quarter</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">United States Population Migration and Refugee Assistance, Appropriation 1143. Protection and assistance needs of refugees, migrants and conflict victims worldwide. [U.S. Government - Department of State]</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="87CFE4A0DDB2">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2012-12-31"/>
-      <value value-date="2012-12-31">170170</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
+    <transaction ref="C39C98DFB73B">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-06-01"/>
+      <value value-date="2026-06-01">239842</value>
+      <receiver-org>
+        <narrative>Evangelical Christian Humanitarian Outreach for Cuba</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="37" vocabulary="99">
-        <narrative>Protection, Assistance and Solutions</narrative>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
       </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
       </sector>
       <recipient-country code="CU"/>
-      <usg:treasury-account code="19x1143">Department of State, Migration and Refugee Assistance
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>2,694,227</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:42:45-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:10:34-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-R114</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -2656,7 +2824,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:43:03-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:10:53-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-R114-1</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -2730,7 +2898,81 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:43:31-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:15-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-111107</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Refugee Processing Program Cost, Resettlement Support Center Havana - Second Quarter</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">United States Population Migration and Refugee Assistance, Appropriation 1143. Protection and assistance needs of refugees, migrants and conflict victims worldwide. [U.S. Government - Department of State]</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-10-01" type="2"/>
+    <activity-date iso-date="2013-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2013-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="CDF77C7233E4">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-12-31"/>
+      <value value-date="2012-12-31">170170</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="37" vocabulary="99">
+        <narrative>Protection, Assistance and Solutions</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="19x1143">Department of State, Migration and Refugee Assistance
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:25-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SPRMCO17VC2054</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -2823,7 +3065,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:43:32-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:26-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-7200AA23CA00035</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -2949,9 +3191,11 @@
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>3,000,000</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:43:33-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:27-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-R114-2</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -3025,13 +3269,13 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:43:56-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-110921</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:28-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-115129</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Refugee Processing Program Cost, Resettlement Support Center Havana - First Quarter</narrative>
+      <narrative xml:lang="en">Refugee Processing Program Cost, Resettlement Support Center Havana - Q3 and Q4</narrative>
     </title>
     <description type="1">
       <narrative xml:lang="en">United States Population Migration and Refugee Assistance, Appropriation 1143. Protection and assistance needs of refugees, migrants and conflict victims worldwide. [U.S. Government - Department of State]</narrative>
@@ -3077,10 +3321,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="2EAA54EFAEF3">
+    <transaction ref="6CB0F2532E27">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2012-11-02"/>
-      <value value-date="2012-11-02">171670</value>
+      <transaction-date iso-date="2013-09-30"/>
+      <value value-date="2013-09-30">268330</value>
       <receiver-org type="10" ref="US-GOV-11">
         <narrative>U.S. Government - Department of State</narrative>
       </receiver-org>
@@ -3099,335 +3343,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:44:01-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-7200AA22CA00034-227153</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Humanitarian Assistance for Persecuted Individuals in Cuba</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">The grupo de apoyo a la democracia (GAD) will provide humanitarian assistance to cuban political prisoners, their family members, and other independent civil society activists who have lost some or all of their ability to support themselves because of their political beliefs or efforts to exercise their fundamental freedoms. The provision and distribution of humanitarian assistance will support collaboration between independent civil society groups (CSGS) that suffer because of the imprisonment of family members and fellow activists.</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
-    </participating-org>
-    <activity-status code="2"/>
-    <activity-date iso-date="2024-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2024-10-01" type="2"/>
-    <activity-date iso-date="2027-03-31" type="3"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="A753A7921F1A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-07-01"/>
-      <value value-date="2025-07-01">86000</value>
-      <receiver-org>
-        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="7" vocabulary="99">
-        <narrative>Rule of Law and Human Rights</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="044461432466">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-09-01"/>
-      <value value-date="2025-09-01">61422</value>
-      <receiver-org>
-        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="7" vocabulary="99">
-        <narrative>Rule of Law and Human Rights</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="044461432466">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2025-09-01"/>
-      <value value-date="2025-09-01">1500000</value>
-      <receiver-org>
-        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="7" vocabulary="99">
-        <narrative>Rule of Law and Human Rights</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="DFF7BBDC21C0">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-11-01"/>
-      <value value-date="2025-11-01">171136</value>
-      <receiver-org>
-        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="7" vocabulary="99">
-        <narrative>Rule of Law and Human Rights</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="31865976C66E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2026-02-01"/>
-      <value value-date="2026-02-01">92425</value>
-      <receiver-org>
-        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="7" vocabulary="99">
-        <narrative>Rule of Law and Human Rights</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C34BC5AE185F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2026-03-01"/>
-      <value value-date="2026-03-01">256928</value>
-      <receiver-org>
-        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="7" vocabulary="99">
-        <narrative>Rule of Law and Human Rights</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:44:07-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAQMMA13F2942-264621</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Bureau of Western Hemisphere Affairs: Activity Unspecified</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">General Services (A,B,C)</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2013-09-09" type="1"/>
-    <activity-date iso-date="2013-09-09" type="2"/>
-    <activity-date iso-date="2014-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="C745B98156CB">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2014-09-30"/>
-      <value value-date="2014-09-30">173267</value>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:44:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-7200AA22CA00033-227516</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">The Cuban Observatory of Human Rights (OCDH)</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Humanitarian assistance for persecuted individuals in Cuba. The Observatorio Cubano de Derechos Humanos (OCDH) will work to ease the difficulties of persecuted individuals, especially political prisoners and their families, who have lost part or all of their ability to support themselves and their families due to their political or religious beliefs, or their efforts to boost and promote democratic freedoms in Cuba.</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Observatorio Cubano de Derechos Humanos</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2024-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2024-10-01" type="2"/>
-    <activity-date iso-date="2027-03-31" type="3"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="D2A8B17AFC21">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-09-01"/>
-      <value value-date="2025-09-01">42300</value>
-      <receiver-org>
-        <narrative>Observatorio Cubano de Derechos Humanos</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="7" vocabulary="99">
-        <narrative>Rule of Law and Human Rights</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="D2A8B17AFC21">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2025-09-01"/>
-      <value value-date="2025-09-01">1450048</value>
-      <receiver-org>
-        <narrative>Observatorio Cubano de Derechos Humanos</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="7" vocabulary="99">
-        <narrative>Rule of Law and Human Rights</narrative>
-      </sector>
-      <sector code="15160" vocabulary="1">
-        <narrative>Human rights</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:44:28-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:12:22-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SLMAQM14GR1225</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -3499,7 +3415,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:44:54-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:12:49-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-R114-3</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -3573,16 +3489,90 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:45:21-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-7200AA22CA00035-226872</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:13:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-111106</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Humanitarian Aid for Activists Resiliency (HAAR)</narrative>
+      <narrative xml:lang="en">Refugee Processing Program Cost, Resettlement Support Center Havana - First Quarter</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">The activity will provide humanitarian assistance to cuban political prisoners, their family members, and politically marginalized individuals in an effort to alleviate their hardships and allow them to continue their efforts to promote democracy and freedom in cuba.</narrative>
+      <narrative xml:lang="en">United States Population Migration and Refugee Assistance, Appropriation 1143. Protection and assistance needs of refugees, migrants and conflict victims worldwide. [U.S. Government - Department of State]</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of State</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2012-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2012-10-01" type="2"/>
+    <activity-date iso-date="2013-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2013-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="5F82AF6B6E63">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2012-11-02"/>
+      <value value-date="2012-11-02">171670</value>
+      <receiver-org type="10" ref="US-GOV-11">
+        <narrative>U.S. Government - Department of State</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="37" vocabulary="99">
+        <narrative>Protection, Assistance and Solutions</narrative>
+      </sector>
+      <sector code="72010" vocabulary="1">
+        <narrative>Material relief assistance and services</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="19x1143">Department of State, Migration and Refugee Assistance
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:13:30-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-7200AA22CA00034-227440</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Humanitarian Assistance for Persecuted Individuals in Cuba</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">The grupo de apoyo a la democracia (GAD) will provide humanitarian assistance to cuban political prisoners, their family members, and other independent civil society activists who have lost some or all of their ability to support themselves because of their political beliefs or efforts to exercise their fundamental freedoms. The provision and distribution of humanitarian assistance will support collaboration between independent civil society groups (CSGS) that suffer because of the imprisonment of family members and fellow activists.</narrative>
     </description>
     <participating-org ref="1" role="1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -3594,7 +3584,7 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>International Republican Institute</narrative>
+      <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
     </participating-org>
     <activity-status code="2"/>
     <activity-date iso-date="2024-10-01" type="1">
@@ -3622,12 +3612,50 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="F2A48CB6A6A7">
+    <transaction ref="265DD7B52752">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-07-01"/>
+      <value value-date="2025-07-01">86000</value>
+      <receiver-org>
+        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="96F8518E09AB">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-09-01"/>
+      <value value-date="2025-09-01">61422</value>
+      <receiver-org>
+        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="96F8518E09AB">
       <transaction-type code="2"/>
       <transaction-date iso-date="2025-09-01"/>
       <value value-date="2025-09-01">1500000</value>
       <receiver-org>
-        <narrative>International Republican Institute</narrative>
+        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="7" vocabulary="99">
@@ -3641,12 +3669,12 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="EC7E8E28954D">
+    <transaction ref="66C1FF938FC4">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2025-10-01"/>
-      <value value-date="2025-10-01">153330</value>
+      <transaction-date iso-date="2025-11-01"/>
+      <value value-date="2025-11-01">171136</value>
       <receiver-org>
-        <narrative>International Republican Institute</narrative>
+        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="7" vocabulary="99">
@@ -3660,12 +3688,31 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="DEA9C93A5EEC">
+    <transaction ref="D997121C8FCF">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2026-01-01"/>
-      <value value-date="2026-01-01">77836</value>
+      <transaction-date iso-date="2026-02-01"/>
+      <value value-date="2026-02-01">92425</value>
       <receiver-org>
-        <narrative>International Republican Institute</narrative>
+        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D3A87BC2E06F">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2026-03-01"/>
+      <value value-date="2026-03-01">256928</value>
+      <receiver-org>
+        <narrative>Grupo de Apoyo de la Democracia, Inc.</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="7" vocabulary="99">
@@ -3680,9 +3727,11 @@
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>1,600,000</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:45:35-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:13:31-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SPRMCO15VC1245</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -3775,154 +3824,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:46:11-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-114944</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Refugee Processing Program Cost, Resettlement Support Center Havana - Q3 and Q4</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">United States Population Migration and Refugee Assistance, Appropriation 1143. Protection and assistance needs of refugees, migrants and conflict victims worldwide. [U.S. Government - Department of State]</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of State</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2012-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2012-10-01" type="2"/>
-    <activity-date iso-date="2013-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2013-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="62CEE0D4EBE9">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2013-09-30"/>
-      <value value-date="2013-09-30">268330</value>
-      <receiver-org type="10" ref="US-GOV-11">
-        <narrative>U.S. Government - Department of State</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="37" vocabulary="99">
-        <narrative>Protection, Assistance and Solutions</narrative>
-      </sector>
-      <sector code="72010" vocabulary="1">
-        <narrative>Material relief assistance and services</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="19x1143">Department of State, Migration and Refugee Assistance
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:46:28-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-10116GB001-275186</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">This amendment is for the following purposes: 1) add funds; 2) extend the period of performance, see section 6; 3) revise Scope of Work; 4)increase</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-05-28" type="3"/>
-    <activity-date iso-date="2020-05-28" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="34A25577D368">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-05-28"/>
-      <value value-date="2020-05-28">5227</value>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="CU"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:46:45-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-7200AA22CA00037-226693</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:14:22-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-7200AA22CA00037-226979</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -3970,7 +3873,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="BC920013E8B6">
+    <transaction ref="003B2F66259C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2025-07-01"/>
       <value value-date="2025-07-01">42000</value>
@@ -3989,7 +3892,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="59AFFF177FBD">
+    <transaction ref="180E3AD83ACC">
       <transaction-type code="2"/>
       <transaction-date iso-date="2025-09-01"/>
       <value value-date="2025-09-01">687145</value>
@@ -4008,7 +3911,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="5FA8A051EBB1">
+    <transaction ref="566E29C3E8C1">
       <transaction-type code="3"/>
       <transaction-date iso-date="2025-10-01"/>
       <value value-date="2025-10-01">30500</value>
@@ -4028,10 +3931,12 @@
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
-    <usg:tec1/>
+    <usg:tec1>
+      <narrative>2,551,635</narrative>
+    </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:46:53-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-10117GB002-275187</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:14:23-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-10116GB001-275539</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -4080,10 +3985,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="2CDF29D3E91F">
+    <transaction ref="175F8AECD923">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-05-28"/>
-      <value value-date="2020-05-28">22420</value>
+      <value value-date="2020-05-28">5227</value>
       <receiver-org type="70" ref="XM-DAC-61000">
         <narrative>Enterprise - United States Redacted</narrative>
       </receiver-org>
@@ -4102,7 +4007,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:46:56-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:14:53-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SAQMMA14F4266</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -4172,7 +4077,99 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T21:47:10-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:15:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-7200AA22CA00033-227803</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">The Cuban Observatory of Human Rights (OCDH)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Humanitarian assistance for persecuted individuals in Cuba. The Observatorio Cubano de Derechos Humanos (OCDH) will work to ease the difficulties of persecuted individuals, especially political prisoners and their families, who have lost part or all of their ability to support themselves and their families due to their political or religious beliefs, or their efforts to boost and promote democratic freedoms in Cuba.</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Observatorio Cubano de Derechos Humanos</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2024-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2027-03-31" type="3"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="99D1BE15AB40">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-09-01"/>
+      <value value-date="2025-09-01">42300</value>
+      <receiver-org>
+        <narrative>Observatorio Cubano de Derechos Humanos</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="99D1BE15AB40">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2025-09-01"/>
+      <value value-date="2025-09-01">1450048</value>
+      <receiver-org>
+        <narrative>Observatorio Cubano de Derechos Humanos</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="7" vocabulary="99">
+        <narrative>Rule of Law and Human Rights</narrative>
+      </sector>
+      <sector code="15160" vocabulary="1">
+        <narrative>Human rights</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>4,985,581</narrative>
+    </usg:tec1>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:15:06-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SCU04024GR0006</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -4257,6 +4254,78 @@
       </sector>
       <recipient-country code="CU"/>
       <usg:treasury-account code="19x0113">Department of State, Diplomatic and Consular Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:15:15-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAQMMA13F2942-264974</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Bureau of Western Hemisphere Affairs: Activity Unspecified</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">General Services (A,B,C)</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - United States Redacted</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2013-09-09" type="1"/>
+    <activity-date iso-date="2013-09-09" type="2"/>
+    <activity-date iso-date="2014-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2014-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="D2C874F5E6AC">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2014-09-30"/>
+      <value value-date="2014-09-30">173267</value>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="CU"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>

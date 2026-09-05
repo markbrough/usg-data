@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-07-09T14:18:07-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-07-09T14:17:59-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-32-253763</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T11:42:18-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:42:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-254101</iati-identifier>
     <reporting-org ref="US-GOV-32" type="10">
       <narrative>Environmental Protection Agency</narrative>
     </reporting-org>
@@ -20,7 +20,7 @@
       <narrative>Environmental Protection Agency</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>AEA Group</narrative>
+      <narrative>Eastern Research Group, Inc.</narrative>
     </participating-org>
     <activity-status code="3"/>
     <activity-date iso-date="2012-07-17" type="1"/>
@@ -46,13 +46,13 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
-    <default-tied-status code="5"/>
-    <transaction ref="F6EBA7E9EE4A">
+    <default-tied-status code="4"/>
+    <transaction ref="6439632CD731">
       <transaction-type code="3"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">74200</value>
       <receiver-org>
-        <narrative>AEA Group</narrative>
+        <narrative>Eastern Research Group, Inc.</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="36" vocabulary="99">
@@ -66,12 +66,12 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F6EBA7E9EE4A">
+    <transaction ref="6439632CD731">
       <transaction-type code="2"/>
       <transaction-date iso-date="2012-01-01"/>
       <value value-date="2012-01-01">83100</value>
       <receiver-org>
-        <narrative>AEA Group</narrative>
+        <narrative>Eastern Research Group, Inc.</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="36" vocabulary="99">
@@ -87,5 +87,79 @@
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:42:04-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-32-25QXX5T002;TAA0D3J3</iati-identifier>
+    <reporting-org ref="US-GOV-32" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Environmental Protection Agency, Office of the Administrator (OA), 2025 Annual Meeting and Regional Dialogue for REDLAFICA (Latin American Network for Enforcement and Compliance) and REDLASEIA (Latin American Network for Environmental Licensing/Permitting, and Assessments)</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">As the Agency's technical expert on permitting and environmental reviews, present at the 2025 Annual Meeting and Regional Dialogue for REDLAFICA</narrative>
+    </description>
+    <participating-org ref="29" role="1" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-32" role="2" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-32" role="3" type="10">
+      <narrative>Environmental Protection Agency</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Environmental Protection Agency</narrative>
+    </participating-org>
+    <activity-status code="2"/>
+    <activity-date iso-date="2025-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2025-10-01" type="2"/>
+    <activity-date iso-date="2025-10-04" type="3"/>
+    <activity-date iso-date="2025-10-04" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Environmental Protection Agency</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Glen Cuscino and April Bullock; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-564-4700</telephone>
+      <email>cuscino.glen@epa.gov; bullock.april@epa.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>1200 Pennsylvania Ave. NW, Washington, DC 20004</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="D02"/>
+    <default-tied-status code="4"/>
+    <transaction ref="84C03F9088FA">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-10-07"/>
+      <value value-date="2025-10-07">3018</value>
+      <receiver-org type="10" ref="US-GOV-32">
+        <narrative>U.S. Government - Environmental Protection Agency</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="50" vocabulary="99">
+        <narrative>Environment - General</narrative>
+      </sector>
+      <sector code="41010" vocabulary="1">
+        <narrative>Environmental policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="CO"/>
+      <usg:treasury-account code="68x0108">Environmental Protection Agency, Environmental Programs and Management
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1>
+      <narrative>3,018</narrative>
+    </usg:tec1>
   </iati-activity>
 </iati-activities>
