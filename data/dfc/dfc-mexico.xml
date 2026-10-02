@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T11:25:04-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:59-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-10-01T13:17:58-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9000116831</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -68,12 +68,31 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="82E1FC5D85A9">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-10-25"/>
+      <value value-date="2024-10-25">168326</value>
+      <receiver-org>
+        <narrative>Nilus Mexico S.R.L</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="29" vocabulary="99">
+        <narrative>Agriculture</narrative>
+      </sector>
+      <sector code="43071" vocabulary="1">
+        <narrative>Food security policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="MX"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>330,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:59-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9000104701</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -126,6 +145,25 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2020-09-23"/>
       <value value-date="2020-09-23">150052</value>
+      <receiver-org>
+        <narrative>Credito Real SAB de CV SOFOM ENR</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="27" vocabulary="99">
+        <narrative>Financial Sector</narrative>
+      </sector>
+      <sector code="24030" vocabulary="1">
+        <narrative>Formal sector financial intermediaries</narrative>
+      </sector>
+      <recipient-country code="MX"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F2740D8179E5">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-10-08"/>
+      <value value-date="2021-10-08">150052</value>
       <receiver-org>
         <narrative>Credito Real SAB de CV SOFOM ENR</narrative>
       </receiver-org>

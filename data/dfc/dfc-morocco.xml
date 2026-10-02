@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T11:25:04-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:59-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-10-01T13:17:54-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9000116787</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -68,12 +68,31 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="5D15ABE86C22">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-06-13"/>
+      <value value-date="2025-06-13">250000</value>
+      <receiver-org>
+        <narrative>Sharaka Capital</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="27" vocabulary="99">
+        <narrative>Financial Sector</narrative>
+      </sector>
+      <sector code="24030" vocabulary="1">
+        <narrative>Formal sector financial intermediaries</narrative>
+      </sector>
+      <recipient-country code="MA"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>3,250,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:59-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9100000097</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -96,12 +115,13 @@
     <participating-org ref="" role="4" type="10">
       <narrative>Sondiale</narrative>
     </participating-org>
-    <activity-status code="3"/>
+    <activity-status code="2"/>
     <activity-date iso-date="2024-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
     <activity-date iso-date="2024-10-01" type="2"/>
     <activity-date iso-date="2026-09-24" type="3"/>
+    <activity-date iso-date="2026-09-24" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>U.S. International Development Finance Corporation</narrative>
@@ -126,6 +146,25 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2025-09-24"/>
       <value value-date="2025-09-24">4720000</value>
+      <receiver-org>
+        <narrative>Sondiale</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="34" vocabulary="99">
+        <narrative>Mining and Natural Resources</narrative>
+      </sector>
+      <sector code="32170" vocabulary="1">
+        <narrative>Non-ferrous metal industries</narrative>
+      </sector>
+      <recipient-country code="MA"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="1622A5CF790E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-12-01"/>
+      <value value-date="2025-12-01">472000</value>
       <receiver-org>
         <narrative>Sondiale</narrative>
       </receiver-org>

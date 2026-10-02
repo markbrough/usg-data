@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T11:25:09-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:59-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-10-01T13:17:56-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9000116343</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -68,12 +68,31 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="6ADCC5ADBDCD">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-09-12"/>
+      <value value-date="2023-09-12">297877</value>
+      <receiver-org>
+        <narrative>Limanska Vitroelektrostantsiia LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="28" vocabulary="99">
+        <narrative>Infrastructure</narrative>
+      </sector>
+      <sector code="23240" vocabulary="1">
+        <narrative>Wind energy</narrative>
+      </sector>
+      <recipient-country code="UA"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
       <narrative>750,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:59-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9000116090</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -142,9 +161,28 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
+    <transaction ref="A2FB86892C4C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-14"/>
+      <value value-date="2023-12-14">406464</value>
+      <receiver-org>
+        <narrative>Ukrainian Catholic University</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="21" vocabulary="99">
+        <narrative>Higher Education</narrative>
+      </sector>
+      <sector code="11120" vocabulary="1">
+        <narrative>Education facilities and training</narrative>
+      </sector>
+      <recipient-country code="UA"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <conditions attached="0"/>
     <usg:tec1>
-      <narrative>460,000</narrative>
+      <narrative>518,548</narrative>
     </usg:tec1>
   </iati-activity>
 </iati-activities>

@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T11:25:05-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:59-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-10-01T13:17:54-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9000116435</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -28,6 +28,7 @@
     </activity-date>
     <activity-date iso-date="2023-10-01" type="2"/>
     <activity-date iso-date="2026-09-05" type="3"/>
+    <activity-date iso-date="2026-09-05" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>U.S. International Development Finance Corporation</narrative>
@@ -48,6 +49,25 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D02"/>
     <default-tied-status code="5"/>
+    <transaction ref="2B41D0B2CC49">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-07-09"/>
+      <value value-date="2024-07-09">2122500</value>
+      <receiver-org>
+        <narrative>Anzana Electric Group</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="28" vocabulary="99">
+        <narrative>Infrastructure</narrative>
+      </sector>
+      <sector code="23631" vocabulary="1">
+        <narrative>Electric power transmission and distribution (isolated mini-grids)</narrative>
+      </sector>
+      <recipient-country code="BI"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
     <transaction ref="10392F9872A6">
       <transaction-type code="2"/>
       <transaction-date iso-date="2024-09-30"/>

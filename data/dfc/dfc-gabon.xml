@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T11:25:08-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:58-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-10-01T13:17:56-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:46-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9000117007</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -53,6 +53,25 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2025-06-23"/>
       <value value-date="2025-06-23">3000000</value>
+      <receiver-org>
+        <narrative>Millennial Potash</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="34" vocabulary="99">
+        <narrative>Mining and Natural Resources</narrative>
+      </sector>
+      <sector code="32267" vocabulary="1">
+        <narrative>Fertilizer minerals</narrative>
+      </sector>
+      <recipient-country code="GA"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A625D8FB8015">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-07-25"/>
+      <value value-date="2025-07-25">300000</value>
       <receiver-org>
         <narrative>Millennial Potash</narrative>
       </receiver-org>

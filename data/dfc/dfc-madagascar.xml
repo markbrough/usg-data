@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T11:25:09-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:58-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-10-01T13:17:52-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:46-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9000116790</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -20,7 +20,7 @@
       <narrative>U.S. International Development Finance Corporation</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - Non United States Other</narrative>
+      <narrative>Compagnie Generale d'Hydroelectricite de Volobe</narrative>
     </participating-org>
     <activity-status code="3"/>
     <activity-date iso-date="2023-10-01" type="1">
@@ -53,8 +53,27 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2024-09-19"/>
       <value value-date="2024-09-19">1872623</value>
-      <receiver-org type="70" ref="XM-DAC-63000">
-        <narrative>Enterprise - Non United States Other</narrative>
+      <receiver-org>
+        <narrative>Compagnie Generale d'Hydroelectricite de Volobe</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="28" vocabulary="99">
+        <narrative>Infrastructure</narrative>
+      </sector>
+      <sector code="23220" vocabulary="1">
+        <narrative>Hydro-electric power plants</narrative>
+      </sector>
+      <recipient-country code="MG"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A5240D739ADB">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-12-16"/>
+      <value value-date="2024-12-16">681426</value>
+      <receiver-org>
+        <narrative>Compagnie Generale d'Hydroelectricite de Volobe</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="28" vocabulary="99">

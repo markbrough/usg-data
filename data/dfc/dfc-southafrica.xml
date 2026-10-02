@@ -1,5 +1,5 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T11:25:02-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T11:24:59-04:00" xml:lang="en">
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-10-01T13:17:57-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-01T13:17:47-04:00" xml:lang="en">
     <iati-identifier>US-GOV-22-9000115838</iati-identifier>
     <reporting-org ref="US-GOV-22" type="10">
       <narrative>U.S. International Development Finance Corporation</narrative>
@@ -52,6 +52,25 @@
       <transaction-type code="2"/>
       <transaction-date iso-date="2022-09-27"/>
       <value value-date="2022-09-27">200000</value>
+      <receiver-org>
+        <narrative>Loowatt</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="25" vocabulary="99">
+        <narrative>Macroeconomic Foundation for Growth</narrative>
+      </sector>
+      <sector code="15142" vocabulary="1">
+        <narrative>Macroeconomic policy</narrative>
+      </sector>
+      <recipient-country code="ZA"/>
+      <usg:treasury-account code="77x0110">United States International Development Finance Corporation, Program Account
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="BB53F19DD0A7">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-19"/>
+      <value value-date="2024-06-19">57202</value>
       <receiver-org>
         <narrative>Loowatt</narrative>
       </receiver-org>
