@@ -1,6 +1,6 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T22:27:51-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:07:58-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SLH50020GR0028-274723</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-10-02T12:05:46-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:42:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SLH50016GR0038-275695</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -20,15 +20,110 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - Non United States Other</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2015-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2015-10-01" type="2"/>
+    <activity-date iso-date="2016-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2016-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="5"/>
+    <transaction ref="E0EA5C8C5927">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2016-09-27"/>
+      <value value-date="2016-09-27">55000</value>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="LT"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F63844607B34">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2019-09-04"/>
+      <value value-date="2019-09-04">500</value>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="LT"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:43:32-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SLH50016GR0038-290660</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">[Grants, Subsidies, and Contributions]</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">[Grants, Subsidies, and Contributions]</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
       <narrative>Enterprise - United States Redacted</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
+    <activity-date iso-date="2015-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-09-29" type="3"/>
-    <activity-date iso-date="2020-09-29" type="4"/>
+    <activity-date iso-date="2015-10-01" type="2"/>
+    <activity-date iso-date="2016-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2016-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -49,10 +144,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="EDF6A9521708">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-09-29"/>
-      <value value-date="2020-09-29">150000</value>
+    <transaction ref="4C6738E8FE15">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2016-09-30"/>
+      <value value-date="2016-09-30">44000</value>
       <receiver-org type="70" ref="XM-DAC-61000">
         <narrative>Enterprise - United States Redacted</narrative>
       </receiver-org>
@@ -64,15 +159,15 @@
         <narrative>Multisector aid</narrative>
       </sector>
       <recipient-country code="LT"/>
-      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:08:11-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SLH50020GR0028-301717</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:43:35-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SLH50020GR0028-302696</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -121,7 +216,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="FF9A75D8C404">
+    <transaction ref="CC7CFCEA4461">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-10-21"/>
       <value value-date="2020-10-21">120000</value>
@@ -140,7 +235,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D78A04EE2F24">
+    <transaction ref="52805C23D80E">
       <transaction-type code="2"/>
       <transaction-date iso-date="2022-03-01"/>
       <value value-date="2022-03-01">-34522</value>
@@ -164,8 +259,80 @@
       <narrative>150,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:08:13-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SLH50020GR0025-301590</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:43:42-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SLH50020GR0025-275697</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Information Redacted. Information has been redacted in accordance with the two principled exceptions defined in the Foreign Aid Transparency and Accountability Act (FATAA) of 2016: the health and secu</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - United States Redacted</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-09-29" type="3"/>
+    <activity-date iso-date="2020-09-29" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="5E962C6D3658">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-09-29"/>
+      <value value-date="2020-09-29">25000</value>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="LT"/>
+      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:44:20-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SLH50020GR0025-302569</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -214,7 +381,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="E1C776809AA5">
+    <transaction ref="B3A8BE650B77">
       <transaction-type code="3"/>
       <transaction-date iso-date="2020-10-21"/>
       <value value-date="2020-10-21">20000</value>
@@ -233,7 +400,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E2A38D855C5D">
+    <transaction ref="9F8C71C60A9D">
       <transaction-type code="2"/>
       <transaction-date iso-date="2022-06-03"/>
       <value value-date="2022-06-03">-2170</value>
@@ -252,7 +419,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="FC4CDA00E04E">
+    <transaction ref="BC5068806F18">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-07-12"/>
       <value value-date="2022-07-12">2830</value>
@@ -276,8 +443,8 @@
       <narrative>25,000</narrative>
     </usg:tec1>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:10:02-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-42555G0066-273358</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:44:21-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SLH50020GR0028-275698</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -286,80 +453,6 @@
     </title>
     <description type="1">
       <narrative xml:lang="en">Information Redacted. Information has been redacted in accordance with the two principled exceptions defined in the Foreign Aid Transparency and Accountability Act (FATAA) of 2016: the health and secu</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - Non United States Other</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2014-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2014-10-01" type="2"/>
-    <activity-date iso-date="2015-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2015-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="C76AFC61BA97">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2015-07-20"/>
-      <value value-date="2015-07-20">23690</value>
-      <receiver-org type="70" ref="XM-DAC-63000">
-        <narrative>Enterprise - Non United States Other</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="10" vocabulary="99">
-        <narrative>Civil Society</narrative>
-      </sector>
-      <sector code="15150" vocabulary="1">
-        <narrative>Democratic participation and civil society</narrative>
-      </sector>
-      <recipient-country code="LT"/>
-      <usg:treasury-account code="19x1121">Department of State, Democracy Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:01-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SLH50016GR0038-289685</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">[Grants, Subsidies, and Contributions]</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">[Grants, Subsidies, and Contributions]</narrative>
     </description>
     <participating-org ref="1" role="1" type="10">
       <narrative>U.S. Agency for International Development</narrative>
@@ -374,14 +467,12 @@
       <narrative>Enterprise - United States Redacted</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2015-10-01" type="1">
+    <activity-date iso-date="2019-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2015-10-01" type="2"/>
-    <activity-date iso-date="2016-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2016-09-30" type="4"/>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-09-29" type="3"/>
+    <activity-date iso-date="2020-09-29" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -402,10 +493,10 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="9BFD36A29E58">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2016-09-30"/>
-      <value value-date="2016-09-30">44000</value>
+    <transaction ref="A3E17DABD77B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2020-09-29"/>
+      <value value-date="2020-09-29">150000</value>
       <receiver-org type="70" ref="XM-DAC-61000">
         <narrative>Enterprise - United States Redacted</narrative>
       </receiver-org>
@@ -417,108 +508,15 @@
         <narrative>Multisector aid</narrative>
       </sector>
       <recipient-country code="LT"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
+      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:22-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SLH50016GR0038-274720</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Information Redacted. Information has been redacted in accordance with the two principled exceptions defined in the Foreign Aid Transparency and Accountability Act (FATAA) of 2016: the health and secu</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - Non United States Other</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2015-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2015-10-01" type="2"/>
-    <activity-date iso-date="2016-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2016-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="5"/>
-    <transaction ref="574A9DA5835A">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2016-09-27"/>
-      <value value-date="2016-09-27">55000</value>
-      <receiver-org type="70" ref="XM-DAC-63000">
-        <narrative>Enterprise - Non United States Other</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="LT"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BDF32615D8CC">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2019-09-04"/>
-      <value value-date="2019-09-04">500</value>
-      <receiver-org type="70" ref="XM-DAC-63000">
-        <narrative>Enterprise - Non United States Other</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="LT"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:42-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-42555G0066-288129</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:45:54-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-42555G0066-289104</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -569,7 +567,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="5"/>
-    <transaction ref="2F1BCF769C26">
+    <transaction ref="9A8A836FEE91">
       <transaction-type code="3"/>
       <transaction-date iso-date="2015-07-21"/>
       <value value-date="2015-07-21">18952</value>
@@ -588,7 +586,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="6251E5770C16">
+    <transaction ref="71CC2B7C4524">
       <transaction-type code="3"/>
       <transaction-date iso-date="2017-03-14"/>
       <value value-date="2017-03-14">4738</value>
@@ -610,7 +608,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:58-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:46:09-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-R255-1</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -684,8 +682,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:12:49-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SLH50020GR0025-274722</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:46:09-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-42555G0066-274333</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -695,8 +693,8 @@
     <description type="1">
       <narrative xml:lang="en">Information Redacted. Information has been redacted in accordance with the two principled exceptions defined in the Foreign Aid Transparency and Accountability Act (FATAA) of 2016: the health and secu</narrative>
     </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="US-GOV-11" role="2" type="10">
       <narrative>Department of State</narrative>
@@ -705,89 +703,17 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
+      <narrative>Enterprise - Non United States Other</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
+    <activity-date iso-date="2014-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-09-29" type="3"/>
-    <activity-date iso-date="2020-09-29" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="7056F85BD170">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2020-09-29"/>
-      <value value-date="2020-09-29">25000</value>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="LT"/>
-      <usg:treasury-account code="72x0306">Assistance for Europe, Eurasia and Central Asia (AEECA)
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:12:56-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SLH50016GR0038-274721</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Information Redacted. Information has been redacted in accordance with the two principled exceptions defined in the Foreign Aid Transparency and Accountability Act (FATAA) of 2016: the health and secu</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2018-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2018-10-01" type="2"/>
-    <activity-date iso-date="2019-09-30" type="3">
+    <activity-date iso-date="2014-10-01" type="2"/>
+    <activity-date iso-date="2015-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2019-09-30" type="4"/>
+    <activity-date iso-date="2015-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -807,31 +733,31 @@
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="FED92B793A9F">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2019-09-11"/>
-      <value value-date="2019-09-11">11500</value>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
+    <default-tied-status code="5"/>
+    <transaction ref="604A94AC4B05">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2015-07-20"/>
+      <value value-date="2015-07-20">23690</value>
+      <receiver-org type="70" ref="XM-DAC-63000">
+        <narrative>Enterprise - Non United States Other</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
+      <sector code="10" vocabulary="99">
+        <narrative>Civil Society</narrative>
       </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
+      <sector code="15150" vocabulary="1">
+        <narrative>Democratic participation and civil society</narrative>
       </sector>
       <recipient-country code="LT"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
+      <usg:treasury-account code="19x1121">Department of State, Democracy Fund
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:14:01-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-291413</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:46:40-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-292388</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -882,7 +808,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="D01"/>
     <default-tied-status code="4"/>
-    <transaction ref="9E89B5F6A842">
+    <transaction ref="6A0FB4757B6A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">21500</value>
@@ -901,7 +827,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="9E89B5F6A842">
+    <transaction ref="6A0FB4757B6A">
       <transaction-type code="2"/>
       <transaction-date iso-date="2013-01-01"/>
       <value value-date="2013-01-01">21500</value>
@@ -923,7 +849,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:14:05-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:47:49-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-R255</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -1010,6 +936,80 @@
       </sector>
       <recipient-country code="LT"/>
       <usg:treasury-account code="19x1143">Department of State, Migration and Refugee Assistance
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:48:33-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SLH50016GR0038-275696</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Information Redacted. Information has been redacted in accordance with the two principled exceptions defined in the Foreign Aid Transparency and Accountability Act (FATAA) of 2016: the health and secu</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - United States Redacted</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2018-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2018-10-01" type="2"/>
+    <activity-date iso-date="2019-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="C6F8BE15CB12">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2019-09-11"/>
+      <value value-date="2019-09-11">11500</value>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="LT"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>

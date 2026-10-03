@@ -1,14 +1,14 @@
-<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-09-04T22:28:06-04:00" version="2.03">
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:07:27-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SINLEC21CA3473-93511</iati-identifier>
+<iati-activities xmlns:usg="https://foreignassistance.gov" generated-datetime="2026-10-02T12:00:10-04:00" version="2.03">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:43:06-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-87798</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Western Hemisphere Regional Anticorruption Grant</narrative>
+      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">To enhance regional knowledge regarding corruption and INL capacity to address corruption through country corruption scorecards.</narrative>
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -20,15 +20,17 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
+      <narrative>MEC Energy Services LLC</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2024-10-01" type="1">
+    <activity-date iso-date="2023-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2024-10-01" type="2"/>
-    <activity-date iso-date="2024-10-22" type="3"/>
-    <activity-date iso-date="2024-10-22" type="4"/>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -43,25 +45,44 @@
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
       </mailing-address>
     </contact-info>
-    <activity-scope code="5"/>
+    <activity-scope code="2"/>
     <collaboration-type code="1"/>
     <default-flow-type code="10"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
+    <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="F6DE5BBE4FAF">
+    <transaction ref="FC142034E95D">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2024-10-22"/>
-      <value value-date="2024-10-22">-80055</value>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">357500</value>
+      <receiver-org>
+        <narrative>MEC Energy Services LLC</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="8" vocabulary="99">
-        <narrative>Good Governance</narrative>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
       </sector>
-      <sector code="15113" vocabulary="1">
-        <narrative>Anti-corruption organisations and institutions</narrative>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="F97AC47ECA46">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-03-31"/>
+      <value value-date="2025-03-31">14429</value>
+      <receiver-org>
+        <narrative>MEC Energy Services LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
       </sector>
       <recipient-country code="389"/>
       <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
@@ -71,8 +92,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:07:57-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-97331</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:43:10-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-98247</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -123,7 +144,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="A7370033D7A9">
+    <transaction ref="8CC69816F259">
       <transaction-type code="2"/>
       <transaction-date iso-date="2023-09-30"/>
       <value value-date="2023-09-30">250000</value>
@@ -142,7 +163,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="05D4056006D6">
+    <transaction ref="BF8AA3BBB222">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-06-30"/>
       <value value-date="2024-06-30">48245</value>
@@ -161,7 +182,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="8E7D742EDC85">
+    <transaction ref="696E20F6D4AA">
       <transaction-type code="3"/>
       <transaction-date iso-date="2024-09-30"/>
       <value value-date="2024-09-30">201755</value>
@@ -183,16 +204,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:08:01-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAQMIP23CA0033-98588</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:43:19-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SINLEC21CA3473-94427</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Proof of concept Biosecurity Science</narrative>
+      <narrative xml:lang="en">Western Hemisphere Regional Anticorruption Grant</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Provide States Parties to the BWC with consensus recommendations to strengthen their ability to leverage advisory and analysis capabilities for evaluating the benefits and risks of scientific advances and biotechnology developments.</narrative>
+      <narrative xml:lang="en">To enhance regional knowledge regarding corruption and INL capacity to address corruption through country corruption scorecards.</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -204,15 +225,15 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>National Academy of Sciences</narrative>
+      <narrative>Enterprise - United States Redacted</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
+    <activity-date iso-date="2024-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2025-05-07" type="3"/>
-    <activity-date iso-date="2025-05-07" type="4"/>
+    <activity-date iso-date="2024-10-01" type="2"/>
+    <activity-date iso-date="2024-10-22" type="3"/>
+    <activity-date iso-date="2024-10-22" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -229,80 +250,42 @@
     </contact-info>
     <activity-scope code="5"/>
     <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
+    <default-flow-type code="10"/>
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="4F28C333AD00">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-08-06"/>
-      <value value-date="2024-08-06">38459</value>
-      <receiver-org>
-        <narrative>National Academy of Sciences</narrative>
+    <transaction ref="B06E00A8A1BF">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-10-22"/>
+      <value value-date="2024-10-22">-80055</value>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      <sector code="8" vocabulary="99">
+        <narrative>Good Governance</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="4C2491FA7A7A">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-11-27"/>
-      <value value-date="2024-11-27">131221</value>
-      <receiver-org>
-        <narrative>National Academy of Sciences</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="15113" vocabulary="1">
+        <narrative>Anti-corruption organisations and institutions</narrative>
       </sector>
       <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="59F74018977E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-05-07"/>
-      <value value-date="2025-05-07">3959</value>
-      <receiver-org>
-        <narrative>National Academy of Sciences</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
-      </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:08:28-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-303279</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:43:25-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-304210</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
+      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -314,17 +297,17 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>CDW Government, Inc.</narrative>
+      <narrative>Tuva, LLC</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
+    <activity-date iso-date="2022-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-09-30" type="3">
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-09-30" type="3">
       <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2022-09-30" type="4"/>
+    <activity-date iso-date="2023-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -345,12 +328,12 @@
     <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="22C53ACCE933">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">47078</value>
+    <transaction ref="B06D5D43D356">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">48400</value>
       <receiver-org>
-        <narrative>CDW Government, Inc.</narrative>
+        <narrative>Tuva, LLC</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -360,16 +343,16 @@
         <narrative>Operating Expenses</narrative>
       </sector>
       <recipient-country code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="22C53ACCE933">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">47078</value>
+    <transaction ref="DD9C244EDDD9">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-12-31"/>
+      <value value-date="2023-12-31">37547</value>
       <receiver-org>
-        <narrative>CDW Government, Inc.</narrative>
+        <narrative>Tuva, LLC</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -379,15 +362,34 @@
         <narrative>Operating Expenses</narrative>
       </sector>
       <recipient-country code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="EF816BDD30CC">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">10853</value>
+      <receiver-org>
+        <narrative>Tuva, LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:09:04-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SINLEC21CA3473-93510</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:43:25-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SINLEC21CA3473-94426</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -436,7 +438,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="51813211F5A4">
+    <transaction ref="E08219928E28">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-05-02"/>
       <value value-date="2022-05-02">27314</value>
@@ -455,7 +457,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="9BC0D0D089A2">
+    <transaction ref="B75E64C908D7">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-05-09"/>
       <value value-date="2022-05-09">21571</value>
@@ -474,7 +476,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="E86F82923946">
+    <transaction ref="A0A4F4AEE31A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-06-09"/>
       <value value-date="2022-06-09">12080</value>
@@ -493,7 +495,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="2D072FC86A2D">
+    <transaction ref="303391C0F000">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-07-11"/>
       <value value-date="2022-07-11">17376</value>
@@ -512,7 +514,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="9D79D53E62AF">
+    <transaction ref="8E639E87121C">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-08-11"/>
       <value value-date="2022-08-11">8318</value>
@@ -531,7 +533,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="F54DE4DA4557">
+    <transaction ref="134BCD7A1F9E">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-09-12"/>
       <value value-date="2022-09-12">8318</value>
@@ -550,7 +552,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="D71456F85A17">
+    <transaction ref="82DA0ED51A68">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-09-19"/>
       <value value-date="2022-09-19">16623</value>
@@ -569,7 +571,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="20B6E796975B">
+    <transaction ref="8660D8B19C4A">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-10-13"/>
       <value value-date="2022-10-13">6441</value>
@@ -588,7 +590,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="C84BB6FA7A46">
+    <transaction ref="94659768A647">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-12-08"/>
       <value value-date="2022-12-08">15902</value>
@@ -607,7 +609,7 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="75AF1DF76D5C">
+    <transaction ref="703D3E033742">
       <transaction-type code="3"/>
       <transaction-date iso-date="2022-12-09"/>
       <value value-date="2022-12-09">974</value>
@@ -629,8 +631,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:09:06-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-303234</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:43:32-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-304206</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -640,8 +642,8 @@
     <description type="1">
       <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
     </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
     </participating-org>
     <participating-org ref="US-GOV-11" role="2" type="10">
       <narrative>Department of State</narrative>
@@ -650,7 +652,7 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Bright Star Solutions, LLC</narrative>
+      <narrative>Deloitte</narrative>
     </participating-org>
     <activity-status code="3"/>
     <activity-date iso-date="2022-10-01" type="1">
@@ -681,12 +683,50 @@
     <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="AAB317A9D4E7">
+    <transaction ref="5E137808921F">
       <transaction-type code="2"/>
       <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">50000</value>
-      <receiver-org>
-        <narrative>Bright Star Solutions, LLC</narrative>
+      <value value-date="2023-09-30">128500</value>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="D9FE5CB6ABDA">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">128500</value>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9C631B3483AF">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">28870</value>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -700,12 +740,12 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="0F4C1092CADF">
+    <transaction ref="3395C21AFAA0">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">30698</value>
-      <receiver-org>
-        <narrative>Bright Star Solutions, LLC</narrative>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">28870</value>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -719,12 +759,12 @@
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
-    <transaction ref="7946385BBE78">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">19302</value>
-      <receiver-org>
-        <narrative>Bright Star Solutions, LLC</narrative>
+    <transaction ref="678F578CED84">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">62500</value>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -734,14 +774,71 @@
         <narrative>Operating Expenses</narrative>
       </sector>
       <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+      <usg:treasury-account code="72x1021">Agency for International Development, Development Assistance
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="78130578E05E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">62500</value>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="72x1021">Agency for International Development, Development Assistance
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AA90F5B31B40">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">62500</value>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A6AA435BF953">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">62500</value>
+      <receiver-org type="70" ref="IN-MCA-AAE-8458">
+        <narrative>Deloitte</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
         <usg:fiscal-funding-year begin="2025" end="2026"/>
       </usg:treasury-account>
     </transaction>
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:09:17-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:44:08-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SINLEC23LA0167</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -832,16 +929,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:09:33-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-303244</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:45:02-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAQMMA17F1780-99575</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">DOS Communications, Utilities, and Rental Payments</narrative>
+      <narrative xml:lang="en">Technical Support for Arms Control TSACIS</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Communications, Utilities, and Rental Payments.</narrative>
+      <narrative xml:lang="en">Information Redacted</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -853,17 +950,12 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>StratComm, Inc.</narrative>
+      <narrative>Tsymmetry, Inc.</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2021-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-10-01" type="2"/>
-    <activity-date iso-date="2022-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-09-30" type="4"/>
+    <activity-date iso-date="2017-06-07" type="1"/>
+    <activity-date iso-date="2017-06-07" type="2"/>
+    <activity-date iso-date="2028-06-06" type="3"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -878,156 +970,25 @@
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
       </mailing-address>
     </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="98FF9E3597D3">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2022-03-31"/>
-      <value value-date="2022-03-31">35097</value>
-      <receiver-org>
-        <narrative>StratComm, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="DCD11B518C1D">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-06-30"/>
-      <value value-date="2022-06-30">31587</value>
-      <receiver-org>
-        <narrative>StratComm, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="C7526E0345D2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-09-30"/>
-      <value value-date="2022-09-30">3510</value>
-      <receiver-org>
-        <narrative>StratComm, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:09:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-97317</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Partnership for Public Service</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2024-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
+    <activity-scope code="5"/>
     <collaboration-type code="1"/>
     <default-flow-type code="50"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
+    <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="C14B505C185D">
+    <transaction ref="A661F7F4F8B3">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">4500</value>
+      <transaction-date iso-date="2023-07-19"/>
+      <value value-date="2023-07-19">1076983</value>
       <receiver-org>
-        <narrative>Partnership for Public Service</narrative>
+        <narrative>Tsymmetry, Inc.</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
       </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="6363BBB6D589">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-06-30"/>
-      <value value-date="2024-06-30">4500</value>
-      <receiver-org>
-        <narrative>Partnership for Public Service</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
       </sector>
       <recipient-country code="389"/>
       <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
@@ -1037,8 +998,82 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:10:19-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-97195</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:45:34-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-10116GB001-266693</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Community Internship Program For Youth</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">This amendment is for the following purposes: 1) add funds; 2) extend the period of performance, see section 6; 3) revise Scope of Work; 4)increase</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - United States Redacted</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="20F8BD43BB8E">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-02-10"/>
+      <value value-date="2020-02-10">73020</value>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:45:36-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-98111</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -1089,7 +1124,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="812457309814">
+    <transaction ref="08683A6F9C5E">
       <transaction-type code="2"/>
       <transaction-date iso-date="2024-06-30"/>
       <value value-date="2024-06-30">13345</value>
@@ -1111,193 +1146,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:10:47-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-303253</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Equipment, Lands, and Structures</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Equipment, Lands, and Structures.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Iron Bow Technologies,LLC</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2021-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="7598571FEF68">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">171387</value>
-      <receiver-org>
-        <narrative>Iron Bow Technologies,LLC</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="BEAE1EC68E98">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-06-30"/>
-      <value value-date="2023-06-30">171387</value>
-      <receiver-org>
-        <narrative>Iron Bow Technologies,LLC</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:10:51-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-97224</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Equipment, Lands, and Structures</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Equipment, Lands, and Structures.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Mercom, Inc.</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2020-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-10-01" type="2"/>
-    <activity-date iso-date="2021-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2021-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="08F03A014714">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2021-06-30"/>
-      <value value-date="2021-06-30">1742</value>
-      <receiver-org>
-        <narrative>Mercom, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="07EA90E0D435">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2021-09-30"/>
-      <value value-date="2021-09-30">1742</value>
-      <receiver-org>
-        <narrative>Mercom, Inc.</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:28-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:45:45-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SPMWRA21GR3005</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -1388,19 +1237,19 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:11:55-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-303227</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:45:58-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-304258</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
+      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
     </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="US-GOV-11" role="2" type="10">
       <narrative>Department of State</narrative>
@@ -1409,7 +1258,284 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Deloitte</narrative>
+      <narrative>CDW Government, Inc.</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="346D804DAD51">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">47078</value>
+      <receiver-org>
+        <narrative>CDW Government, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="346D804DAD51">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">47078</value>
+      <receiver-org>
+        <narrative>CDW Government, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:46:08-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-304223</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Communications, Utilities, and Rental Payments</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Communications, Utilities, and Rental Payments.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>StratComm, Inc.</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2021-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-10-01" type="2"/>
+    <activity-date iso-date="2022-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="6637CBD58C4B">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2022-03-31"/>
+      <value value-date="2022-03-31">35097</value>
+      <receiver-org>
+        <narrative>StratComm, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="22CEB12DF0B0">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-06-30"/>
+      <value value-date="2022-06-30">31587</value>
+      <receiver-org>
+        <narrative>StratComm, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="9EEA62039F03">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2022-09-30"/>
+      <value value-date="2022-09-30">3510</value>
+      <receiver-org>
+        <narrative>StratComm, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:46:10-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAQMIP23CA0033-99503</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Proof of concept Biosecurity Science</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Provide States Parties to the BWC with consensus recommendations to strengthen their ability to leverage advisory and analysis capabilities for evaluating the benefits and risks of scientific advances and biotechnology developments.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - United States Redacted</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2025-05-07" type="3"/>
+    <activity-date iso-date="2025-05-07" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="F1B2BED14832">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-07-24"/>
+      <value value-date="2023-07-24">175000</value>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:46:12-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-307675</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Guidehouse LLP</narrative>
     </participating-org>
     <activity-status code="3"/>
     <activity-date iso-date="2022-10-01" type="1">
@@ -1436,354 +1562,16 @@
     </contact-info>
     <activity-scope code="2"/>
     <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
+    <default-flow-type code="50"/>
     <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="1FF37BC4ED10">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">128500</value>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="0DDFD274BA47">
+    <transaction ref="537007527A4E">
       <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">128500</value>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="A6A96B9A5096">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">28870</value>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="84A32BF9B900">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">28870</value>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="2DA8F29BC361">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">62500</value>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="72x1021">Agency for International Development, Development Assistance
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="8B5E562B4C59">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">62500</value>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="72x1021">Agency for International Development, Development Assistance
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F45D6A009372">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">62500</value>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="60E32CC60D4E">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">62500</value>
-      <receiver-org type="70" ref="IN-MCA-AAE-8458">
-        <narrative>Deloitte</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:12:00-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-86882</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>MEC Energy Services LLC</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2023-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-10-01" type="2"/>
-    <activity-date iso-date="2024-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2024-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="EE838E04B7B7">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">357500</value>
+      <transaction-date iso-date="2022-12-31"/>
+      <value value-date="2022-12-31">178599</value>
       <receiver-org>
-        <narrative>MEC Energy Services LLC</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="F64F5B6354FA">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2025-03-31"/>
-      <value value-date="2025-03-31">14429</value>
-      <receiver-org>
-        <narrative>MEC Energy Services LLC</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1022">International Narcotics Control and Law Enforcement
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:12:05-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-303231</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Tuva, LLC</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2023-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="F3E4C90E49B2">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-09-30"/>
-      <value value-date="2023-09-30">48400</value>
-      <receiver-org>
-        <narrative>Tuva, LLC</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="24CBD33D5D9C">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2023-12-31"/>
-      <value value-date="2023-12-31">37547</value>
-      <receiver-org>
-        <narrative>Tuva, LLC</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <transaction ref="785ED283BAB8">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2024-03-31"/>
-      <value value-date="2024-03-31">10853</value>
-      <receiver-org>
-        <narrative>Tuva, LLC</narrative>
+        <narrative>Guidehouse LLP</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="41" vocabulary="99">
@@ -1800,7 +1588,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:12:34-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:46:38-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-1001165055</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -1929,7 +1717,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:12:59-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:46:57-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-SINLEC21CA3480</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -2058,81 +1846,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:13:08-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-306696</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
-    </description>
-    <participating-org ref="2" role="1" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Guidehouse LLP</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
-    <activity-date iso-date="2023-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2023-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="2"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="50"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="G01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="3332F0FF3219">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2022-12-31"/>
-      <value value-date="2022-12-31">178599</value>
-      <receiver-org>
-        <narrative>Guidehouse LLP</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="41" vocabulary="99">
-        <narrative>Direct Administrative Costs</narrative>
-      </sector>
-      <sector code="91010" vocabulary="1">
-        <narrative>Operating Expenses</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:13:24-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:47:16-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-207112AWR19</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -2242,8 +1956,355 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:14:10-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-N/A ADMIN-97149</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:47:29-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-10117GB002-273926</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">Information Redacted</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">I concur with the Grants Officer's request to amend this award and certify. -AS approve</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Enterprise - United States Redacted</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2019-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2019-10-01" type="2"/>
+    <activity-date iso-date="2020-08-05" type="3"/>
+    <activity-date iso-date="2020-08-05" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="90F58BF5D9E4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2020-08-05"/>
+      <value value-date="2020-08-05">29267</value>
+      <receiver-org type="70" ref="XM-DAC-61000">
+        <narrative>Enterprise - United States Redacted</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="52" vocabulary="99">
+        <narrative>Multi-sector - Unspecified</narrative>
+      </sector>
+      <sector code="43010" vocabulary="1">
+        <narrative>Multisector aid</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:47:34-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-304213</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Advisory and Assistance Services</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Advisory and Assistance Services.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Bright Star Solutions, LLC</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2022-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="255F679551AB">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2023-09-30"/>
+      <value value-date="2023-09-30">50000</value>
+      <receiver-org>
+        <narrative>Bright Star Solutions, LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="DDF2E8D93CFB">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">30698</value>
+      <receiver-org>
+        <narrative>Bright Star Solutions, LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A2812C312581">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">19302</value>
+      <receiver-org>
+        <narrative>Bright Star Solutions, LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:47:45-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-98140</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Equipment, Lands, and Structures</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Equipment, Lands, and Structures.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Mercom, Inc.</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2021-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="50"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="74A93EE817E9">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-06-30"/>
+      <value value-date="2021-06-30">1742</value>
+      <receiver-org>
+        <narrative>Mercom, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="277E30788399">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">1742</value>
+      <receiver-org>
+        <narrative>Mercom, Inc.</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:47:50-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-100120Q0008-304185</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">76B SCCI DOD</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">76B SCCI DOD</narrative>
+    </description>
+    <participating-org ref="1" role="1" type="10">
+      <narrative>U.S. Agency for International Development</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>U.S. Government - Department of Defense</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2017-10-01" type="1"/>
+    <activity-date iso-date="2017-10-01" type="2"/>
+    <activity-date iso-date="2025-09-30" type="3"/>
+    <activity-date iso-date="2025-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="5"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="C01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="50738D9A78F4">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2024-09-30"/>
+      <value value-date="2024-09-30">400000</value>
+      <receiver-org type="10" ref="US-GOV-7">
+        <narrative>U.S. Government - Department of Defense</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="49" vocabulary="99">
+        <narrative>Economic Development - General</narrative>
+      </sector>
+      <sector code="21010" vocabulary="1">
+        <narrative>Transport policy and administrative management</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="72x1037">Economic Support Fund
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:48:32-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-98065</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -2294,7 +2355,7 @@
     <default-finance-type code="110"/>
     <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="BC384294A285">
+    <transaction ref="F4C40811E208">
       <transaction-type code="2"/>
       <transaction-date iso-date="2025-09-30"/>
       <value value-date="2025-09-30">147053</value>
@@ -2316,149 +2377,7 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:14:12-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-100120Q0008-303206</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">76B SCCI DOD</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">76B SCCI DOD</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>U.S. Government - Department of Defense</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2017-10-01" type="1"/>
-    <activity-date iso-date="2017-10-01" type="2"/>
-    <activity-date iso-date="2025-09-30" type="3"/>
-    <activity-date iso-date="2025-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="5A66123D9B8F">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2024-09-30"/>
-      <value value-date="2024-09-30">400000</value>
-      <receiver-org type="10" ref="US-GOV-7">
-        <narrative>U.S. Government - Department of Defense</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="49" vocabulary="99">
-        <narrative>Economic Development - General</narrative>
-      </sector>
-      <sector code="21010" vocabulary="1">
-        <narrative>Transport policy and administrative management</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:14:26-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-10117GB002-272951</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Information Redacted</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">I concur with the Grants Officer's request to amend this award and certify. -AS approve</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-08-05" type="3"/>
-    <activity-date iso-date="2020-08-05" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="FE0BFAEE80A2">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-08-05"/>
-      <value value-date="2020-08-05">29267</value>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:15:00-04:00" xml:lang="en">
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:48:34-04:00" xml:lang="en">
     <iati-identifier>US-GOV-11-207112AWR22</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
@@ -2530,8 +2449,8 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:15:06-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAQMIP23CA0033-98587</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:48:36-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-SAQMIP23CA0033-99504</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
@@ -2551,13 +2470,13 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
+      <narrative>National Academy of Sciences</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2022-10-01" type="1">
+    <activity-date iso-date="2023-10-01" type="1">
       <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
     </activity-date>
-    <activity-date iso-date="2022-10-01" type="2"/>
+    <activity-date iso-date="2023-10-01" type="2"/>
     <activity-date iso-date="2025-05-07" type="3"/>
     <activity-date iso-date="2025-05-07" type="4"/>
     <contact-info type="1">
@@ -2580,12 +2499,50 @@
     <default-finance-type code="110"/>
     <default-aid-type code="C01"/>
     <default-tied-status code="4"/>
-    <transaction ref="E90CC5FBB785">
-      <transaction-type code="2"/>
-      <transaction-date iso-date="2023-07-24"/>
-      <value value-date="2023-07-24">175000</value>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
+    <transaction ref="D46FACD9652C">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-08-06"/>
+      <value value-date="2024-08-06">38459</value>
+      <receiver-org>
+        <narrative>National Academy of Sciences</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="A885E2D627A4">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-11-27"/>
+      <value value-date="2024-11-27">131221</value>
+      <receiver-org>
+        <narrative>National Academy of Sciences</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="2" vocabulary="99">
+        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      </sector>
+      <sector code="15210" vocabulary="1">
+        <narrative>Security system management and reform</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="AEB21C2390A2">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2025-05-07"/>
+      <value value-date="2025-05-07">3959</value>
+      <receiver-org>
+        <narrative>National Academy of Sciences</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
       <sector code="2" vocabulary="99">
@@ -2602,90 +2559,16 @@
     <conditions attached="0"/>
     <usg:tec1/>
   </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:15:06-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-10116GB001-265718</iati-identifier>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:48:36-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-304232</iati-identifier>
     <reporting-org ref="US-GOV-11" type="10">
       <narrative>Department of State</narrative>
     </reporting-org>
     <title>
-      <narrative xml:lang="en">Community Internship Program For Youth</narrative>
+      <narrative xml:lang="en">DOS Equipment, Lands, and Structures</narrative>
     </title>
     <description type="1">
-      <narrative xml:lang="en">This amendment is for the following purposes: 1) add funds; 2) extend the period of performance, see section 6; 3) revise Scope of Work; 4)increase</narrative>
-    </description>
-    <participating-org ref="1" role="1" type="10">
-      <narrative>U.S. Agency for International Development</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="2" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="US-GOV-11" role="3" type="10">
-      <narrative>Department of State</narrative>
-    </participating-org>
-    <participating-org ref="" role="4" type="10">
-      <narrative>Enterprise - United States Redacted</narrative>
-    </participating-org>
-    <activity-status code="3"/>
-    <activity-date iso-date="2019-10-01" type="1">
-      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2019-10-01" type="2"/>
-    <activity-date iso-date="2020-09-30" type="3">
-      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
-    </activity-date>
-    <activity-date iso-date="2020-09-30" type="4"/>
-    <contact-info type="1">
-      <organisation>
-        <narrative>Department of State</narrative>
-      </organisation>
-      <person-name>
-        <narrative>Robin Myers; Ryan Boles</narrative>
-      </person-name>
-      <telephone>202-647-4000</telephone>
-      <email>myersrl@state.gov; bolesrj@state.gov</email>
-      <website></website>
-      <mailing-address>
-        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
-      </mailing-address>
-    </contact-info>
-    <activity-scope code="5"/>
-    <collaboration-type code="1"/>
-    <default-flow-type code="10"/>
-    <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
-    <default-tied-status code="4"/>
-    <transaction ref="A2E4613F8698">
-      <transaction-type code="3"/>
-      <transaction-date iso-date="2020-02-10"/>
-      <value value-date="2020-02-10">73020</value>
-      <receiver-org type="70" ref="XM-DAC-61000">
-        <narrative>Enterprise - United States Redacted</narrative>
-      </receiver-org>
-      <disbursement-channel code="2"/>
-      <sector code="52" vocabulary="99">
-        <narrative>Multi-sector - Unspecified</narrative>
-      </sector>
-      <sector code="43010" vocabulary="1">
-        <narrative>Multisector aid</narrative>
-      </sector>
-      <recipient-country code="389"/>
-      <usg:treasury-account code="72x1037">Economic Support Fund
-        <usg:fiscal-funding-year begin="2025" end="2026"/>
-      </usg:treasury-account>
-    </transaction>
-    <conditions attached="0"/>
-    <usg:tec1/>
-  </iati-activity>
-  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-09-04T19:15:24-04:00" xml:lang="en">
-    <iati-identifier>US-GOV-11-SAQMMA17F1780-98659</iati-identifier>
-    <reporting-org ref="US-GOV-11" type="10">
-      <narrative>Department of State</narrative>
-    </reporting-org>
-    <title>
-      <narrative xml:lang="en">Technical Support for Arms Control TSACIS</narrative>
-    </title>
-    <description type="1">
-      <narrative xml:lang="en">Information Redacted</narrative>
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Equipment, Lands, and Structures.</narrative>
     </description>
     <participating-org ref="2" role="1" type="10">
       <narrative>Department of State</narrative>
@@ -2697,12 +2580,17 @@
       <narrative>Department of State</narrative>
     </participating-org>
     <participating-org ref="" role="4" type="10">
-      <narrative>Tsymmetry, Inc.</narrative>
+      <narrative>Iron Bow Technologies,LLC</narrative>
     </participating-org>
     <activity-status code="3"/>
-    <activity-date iso-date="2017-06-07" type="1"/>
-    <activity-date iso-date="2017-06-07" type="2"/>
-    <activity-date iso-date="2028-06-06" type="3"/>
+    <activity-date iso-date="2020-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2020-10-01" type="2"/>
+    <activity-date iso-date="2021-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2021-09-30" type="4"/>
     <contact-info type="1">
       <organisation>
         <narrative>Department of State</narrative>
@@ -2717,25 +2605,137 @@
         <narrative>2201 C St. NW, Washington, DC 20520</narrative>
       </mailing-address>
     </contact-info>
-    <activity-scope code="5"/>
+    <activity-scope code="2"/>
+    <collaboration-type code="1"/>
+    <default-flow-type code="10"/>
+    <default-finance-type code="110"/>
+    <default-aid-type code="G01"/>
+    <default-tied-status code="4"/>
+    <transaction ref="341DB4833138">
+      <transaction-type code="2"/>
+      <transaction-date iso-date="2021-09-30"/>
+      <value value-date="2021-09-30">171387</value>
+      <receiver-org>
+        <narrative>Iron Bow Technologies,LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="6382ABA1D309">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2023-06-30"/>
+      <value value-date="2023-06-30">171387</value>
+      <receiver-org>
+        <narrative>Iron Bow Technologies,LLC</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="19x1031">Department of State, Global Health Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <conditions attached="0"/>
+    <usg:tec1/>
+  </iati-activity>
+  <iati-activity default-currency="USD" hierarchy="1" last-updated-datetime="2026-10-02T06:48:48-04:00" xml:lang="en">
+    <iati-identifier>US-GOV-11-N/A ADMIN-98233</iati-identifier>
+    <reporting-org ref="US-GOV-11" type="10">
+      <narrative>Department of State</narrative>
+    </reporting-org>
+    <title>
+      <narrative xml:lang="en">DOS Miscellaneous Goods, Services, and Operations Maintenance</narrative>
+    </title>
+    <description type="1">
+      <narrative xml:lang="en">Administrative costs and operating expenses of DOS contributing to Miscellaneous Goods, Services, and Operations Maintenance.</narrative>
+    </description>
+    <participating-org ref="2" role="1" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="2" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="US-GOV-11" role="3" type="10">
+      <narrative>Department of State</narrative>
+    </participating-org>
+    <participating-org ref="" role="4" type="10">
+      <narrative>Partnership for Public Service</narrative>
+    </participating-org>
+    <activity-status code="3"/>
+    <activity-date iso-date="2023-10-01" type="1">
+      <narrative>Date unavailable. Calculated start date is the earliest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2023-10-01" type="2"/>
+    <activity-date iso-date="2024-09-30" type="3">
+      <narrative>Date unavailable. Calculated end date is the latest transaction date</narrative>
+    </activity-date>
+    <activity-date iso-date="2024-09-30" type="4"/>
+    <contact-info type="1">
+      <organisation>
+        <narrative>Department of State</narrative>
+      </organisation>
+      <person-name>
+        <narrative>Robin Myers; Ryan Boles</narrative>
+      </person-name>
+      <telephone>202-647-4000</telephone>
+      <email>myersrl@state.gov; bolesrj@state.gov</email>
+      <website></website>
+      <mailing-address>
+        <narrative>2201 C St. NW, Washington, DC 20520</narrative>
+      </mailing-address>
+    </contact-info>
+    <activity-scope code="2"/>
     <collaboration-type code="1"/>
     <default-flow-type code="50"/>
     <default-finance-type code="110"/>
-    <default-aid-type code="C01"/>
+    <default-aid-type code="G01"/>
     <default-tied-status code="4"/>
-    <transaction ref="E6164F63E5FB">
+    <transaction ref="618B62E4FECD">
       <transaction-type code="2"/>
-      <transaction-date iso-date="2023-07-19"/>
-      <value value-date="2023-07-19">1076983</value>
+      <transaction-date iso-date="2024-03-31"/>
+      <value value-date="2024-03-31">4500</value>
       <receiver-org>
-        <narrative>Tsymmetry, Inc.</narrative>
+        <narrative>Partnership for Public Service</narrative>
       </receiver-org>
       <disbursement-channel code="2"/>
-      <sector code="2" vocabulary="99">
-        <narrative>Combating Weapons of Mass Destruction (WMD)</narrative>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
       </sector>
-      <sector code="15210" vocabulary="1">
-        <narrative>Security system management and reform</narrative>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
+      </sector>
+      <recipient-country code="389"/>
+      <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
+        <usg:fiscal-funding-year begin="2025" end="2026"/>
+      </usg:treasury-account>
+    </transaction>
+    <transaction ref="4D51A2D791EF">
+      <transaction-type code="3"/>
+      <transaction-date iso-date="2024-06-30"/>
+      <value value-date="2024-06-30">4500</value>
+      <receiver-org>
+        <narrative>Partnership for Public Service</narrative>
+      </receiver-org>
+      <disbursement-channel code="2"/>
+      <sector code="41" vocabulary="99">
+        <narrative>Direct Administrative Costs</narrative>
+      </sector>
+      <sector code="91010" vocabulary="1">
+        <narrative>Operating Expenses</narrative>
       </sector>
       <recipient-country code="389"/>
       <usg:treasury-account code="11x1075">Nonproliferation, Anti-Terrorism, Demining and Related Programs
